@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-07-31T01:11:38.144Z",
-  "updatedDate": "2026-07-31",
+  "lastScrapedAt": "2026-08-01T01:11:17.564Z",
+  "updatedDate": "2026-08-01",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -94,11 +94,15 @@
         {
           "date": "2026-07-27",
           "rank": null
+        },
+        {
+          "date": "2026-08-01",
+          "rank": null
         }
       ],
       "prevRank": null,
       "rank": null,
-      "total": 3244
+      "total": 3234
     },
     "store_seongsu|성수 로봇카페": {
       "storeId": "store_seongsu",
@@ -388,11 +392,15 @@
         {
           "date": "2026-07-25",
           "rank": null
+        },
+        {
+          "date": "2026-08-01",
+          "rank": null
         }
       ],
       "prevRank": null,
       "rank": null,
-      "total": 1339
+      "total": 1342
     },
     "store_seoulforest_ak|서울숲 로봇카페": {
       "storeId": "store_seoulforest_ak",
@@ -694,11 +702,15 @@
         {
           "date": "2026-07-28",
           "rank": 61
+        },
+        {
+          "date": "2026-08-01",
+          "rank": null
         }
       ],
-      "prevRank": 34,
-      "rank": 61,
-      "total": 13150
+      "prevRank": 61,
+      "rank": null,
+      "total": 13159
     },
     "store_gangnam|강남 로봇카페": {
       "storeId": "store_gangnam",
@@ -1568,11 +1580,15 @@
         {
           "date": "2026-07-11",
           "rank": 4
+        },
+        {
+          "date": "2026-08-01",
+          "rank": 11
         }
       ],
-      "prevRank": 1,
-      "rank": 4,
-      "total": 363
+      "prevRank": 4,
+      "rank": 11,
+      "total": 359
     },
     "store_garak_it|가락시장 카페": {
       "storeId": "store_garak_it",
@@ -1759,6 +1775,10 @@
         },
         {
           "date": "2026-07-27",
+          "rank": null
+        },
+        {
+          "date": "2026-08-01",
           "rank": null
         }
       ],
@@ -2368,11 +2388,15 @@
         {
           "date": "2026-07-11",
           "rank": null
+        },
+        {
+          "date": "2026-08-01",
+          "rank": null
         }
       ],
       "prevRank": null,
       "rank": null,
-      "total": 25
+      "total": 24
     }
   }
 }
