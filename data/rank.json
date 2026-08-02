@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-08-01T01:11:17.564Z",
-  "updatedDate": "2026-08-01",
+  "lastScrapedAt": "2026-08-02T01:13:04.802Z",
+  "updatedDate": "2026-08-02",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -486,9 +486,13 @@
         {
           "date": "2026-07-30",
           "rank": 3
+        },
+        {
+          "date": "2026-08-02",
+          "rank": 3
         }
       ],
-      "prevRank": 2,
+      "prevRank": 3,
       "rank": 3,
       "total": 3
     },
@@ -1584,9 +1588,13 @@
         {
           "date": "2026-08-01",
           "rank": 11
+        },
+        {
+          "date": "2026-08-02",
+          "rank": 11
         }
       ],
-      "prevRank": 4,
+      "prevRank": 11,
       "rank": 11,
       "total": 359
     },
