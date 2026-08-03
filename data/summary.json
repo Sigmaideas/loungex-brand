@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-02T01:12:37.700Z",
+  "lastUpdated": "2026-08-03T01:12:31.615Z",
   "totalStores": 8,
-  "totalReviews": 618,
-  "avgReviewsPerStore": 77.3,
-  "monthlyActivity": 114,
+  "totalReviews": 621,
+  "avgReviewsPerStore": 77.6,
+  "monthlyActivity": 117,
   "stores": [
     {
       "id": "store_seongsu",
@@ -14,7 +14,7 @@
       "neutralRatio": 0.2,
       "monthlyActivity": 3,
       "latestReviewDate": "2026-08-01",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -60,13 +60,13 @@
     {
       "id": "store_yongsan_prime",
       "name": "라운지엑스24h 용산더프라임점",
-      "reviewCount": 98,
-      "positiveRatio": 0.9183673469387755,
+      "reviewCount": 100,
+      "positiveRatio": 0.92,
       "negativeRatio": 0,
-      "neutralRatio": 0.08163265306122448,
-      "monthlyActivity": 9,
+      "neutralRatio": 0.08,
+      "monthlyActivity": 11,
       "latestReviewDate": "2026-08-02",
-      "newReviewCount": 1,
+      "newReviewCount": 2,
       "rating": null,
       "ratingCount": null
     },
@@ -99,13 +99,13 @@
     {
       "id": "store_one_grove",
       "name": "라운지엑스24h 원그로브점",
-      "reviewCount": 60,
-      "positiveRatio": 0.9,
+      "reviewCount": 61,
+      "positiveRatio": 0.9016393442622951,
       "negativeRatio": 0,
-      "neutralRatio": 0.1,
-      "monthlyActivity": 3,
-      "latestReviewDate": "2026-07-11",
-      "newReviewCount": 0,
+      "neutralRatio": 0.09836065573770492,
+      "monthlyActivity": 4,
+      "latestReviewDate": "2026-08-02",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     }
@@ -117,7 +117,7 @@
         "text": "로봇이 말아주는 성수커피맛집 라운지엑스!!\n24시간이라 언제든 방문하기 편해요\n로봇이 뚝딱뚝땃 만들어줘서 신기한 경험이었습니당\n디저트랑 성수샌드도 넘 맛있게 먹었어요\n에어컨도 빵빵해서 쉬다가기좋아요",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n로봇 바리스타 '바리스'가 정교하게 커피를 만드는 모습이 신기하고 즐거운 경험이 되셨다니 정말 기쁘네요. 무엇보다 커피뿐만 아니라 디저트와 성수샌드까지 만족하셨다는 말씀이 저희를 더욱 보람차게 만듭니다!\n\n24시간 언제든지 편하게 들러 맛있는 커피와 함께 쾌적한 분위기에서 휴식하실 수 있도록 항상 최선을 다하겠습니다. 다음 방문도 기다리고 있을게요 :)"
       },
       {
@@ -285,8 +285,24 @@
         "text": "커피가 맛있고 장소가 넓어서 좋습니다",
         "rating": 4.5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n커피의 맛과 넓은 공간 모두 만족스러우셨다니 정말 기쁩니다 😊 앞으로도 편안한 분위기에서 맛있는 커피 즐기고 싶으실 때 언제든 편하게 찾아와 주세요. 항상 정성 가득 담아 맛있게 준비해두고 기다리겠습니다."
+      },
+      {
+        "date": "8.2.일",
+        "text": "매장 너무 깔끔하고 좋네요 종종 와야겠어요 ㅎㅎ",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n매장이 깔끔하다는 평가가 정말 기쁩니다 😊 앞으로도 쾌적하고 편안한 공간으로 꼼꼼히 관리하겠습니다. 맛있는 커피와 함께 편한 마음으로 찾아주실 때마다 정성껏 준비해두고 기다리겠습니다. 조만간 또 봬요!"
+      },
+      {
+        "date": "8.2.일",
+        "text": "매장이 고급스러워서 공부할때 기분이 조아용 뷰도 아주 좋아요",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n고급스러운 분위기와 좋은 뷰가 공부할 때 긍정적인 영향을 드렸다니 정말 기쁩니다 😊 앞으로도 편안하고 집중력 있는 시간을 보내고 싶으실 때 언제든 편하게 찾아와 주세요. 조만간 또 뵙기를 바랍니다 ♥"
       },
       {
         "date": "7.31.금",
@@ -303,22 +319,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n맛있는 커피와 합리적인 가격에 만족하셨다니 정말 기쁩니다 😊 로봇 바리스타 '바리스'가 정성껏 만들어드리는 커피를 매일 즐겨주신다니 정말 감사합니다! 앞으로도 바리스와 함께 맛있는 한 잔이 필요하실 때 언제든 편하게 찾아와 주세요."
-      },
-      {
-        "date": "7.27.월",
-        "text": "동료들과 가성비 좋은 고소한 커피한잔 좋아요",
-        "rating": 4,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n동료분들과 함께 맛있는 커피로 즐거운 시간을 보내셨다니 저희도 정말 기쁩니다 😊 앞으로도 가성비 좋은 고소한 커피 한 잔이 생각나실 때면 언제든 편하게 찾아와 주세요. 항상 정성 가득 담아 준비하겠습니다 ♥"
-      },
-      {
-        "date": "7.24.금",
-        "text": "저녁에 급히 작업할 일이 있어서 방문했는데 집중도 잘 되고 깔끔해서 좋아요.\n논커피 메뉴도 다양해서 좋아요. 얼그레이티도 로봇이 타주네요. 시간 잘 보내고 갑니다",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n급한 작업을 마치실 때 저희 공간이 도움이 되었다니 정말 기쁩니다 😊 로봇 바리스타 '바리스'가 정성껏 만들어드린 얼그레이티도 만족스러우셨기를 바랍니다. 앞으로도 집중이 필요하실 때나 편안한 휴식이 필요하실 때 언제든 편하게 찾아와 주세요. 항상 쾌적하고 따뜻한 공간으로 준비해두겠습니다 ♥"
       }
     ],
     "store_garak_it": [
@@ -407,6 +407,14 @@
     ],
     "store_one_grove": [
       {
+        "date": "8.2.일",
+        "text": "매장 분위기가 너무 좋고 역이랑 연결해서 오기좋아요!",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n매장의 분위기와 접근성 모두 만족스러우셨다니 기쁩니다 😊 편리한 위치에서 편안한 시간을 보내실 수 있도록 앞으로도 최선을 다하겠습니다. 자주 들러주세요! 😄"
+      },
+      {
         "date": "7.11.토",
         "text": "바리스가 내 픽업번호 위에 음료를 올려줘요\n너무 귀엽고 기특?하네요ㅎㅎ\n주말의 원그로브 카페들 풀이죠\n거기에 소음은 어쩔 수 없고요\n여기만큼은 매장의 음악도 들을 수 있고\n여유를 느낄 수 있어요\nD동에 주차하고 엘베 내리면 바로입니다~",
         "rating": 5,
@@ -437,14 +445,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n조용한 분위기에서 편안하게 시간을 보내실 수 있는 공간으로 찾아주셨군요 😊 항상 쾌적하고 차분한 환경을 유지할 수 있도록 노력하고 있습니다. 앞으로도 마음의 휴식이 필요하실 때면 편하게 들러주세요! 😄"
-      },
-      {
-        "date": "6.26.금",
-        "text": "음료도 빨리 나오고 다른 프렌차이즈 커피보다 맛있어요!",
-        "rating": null,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n빠른 서빙 속도와 맛있는 음료로 만족스러운 경험이 되셨다니 기쁩니다 ☕ 저희 로봇 바리스타와 정성 어린 준비로 항상 최고의 품질을 유지하겠습니다. 앞으로도 자주 들러주세요! 😄"
       }
     ]
   },
@@ -782,7 +782,7 @@
         "neutral": 5
       },
       {
-        "positive": 2,
+        "positive": 5,
         "negative": 0,
         "neutral": 0
       },
@@ -826,7 +826,7 @@
     {
       "word": "깨끗·깔끔",
       "sentiment": "positive",
-      "count": 133
+      "count": 134
     },
     {
       "word": "로봇",
@@ -841,7 +841,7 @@
     {
       "word": "분위기",
       "sentiment": "neutral",
-      "count": 121
+      "count": 122
     },
     {
       "word": "조용",
@@ -861,7 +861,7 @@
     {
       "word": "공부·작업",
       "sentiment": "neutral",
-      "count": 61
+      "count": 62
     },
     {
       "word": "추천",
