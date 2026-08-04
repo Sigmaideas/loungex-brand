@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-08-03T01:13:00.078Z",
-  "updatedDate": "2026-08-03",
+  "lastScrapedAt": "2026-08-04T01:05:51.609Z",
+  "updatedDate": "2026-08-04",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -922,9 +922,13 @@
         {
           "date": "2026-08-03",
           "rank": 14
+        },
+        {
+          "date": "2026-08-04",
+          "rank": 14
         }
       ],
-      "prevRank": 13,
+      "prevRank": 14,
       "rank": 14,
       "total": 137
     },
@@ -1020,11 +1024,15 @@
         {
           "date": "2026-07-07",
           "rank": 30
+        },
+        {
+          "date": "2026-08-04",
+          "rank": 26
         }
       ],
-      "prevRank": 6,
-      "rank": 30,
-      "total": 3989
+      "prevRank": 30,
+      "rank": 26,
+      "total": 4013
     },
     "store_euljiro|을지로 로봇카페": {
       "storeId": "store_euljiro",
@@ -1698,11 +1706,15 @@
         {
           "date": "2026-07-12",
           "rank": 18
+        },
+        {
+          "date": "2026-08-04",
+          "rank": null
         }
       ],
-      "prevRank": 2,
-      "rank": 18,
-      "total": 3286
+      "prevRank": 18,
+      "rank": null,
+      "total": 3303
     },
     "store_garak_it|송파 로봇카페": {
       "storeId": "store_garak_it",
