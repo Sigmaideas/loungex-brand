@@ -4,9 +4,10 @@
  * - stores-google.json 의 googlePlaceId 기준
  * - Place Details API: 매장당 최대 5건 리뷰 반환 (API 제약)
  * - 매일 누적해 dedup 하면 점진적으로 데이터 쌓임
- * - data/reviews-google.json 에 저장
+ * - data/reviews-google.json 에 저장 ({ lastScrapedAt, reviews, errors, storeMeta })
+ * - storeMeta: 매장별 구글 공식 평점/평가수 (리뷰 본문 5건 제한과 무관한 전체 기준)
  *
- * 호출량: 매장 8 × 일 1회 = 240/월. Pro tier 무료 한도 ($200) 안.
+ * 호출량: 매장 9 × 일 1회 = 270/월. Pro tier 무료 한도 ($200) 안.
  */
 require('dotenv').config();
 const fs = require('fs').promises;
@@ -51,7 +52,7 @@ function mapReview(r, store) {
 
 async function loadExisting() {
   try { return JSON.parse(await fs.readFile(REVIEWS_PATH, 'utf8')); }
-  catch (e) { if (e.code === 'ENOENT') return { lastScrapedAt: null, reviews: [], errors: [] }; throw e; }
+  catch (e) { if (e.code === 'ENOENT') return { lastScrapedAt: null, reviews: [], errors: [], storeMeta: {} }; throw e; }
 }
 
 function dedupe(prev, fresh, runIso) {
@@ -83,12 +84,18 @@ async function main() {
   const existing = await loadExisting();
   const errors = [];
   const fresh = [];
+  // 구글 공식 평점/평가수 — 리뷰 본문(최대 5건)과 달리 매장 전체 기준이라 대시보드 평점 컬럼에 사용
+  const storeMeta = { ...(existing.storeMeta || {}) };
   for (const store of stores) {
     try {
       const detail = await fetchPlaceDetails(store.googlePlaceId);
       const reviews = (detail.reviews || []).map((r) => mapReview(r, store)).filter((r) => r.text);
       log(`수집 → ${store.name}: ${reviews.length}건 (전체 ${detail.userRatingCount || '?'}건 중)`);
       fresh.push(...reviews);
+      storeMeta[store.id] = {
+        rating: detail.rating ?? null,
+        ratingCount: detail.userRatingCount ?? null,
+      };
     } catch (e) {
       log(`실패 → ${store.name}: ${e.message}`);
       errors.push({ storeId: store.id, name: store.name, message: e.message, at: new Date().toISOString() });
@@ -100,7 +107,7 @@ async function main() {
   await fs.mkdir(path.dirname(REVIEWS_PATH), { recursive: true });
   await fs.writeFile(
     REVIEWS_PATH,
-    JSON.stringify({ lastScrapedAt: runIso, reviews: merged, errors }, null, 2),
+    JSON.stringify({ lastScrapedAt: runIso, reviews: merged, errors, storeMeta }, null, 2),
     'utf8'
   );
   log(`저장 완료: 누적 ${merged.length}건 (신규 +${added}건, 오류 ${errors.length}건)`);

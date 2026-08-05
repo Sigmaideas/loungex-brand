@@ -54,5 +54,12 @@
     "googlePlaceId": "ChIJtWx6RYidfDURqg9LEmp18UM",
     "googleDisplayName": "라운지엑스24h 원그로브점",
     "googleAddress": "서울특별시 강서구 공항대로 165 D동 2층 209호"
+  },
+  {
+    "id": "store_mapo_frontone",
+    "name": "라운지엑스24h 마포프론트원점",
+    "googlePlaceId": "ChIJYViQ86CYfDURPLeqd29ZgLI",
+    "googleDisplayName": "라운지엑스 마포 프론트원점",
+    "googleAddress": "서울특별시 마포구 마포대로 122 프론트원 1층"
   }
 ]
