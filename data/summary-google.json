@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-05T01:00:51.207Z",
-  "totalStores": 8,
-  "totalReviews": 56,
-  "avgReviewsPerStore": 7,
-  "monthlyActivity": 0,
+  "lastUpdated": "2026-08-05T09:12:01.852Z",
+  "totalStores": 9,
+  "totalReviews": 58,
+  "avgReviewsPerStore": 6.4,
+  "monthlyActivity": 1,
   "stores": [
     {
       "id": "store_seongsu",
@@ -15,8 +15,8 @@
       "monthlyActivity": 0,
       "latestReviewDate": "2026-05-07",
       "newReviewCount": 0,
-      "rating": null,
-      "ratingCount": null
+      "rating": 5,
+      "ratingCount": 27
     },
     {
       "id": "store_seoulforest_ak",
@@ -28,8 +28,8 @@
       "monthlyActivity": 0,
       "latestReviewDate": "2026-06-08",
       "newReviewCount": 0,
-      "rating": null,
-      "ratingCount": null
+      "rating": 5,
+      "ratingCount": 3
     },
     {
       "id": "store_gangnam",
@@ -41,8 +41,8 @@
       "monthlyActivity": 0,
       "latestReviewDate": "2026-06-19",
       "newReviewCount": 0,
-      "rating": null,
-      "ratingCount": null
+      "rating": 5,
+      "ratingCount": 6
     },
     {
       "id": "store_euljiro",
@@ -54,8 +54,8 @@
       "monthlyActivity": 0,
       "latestReviewDate": "2026-06-19",
       "newReviewCount": 0,
-      "rating": null,
-      "ratingCount": null
+      "rating": 5,
+      "ratingCount": 6
     },
     {
       "id": "store_yongsan_prime",
@@ -67,8 +67,8 @@
       "monthlyActivity": 0,
       "latestReviewDate": "2026-06-22",
       "newReviewCount": 0,
-      "rating": null,
-      "ratingCount": null
+      "rating": 4.7,
+      "ratingCount": 10
     },
     {
       "id": "store_garak_it",
@@ -80,8 +80,8 @@
       "monthlyActivity": 0,
       "latestReviewDate": "2026-06-19",
       "newReviewCount": 0,
-      "rating": null,
-      "ratingCount": null
+      "rating": 5,
+      "ratingCount": 7
     },
     {
       "id": "store_sangam_dmc",
@@ -93,8 +93,8 @@
       "monthlyActivity": 0,
       "latestReviewDate": "2026-06-22",
       "newReviewCount": 0,
-      "rating": null,
-      "ratingCount": null
+      "rating": 5,
+      "ratingCount": 9
     },
     {
       "id": "store_one_grove",
@@ -108,6 +108,19 @@
       "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
+    },
+    {
+      "id": "store_mapo_frontone",
+      "name": "라운지엑스24h 마포프론트원점",
+      "reviewCount": 2,
+      "positiveRatio": 0.5,
+      "negativeRatio": 0,
+      "neutralRatio": 0.5,
+      "monthlyActivity": 1,
+      "latestReviewDate": "2026-07-23",
+      "newReviewCount": 2,
+      "rating": 4.5,
+      "ratingCount": 2
     }
   ],
   "recentReviewsByStore": {
@@ -397,7 +410,25 @@
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 이용해 주시고 따뜻한 리뷰 남겨주셔서 감사합니다!\n\n출근길의 바쁜 시간에 어플 주문으로 편하게 픽업하실 수 있어서 다행이네요. 맛있는 커피와 깔끔한 분위기가 고객님의 하루를 시작하는 데 도움이 되었다니 정말 기쁩니다. 앞으로도 아침마다 든든한 커피 한 잔으로 인사드릴 수 있도록 정성껏 준비하겠습니다.\n\n언제든 편하게 들러주세요 :)"
       }
     ],
-    "store_one_grove": []
+    "store_one_grove": [],
+    "store_mapo_frontone": [
+      {
+        "date": "2026-07-23",
+        "text": "라떼가 너무 맛있어서 놀랐습니다 분위기도 통창이 있어서 괜찮구요 커피가격이 저렴한데 맛은 좋네요 아주 만족스러웠어요",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 감사합니다!\n\n라떼의 맛과 합리적인 가격, 그리고 통창으로 들어오는 밝은 분위기까지 모두 만족하셨다니 정말 기쁘네요. 로봇 바리스타 바리스가 정교하게 추출한 커피의 품질을 느껴주셔서 감사합니다.\n\n앞으로도 언제든 편하게 들러 맛있는 커피와 쾌적한 공간에서 힐링하실 수 있도록 정성껏 준비하겠습니다. 다음 방문을 기대하고 있을게요 :)"
+      },
+      {
+        "date": "2024-08-13",
+        "text": "프론트원 빌딩에 위치한 카페.",
+        "rating": 4,
+        "sentiment": "neutral",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 리뷰 남겨주셔서 감사합니다!\n\n프론트원 빌딩에 위치한 저희 매장이 고객님께 편하게 들러주실 수 있는 공간이 되길 바랍니다. 앞으로도 맛있는 커피와 쾌적한 환경으로 찾아뵙겠습니다. 다음에도 언제든 편하게 들러주세요 :)"
+      }
+    ]
   },
   "representativeByStore": {
     "store_seongsu": {
@@ -579,6 +610,18 @@
     "store_one_grove": {
       "positive": [],
       "negative": []
+    },
+    "store_mapo_frontone": {
+      "positive": [
+        {
+          "date": "2026-07-23",
+          "text": "라떼가 너무 맛있어서 놀랐습니다 분위기도 통창이 있어서 괜찮구요 커피가격이 저렴한데 맛은 좋네요 아주 만족스러웠어요",
+          "rating": 5,
+          "sentiment": "positive",
+          "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 감사합니다!\n\n라떼의 맛과 합리적인 가격, 그리고 통창으로 들어오는 밝은 분위기까지 모두 만족하셨다니 정말 기쁘네요. 로봇 바리스타 바리스가 정교하게 추출한 커피의 품질을 느껴주셔서 감사합니다.\n\n앞으로도 언제든 편하게 들러 맛있는 커피와 쾌적한 공간에서 힐링하실 수 있도록 정성껏 준비하겠습니다. 다음 방문을 기대하고 있을게요 :)"
+        }
+      ],
+      "negative": []
     }
   },
   "monthlySentimentByYear": {
@@ -621,7 +664,7 @@
       {
         "positive": 0,
         "negative": 0,
-        "neutral": 0
+        "neutral": 1
       },
       {
         "positive": 1,
@@ -738,7 +781,7 @@
         "neutral": 6
       },
       {
-        "positive": 0,
+        "positive": 1,
         "negative": 0,
         "neutral": 0
       },
@@ -778,12 +821,12 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 46
+      "count": 47
     },
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 30
+      "count": 31
     },
     {
       "word": "로봇",
@@ -793,7 +836,7 @@
     {
       "word": "분위기",
       "sentiment": "neutral",
-      "count": 16
+      "count": 17
     },
     {
       "word": "깨끗·깔끔",
@@ -833,7 +876,7 @@
     {
       "word": "가성비·가격",
       "sentiment": "neutral",
-      "count": 7
+      "count": 8
     }
   ]
 }
