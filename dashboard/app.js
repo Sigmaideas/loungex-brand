@@ -1050,18 +1050,57 @@ function showToast(msg, ms = 2400) {
 const HAS_BACKEND = ['localhost', '127.0.0.1'].includes(window.location.hostname);
 const PHASE_LABEL = { scrape: '리뷰 수집 중', analyze: '감성 분석 중' };
 
-// 백엔드 없는 환경 (GitHub Pages 등) 에서는 버튼 라벨/툴팁을 조정
+// GitHub Pages 에는 서버가 없어 수집을 직접 못 돌린다. worker/ 의 Cloudflare Worker 를
+// 배포하고 그 URL 을 여기 채우면 버튼이 GitHub Actions 워크플로우를 실제로 트리거한다.
+// 비워두면 버튼은 이미 수집된 데이터를 다시 불러오기만 한다.
+const TRIGGER_WORKER_URL = '';
+
+// 수집 스케줄 (update.yml cron: '40 23 * * *' UTC = 08:40 KST)
+const SCHEDULE_TEXT = '매일 08:40 KST';
+
 if (!HAS_BACKEND) {
   document.addEventListener('DOMContentLoaded', () => {
     const label = document.getElementById('refreshLabel');
     const btn = document.getElementById('refreshBtn');
-    if (label) label.textContent = '데이터 새로고침';
+    if (label) label.textContent = TRIGGER_WORKER_URL ? '데이터 업데이트' : '데이터 새로고침';
     if (btn) {
-      btn.title =
-        '대시보드 데이터를 다시 불러옵니다.\n' +
-        '실제 리뷰 수집은 매일 03:00 KST 에 GitHub Actions 가 자동 실행합니다.';
+      btn.title = TRIGGER_WORKER_URL
+        ? `최신 리뷰를 다시 수집합니다 (GitHub Actions 실행, 3~5분 소요).\n자동 수집은 ${SCHEDULE_TEXT}.`
+        : `이미 수집된 데이터를 다시 불러옵니다. 이 버튼은 새 리뷰를 가져오지 않습니다.\n실제 수집은 ${SCHEDULE_TEXT} GitHub Actions 가 자동 실행합니다.`;
     }
   });
+}
+
+// Worker 를 통해 워크플로우를 돌리고 끝날 때까지 상태를 폴링한다
+async function runRemoteUpdate(label, originalText) {
+  label.textContent = '수집 요청 중...';
+  const res = await fetch(`${TRIGGER_WORKER_URL}/trigger`, { method: 'POST' });
+  if (!res.ok) throw new Error(`트리거 실패 (${res.status})`);
+  showToast('수집을 시작했습니다. 3~5분 정도 걸립니다.', 4000);
+
+  const started = Date.now();
+  const LIMIT_MS = 10 * 60 * 1000; // 무한 폴링 방지
+  while (Date.now() - started < LIMIT_MS) {
+    await new Promise((r) => setTimeout(r, 5000));
+    const elapsed = Math.floor((Date.now() - started) / 1000);
+    label.textContent = `수집 중 ${elapsed}s`;
+    let s;
+    try {
+      s = await (await fetch(`${TRIGGER_WORKER_URL}/status`, { cache: 'no-store' })).json();
+    } catch {
+      continue; // 일시적 실패는 넘기고 다음 폴링에서 재시도
+    }
+    if (s.status === 'completed') {
+      if (s.conclusion === 'success') {
+        await load();
+        showToast(`업데이트 완료 · ${elapsed}초 소요`, 3000);
+      } else {
+        showToast(`수집 실패 (${s.conclusion})`, 5000);
+      }
+      return;
+    }
+  }
+  showToast('수집이 예상보다 오래 걸립니다. 잠시 후 새로고침해 주세요.', 5000);
 }
 
 async function pollUpdate(startMs) {
@@ -1106,14 +1145,18 @@ $('#refreshBtn').addEventListener('click', async () => {
     return;
   }
 
-  // GitHub Pages 등 백엔드가 없는 환경: 단순히 summary.json 만 다시 불러옴
+  // GitHub Pages 등 백엔드가 없는 환경
   if (!HAS_BACKEND) {
-    label.textContent = '불러오는 중...';
     try {
-      await load();
-      showToast('데이터 새로고침 완료 (실제 수집은 로컬 npm run update 필요)', 3500);
+      if (TRIGGER_WORKER_URL) {
+        await runRemoteUpdate(label, originalText);
+      } else {
+        label.textContent = '불러오는 중...';
+        await load();
+        showToast('데이터를 다시 불러왔습니다 (실제 수집은 매일 자동 실행)', 3500);
+      }
     } catch (e) {
-      showToast(`로드 실패: ${e.message}`, 4000);
+      showToast(`실패: ${e.message}`, 4000);
     } finally {
       label.textContent = originalText;
       btn.classList.remove('spinning');

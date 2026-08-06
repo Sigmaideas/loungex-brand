@@ -125,6 +125,23 @@ function classify(text) {
   return scoreReview(text).sentiment;
 }
 
+// 별점이 있으면 그것이 가장 확실한 감성 신호다. 키워드 사전은 한국어 전용이라
+// 구글에 섞여 들어오는 영문 리뷰를 전부 '중립'으로 흘려보내는 문제도 함께 해결된다.
+// (네이버 플레이스 리뷰는 별점이 없어 기존 키워드 방식으로 폴백)
+const RATING_POSITIVE = 4; // 4~5점
+const RATING_NEGATIVE = 2; // 1~2점 (3점은 중립)
+
+function sentimentOf(review) {
+  const s = scoreReview(review.text);
+  const rating = review.rating != null ? Number(review.rating) : null;
+  if (rating == null || Number.isNaN(rating)) return s;
+  let sentiment = 'neutral';
+  if (rating >= RATING_POSITIVE) sentiment = 'positive';
+  else if (rating <= RATING_NEGATIVE) sentiment = 'negative';
+  // pos/neg 점수는 대표 리뷰 선정에 쓰이므로 키워드 점수를 그대로 유지
+  return { ...s, sentiment };
+}
+
 // 대표 리뷰 후보: 글자 ≥ MIN_REP_LEN, 점수 ≥ MIN_REP_SCORE, 점수 높은 순 상위 N개
 const MIN_REP_LEN = 30;
 const MIN_REP_SCORE = 2;
@@ -203,7 +220,7 @@ async function main() {
   const scored = new Map();
   let changed = 0;
   for (const r of reviews) {
-    const s = scoreReview(r.text);
+    const s = sentimentOf(r);
     scored.set(r, s);
     if (r.sentiment !== s.sentiment) changed++;
     r.sentiment = s.sentiment;
