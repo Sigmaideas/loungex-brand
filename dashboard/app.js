@@ -329,7 +329,8 @@ const NEWS_TOPIC_GROUPS = [
   { label: '푸드테크·외식', terms: ['푸드테크', '외식', '식음료', 'f&b'] },
 ];
 
-// 'brand' = '라운지엑스' 를 직접 언급한 기사, 'all' = 운영사(엑스와이지) 기사까지 포함
+// 'brand' = 매장 브랜드 '라운지엑스' 기사, 'operator' = 운영사 '엑스와이지'(구 라운지랩) 기사.
+// 두 탭은 겹치지 않는다 — 각각 따로 본다
 let newsScope = 'brand';
 let newsAgg = null;
 
@@ -353,8 +354,7 @@ async function loadNews() {
 }
 
 function newsArticles() {
-  const all = newsData.articles || [];
-  return newsScope === 'brand' ? all.filter((a) => a.scope === 'brand') : all;
+  return (newsData.articles || []).filter((a) => a.scope === newsScope);
 }
 
 // 집계는 선택된 scope 기준으로 그때그때 계산한다 (기사 수가 수백 건이라 비용이 없다)
@@ -399,10 +399,10 @@ function aggregateNews(articles) {
 
 function renderNewsScopeTabs() {
   const brand = newsData.brandArticles ?? 0;
-  const total = newsData.totalArticles ?? 0;
+  const operator = newsData.operatorArticles ?? 0;
   $('#newsScopeTabs').innerHTML = [
     { key: 'brand', label: `라운지엑스 ${brand}건` },
-    { key: 'all', label: `운영사 포함 ${total}건` },
+    { key: 'operator', label: `엑스와이지 ${operator}건` },
   ]
     .map(
       (t) =>
@@ -432,7 +432,7 @@ function renderNews() {
 
 function buildNewsKpis() {
   const d = newsAgg;
-  const scopeSub = newsScope === 'brand' ? "'라운지엑스' 언급 기사" : '운영사 기사 포함';
+  const scopeSub = newsScope === 'brand' ? '매장 브랜드 기사' : '운영사 기사';
   const cards = [
     kpiCard({ icon: 'newspaper', label: '총 기사 수', value: d.totalArticles.toLocaleString(), sub: scopeSub }),
     kpiCard({ icon: 'building-2', label: '보도 언론사', value: d.pressCount.toLocaleString(), sub: '곳' }),
