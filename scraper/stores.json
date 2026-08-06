@@ -43,5 +43,10 @@
     "id": "store_mapo_frontone",
     "name": "라운지엑스24h 마포프론트원점",
     "naverPlaceUrl": "https://map.naver.com/p/entry/place/2042457437"
+  },
+  {
+    "id": "store_ifc",
+    "name": "라운지엑스 IFC몰점",
+    "naverPlaceUrl": "https://map.naver.com/p/entry/place/1729155274"
   }
 ]

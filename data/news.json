@@ -1,0 +1,2987 @@
+{
+  "lastScrapedAt": "2026-08-06T04:25:12.059Z",
+  "queries": [
+    "라운지엑스",
+    "라운지엑스24h",
+    "라운지X 로봇카페",
+    "라운지랩",
+    "엑스와이지 로봇",
+    "loungex 카페"
+  ],
+  "totalArticles": 164,
+  "monthlyActivity": 33,
+  "pressCount": 63,
+  "latestArticleDate": "2026-08-03",
+  "monthlyByYear": {
+    "2019": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      2
+    ],
+    "2020": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      3,
+      3,
+      0,
+      2,
+      0,
+      2,
+      6
+    ],
+    "2021": [
+      6,
+      0,
+      2,
+      4,
+      1,
+      2,
+      5,
+      2,
+      0,
+      1,
+      3,
+      0
+    ],
+    "2022": [
+      2,
+      1,
+      4,
+      0,
+      0,
+      3,
+      4,
+      4,
+      0,
+      1,
+      0,
+      0
+    ],
+    "2023": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0,
+      3,
+      2,
+      0,
+      0
+    ],
+    "2024": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "2025": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      4,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2
+    ],
+    "2026": [
+      1,
+      0,
+      18,
+      13,
+      3,
+      8,
+      32,
+      2,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "availableYears": [
+    2026,
+    2025,
+    2024,
+    2023,
+    2022,
+    2021,
+    2020,
+    2019
+  ],
+  "pressBreakdown": [
+    {
+      "press": "로봇신문",
+      "count": 30
+    },
+    {
+      "press": "hellot.net",
+      "count": 11
+    },
+    {
+      "press": "지디넷코리아",
+      "count": 10
+    },
+    {
+      "press": "머니투데이",
+      "count": 7
+    },
+    {
+      "press": "벤처스퀘어",
+      "count": 7
+    },
+    {
+      "press": "foodnews.news",
+      "count": 6
+    },
+    {
+      "press": "스타트업엔(StartupN)",
+      "count": 5
+    },
+    {
+      "press": "전자신문",
+      "count": 5
+    },
+    {
+      "press": "unicornfactory.co.kr",
+      "count": 4
+    },
+    {
+      "press": "플래텀(Platum)",
+      "count": 4
+    },
+    {
+      "press": "beSUCCESS",
+      "count": 4
+    },
+    {
+      "press": "인공지능신문",
+      "count": 4
+    },
+    {
+      "press": "AI타임스",
+      "count": 4
+    },
+    {
+      "press": "startuptoday.kr",
+      "count": 3
+    },
+    {
+      "press": "아주경제",
+      "count": 3
+    },
+    {
+      "press": "티스토리",
+      "count": 3
+    },
+    {
+      "press": "물류신문",
+      "count": 3
+    },
+    {
+      "press": "내외경제TV",
+      "count": 2
+    },
+    {
+      "press": "넥스트데일리",
+      "count": 2
+    },
+    {
+      "press": "뉴스핌",
+      "count": 2
+    },
+    {
+      "press": "테크월드",
+      "count": 2
+    },
+    {
+      "press": "와우테일",
+      "count": 2
+    },
+    {
+      "press": "뉴스펫",
+      "count": 1
+    },
+    {
+      "press": "서울경제",
+      "count": 1
+    },
+    {
+      "press": "press.theleader.kr",
+      "count": 1
+    },
+    {
+      "press": "서울경제TV",
+      "count": 1
+    },
+    {
+      "press": "heyPOP",
+      "count": 1
+    },
+    {
+      "press": "thepowernews.co.kr",
+      "count": 1
+    },
+    {
+      "press": "아시아경제",
+      "count": 1
+    },
+    {
+      "press": "KPI뉴스",
+      "count": 1
+    },
+    {
+      "press": "디지털투데이",
+      "count": 1
+    },
+    {
+      "press": "뉴스워커",
+      "count": 1
+    },
+    {
+      "press": "스포츠한국",
+      "count": 1
+    },
+    {
+      "press": "테크M",
+      "count": 1
+    },
+    {
+      "press": "포브스코리아",
+      "count": 1
+    },
+    {
+      "press": "연합인포맥스",
+      "count": 1
+    },
+    {
+      "press": "동아일보",
+      "count": 1
+    },
+    {
+      "press": "산업일보",
+      "count": 1
+    },
+    {
+      "press": "더에이아이",
+      "count": 1
+    },
+    {
+      "press": "한국경제",
+      "count": 1
+    },
+    {
+      "press": "한국일보",
+      "count": 1
+    },
+    {
+      "press": "한경매거진&북",
+      "count": 1
+    },
+    {
+      "press": "IT조선",
+      "count": 1
+    },
+    {
+      "press": "뉴스웍스",
+      "count": 1
+    },
+    {
+      "press": "헤럴드경제",
+      "count": 1
+    },
+    {
+      "press": "싱글리스트",
+      "count": 1
+    },
+    {
+      "press": "인벤",
+      "count": 1
+    },
+    {
+      "press": "블로터",
+      "count": 1
+    },
+    {
+      "press": "디지틀조선일보",
+      "count": 1
+    },
+    {
+      "press": "한국M&A경제신문",
+      "count": 1
+    },
+    {
+      "press": "한국데이터경제신문",
+      "count": 1
+    },
+    {
+      "press": "매일경제",
+      "count": 1
+    },
+    {
+      "press": "news.nate.com",
+      "count": 1
+    },
+    {
+      "press": "MEDI:GATE NEWS",
+      "count": 1
+    },
+    {
+      "press": "데일리시큐",
+      "count": 1
+    },
+    {
+      "press": "팜이데일리",
+      "count": 1
+    },
+    {
+      "press": "중앙일보",
+      "count": 1
+    },
+    {
+      "press": "더스탁(The Stock)",
+      "count": 1
+    },
+    {
+      "press": "이투데이",
+      "count": 1
+    },
+    {
+      "press": "연합뉴스",
+      "count": 1
+    },
+    {
+      "press": "디지털경제뉴스",
+      "count": 1
+    },
+    {
+      "press": "아이티데일리",
+      "count": 1
+    },
+    {
+      "press": "디일렉",
+      "count": 1
+    }
+  ],
+  "topicFrequency": [
+    {
+      "word": "로봇·자동화",
+      "count": 104
+    },
+    {
+      "word": "AI·기술",
+      "count": 58
+    },
+    {
+      "word": "카페·커피",
+      "count": 50
+    },
+    {
+      "word": "제휴·협업",
+      "count": 22
+    },
+    {
+      "word": "신규 매장·출점",
+      "count": 18
+    },
+    {
+      "word": "투자·유치",
+      "count": 11
+    },
+    {
+      "word": "푸드테크·외식",
+      "count": 11
+    },
+    {
+      "word": "수상·선정",
+      "count": 2
+    }
+  ],
+  "recentArticles": [
+    {
+      "title": "엑스와이지 로봇카페 ‘바리스브루’, 피크타임에도 음료 제조 평균 3분대 기록",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBjZEFiaE1ZZ2tVU0hKN1kzN1hNVUc1NEMtZWJOdzRXNllGMTB1bkV6QkQyaVBaQVlVTTk4STlZb05yU1FORnc?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-08-03",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "“주문한 음료 1분48초 뒤 나옵니다”…엑스와이지 바리스타 로봇의 진화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5SbmhLUE1YX09Da3h6dmJiS1l2N2gyMmhSSnpjWHB6c1hRZTBvQUxaVmpkUGprUkR3UW5aajQ2SXRUb09GdXEycFdiRQ?oc=5",
+      "press": "티스토리",
+      "date": "2026-08-03",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "실제 매장을 로봇 학습장으로…엑스와이지, Physical AI 고도화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPX2dLLXFMQllYT0N4dG1yUlJGZTFXdV9rQ0xBaVhxSEgyQldUTm1aRmdmYXNob1psakpCWEZuR3NlNjMzamV0bWhlT1lxRGNkMGFuY1RvZm90VkNndzBJSmdNRTJFSWVLRFZ6cUl5d1BBZ1dCb2RDSzYyZ2dzTjJUZEJuVUhrUlnSAXtBVV95cUxQbkE4NWRvZG13ZVBENmczY3dWVExMbm5MV21rZ0NmOGVMV2V2VHlnOFVGbjl3SHlQMUwyVXpoQU1pUUdFMmN0TWFQVzRTNEw4WFhzMHFPVmZWQXh0MWNXNi1SRUllNGZ2Z3BoRjFPX3JOek9JNDdWU1phTFk?oc=5",
+      "press": "디지틀조선일보",
+      "date": "2026-07-30",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, '매장 데이터' 기반 Physical AI 고도화… 서비스 로봇 생태계 주도권 확보",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SRGt3eTdFaS1TNmJaVVJFbHRGVGYwWFdqcUFDU09YQ2NtbkRmRF9ObEhYNXNzMDhCOGtRS2lqUHZDcmxhZktOVVBKN2lkcVZjT3lVSDFHUVd5S3MwMHdLd3k4SHI3dUZSVnlOaTAyaznSAXRBVV95cUxPM3A3aEVNYWRmYzVHV3BhUjNPOE9CNDNuNXF4aVNpNmsxWEJLQVdJTzFrMUhJZkpsN0M1b2ZiNWZvZVdSOTF5VGNIRlVFRmpLTGJudkFrR2pYSGJQaE9ZbFZISFluaHNDQVE3OFAtSXUtOXc5Zg?oc=5",
+      "press": "한국데이터경제신문",
+      "date": "2026-07-30",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 매장 데이터로 로봇 학습시키는 Physical AI 고도화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BN0RBc1pLa3BQLTRfaEJYWC1JMjh5dEo0bnJFN3I4Z1JndFpkMDlPMDJBdWw2eHFSV3FZb1NYNkhPYVhlT1N1RWZTQjR2VG42cFdIOGVib2cwMkxXYjlR?oc=5",
+      "press": "press.theleader.kr",
+      "date": "2026-07-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 오픈그래프랩스와 피지컬 AI 행동 데이터 수집 협력",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNeFE4Qm1yWFZIRExpQTBfXzQ1OG1NM05Ddl9BenZaSUU1MVFXQXVpeDBoU3JkNVdhd0lnT2hSTERVRW9wMHR3a01wN0xlVlBrWTNhQjVBVmt4RTVwSC1sZXRoeURnZk9lZHlHUA?oc=5",
+      "press": "로봇신문",
+      "date": "2026-07-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "\"피지컬AI 핵심은 행동 데이터\"…엑스와이지, 실환경 데이터 수집 - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3WTZWTlVnMGtWMHEwa3NXeC1uM1dvT2NuWDh5bTRySzk2eHlTbkh2R1Yxczk4OVdQNDJYWGlLX3B3cEs5ei1SWHY4bjlZME55RjBuZlJMSU96aUEydHcyMTMtZWlKT0pRV1HSAW9BVV95cUxNN0JNMEVjRl8xTXp0U1YwcjYwZnBvOWxMT1B6VFZlTm9zdGdoYlFhckFweUdoRHptYUpDWmpGT1NuYUZjMnFvY3dkMkptWVE3V1ZGTGFDWGFLQzJoZTljWlpmOHZPY2l4UVM1V0laSG8?oc=5",
+      "press": "머니투데이",
+      "date": "2026-07-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 오픈그래프랩스와 손잡고 Physical AI 행동 데이터 수집 본격화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SS1pVbk02bmFtcWIwNG02V045bzlfZGlndDdNMVlqOUhxeWVBNmo3dW12cUtfMTRxb05EY0dOS3p0dm9TaWJKZ1pIRzc3XzJzOTdMdjQya1FqU1VHcEhkWWlRaEhiY2xKOFE?oc=5",
+      "press": "한국M&A경제신문",
+      "date": "2026-07-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지∙오픈그래프랩스, 실환경 Physical AI 데이터 파이프라인 공동 구축",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yai1OSUI2aVlPQXFUaGF5eGh2X01NR1dLOEthMkhyRktOY0VhZUVzZVZod0NwMkRQbFl4a1NVSWRjdVVQTUNpUTQ1d1RueTJEaHc4QTFlNzlOWU4tdDZ3LUhCUGJqeHZoMGI0WTBn?oc=5",
+      "press": "startuptoday.kr",
+      "date": "2026-07-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지·오픈그래프랩스, Physical AI 행동 데이터 확보 맞손… 로봇 AI 고도화 나선다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VcG52MkVOeFRXTTVyRGN6MlY1cUVWTUIyQ2FfbVR3OTBUbjZFbHd1bVlhYnFtTDJOSGxJbTdjOWdqUk9ySE5PT01TOVByYXFWOGpOQWVhM0pEOU12cmhkOFBJZHFaQlQ10gFsQVVfeXFMT0VndTNDOWZBX0dMaVdDcUhwbmM0Q1VWVXRZVGlCWV9zODRldGl1QmlCdkJFNlVpNXRseDIyWERacmtnTFdOaFJXU0tDSlk4blhsQnB0dEtob1lmYVBXNVlVa1JiQkloYzNMZVJj?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-07-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 오픈그래프랩스와 피지컬 AI 데이터 수집 협력",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XVHpGT211UHVldnFGMlhoclJBeGlQRzdVN2t4bTA1WUZrME82VEl1eFNRTHB5LVZJb0tMcmxZQW9SaXU3eENGZGYwaFhUZDRucGp3?oc=5",
+      "press": "news.nate.com",
+      "date": "2026-07-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "“세미 휴머노이드로 리테일 혁신” 엑스와이지, 세미 휴머노이드 ‘듀스’ 매장 투입",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8wS2hHMmIxc3E3VlFlbXlIdUtTcEJuWXpUVHJrU0RCNEh3dmNCclRmSHdNeHNRSWZFcTRZc2Z3WWFIUlF3enhFZWNjS3lPYnBkVTdvSU9hemNMN2VaUE9V?oc=5",
+      "press": "hellot.net",
+      "date": "2026-07-28",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 양팔 세미 휴머노이드 '듀스' 첫 실증 돌입",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xaDBYRnljczlwRTB0RUptTHg1TzNiMkd2OFlSVFAxR3k5WUhIWG1zQ1hiekFjcWhNZktJaWxRQ1Y5OVlPdEdDRzhFbFRWcWNfZG1JUFhR?oc=5",
+      "press": "지디넷코리아",
+      "date": "2026-07-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "양팔 달린 로봇이 매장관리… 엑스와이지, 세미 휴머노이드 ‘듀스’ 실물 공개 [로보 인사이트]",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1xQml6Q2h0X2hpSGk4S202UHprNXlzdE9Lc3pCSldYa2ZHazJTam85WXpnMWZzelRCSUFuSkl0cHRoVnc2NkFxcjdTLWhqX1FFb0HSAVNBVV95cUxPLVRzcmtfeEFjOEtiXzhrYUVEVTNwQ2JNSE5uMFplTHI2TjFTRjZEUkJPN0tTbk1GTWN6NXEzZUJOUnBUUmVsQTVpNlVLOTBrdkpxUQ?oc=5",
+      "press": "서울경제",
+      "date": "2026-07-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지 '듀스', 성수 매장 투입…행동데이터로 피지컬 AI 고도화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAzTDFRV2ROWmp5clNvbks5dWdLTmRkYkQwQlJLY0VHU2xtdms3V1VkbldJZnppR0lNZ2RaQ0FJUWdORTR4QVdiUlhNSkR1Wm1SbU5DN1dzT1hwM0h0MmNpLWhyU28xVVVU0gFsQVVfeXFMUDdXdXFKaGZTTmdDQjVEbHRiRlhzb183aEZpSFJ2N2FVWEZUT0Q3WnlpTXZLTFlBUnIyX2trYjdQd1N6LUlUbHZYZ0NvS3I5aWtrTFo0dmlxYkt4TjZ4dGZZM2NMNW13aWhSNWN3?oc=5",
+      "press": "블로터",
+      "date": "2026-07-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 세미 휴머노이드 '듀스' 실매장 투입…실환경 기반 피지컬 AI 검증 본격화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xVGRwNGNMTlQxZ05fNU1PNkdaQ2c0dE5CZnNqa19KU2F4UGZNYllnanMtemtjMUxxR29ITkRlTFppeGNVYVZid3lQMGtxaHF1bU01ZjdQdzMzRWgtV0lVUm02THlhSUU?oc=5",
+      "press": "인공지능신문",
+      "date": "2026-07-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 세미 휴머노이드 '듀스' 실매장 투입",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE14aUJQX2hTc21acnFtYVJ5VDFEaTFLODJJRTdBTkk5V0IyU3JyaDN6dk9WalpraXVHaFRsM2FjY3RnaU9PelZjTGVfSGVPUQ?oc=5",
+      "press": "전자신문",
+      "date": "2026-07-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[게시판] 엑스와이지, 세미 휴머노이드 '듀스' 실증 등 단신",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lZTktQXNfZ250Y2JPc3Zoa3pESkMtUE9HZ0thbW1xYjczdS1uNHNJYnZUV1FlTlo0QlpZYk1yNnRGRXY5akw4bGF0RnFQQ29Cc3RSdUNEVUc1dExkQmlMc1dfRTVaSjNVakE?oc=5",
+      "press": "AI타임스",
+      "date": "2026-07-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 세미 휴머노이드 '듀스' 실매장 투입…실환경 피지컬 AI 검증",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1mdlY0bFhlOFpPMzhYdG9yV3R6b3h0N1llcmtfT1Q2VU55YkFOLThLampna3A5bm1MUmtIVnhUMnhLQjRWV09XSUZ2UQ?oc=5",
+      "press": "티스토리",
+      "date": "2026-07-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[UP! START] 라운지엑스, 로봇과 펫이 만났다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE41SGl1LXU1Yk1NX0t0U092eURLNDlZUnVoeDE5b2JpUjZFTWJCOU5YTFMyWFI3azcxa2gzNFdCQWVjSGtESXNMSWFpMDhBRVZIQzU2RG14QVZndUFmR0xnWncwTWJkdkpkRzdN?oc=5",
+      "press": "내외경제TV",
+      "date": "2026-07-25",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "AI 로봇카페와 펫산업이 만나다… 펫비즈코리아·라운지엑스 맞손",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBybXVGWlBwRld3Z3lzX3FPQmRPMVZDNlhiQW1HUVlCOXRhaW5DY3hxOTJGVE0zcm51Q1N6b1N0Y0RYS1paZVVVeTdmZzQxUVJBVGRUVDFTc2FNR1pfMGdQMTJEVDVYYzdwR3NZ?oc=5",
+      "press": "뉴스펫",
+      "date": "2026-07-24",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 로봇 바리스타 '바리스브루'로 ESG 강화…플라스틱 연 5.1톤 절감",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TeUlWMldtRkFnbXdYYU9rNW5XVExIS19kMDhIRnpYUnozWjUtVXZCcWl3ZkFqRzBMOVJlZU1GWGM3WmQyTFJURWJmV3BOZ25zS1Z0ZVZ4S0ZfYUFjOHlqZG1jVVpIbXV50gFsQVVfeXFMUEdROWY0aXZyV1R6WUtoUHBCTTdiN0NpUDdudHlmMGxNYVRoR2hkaHlCLTZrcFhVMXh5ZkhXNmRxSzlkQlFoQks1VjBuUGo3eTFtVUdZUWhtNzdLbjRtR0o5WXVuS0dydTVrZUg2?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-07-15",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지 ‘바리스브루’, 로봇 자동화로 연간 플라스틱 5.1톤 저감",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zZDktTFlLTGRRNlN1c0xDV051SUg0S015VGdVQU1xZTFaSF9aVXVRQzNwY3JXbVh4RFBjbS16T2p5MFRTOWNpTVYzYlROdw?oc=5",
+      "press": "매일경제",
+      "date": "2026-07-15",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지 \"피지컬 AI 데이터 파이프라인 구축\"",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvRUZxNC16NndRTERJV21PNldET1Z0U2F4dnhuOFVMbnMxZlJfUmt2UTJYaThKWXc5NjBiX1RqLU1iaFFGZnpkMlhvbmhESlJXemljZEpn?oc=5",
+      "press": "지디넷코리아",
+      "date": "2026-07-14",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "메디아나, 퓨리오사AI·엑스와이지와 병원형 피지컬 AI 플랫폼 공동 구축",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQdkZjbEZzMHVkSS1WcWJ5cG5TQ1hhVWhWbXdsYjlkVkZsd2RqbTlyd19qVXRsZEk1NWNuV2IxWks0cUQxNVM1aUpBZ2E0ZnBkQ05mZQ?oc=5",
+      "press": "MEDI:GATE NEWS",
+      "date": "2026-07-08",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "메디아나-퓨리오사AI-엑스와이지, 병원용 피지컬 AI 플랫폼 구축 위해 협력",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qMmJDQ0ZXektFZ1VRclFUYlVTWDh4TF9MQ2FoRlZYUExQRUR6Q1ppbXdqc2ZEbVNkV09UZXFFSDBOZHVraXpBTk1DYzBMRTdJSV9NSlU3dnpLbU56TDBWdjhhM0RoOHByT1ZnMg?oc=5",
+      "press": "데일리시큐",
+      "date": "2026-07-08",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "메디아나, 퓨리오사AI·엑스와이지와 '병원형 피지컬 AI' 구축",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA4cVgzN3djN1JMMmFDVFU0YmJGZ3lLWE9jR1poeGpHSVYxM0tHcllId185TWFFTm9rdUltWU43djRkc3ByMG5GWUkxRzRYeTFLQ00xbGkza09NN0k0aDZuOWllY1Exc1AzRFU2TFFR?oc=5",
+      "press": "팜이데일리",
+      "date": "2026-07-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "메디아나, 퓨리오사AI·엑스와이지와 병원형 피지컬AI 플랫폼 구축",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SM25fdWh3azlEUm1waTNRMGJrbnNJVmE1RWM0NFhFWWQ1bFllcXNmR2lEeV9aS2llb0syM19NUFJEWG9IREFCa0hVVTFOYlBJaUpnVGl1eENmMVhnVmlrM1dYZHhsTUJicHFjSw?oc=5",
+      "press": "unicornfactory.co.kr",
+      "date": "2026-07-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[게시판] 메디아나, 퓨리오사AI·엑스와이지와 의료 AI 플랫폼 구축 등 단신",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81V2t0dUxLVmU5SVU0eWE5UEoxekMyY0syNVE1S1JPalNhbGhuRzhYRVh5NWdJckxEUGlpZnhiSzVWTllmc25uYm5WRWt4ODg5TWF4WnRSSjhJdDgtLTJKNU1XTWt1dkotcVE?oc=5",
+      "press": "AI타임스",
+      "date": "2026-07-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "메디아나, 퓨리오사AI·엑스와이지와 '병원형 피지컬 AI' 구축 맞손",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5vWEI1RVo4cVltZHJMMHRQTzhIanpNV2RXVmVlVmZfQTUtM0JnVDAtYU1DeFRJX2JRY0NQdWRJN2pJVjk2dUFJT1ZjWFlvdXAtbVkzU0VSamN5cTJjS1BpY1FLOFIxamRhLUE?oc=5",
+      "press": "더스탁(The Stock)",
+      "date": "2026-07-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "메디아나, 퓨리오사AI·엑스와이지와 병원형 피지컬AI 플랫폼 구축 - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKZ0NTOGlhUnF5NVRJMGcyMWFJSi1DeFRabnZKNzFLRDNydzFlWFpXYnhjbDdMdTBZYm44RkowbVBpOW9FZ25xZHc5Z3NYRGpQMkMtNTV3dWdYSE9WZ0prdVBmSVZrSEFL0gFuQVVfeXFMT2V3VmF3cm5vdU5LQU5LYTd1QnJ3dlMzUnJVNlFrZl9KVG1pNWlfcnh3a3A2eFB1aktOd1YydXRYT0NRd2ZPbDBUV1Y1UVB0RjdSUlA1bjR6dm82V1VUY2p6amRrbkRJRkpzVUcyNGc?oc=5",
+      "press": "머니투데이",
+      "date": "2026-07-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "메디아나-퓨리오사AI-엑스와이지 '병원형 피지컬 AI' 구축",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5oWHlrbGd1UWFJYXljVlFCeEh6a3J6Wk9rckpkYzcza2lrYjZYdHZvNFZMelpwNDJ4Z1l2WVRvMUZZN19OVW5vaUpFV0xYZw?oc=5",
+      "press": "전자신문",
+      "date": "2026-07-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "메디아나-퓨리오사AI-엑스와이지, 병원형 피지컬 AI 플랫폼 구축한다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0wejBRSmFHa3g4bXlmbDNOMEFuaGN3LWVQclItWXNsYVNSUFpOdFRKbzFuTFBDbkFHUHRfTmxXcFRGOFhUUzV4cXlNVFNHSzN4RDFheGEwQnJ0d0lqUW82UHp3eWhrcEU0bXc?oc=5",
+      "press": "디지털경제뉴스",
+      "date": "2026-07-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "광운대 로빛, 로보컵 2026 인천 출전… 엑스와이지와 휴머노이드 기술력 세계 무대 검증",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBNkZPVWx6YlN5V0lQelFmRUhIeTBsTDlwTmZHUzZmSHh6RlY5MUN4ZzlfbmVhUVRkUlZxMXZfd0hyck1BZjRaaTdKRXNMV1NXNWZBTGw2UG1oQ2NzeGtGUUZpR1gxWjVN0gFsQVVfeXFMUGRWbUtIZDU0MDBxRHdWRTNiWDZYVnYwa0NXbWdGT19DRmV6YVBLV2k4R3Ayc21RZUxGaERmYnZUX0JvTXVrUHVUYUdTTEZ2UmNkYkJUczdzOEpxR2ttVng3ZmVuOGo3S2ZiOGJV?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-07-03",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 엔비디아 협력 피지컬 AI 인재 양성 교육 운영",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE52d1hQWnd6dFZsVlFDWENtbUVVeFJVc0hfN01CcHprbE9udmJNdC1Qa3hhUXBsNHRrcGpRQkxYYjZGcDhFV3lucEQ2N3Y5Ui1lWUZWaGJ5WEt5eEdCVFpoT3BTNG9pS0Q0ZHlJ?oc=5",
+      "press": "물류신문",
+      "date": "2026-06-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "피지컬 AI 인재 양성 본격화…엑스와이지, 엔비디아 협력 교육과정 운영",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DWFNFVzhJM0VqSXp5bHZMeEQ0SU11TzFCcGR3WjQteXlydHM1ZHlranU4NnJpdnJlSk5aX0FCRkd5SlREc3IxTmFicmhXOUxJV3FyWXo4VGstQW1CZTJPMTNNcXpkX3c?oc=5",
+      "press": "인공지능신문",
+      "date": "2026-06-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 엔비디아와 손잡고 ‘피지컬 AI 로보틱스’ 전문 인재 양성 나선다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9HTEZOV09INngtTmFINENHcFhfa25mQ3BBZEV5NnVXQTZrN1I5SnRnTmxndm5teEFFSGpzM0dDak80U2hGNkE?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-06-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 엔비디아와 AI 로봇 인재 키운다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9iZ2UwZWxkSnBXYW1UMzQyWUZDeHhqR1g2RW5ac2tzdUJSU0FBckRpdHVZeW9LS2tWZzdCX1gwel9pejU5NUFuTjhVX0VIazAyWGwxRw?oc=5",
+      "press": "이투데이",
+      "date": "2026-06-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 엔비디아와 협력해 피지컬 AI 로보틱스 전문인재 기른다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBITVlkTEZwYXdWbGMyRDRwcm5RMlpWaXVzaWVQR21yRDFrcm9MNW42TnY5VzBMVnpPaHQzLWZNNU5SSW5neWx3dUZIaw?oc=5",
+      "press": "티스토리",
+      "date": "2026-06-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 엔비디아 손잡고 '피지컬 AI' 인재 육성",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92Smg2dkdydF9jYlBmemp1anRIUEtTSnphcno1YVRzMGtmSXFVbEV0NEZvUlYzelg4NFlxdlg4MjZvVHRQaFVxcUppWVp3MTMzeGdPM0N3?oc=5",
+      "press": "지디넷코리아",
+      "date": "2026-06-26",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지엑스 손창영 이사 \"무인화 경쟁에서 운영 경쟁으로 전환되는 시기\"",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aZzJGNmlFYllmdDN5dHVqaDdkUHJ5VXFHc0t0WlpXVEZmWl9kSHIxLUQ2VXJFYzJjSG5WMVdNQXFMZWtNdHk4eWJyaXNGVXFoRVJlOTZKdjhLamxkemhOMkVCTFU5VXJTNjRoaUFNQdIBc0FVX3lxTE9mNU1tWkVybzNHeFZDWUxUUUUxdkc1M1FvTzduMDltWUh1b0pWSWRCbFNPWVRkRlRZV2o1aTE4OG5CTnJOdmRwQVM3bXhBUEdiQmo2dUJuUjRoTGRMemFJUUNzV01RRXFSZWpoRmREQ0otLUk?oc=5",
+      "press": "넥스트데일리",
+      "date": "2026-06-18",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "메디아나, '엔비디아'가 점찍은 엑스와이지와 의료 AI 협업",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QRlZ2S3NTNVg3R241aWk4NWJRd1JfUHlONGc1eDlRNWtLSWl6bm5WQ1VnQkZKdmhTakpJRHVQekJNVzVLMThtR3g4aVNrdDNHVzZ1Z3gyU2c0S2ZoZ3RzWXg5cHJLWU9fMjVsRA?oc=5",
+      "press": "로봇신문",
+      "date": "2026-06-09",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지 바리스타 로봇 ‘바리스’, 누적 식음료 제조 100만건 돌파",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kLWdUVlViZnRMalI0c3FVZUhqdWlZLWpxU0dtTUJ5ekQ3c3BxSkJlLXQ0TWgwR0NSSzk0NkJyaHFIY013S2VxU3VzWVRoTWtBTlFYVDJKa3FLYWljQkxmUU11QW9TT1dLWi1Deg?oc=5",
+      "press": "로봇신문",
+      "date": "2026-05-22",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "“AI가 내린 커피 100만잔”…엑스와이지, 리테일 로봇 운영 데이터 축적 가속",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1NeEFLeHB6UlRfa21Ba2RzbUpYOVVCeWJtMTRmVkhCUVBkNkh1MVJwSGxtbW5tUWJSRE9Vem9OQ3RPdlpseVh3RE55QkJlZlE?oc=5",
+      "press": "벤처스퀘어",
+      "date": "2026-05-22",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 한양대와 ‘휴먼로봇인터렉션 센터 설립’ MOU",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvUXd5QlhRdDJaRTRzMEJ5eEdwRXBmRExDMldabnF3c2FrR1h4c0pLbUM0b01ZQ2c0ZDdkdFdnSGZnSXdjakp0WTc5ZUQ5VF8zb0Y0cEtHRUw2aDQ5YTU4UGRJNnNTRUxuaWdr?oc=5",
+      "press": "물류신문",
+      "date": "2026-05-04",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 한양대 기술경영전문대학원과 ‘휴먼로봇인터렉션 센터’ 오픈",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QcnEzeTFRc3RaNEJuQVM3RFgxWTM0SXpNcGVDRURsdXIxY0x4UUI0Mk1fSUhwREZnUzdfQ21OcXlWTmk3SkR0LWVCb0F1X3VaOUFpbU81VjV1ZGprVlA0dC0wbnFTS2V4cWQtNg?oc=5",
+      "press": "로봇신문",
+      "date": "2026-04-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "한양대-엑스와이지 ‘휴먼로봇인터렉션 센터’ 설립 협약",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xU0RHQ2Fsb21remJycUJVS0FFRENEVkJJYllfejRHb1EyQldReGs1dEdnQ29DeDdyNTU1eVlyaFRoS0FGNFlaRnpibDRUVWd5VmRZUmhB?oc=5",
+      "press": "중앙일보",
+      "date": "2026-04-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "로봇과 인간의 소통을 디자인하다...엑스와이지, HRI 연구 거점 구축",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9MWmtXVUpMZ1E5eEhnZlZaTnVnemwzYV9TVWFiM1dvanFNdGtPeHRpNWRHSWdiajlYUTN5a3pac1NfaWYxb0JKQUQxb3lUMnZhcFM3MXJtZ3B3UW9KNmdn?oc=5",
+      "press": "hellot.net",
+      "date": "2026-04-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "\"사람 중심 로봇혁신 실현\"…엑스와이지, 한양대와 산학협력",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EVjdOWm5BbFhWeVFKWThhbWVza3hJcmVpY25EamNsUWNCLUFJQUNTOGkyYnlWd0NoOHU4QzNSVVFmelh2ODFCQlYyWkd6U2M5Z0ItTUlnRFA5MEFGNGtxdmpDTmwxUGwwOG5VZw?oc=5",
+      "press": "unicornfactory.co.kr",
+      "date": "2026-04-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 한양대와 ‘휴먼로봇인터렉션 센터’ 설립 및 업무협약 체결",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1lTmY3SnFWRkNZMTk0X21nS1lLOHg2SDhRb2s0ZjlnOVhBZ3hnQ1ZjV1ltR3hvUG1sWW95WkNZTnlIWXFScVE?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-04-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 서비스 특화 양팔형 로봇 ‘듀스’ 공개...\"카페 알바·고객 응대도 척척\"",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8taENJNHhjN3NIRG5sMVI0dEcyTlR2c3FNTnNjWTdwZEdtTnFyNFJLUjZhU1NBVXF1QlZtTlhLTFBaUERXUUV1ck5GWExVaUpwQ0NkbGZxUGNjc2hpNDBrZGl2UG5HWXVLd3c?oc=5",
+      "press": "AI타임스",
+      "date": "2026-04-28",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 양팔형 세미 휴머노이드 로봇 ‘듀스’ 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9yNnFDWTM1bGFuVUJILXdtQkVOc1hhYzNmdTU2WVFJd2lUMHJhWVFpQVVid3dWNGk1MEc5WGhBczBXMDFnUURJWnJ2YUV3U0pHSDB3aTlzS2pPcXpENkd0MDEwNGR6ejNUNm9zVg?oc=5",
+      "press": "로봇신문",
+      "date": "2026-04-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 양팔형 로봇 ‘듀스’ 공개…서비스형 Physical AI 시장 도전",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwTFE4S2dDZlhuOUxBd1NhRktLRHR1SjlJY2FuVGZEb011TkNoM2xlUlczdzdDMm5jSEdCVEx1WXczWWJReDNQRmdob3hfbUJ1Z1VSZmVYa08yTE1wTEJwSzlFRDRpVDU40gFsQVVfeXFMUFR5c1ZQYVlINlFwcDMycTNLaTlkc1c2ZXRuMklNTDlPR1J0WUJNVFNGM2Q4d1l2Wk9ObURueENmMmNmU3BwVmFsTzlTcUt2ejNVQ1RRM0loRXlQN2hXbVBFb3IzQ2p6dTRiMGFr?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-04-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 양팔형 로봇 '듀스' 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBfYjJVQjNqalNYTDJxWDIzS200SDBwdVRZZ19iQloxbjFfXzhEaTk5QXY2cDBEbC1naGlSd2lEdlNhdlExNWVHai0wdXpmUQ?oc=5",
+      "press": "전자신문",
+      "date": "2026-04-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 양팔형 로봇 ‘듀스(DEUX)’ 공개 ... GloveX 기반 행동 학습 프레임워크 제시",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9va1VLMlRKa3F3bFhidXc5ei01ajY0dHZZdVpYTDZzb2otdmkyWWFzcERXaW9XZ0NZc05kUDFKVm5KaWVXa1Z4UkJwbFBhQnloV241b2J1Z1JxRW1uZUVFQVppX3hyRmc?oc=5",
+      "press": "인공지능신문",
+      "date": "2026-04-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "휴머노이드, 공장 대신 집·사무실·카페로...세미 휴머노이드 ‘듀스’ 베일 벗긴 엑스와이지",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE84WF9OT3VaRERDbld6SDV1QjFsNm1TbGRrZ3R1M2ZrQWFfMDZMS2xSSzZnU1FhV0pqcVBCeDRvald0WmQ4VklvZktteEZnSF9ZNFNPcDUtT1BLdDIzSmdF?oc=5",
+      "press": "hellot.net",
+      "date": "2026-04-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "부산 에코델타 스마트시티 뚫었다...엑스와이지 ‘바리스브루’ 주거 단지 시연 성공",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE03aXBSN0JJOUZmaDlFNk5uNnplOGJFa1REd3NxcnB6SnVGaTV4azNWZk9xa2k2ZDlPSXRZUGg0d3ZSVHdlNVRCRGY1ajdGbXVhejBnRnpNOGVrZw?oc=5",
+      "press": "hellot.net",
+      "date": "2026-04-02",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 부산 에코델타 스마트시티서 ‘바리스브루’ 시연",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03T0o2OGhTMVA1VXpndEdFdmdtSFJDaGU0djkwVjQ5Vi1YM0pVVW5ldU5Bb01nMzFIeWlnVjB3bG04aEdjWXFWYVF6ZW1rdkI5RUt6SnRlbVRwNV9LcHNkMEhIUV82VzR2QlBMdA?oc=5",
+      "press": "로봇신문",
+      "date": "2026-04-01",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "피지컬 AI 전문 ‘엑스와이지’, 데이터 기반 로봇 지능 고도화 및 피지컬 AI 확장 전략 발표",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE4wMEFvU2tvOFFDVm82ZXRHQ25jVEtMeE5OSUJ4TFE0Rld5U0tuaUhQSEFLOWZIXzBHYkNCS1JpUHI1NlBXRlE?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-03-30",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 유진증권 ‘유망 기업 설명회’ 참가…피지컬 AI 기반 사업 확장 전략 발표",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpV05CQV9qcUs5S0E4dmtrVzJjc2YyUHJJc1FEZ1ByQ2g0REpZZmhoTmZBVjQ2ejNRYmZNWHN1WTgzQ0JmNjNQcTQ5ZzFpWXZiT3lWd3NKbjJmS1pPX1BLVXIwcl84ZTVIOVJTVg?oc=5",
+      "press": "로봇신문",
+      "date": "2026-03-30",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 국제e모빌리티엑스포서 ‘바리스 DT’ 선보여",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3NEEwcjE4NjJjZTFOaXNnczE0b2dyQlh5SG5NUUYwVGdNUTJXbTJIcEdmZ1FQcHVJVkREQlBfNG5OQUtVdldyV2VPSnVwQzZweDhQZWhqQU9FQ0FSOHNaU3Nyd2dOU2pJbVhYMA?oc=5",
+      "press": "로봇신문",
+      "date": "2026-03-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 크라우드웍스와 MOU…피지컬 AI 데이터 고도화 나선다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkOW4teERXZmI1eXhWd0VKcXlGeGRBTUR5eE5CUEhxMllUV082clNRSXptckFwNFBXdV9zZWg0cHRBYUhjVHNyYzZROWlSTEhqb3VhaGRYNkJjZWVhWVFZSlFsSDZPdUlOZ3NwYQ?oc=5",
+      "press": "로봇신문",
+      "date": "2026-03-25",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "현장 데이터로 피지컬AI 고도화…엑스와이지-크라우드웍스 맞손",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FSDkwNVZPbmRTNGZBc29kTHVTZW5Cb2dDZWlneDZTUkhKN18zUlhNZ25WUHFsUW0tWlBfMzdtQ0paRmFkRGdFWEtjR2lWSEhpYXNfQzhTbGVieGowZWlycm5vc2llT0hTQWstNQ?oc=5",
+      "press": "unicornfactory.co.kr",
+      "date": "2026-03-25",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, ‘글러브엑스’ 기반 로봇 행동 데이터 표준화 본격화...크라우드웍스와 손잡아",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmaTZDcGV4LWZZcUVPcndGb3dMSElqU0p2TWk0ZWg0ei1pRlFLVWJVSE40ZzFNMGNXSi1JdldIMXk4dGw1VmpYYlhzVnlhaVRqaktUQWNRdTZrcWpnSXpn?oc=5",
+      "press": "hellot.net",
+      "date": "2026-03-25",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[게시판] 엑스와이지, 크라우드웍스와 로봇 학습 데이터 구축 협력 등 단신",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91ZkRCSm1ZeC13LXdZVkFra090ajRSQk9LTWNxMXdnd2NNaVJrTWNGSzItckw3NDZVSV9GZ1U0eF95Z0JGSE1Ock9LNkJZcXRfT3MzMUFlZFRfVXpKb1EzdHNaMjNLZ3V4UkE?oc=5",
+      "press": "AI타임스",
+      "date": "2026-03-25",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "크라우드웍스, 엑스와이지와 로봇 학습 데이터 협력…피지컬 AI 시장 공략",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXbXpLN2hPMkh5anV4SE5WQTZoMWRGdnlic3JUbWFnUTZrdHhXWlhHb180LWszWUdYOElOR0VhallnQlBFeVFlSmFCdHlaVzJqSkFaS2hnVE9ZWVU2Wl8wLWtQNTJUWHM?oc=5",
+      "press": "아이티데일리",
+      "date": "2026-03-25",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "크라우드웍스-엑스와이지, 로봇 학습 데이터 사업 협력",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5vSWNqU3Nyd3p0X0JvUnpRUE5zdGVfRlNmY1RWR3h5OFVKT0hUVzhOTkNoVnE2dW82T2tuUmdMMG5yUDFEUEZqT1V3VmpKa2FibHhLSEMyVmV3ZU5aRGNVNE0zb1padw?oc=5",
+      "press": "디일렉",
+      "date": "2026-03-25",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "‘130억 확보’ 엑스와이지, 현장 검증으로...피지컬 AI 사업화 ‘속도’",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE40MlIwdmZzZDJCd212UkdCSjlJTUViWDduVzlXWWY1bnlUY0NlbWdRNjFOZkZodG5MbWlxUWtsNnk4NmdER3ZOdlktalNTRkp3UnZkaG93WHYtZXVocE40?oc=5",
+      "press": "hellot.net",
+      "date": "2026-03-20",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "'로봇은 거들 뿐, 경영은 AI가' 라운지엑스, 자율 운영 매장 시대 앞당긴다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5uRjhlNlN6WnZQRzFsQmYycXdsV3VMUE85OURTSGFXZThvYkp0SlNpc1c1Q0pqTDA1VFdfVkVzcjd2X3ZtY3ZyaVZpWTZOcUNKbWs4VVlySl9KcXF4UTBfc1g3WVNHNTha0gFsQVVfeXFMTTFNOXpwRkQxMExSY004R1lHVTliYmVKamxPYjFyUWdrVUNid1VjT3M3ZFFfeVRwTzctQjFIRUtla29TMEhQS25sZEJpMF9zNEI4VF81NXd2bHZkYTREZDRuaXI0MF9CbVBRMDlC?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-03-11",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지엑스, 'AI 기반 리테일' 전략 실증",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40TnlYTGJGQm53MTd5Vk53cEVIczhoZHVYTTJhbEdtNGNUX0RVZXdNV19paVkxWHR2bTlCN0ZxdFM1WUxoOXJiUlk2bEF4cVMtN09ybTF3?oc=5",
+      "press": "지디넷코리아",
+      "date": "2026-03-11",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 130억 원 규모 시리즈 B 라운드 마감",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE94WmVBN1lOcVB4N3E3MlFLZHhqSjdJY3hiSWtRTExoR2J1RkZ6Zi1veWJKOWh4OEpXaEZlOUF0M2dvNUkyVDMzWHFISUdXTVQ5UFFBTVpwTUw2VExqRjg3Qzh6Y3BiRzVFTTF3?oc=5",
+      "press": "물류신문",
+      "date": "2026-03-11",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 130억원 규모 시리즈 B 투자 유치",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1nVFc5aXk0T2VmYm5Fb3NMajVKY0kxa3haekg0NVpqekN1OVU5WllyYWMwTWpURkRMeUZBWkxISmlFYlJleVF6SUhHamwyNUdmbXhwc3NIak45eHhRREZ4MHgwZktzRHJKZkJLRQ?oc=5",
+      "press": "로봇신문",
+      "date": "2026-03-09",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 130억원 규모 시리즈B 투자 유치…로봇 지능 플랫폼 도약",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JbFQ5d1dzNDRUZm9IcnM3QjBqUmZ1Zy1xWE1jSXFIQ2REUG5tcVNOdlVwd29nY3ptU3BWS05LblN5VmFGMXNfb3pIWnlkUWc?oc=5",
+      "press": "와우테일",
+      "date": "2026-03-09",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 130억원 규모 시리즈B 투자 유치…피지컬 AI 사업 가속",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB0aFMyN2ZBcWY5NmZpQkNTTFdBYVVwUVJPWTVRa1Q1cERIUFhsbW4wcnhaUkJDRW5CN0UtUTd2aXg4R3RqYVZNQ0ZzQnpkQQ?oc=5",
+      "press": "전자신문",
+      "date": "2026-03-09",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[AI픽] 로봇 기업 엑스와이지, 시리즈B 자금 조달",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTcDF1ckpkWnpOTUFIbzVmY0Rvb3ZOYWdwcUZlbUxGUWxDbzhxV0c3MmdXOVpVQzJFRlFhME8ya0xCeW50SE5GbEtnMjY4QVN4R2xTZXd0WVhwckHSAWBBVV95cUxOTU9QQlMtR2RUM1JWbEpKQkRGM0FLSGFrZWtjbzhSYTIydWwxdkI1My1PeUNacks0dUl6QlRpN0RobTh0QXJYYWdCcDJqSzFZTmJQZjFBZkZjZ2hyQ0hJbEk?oc=5",
+      "press": "연합뉴스",
+      "date": "2026-03-09",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "\"로봇 서비스 일상 확산\"…엑스와이지, 130억 시리즈B 투자유치 - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBlOHRxR1h5azNzcTI5ejQ4MXFRMHVvdXZkVGpuQUZZZmtudnNSV05ZN1lxcGVtZzJ0UU83TElLeTd0Mm1fd1MwMTBpR3Uwb3U2N3Q1ZmozZ2pqX28wV05OZDRLOHcwRTdNaXfSAW9BVV95cUxPY2ZiejE3RVNoUXV5UW41azVxOHBPTjIzb1dEWGdfcjNlckd0YzVOakRfWnRmbldGV0oyb3Q3UDlUY2hPOEV6M3E5VHhybERGemplZHFsNjlyN2xNQ284RzByeU9lWExvOHVjRTA2VnM?oc=5",
+      "press": "머니투데이",
+      "date": "2026-03-09",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 음성 주문 로봇 시대 연다...로봇 바리스타 ‘바리스브루’에 시스템 도입",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE81M3NjMTFLWjlKcmUzUFlpOWhJaVdPWmxmNmRfbGoxcmZiVG1lOS03czVqM0dsWE9NbDhHbjVtT3VRWHlBc2FwNGR2NTRaYVdiVWlMQlE4cUJmRDVpb0JZ?oc=5",
+      "press": "hellot.net",
+      "date": "2026-01-14",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지엑스, 무인카페 용산더프라임점 오픈 “검증된 직영 데이터&로봇 기술 접목”",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0ta0lkWnREMk9QWDcwY0QxQWRndEk0cFZzWWtOSkhWWUR0RGszM3NMbXQ3UTBobVJWbXhtNzVpMGxKcFVlcjYxdlJ5WjBjTnVUWDR3ZnFMRFdRZ0k0aHQ0OXdDaEJCTmRlLXZWNHoxZ9IBc0FVX3lxTE5SSG9XZFlaMjk2VDdmWVBFcC1zNzBXa3ZiRVNpbXJDZHJ1WFRwNzQzT3RTam9iUnpVUGtaQTA4Z01pckNocG9kenFVYVRtcFpRY3kzYmNWOWR2Z2MzRXp3UjRRSU5iQm9SSlY1czVNdjc1ZzQ?oc=5",
+      "press": "넥스트데일리",
+      "date": "2025-12-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지엑스 (LoungeX)",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1xZWpReVVHX3RDYXphZ1ZpMGV0Q1dDRGR3VFJjNF9GMlpoOTdsNVRTbzdDd0RWZHRRWko0bXk4WGFrY01XaXc?oc=5",
+      "press": "heyPOP",
+      "date": "2025-12-04",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "무인운영·로봇카페 ‘라운지엑스’, 홈페이지 개편",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvX2hEeUxfamZ5eHRKazB2aFJmUE9LakFvcWstMTZoNkFaNk9PZzh2NGQ0Q1ZDVEhwTGFYZEJzZW5MYVE3eHNBUFdsRllhWmxUaFpkUVRNSlAydVF6cVBaOGxDT0U?oc=5",
+      "press": "서울경제TV",
+      "date": "2025-11-20",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지엑스, 홈페이지 전면 개편… 기술 기반 무인·로봇 카페 직영 투자 모델 본격 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9oazR3MjhkQzZyNGVrZkZ1X0FtaEJCcGY3V0tUcXBtZmI2VUZ0V2lJWkk0bjRrUFQzMk1ZSTZCMDJ5SVZBQTVTREhITk5pXzAwZEFTaGc4Y0xiVkdNeW1ab2VMUGw0TkJzcWN0clpKeFhxYWpqZEExaV9ZU3RSUQ?oc=5",
+      "press": "thepowernews.co.kr",
+      "date": "2025-11-20",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 라운지엑스와 로봇카페 상용화 MOU…무인 매장 확산 본격화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EUWd3MmJleVRIS2p4SDlGMk1EenJhTXF6Nko4Z1JEVm0wN1JSczNoMkEyZXhhLXVlTFRGM3lRek00LUxkU0U0YXFhdzZBUFMxMlNMMFlackwwdnpib1NjcmR5cFZ3UDd2a3FvNA?oc=5",
+      "press": "로봇신문",
+      "date": "2025-10-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 내년 로봇카페 100곳 늘린다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TekVWeGpiS0JQYUlhMDFJb3gtUWRDZnp1SVRWdXhFYlhQakZzU2hpM3Rsa21hVUQ4aEhuc0tlRXl3MkRQSWVSc2lycVA5a1JBdzJmVzB3?oc=5",
+      "press": "지디넷코리아",
+      "date": "2025-10-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 춤추고 커피 타주는 로봇...'브레인엑스' 기반 피지컬 AI 혁신 사례 공개한다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE45TjBQaFB0emhnYVRDTmQyejFfbjUwX2pXSWRDZG9qdFJnWmxZYmVOQ25Ob2NqR3BXMnEyekxGRVpuWExRRUU1TFBwdnhHWThpVmVBWnBqT0dJbHd3dGM4?oc=5",
+      "press": "hellot.net",
+      "date": "2025-09-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지엑스, 로봇카페 최초 교보문고 큐레이션 도서 판매 개시 - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CTzd4X1haMU5NTlA4cVZrMFlzMzdiM3E3ZlhyVDAxMVhURnd4emJDY0ZkN19JVmZkSE1QTkxVM0xnaFNIQVJDSzlHTUp6cGhSOGRHdmNIVk1XT0JxaG4yRmEwZTRJUXJ2X051X9IBckFVX3lxTE9Nb2lOdUdCS3hFZnZId3VOejdHcXpQUG1Pd0hjV2hCS1NVb0ZCU1NycVE2M2NjeXdMRXdtZmpaTkk1ZDFRUUJPczN2RU9udGN3a21ZNGNFUXQ2VkpWSDdBYUsyaEtNakZKMGxwYnJldDNSZw?oc=5",
+      "press": "머니투데이",
+      "date": "2025-09-16",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, '유니티' 기반 실시간 모방학습 환경 '트윈엑스' 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iV2JDWlg5NUljdVpfNWp6dmRIVEJDRXdocjRsWERKeXpDc0VjRGozSU1iM2J2bTd2S2lBTFdQUUQ2WFBRYkt2U1BGNW5Fa0tuc09RR2pHMERyWnJsbXRwNzk2Yk9YN0p4ckJBWQ?oc=5",
+      "press": "로봇신문",
+      "date": "2025-06-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "무인운영과 프리미엄 커피 경험을 결합, 라운지엑스 24H 원그로브점’ 정식 오픈",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1uamFieXRfZ3BZQTNDX081TTBTN3ZjR0ZSLXJtRFNmdG5KU3lRYTJ0LVUxOUpjempXZzQ1RlVRTU9KVHNKMmZCbW5FTlZ4RHJxQThTZV9GSE1vRzNFT3ctMS10MlY?oc=5",
+      "press": "foodnews.news",
+      "date": "2025-06-16",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "브라우니, 라운지엑스와 무인 로봇매장 운영 MOU",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4cXpuellmdkowYmYzVURmR1lSV1RTQ0lWMy1rdjBWUGU1Ty13OExOMW5kZHdheWYxQ19oYkZhckEyVkRpVFlRbjZqQWN5OHp4bnFwOEtR?oc=5",
+      "press": "지디넷코리아",
+      "date": "2025-06-04",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "무인 매장 관리 스타트업 ‘브라우니’, 로봇 카페 브랜드 ‘라운지엑스’와 전략적 MOU 체결",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ManBucnZzM1VyOHBzeTN4RHNaOTNPaGloQ0phTkJYZEwzNkM0MnFiSTJoMElpbUk5cThkVzY3V0tfaUstQlNra2tlUWMtRWhqa3FYVjdSOEZhaVNUMmtPVmZrN2RURDhEYkFGakpB?oc=5",
+      "press": "startuptoday.kr",
+      "date": "2025-06-04",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "커피 로봇부터 로봇 빌딩까지, 일상을 변화시키는 로봇 전문 기업, 엑스와이지",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9teDBEZlRRMURHUnctNWhJMzJFMVMxR2RSb0ZLSjBicXpaTGsxYWZ1SURJZWFDRVJDd2N6VlNxT2x3Rk8zelJaWnE1MWN5Zw?oc=5",
+      "press": "벤처스퀘어",
+      "date": "2025-04-15",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지 무인 로봇카페 하루 500잔 팔려",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxVHRMekxfSXpFRHloSS1RQ1hPckh3cWU2MzJJX3FGS29MNFM3N3diWXpCazVOTTVkYjRveE5kVXA1VWtTeVZRZlhsLTBWcEJzTVlGQnhUTzZGaXFZZjRfRnN1Zlh6Rkh3NXZ5Ng?oc=5",
+      "press": "로봇신문",
+      "date": "2024-06-04",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "AMD와 로봇카페 ‘라운지엑스’의 만남, 콜라보 행사 주목",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBkQzJ4aXIzYlU5Z1dRb3ltS2FReEFZQm0wRmY4cVcxd1Z5SS00LS1IWXVVSXRhWDR5aU93NWlLNnpCdE04UkFMZjJERV96ZHZQLTNyXzh6dW44djZXeVZBXy1DZXp4UQ?oc=5",
+      "press": "foodnews.news",
+      "date": "2023-10-18",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지 로봇카페 '라운지엑스', AMD와 협업 행사 진행",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oTW5yRF80bUlaRk1DeW8yVXlGMF81dVc5azBBdjNwMTh0T2Z2QklfeVo5TDZWWWJQN3pnRjZ6eXgzaGpUMmhoUVZPN3ZtejZ4M3NhVnVn?oc=5",
+      "press": "지디넷코리아",
+      "date": "2023-10-16",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 식음료 자회사 라운지엑스에 김동진 대표 선임",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9HdGh2VlNySHRDVDlieVE5VjRzeDVyNFRNRzhqN2ZWb3dhcXZYUm1yMjZvM2ROTDZOS2Juejd2di1KVDhweldMU01SMi05a2tnV3kxcHpHTTUwOEZNdzBXMTB2LTVVaGdFak5MVA?oc=5",
+      "press": "로봇신문",
+      "date": "2023-09-05",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "15년 경력 바리스타 김동진, 로봇카페 '라운지엑스' 대표 선임",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01RkkwUkRmUTRNUkhuWVNidXJvRE1mSVozNlhLWlpRWmFXRjdaOXRaVjhJRlhuakQ5MHF2YWVXX3JTVkx4YWc0Z2NMdHYzQ0VwcVBuWjRGRWM1RHhrUjgta2c0V29zbU9RbG9ycQ?oc=5",
+      "press": "unicornfactory.co.kr",
+      "date": "2023-09-05",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "15년 경력 바리스타 김동진, 로봇카페 '라운지엑스' 대표 선임 - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91MWhfVXdxazdhdEtKWkZQSURGOTkzeWFmb0daeUwzWUp0RHc2Y0VORHFfS2x1LUxjWUJVVkRVeFllcGhmZnp3MWZ5UTJsQV9tbFVQaTRRazl6WUtCeUdxU3I2NHZJVXZyQmfSAW9BVV95cUxPS0R2d0tOQTl3U1l5a0I1dlBWQV90WWlYdU51NWpnbUdVQy1vcW1NeVQ5WmIxVnhaMWprVUNFUDI4Q0pyajUxcGJwb19TM3hFNXYxSENXSWVBRzIxOW1TY3lad0w3MFVnWWRycXV2YzA?oc=5",
+      "press": "머니투데이",
+      "date": "2023-09-05",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[테크M 피플] '로봇 대중화' 이끄는 황성재의 엑스와이지, 코스닥 입성 '채비'",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ldFFLbWp6WnhsaU1tVHpKMHc4X1Y4MzBqMHNkaUJVcXM1bEdHcFExMVZhc1dVaUlsdkktS3Z3T1lBaUdWTkxVem9WSzJOam4tdUFtNzR4TzJub1B3VjZ1VWNTZ0liZ9IBakFVX3lxTE9qblh2cEd3d1E4RmZIbEFhb25tRjlDbmJWRWt0OUIzX01iSXlGTlFseFhqdE5PVlQ2MkMtMzloOFlHbmxQaVpZdFpJSG55c1g1RU11bDBSTHloODI0YVBFLWdSaWtpWkRTWGc?oc=5",
+      "press": "테크M",
+      "date": "2023-06-28",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지엑스알, 무인 로봇카페 최초로 위생등급제 취득",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBORU9PaUpjbWthT2VsUzRqYTRoNHJldTlHa0dkeFhyUzlNRWRzYzJOX1hPcm8zc2dfREE4LWJKaXlvT1pTTFRhWFFKUDA5bU1mZEFSbl83OTVWU1drYXdUendSLURmdEhjMlBDOA?oc=5",
+      "press": "로봇신문",
+      "date": "2023-03-21",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 오픈형 무인 로봇 카페 ‘엑스익스프레스’ 성수동서 첫 선",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xNzF1ZkVpZnQ2UGJhODhqeTN3OTB3ZXd3Q2ttUmhsYXZkb3V2Sy1CdU5GbnRBbHpKY21JbTd5azhnd1dkd2MtZ2swVGNhUE94THdDRE5GNHU1ckFqRkJDUXFmMk0tN2ZZ?oc=5",
+      "press": "테크월드",
+      "date": "2022-10-24",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 자율주행 로봇 스타트업 코봇 인수하고 ‘XYZ’로 사명 변경",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1rbUlLYXZSUjNyS0gtaDc0Nm1PamlCcWhxWmZBLW52T1BmMmVLeVY0QV9SYUZYWTJYZDdKNlB5eER4VmpaU2pfRHN5bDV2Zw?oc=5",
+      "press": "벤처스퀘어",
+      "date": "2022-08-01",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "로봇 기업 라운지랩, 자율주행 로봇 스타트업 ‘코봇’ 인수",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9hbHE1Rmdpdl82UWJvQTF1c001VUp3Y3B2T2t6emViMnZyVEpHZG16Znc3azBlSWZ2QlN2Y3gzWVN6enl4Y19qQzBFdGpuTzNuZjNZbjJuSDY3VDY0emxHRFpRYXRDTFV1LTlaczZYTl9kb3c0VkHSAWZBVV95cUxQRTZuRE8zWnRwNW56SUdTeGVEa09zUkdCWFUtLWpXZWN1RDVrOTVmVFhjV2dsSW1ob3p3NDg3VTdVTUM1YWhnMDZlcUFWeGV0VHNqOE9BMDBKOG5ydFh2UkxUaGdUV0E?oc=5",
+      "press": "동아일보",
+      "date": "2022-08-01",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 자율주행 로봇 스타트업 ‘코봇’ 인수",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8tRFZLSXpwdWM0eWtuN20ya1BsRWswUld1WFRDSW9RSl9xTlViY3ZLTGl4VHU4SHFxOHNwc00ydzNwQ3ZjUDNrWA?oc=5",
+      "press": "플래텀(Platum)",
+      "date": "2022-08-01",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, '코봇' 인수하고 'XYZ'로 사명 변경",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02TjdBX0VVSkl0Ry1UaThhbktMVzZyWnYxR0hMMzhlOE9xaWVPUnZFM1JTSUpIZ3R3dm1obHBzbjRZUkRoVlhnT0VaRU1TZkROMkE2cnp5Nk9FMDZXRlV6WEpYZUMtdkk3QmRV?oc=5",
+      "press": "한경매거진&북",
+      "date": "2022-08-01",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 식음료 리테일 스타트업 ‘엠비치오넴’ 인수",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9EMFBmWkJSdjRHWXZRbWhCTUdrSHpkZVJfaG0xZXFnQXEwdmVpQU0tX0E1X1BxUUxfN25wT3FqNmFXMkV1NTlsYnVMLVRianBFemRoWnN6Q2VUZEV2LUE?oc=5",
+      "press": "hellot.net",
+      "date": "2022-07-26",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 엠비치오넴 인수…로봇 기반 리테일비즈니스 성장시킨다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9BWUFUQlBhUXJ5MGJHN0NZZGtqMFllQkZBeGhRSUdCS2t5ekF3QkxvWFRlZVpNUzYxdU1vZEo0cXFuZUpn?oc=5",
+      "press": "산업일보",
+      "date": "2022-07-26",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 식음료 리테일 스타트업 '엠비치오넴' 인수 - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yY3phbmlOSURqNlVVSWpydXl5SjZyd0Jnb3dPWnFyMTFGQkZjTkI3V2ZqTGplZ2ZWX2JlRndjZFQxX0oyc0lHNkFGZ2wxWE12RjJYVko5a05sbVI5d2RVeGM2LU1kTFJSWkHSAW9BVV95cUxObmlKRmdFLTdnMXpfWXM1UmFjSzlESEJsZy1WNE9YbXJHZmwxemRmRlpFSm52OG4yMHRIRGZ2VXhGTWw0UFFHeVZMRXpFVWlBXzVtRW9JNHpWMW5ONEE2cC0yc21JQlM1NjhLOEVYRlU?oc=5",
+      "press": "머니투데이",
+      "date": "2022-07-26",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "'발명왕' 황성재의 로봇 스타트업 라운지랩, 식음료 스타트업 엠비치오넴 인수",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zeUJrTzZ5RzhMSXdvNG14Q2hoc3o2NFVLN0dpdmVOMjhBSW91UU1iMVpqSFlQblRmN3dOeFhwbzVYUG9YSU9fYkJyTkpKLU5sMTZ4UXJ4dzQzVWZkXy1wZkpaNDYyYWV6X3NYYWN30gFzQVVfeXFMUDZab3BuYWlXR3o5S1gzNFFOT2ZOdmJzVUk1bGp3elNtN2ZCZUF6UzJ1ajVZU1lFOHh0cGw0elJ5MG0tbFJBeXNudFktUTBhamktVDZoVHExa01xYk9leFlvajBPNzN2NVJISG4tWC0zdk90UQ?oc=5",
+      "press": "한국일보",
+      "date": "2022-07-26",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[인터뷰] 황성재 라운지랩 대표 '일상을 위한 로봇 만들 것'",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92bDl2VWpLVzNueFFENjlvR1gzUlRSVFVNa2tRNUREb2RYUmpUUXhSNzhjQlhhalltNlNOU3pTZHRuS3V1QlFGZjJqX2k3S0RNWjE4RnZxSzROUXlKZGp5QUs5N3Q3MURKaTJNMUpZbnfSAXRBVV95cUxPX1JsWXQyOGwyWll1NmZIQy1fcnBSdU5iWFpNVUdIbUF2b08xaUxTdXdQVUpSMjczdlpaekw0UG55aWN0SEJLZjZtV3loWG5vb1ZZOF9uNVh3eF81WUlNSWhOcXhBbzdqakNEYS1tdE9YdFZHRw?oc=5",
+      "press": "스포츠한국",
+      "date": "2022-06-12",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 중기부 '아기유니콘 200' 선정",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WU1BQZTVqZGI1ZXNMR25fcFJFaVY2S19yWkpTTHFXaUpLYkhBS2ZFY3N1U3B4RldYay05RmZ1ajZra2w0cTA1Vzg0NW9Id205VEJhZV9VSWZ1XzFiWXhWTEp2OTUxZFR3dC1Wdg?oc=5",
+      "press": "로봇신문",
+      "date": "2022-06-03",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "리테일 무인화 로봇 솔루션 '라운지랩', 중기부 아기유니콘 200 선정",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wbkFLaW90U09uQWUwVjBrY09oa1dXS1Vna2dIeU12akhYcjAtWjVORFlWWnBqOVk1cGJJOGhvNTVnU0Y2SkZtRnlvblpyNXBYVS05Vm9Nb0YxWU5JeFJDMw?oc=5",
+      "press": "hellot.net",
+      "date": "2022-06-03",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "테마파크에 로봇 카페, ‘라운지엑스 에버랜드점’ 오픈한다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqeWtVTEMwY3VKMExCcC1TOXVaY2ZxUmtJdGxTZXpKVEZWcENBNUJiWHl0Z0l3XzRrVHlPTWVjTV9hZG5EeEFpWmNrbUt1NGJGRVk2cTlBUTY3RlRXLXpzUzdUSEItRDZmcGplbg?oc=5",
+      "press": "로봇신문",
+      "date": "2022-03-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "​로봇 카페 라운지엑스, 에버랜드점 오픈",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kTzdIVExFcVdhSHZaVHJjdTNyVjhEMmpPOV9Pa1dlc29TanZ0UHBqeW5aamppUzRubl9DaG1BNzlfdGFicUpUOC11T0E5cEU2bnppbl9BaUVrd9IBWEFVX3lxTE5xVzlDZEYyRmhJVGZwWC1GbFVCcURBREk4dXZabkRabTlsZnVTVGdsc1g5WVZfQUczVHlDMlByNXVocGZzZE9oRFRacnpWRC1MaGdhbVV1aE0?oc=5",
+      "press": "아주경제",
+      "date": "2022-03-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 에버랜드에 로봇 협업 카페 오픈",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VVmc4eEpWR29ZQkEyQjBsbmdyWGZ1bTdJdlRDaU1vMDkzN0Y0VGNpVDA2TE1lcTdqSTNQcG50VWY1REw3YTFfQUQ0eFFkTGdubnJ5TW9yRmxxX1g0dW8zTlhCQUlzNDRm?oc=5",
+      "press": "테크월드",
+      "date": "2022-03-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "에버랜드에선 로봇이 커피·아이스크림 만든다…'라운지엑스' 오픈 - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rTnBubGNMMFBOOGdFbDEwRE9KbkVXbHgyNF9zeDh2bmpLa1VZUS1JOUEwb0RRVVNDVGZNdTU0S0tDWkk2aGx3NkhHTF9MNVdyTDVDTVFQY29PakVxQUd3RjNJSnNBWnJvWnfSAW9BVV95cUxNVkh6cDR6VF9RdWhaMVpwLUJUMm1FOEdhYlZFUU5xaUZRQzQ4UWJlb0tzYzdWVXF6Um5vMDJxUjV3LXA1eThGRkFoY0RYeUhKbGJHTnZ2eFRXbUNGcDlKU1ZCMDVIbTNpMmpiT1o5NlE?oc=5",
+      "press": "머니투데이",
+      "date": "2022-03-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "로봇 스타트업 라운지랩, 4월 완전 무인카페 오픈",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5NcmZXdmlBMnNBV2xJd3J0TEJBMnhBMGxKVm53ZzJFY0ZsaThaOU5ZT1hvSjcwT2w3MzJfeEgxYmZ6eWpvelIwcFdhTXQ4Zw?oc=5",
+      "press": "전자신문",
+      "date": "2022-02-25",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩-점프컴퍼니, 로봇 빌딩 솔루션 개발 위해 MOU 체결...부산시 지식산업센터에 적용 첫 사례 선보일 것",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9taWtWbWpwSzdVUEZYdm52YlM2dGdmUk5LbDBQLUtrUnJUVU9uc212QzcwcXhWUER4V25XWDV0T3NDYWc2OE5hWWNvdjZtS0QxMGx6ZUItVkw1Uk1UZy1yTU1JdF85cXc?oc=5",
+      "press": "인공지능신문",
+      "date": "2022-01-31",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩-점프컴퍼니, 로봇 빌딩 솔루션 개발 MOU 체결",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE93RmNmbG11SVRCaG5wRjN2cDFsTFE3MFRaeGMxNjk5eDluT081azRVRlduTjVXQ1k3dXZxby1NUmNGdDJXNnl0ME05YUV5QQ?oc=5",
+      "press": "벤처스퀘어",
+      "date": "2022-01-28",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[푸드테크] 라운지랩, 두산로보틱스와 MOU로 ‘협동로봇 솔루션’ 강화한다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9LMXk1T3oyRHUtUVdBcWl5ZndEM3ZaTG16WkowYmMtVG9hc1FiNXpVVWxIeEJoeE96VGk0ZzNzMTM1SFU2VDNBenpma25UaWI0VUdueUQxMjhmaGNDRWpFdmE2MA?oc=5",
+      "press": "foodnews.news",
+      "date": "2021-11-16",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "두산로보틱스, 스타트업 라운지랩과 아이스크림 로봇 개발한다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40MXlEcWtJbHF6NVBkazBDVXNyNmRFWWFGaThWZGt1YWYzTHJhQ3R0SGtKdWNUYWVWRHk1VElqQWZPN0xIQmJTLW1DWlV0c0pjTTNLX2VSSWJFZkVocWZZaE5ySm5qSjhlY3laVG8xQ2zSAXRBVV95cUxQYVN5Y3BMX0Y0a09BY1kwa3VFT2RuUHA1cmVIb3Ixbnlob1dxLTBFSGtFSklrLThCTjFxVnd0VlhQOUhiOHlGUnVQSjNGbXpRa0NWdW1GdmNRV0o2M043QTBFVkNIa3lrcmN1UmNDYmlxWTcwMQ?oc=5",
+      "press": "연합인포맥스",
+      "date": "2021-11-15",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩-두산로보틱스, 협동로봇 솔루션 강화 MOU",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9FdWhiMGZuNkN2bkttMzNhREl4NkREdV9GZjI3M0c4cFo2azVTX0ZpcFBwcV9RTHdvNk54TXVvR2RQZk5ncWlacmFzcFFJdw?oc=5",
+      "press": "벤처스퀘어",
+      "date": "2021-11-15",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    }
+  ],
+  "articles": [
+    {
+      "title": "AI 로봇카페와 펫산업이 만나다… 펫비즈코리아·라운지엑스 맞손",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBybXVGWlBwRld3Z3lzX3FPQmRPMVZDNlhiQW1HUVlCOXRhaW5DY3hxOTJGVE0zcm51Q1N6b1N0Y0RYS1paZVVVeTdmZzQxUVJBVGRUVDFTc2FNR1pfMGdQMTJEVDVYYzdwR3NZ?oc=5",
+      "press": "뉴스펫",
+      "date": "2026-07-24",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 양팔 세미 휴머노이드 '듀스' 첫 실증 돌입",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xaDBYRnljczlwRTB0RUptTHg1TzNiMkd2OFlSVFAxR3k5WUhIWG1zQ1hiekFjcWhNZktJaWxRQ1Y5OVlPdEdDRzhFbFRWcWNfZG1JUFhR?oc=5",
+      "press": "지디넷코리아",
+      "date": "2026-07-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[UP! START] 라운지엑스, 로봇과 펫이 만났다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE41SGl1LXU1Yk1NX0t0U092eURLNDlZUnVoeDE5b2JpUjZFTWJCOU5YTFMyWFI3azcxa2gzNFdCQWVjSGtESXNMSWFpMDhBRVZIQzU2RG14QVZndUFmR0xnWncwTWJkdkpkRzdN?oc=5",
+      "press": "내외경제TV",
+      "date": "2026-07-25",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "양팔 달린 로봇이 매장관리… 엑스와이지, 세미 휴머노이드 ‘듀스’ 실물 공개 [로보 인사이트]",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1xQml6Q2h0X2hpSGk4S202UHprNXlzdE9Lc3pCSldYa2ZHazJTam85WXpnMWZzelRCSUFuSkl0cHRoVnc2NkFxcjdTLWhqX1FFb0HSAVNBVV95cUxPLVRzcmtfeEFjOEtiXzhrYUVEVTNwQ2JNSE5uMFplTHI2TjFTRjZEUkJPN0tTbk1GTWN6NXEzZUJOUnBUUmVsQTVpNlVLOTBrdkpxUQ?oc=5",
+      "press": "서울경제",
+      "date": "2026-07-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 매장 데이터로 로봇 학습시키는 Physical AI 고도화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BN0RBc1pLa3BQLTRfaEJYWC1JMjh5dEo0bnJFN3I4Z1JndFpkMDlPMDJBdWw2eHFSV3FZb1NYNkhPYVhlT1N1RWZTQjR2VG42cFdIOGVib2cwMkxXYjlR?oc=5",
+      "press": "press.theleader.kr",
+      "date": "2026-07-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지엑스 손창영 이사 \"무인화 경쟁에서 운영 경쟁으로 전환되는 시기\"",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aZzJGNmlFYllmdDN5dHVqaDdkUHJ5VXFHc0t0WlpXVEZmWl9kSHIxLUQ2VXJFYzJjSG5WMVdNQXFMZWtNdHk4eWJyaXNGVXFoRVJlOTZKdjhLamxkemhOMkVCTFU5VXJTNjRoaUFNQdIBc0FVX3lxTE9mNU1tWkVybzNHeFZDWUxUUUUxdkc1M1FvTzduMDltWUh1b0pWSWRCbFNPWVRkRlRZV2o1aTE4OG5CTnJOdmRwQVM3bXhBUEdiQmo2dUJuUjRoTGRMemFJUUNzV01RRXFSZWpoRmREQ0otLUk?oc=5",
+      "press": "넥스트데일리",
+      "date": "2026-06-18",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "'로봇은 거들 뿐, 경영은 AI가' 라운지엑스, 자율 운영 매장 시대 앞당긴다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5uRjhlNlN6WnZQRzFsQmYycXdsV3VMUE85OURTSGFXZThvYkp0SlNpc1c1Q0pqTDA1VFdfVkVzcjd2X3ZtY3ZyaVZpWTZOcUNKbWs4VVlySl9KcXF4UTBfc1g3WVNHNTha0gFsQVVfeXFMTTFNOXpwRkQxMExSY004R1lHVTliYmVKamxPYjFyUWdrVUNid1VjT3M3ZFFfeVRwTzctQjFIRUtla29TMEhQS25sZEJpMF9zNEI4VF81NXd2bHZkYTREZDRuaXI0MF9CbVBRMDlC?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-03-11",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지엑스, 'AI 기반 리테일' 전략 실증",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE40TnlYTGJGQm53MTd5Vk53cEVIczhoZHVYTTJhbEdtNGNUX0RVZXdNV19paVkxWHR2bTlCN0ZxdFM1WUxoOXJiUlk2bEF4cVMtN09ybTF3?oc=5",
+      "press": "지디넷코리아",
+      "date": "2026-03-11",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 라운지엑스와 로봇카페 상용화 MOU…무인 매장 확산 본격화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EUWd3MmJleVRIS2p4SDlGMk1EenJhTXF6Nko4Z1JEVm0wN1JSczNoMkEyZXhhLXVlTFRGM3lRek00LUxkU0U0YXFhdzZBUFMxMlNMMFlackwwdnpib1NjcmR5cFZ3UDd2a3FvNA?oc=5",
+      "press": "로봇신문",
+      "date": "2025-10-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "무인운영·로봇카페 ‘라운지엑스’, 홈페이지 개편",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBvX2hEeUxfamZ5eHRKazB2aFJmUE9LakFvcWstMTZoNkFaNk9PZzh2NGQ0Q1ZDVEhwTGFYZEJzZW5MYVE3eHNBUFdsRllhWmxUaFpkUVRNSlAydVF6cVBaOGxDT0U?oc=5",
+      "press": "서울경제TV",
+      "date": "2025-11-20",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지엑스 (LoungeX)",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1xZWpReVVHX3RDYXphZ1ZpMGV0Q1dDRGR3VFJjNF9GMlpoOTdsNVRTbzdDd0RWZHRRWko0bXk4WGFrY01XaXc?oc=5",
+      "press": "heyPOP",
+      "date": "2025-12-04",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지엑스, 홈페이지 전면 개편… 기술 기반 무인·로봇 카페 직영 투자 모델 본격 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9oazR3MjhkQzZyNGVrZkZ1X0FtaEJCcGY3V0tUcXBtZmI2VUZ0V2lJWkk0bjRrUFQzMk1ZSTZCMDJ5SVZBQTVTREhITk5pXzAwZEFTaGc4Y0xiVkdNeW1ab2VMUGw0TkJzcWN0clpKeFhxYWpqZEExaV9ZU3RSUQ?oc=5",
+      "press": "thepowernews.co.kr",
+      "date": "2025-11-20",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 식음료 자회사 라운지엑스에 김동진 대표 선임",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9HdGh2VlNySHRDVDlieVE5VjRzeDVyNFRNRzhqN2ZWb3dhcXZYUm1yMjZvM2ROTDZOS2Juejd2di1KVDhweldMU01SMi05a2tnV3kxcHpHTTUwOEZNdzBXMTB2LTVVaGdFak5MVA?oc=5",
+      "press": "로봇신문",
+      "date": "2023-09-05",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지엑스, 무인카페 용산더프라임점 오픈 “검증된 직영 데이터&로봇 기술 접목”",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0ta0lkWnREMk9QWDcwY0QxQWRndEk0cFZzWWtOSkhWWUR0RGszM3NMbXQ3UTBobVJWbXhtNzVpMGxKcFVlcjYxdlJ5WjBjTnVUWDR3ZnFMRFdRZ0k0aHQ0OXdDaEJCTmRlLXZWNHoxZ9IBc0FVX3lxTE5SSG9XZFlaMjk2VDdmWVBFcC1zNzBXa3ZiRVNpbXJDZHJ1WFRwNzQzT3RTam9iUnpVUGtaQTA4Z01pckNocG9kenFVYVRtcFpRY3kzYmNWOWR2Z2MzRXp3UjRRSU5iQm9SSlY1czVNdjc1ZzQ?oc=5",
+      "press": "넥스트데일리",
+      "date": "2025-12-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 내년 로봇카페 100곳 늘린다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TekVWeGpiS0JQYUlhMDFJb3gtUWRDZnp1SVRWdXhFYlhQakZzU2hpM3Rsa21hVUQ4aEhuc0tlRXl3MkRQSWVSc2lycVA5a1JBdzJmVzB3?oc=5",
+      "press": "지디넷코리아",
+      "date": "2025-10-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지엑스, 레일 시스템 적용한 새로운 커피 로봇 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LNXo2UHVXQjVxTUpMOEtIZ2ZOQXJYS3pKSHh5b1ZVbkZ1Yi01RWVRM1R3NGxzOTBwTHc0eFA0Yl9vZFFLRDQxV2R0N2RrZVlXbjc5RXNJeXJCdExmWXdSd0x1VU5iN25paWpuRw?oc=5",
+      "press": "로봇신문",
+      "date": "2021-01-18",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지엑스, 로봇카페 최초 교보문고 큐레이션 도서 판매 개시 - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CTzd4X1haMU5NTlA4cVZrMFlzMzdiM3E3ZlhyVDAxMVhURnd4emJDY0ZkN19JVmZkSE1QTkxVM0xnaFNIQVJDSzlHTUp6cGhSOGRHdmNIVk1XT0JxaG4yRmEwZTRJUXJ2X051X9IBckFVX3lxTE9Nb2lOdUdCS3hFZnZId3VOejdHcXpQUG1Pd0hjV2hCS1NVb0ZCU1NycVE2M2NjeXdMRXdtZmpaTkk1ZDFRUUJPczN2RU9udGN3a21ZNGNFUXQ2VkpWSDdBYUsyaEtNakZKMGxwYnJldDNSZw?oc=5",
+      "press": "머니투데이",
+      "date": "2025-09-16",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지 로봇카페 '라운지엑스', AMD와 협업 행사 진행",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oTW5yRF80bUlaRk1DeW8yVXlGMF81dVc5azBBdjNwMTh0T2Z2QklfeVo5TDZWWWJQN3pnRjZ6eXgzaGpUMmhoUVZPN3ZtejZ4M3NhVnVn?oc=5",
+      "press": "지디넷코리아",
+      "date": "2023-10-16",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "무인운영과 프리미엄 커피 경험을 결합, 라운지엑스 24H 원그로브점’ 정식 오픈",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1uamFieXRfZ3BZQTNDX081TTBTN3ZjR0ZSLXJtRFNmdG5KU3lRYTJ0LVUxOUpjempXZzQ1RlVRTU9KVHNKMmZCbW5FTlZ4RHJxQThTZV9GSE1vRzNFT3ctMS10MlY?oc=5",
+      "press": "foodnews.news",
+      "date": "2025-06-16",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "15년 경력 바리스타 김동진, 로봇카페 '라운지엑스' 대표 선임",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01RkkwUkRmUTRNUkhuWVNidXJvRE1mSVozNlhLWlpRWmFXRjdaOXRaVjhJRlhuakQ5MHF2YWVXX3JTVkx4YWc0Z2NMdHYzQ0VwcVBuWjRGRWM1RHhrUjgta2c0V29zbU9RbG9ycQ?oc=5",
+      "press": "unicornfactory.co.kr",
+      "date": "2023-09-05",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "브라우니, 라운지엑스와 무인 로봇매장 운영 MOU",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB4cXpuellmdkowYmYzVURmR1lSV1RTQ0lWMy1rdjBWUGU1Ty13OExOMW5kZHdheWYxQ19oYkZhckEyVkRpVFlRbjZqQWN5OHp4bnFwOEtR?oc=5",
+      "press": "지디넷코리아",
+      "date": "2025-06-04",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "테마파크에 로봇 카페, ‘라운지엑스 에버랜드점’ 오픈한다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqeWtVTEMwY3VKMExCcC1TOXVaY2ZxUmtJdGxTZXpKVEZWcENBNUJiWHl0Z0l3XzRrVHlPTWVjTV9hZG5EeEFpWmNrbUt1NGJGRVk2cTlBUTY3RlRXLXpzUzdUSEItRDZmcGplbg?oc=5",
+      "press": "로봇신문",
+      "date": "2022-03-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지엑스알, 무인 로봇카페 최초로 위생등급제 취득",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBORU9PaUpjbWthT2VsUzRqYTRoNHJldTlHa0dkeFhyUzlNRWRzYzJOX1hPcm8zc2dfREE4LWJKaXlvT1pTTFRhWFFKUDA5bU1mZEFSbl83OTVWU1drYXdUendSLURmdEhjMlBDOA?oc=5",
+      "press": "로봇신문",
+      "date": "2023-03-21",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지엑스 바리스타 로봇, 현대차 아이오닉 5 체험 공간에 합류",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1UR3ZrbFBkQk9KZzlfUllPMHFSdW9SOTBvVzl3VmtVWFFZZVVFMFVybE9JS3pGaU9ucDdnUlFKQlVzbU00TzhBLWhldjl1UGJTeFhBYXFZRVFEQ1F6SEJoelNjaHk2aDlic2lPQw?oc=5",
+      "press": "로봇신문",
+      "date": "2021-03-21",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[푸드테크]라운지엑스카페, 핸드드립 바(Bar)에 이어 '도로 위의 카페' 드라이브스루 매장 나온다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB0c3psQ0FUbnVMX25lWm4xTmVpQUJGbk5EU1ZBeVJieXU4aHY2bENiNldmY0ZXbUNqQkF6QTdHanFhRUM3TXQzSmcxY3lTNkFTX1UtenJTYlpkZjRMNlNJUkZjOA?oc=5",
+      "press": "foodnews.news",
+      "date": "2020-07-15",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "무인 매장 관리 스타트업 ‘브라우니’, 로봇 카페 브랜드 ‘라운지엑스’와 전략적 MOU 체결",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1ManBucnZzM1VyOHBzeTN4RHNaOTNPaGloQ0phTkJYZEwzNkM0MnFiSTJoMElpbUk5cThkVzY3V0tfaUstQlNra2tlUWMtRWhqa3FYVjdSOEZhaVNUMmtPVmZrN2RURDhEYkFGakpB?oc=5",
+      "press": "startuptoday.kr",
+      "date": "2025-06-04",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "로봇 카페 ‘라운지엑스’, 제주 애월에 3호점 오픈",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5MejZNaXhaN1RfQTBYRXI3a1AwR1M2VkpmWWxNY3hGWURpN1VYYjd5eUNXMzVxSXh3eUZ2OTJfRllFbFVGVk8wag?oc=5",
+      "press": "플래텀(Platum)",
+      "date": "2020-06-01",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지엑스, 포르쉐코리아의 이벤트공간 내 브랜드 하우스 개최",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zbjRTYThIMlNSTjljOHMwSU9nc0diSktOR0c0VXdKUFVPNmUwMkJPckg2M25oN1BCMWYzTjV1eEdtTzJOZHZHS2N0WDZDWEdoV2lYNEl5cVNKZFVjaDgtUXhiZmpkX2dCLXhONA?oc=5",
+      "press": "로봇신문",
+      "date": "2020-11-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지엑스, 포르쉐와 구성한 브랜드 하우스 성공적으로 종료",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tNmF0UEYyQng5ZVlvczdrSURBSko4d3VlMUVlQUpHdXBLUTRrcmJiNk9xbDZtaWQyYmdsaG53UFFjUnZMLWRQS2taeXNiY3NiTnpqejM5RVdOV0kxVmhlLXdwRVNucWRIU05INw?oc=5",
+      "press": "로봇신문",
+      "date": "2020-12-03",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지 무인 로봇카페 하루 500잔 팔려",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBxVHRMekxfSXpFRHloSS1RQ1hPckh3cWU2MzJJX3FGS29MNFM3N3diWXpCazVOTTVkYjRveE5kVXA1VWtTeVZRZlhsLTBWcEJzTVlGQnhUTzZGaXFZZjRfRnN1Zlh6Rkh3NXZ5Ng?oc=5",
+      "press": "로봇신문",
+      "date": "2024-06-04",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[인스타산책] 라운지엑스 - 로봇 바리스타의 드립커피, '손맛'은 어떨까",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE90dGxJVXR3M2hZY0hPVUVqTUZlWUM5MEpPRUYzcXNfNnFDSGtmNFlMNDBBejItN3p0eFp2dWVtTjllSEFqQnJPTS1sdUxyM2J3YjJZX0RhaEZTUUZSVXY2dw?oc=5",
+      "press": "아시아경제",
+      "date": "2021-01-14",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "AMD와 로봇카페 ‘라운지엑스’의 만남, 콜라보 행사 주목",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBkQzJ4aXIzYlU5Z1dRb3ltS2FReEFZQm0wRmY4cVcxd1Z5SS00LS1IWXVVSXRhWDR5aU93NWlLNnpCdE04UkFMZjJERV96ZHZQLTNyXzh6dW44djZXeVZBXy1DZXp4UQ?oc=5",
+      "press": "foodnews.news",
+      "date": "2023-10-18",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "15년 경력 바리스타 김동진, 로봇카페 '라운지엑스' 대표 선임 - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91MWhfVXdxazdhdEtKWkZQSURGOTkzeWFmb0daeUwzWUp0RHc2Y0VORHFfS2x1LUxjWUJVVkRVeFllcGhmZnp3MWZ5UTJsQV9tbFVQaTRRazl6WUtCeUdxU3I2NHZJVXZyQmfSAW9BVV95cUxPS0R2d0tOQTl3U1l5a0I1dlBWQV90WWlYdU51NWpnbUdVQy1vcW1NeVQ5WmIxVnhaMWprVUNFUDI4Q0pyajUxcGJwb19TM3hFNXYxSENXSWVBRzIxOW1TY3lad0w3MFVnWWRycXV2YzA?oc=5",
+      "press": "머니투데이",
+      "date": "2023-09-05",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "​로봇 카페 라운지엑스, 에버랜드점 오픈",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5kTzdIVExFcVdhSHZaVHJjdTNyVjhEMmpPOV9Pa1dlc29TanZ0UHBqeW5aamppUzRubl9DaG1BNzlfdGFicUpUOC11T0E5cEU2bnppbl9BaUVrd9IBWEFVX3lxTE5xVzlDZEYyRmhJVGZwWC1GbFVCcURBREk4dXZabkRabTlsZnVTVGdsc1g5WVZfQUczVHlDMlByNXVocGZzZE9oRFRacnpWRC1MaGdhbVV1aE0?oc=5",
+      "press": "아주경제",
+      "date": "2022-03-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "\"제주서 로봇이 내리는 커피 맛봐요\"…로봇카페 라운지X, 제주에 3호점",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iaWpnWGlpQjF6cXpGVTdHRkpTWHFOSGRURGhkMHdSeEhRcGFZWnVVQ21acnBYbUV1dk5acHhWTGpncnRueU1heV9BbTgyWTd6cmVCbUVOdmJqLUVk?oc=5",
+      "press": "뉴스핌",
+      "date": "2020-06-02",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 에버랜드에 로봇 협업 카페 오픈",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VVmc4eEpWR29ZQkEyQjBsbmdyWGZ1bTdJdlRDaU1vMDkzN0Y0VGNpVDA2TE1lcTdqSTNQcG50VWY1REw3YTFfQUQ0eFFkTGdubnJ5TW9yRmxxX1g0dW8zTlhCQUlzNDRm?oc=5",
+      "press": "테크월드",
+      "date": "2022-03-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지 로봇카페 ‘바리스브루’, 피크타임에도 음료 제조 평균 3분대 기록",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBjZEFiaE1ZZ2tVU0hKN1kzN1hNVUc1NEMtZWJOdzRXNllGMTB1bkV6QkQyaVBaQVlVTTk4STlZb05yU1FORnc?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-08-03",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "에버랜드에선 로봇이 커피·아이스크림 만든다…'라운지엑스' 오픈 - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rTnBubGNMMFBOOGdFbDEwRE9KbkVXbHgyNF9zeDh2bmpLa1VZUS1JOUEwb0RRVVNDVGZNdTU0S0tDWkk2aGx3NkhHTF9MNVdyTDVDTVFQY29PakVxQUd3RjNJSnNBWnJvWnfSAW9BVV95cUxNVkh6cDR6VF9RdWhaMVpwLUJUMm1FOEdhYlZFUU5xaUZRQzQ4UWJlb0tzYzdWVXF6Um5vMDJxUjV3LXA1eThGRkFoY0RYeUhKbGJHTnZ2eFRXbUNGcDlKU1ZCMDVIbTNpMmpiT1o5NlE?oc=5",
+      "press": "머니투데이",
+      "date": "2022-03-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[외식BIZ 단신] 카페 라운지엑스, '프로집콕러'를 위한 콜드브루 캔커피 출시",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NVUtvTVBTc2lJNDJWQUdRUFFJR3BMcjI1NVAyMm5sSmZaaTFLUFQ3WXprUFlyVzRJR0NVcG5EZ28xSTIxcUlrZzJuLTRNQzdFb21NcEFZd3RjdVl5RDJaNw?oc=5",
+      "press": "foodnews.news",
+      "date": "2020-09-01",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "​현대차 아이오닉 5 체험 공간에 자리한 라운지엑스 바리스타 로봇 바리스",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tbFlqNUs5OHcwVnk0VkNxUGkybjl3U19QWlhaOFNnRXBOMW1LcGx2WjlWVFR2ZFhRNjBSZ1BRc3R5azFUcWZOZFRjN0NFSHoxMlVRUFlCVWdpQdIBWEFVX3lxTE1tTmdQbnJIWklQMXJoeHdJZWpmWlFuUkNnd0JfSktQdFIwTnJaZDVMTUkyZVk2WmxLOHc4VGFlRmpVaVV0aDFFbllrWE45UElUdjdOSjdNazU?oc=5",
+      "press": "아주경제",
+      "date": "2021-03-24",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩x레인보우로보틱스, 상업용 조립로봇 만든다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1HVkttcHQ3anFtNXlGeEhVUGYtUlIzZU5LVUZROXlpT0p1TFlrZmJJa2txcFMxZ1lwdU5Ga2ppWmZ0RlpRbU9RZw?oc=5",
+      "press": "플래텀(Platum)",
+      "date": "2019-12-24",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 자율주행 로봇 스타트업 코봇 인수하고 ‘XYZ’로 사명 변경",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1rbUlLYXZSUjNyS0gtaDc0Nm1PamlCcWhxWmZBLW52T1BmMmVLeVY0QV9SYUZYWTJYZDdKNlB5eER4VmpaU2pfRHN5bDV2Zw?oc=5",
+      "press": "벤처스퀘어",
+      "date": "2022-08-01",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 완전 무인화 커피 로봇 ‘바리스 캔’ 출시",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SRnk5ZlRnbE54M04zZG1MQUxyWXJfNWZFSUptRlh4V2VxZ2NTNTFPazdPdTNEeDdQZmNRcEdpbDhJaVpnOGdpQU1yalVHWGZEbUpCWHlfM2pHOTdHVjM1TmpabVhpQ3JkcWxMQg?oc=5",
+      "press": "로봇신문",
+      "date": "2020-11-18",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지X, 로봇 바리스타가 만들어주는 캔커피",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBaREdkOGlWc3p1bnFfNnRqcnhYaER6Zm90NGNqQzJxRUlmcHdlMjdnMzdDR3F1Q05IRjJrUzJWSThxV2ZnTG84M0xUaTJVSWY0WEpwb0ln0gFSQVVfeXFMTjQ5cnloZGs2XzF2eldCQWVkelhyR1RWazNCemt3UzE4VmVIOXZjR2w3bmpFMnlfa1dZRm13bUhhN29EWmttaERyNkx5UUtQZUFXdw?oc=5",
+      "press": "KPI뉴스",
+      "date": "2020-07-30",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "“주문한 음료 1분48초 뒤 나옵니다”…엑스와이지 바리스타 로봇의 진화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5SbmhLUE1YX09Da3h6dmJiS1l2N2gyMmhSSnpjWHB6c1hRZTBvQUxaVmpkUGprUkR3UW5aajQ2SXRUb09GdXEycFdiRQ?oc=5",
+      "press": "티스토리",
+      "date": "2026-08-03",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "'로봇 바리스타' 만든 라운지랩, 30억 기관투자 유치",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBIMHJNTmVuT191Y0J3clNBdURHQzhIUy1KNEpxQnhmazlDaTlkclpNSDRIYk96aUFfX09KRXhVQzkwOTU1Q3lZbWkyNHpiNVNWX2E0cHhzNHZIRkFRdXJyVkZibzdsUDI3WjlzT3lwbGtHN3M?oc=5",
+      "press": "디지털투데이",
+      "date": "2020-12-18",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 배달커피 전용 로봇 ‘바리스 브루’ 운영",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBZTkp6UHdnOXdocEJrYk9DM183QlJZTVFwTU5xZmFQUUpLd2ZvckVxNlFqbUpFV2pSa0prT2NEQlNwZmlFbndLVzFUOGw1UQ?oc=5",
+      "press": "와우테일",
+      "date": "2021-07-12",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지엑스, 포르쉐와 구성한 브랜드 하우스 성황리에 종료",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5WT2pvYklWaWwwWnlaQkhPN3VnUGc5a1VXelB1ZnBXYlBiVHhuWG84NnFIWkVvSlBVWnpOMVVfNmlab3pIVkdKbGpxM0RpSTktNTB3dVh0YWkxUGV3Njh6SnpNZWQ5UFMwYWxkcEF30gFyQVVfeXFMUElpSnNrczB4b2lhRzJVZjlFSTNiLWIyMV9vZnVsRW5GWHVWQjNBR1NvMUxJVlBVN2Z1QmhFR0NSelZrMnV1clV2cVlPeFROUVhEUWItQVVsU3F2d2gwVnduVS1RdU1jV2VGVnlCU1ZGdG1R?oc=5",
+      "press": "뉴스워커",
+      "date": "2020-12-03",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[푸드테크] 라운지랩, 배달커피 전용 바리스타 로봇 ‘바리스 브루’ 선보여",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBaWXJuZU9Hd1FaaFBaZ1pvVHAybEkxYWxlR0tKTTg1MlpVcFhWbVhWRlh0WE9fWnBCT3RRQzF2RkVqSjdrN3V3djlMNERScjVsWjhtSG1EREVfTWVfaTNQeW13dw?oc=5",
+      "press": "foodnews.news",
+      "date": "2021-07-12",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[인터뷰] 황성재 라운지랩 대표 '일상을 위한 로봇 만들 것'",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92bDl2VWpLVzNueFFENjlvR1gzUlRSVFVNa2tRNUREb2RYUmpUUXhSNzhjQlhhalltNlNOU3pTZHRuS3V1QlFGZjJqX2k3S0RNWjE4RnZxSzROUXlKZGp5QUs5N3Q3MURKaTJNMUpZbnfSAXRBVV95cUxPX1JsWXQyOGwyWll1NmZIQy1fcnBSdU5iWFpNVUdIbUF2b08xaUxTdXdQVUpSMjczdlpaekw0UG55aWN0SEJLZjZtV3loWG5vb1ZZOF9uNVh3eF81WUlNSWhOcXhBbzdqakNEYS1tdE9YdFZHRw?oc=5",
+      "press": "스포츠한국",
+      "date": "2022-06-12",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[테크M 피플] '로봇 대중화' 이끄는 황성재의 엑스와이지, 코스닥 입성 '채비'",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ldFFLbWp6WnhsaU1tVHpKMHc4X1Y4MzBqMHNkaUJVcXM1bEdHcFExMVZhc1dVaUlsdkktS3Z3T1lBaUdWTkxVem9WSzJOam4tdUFtNzR4TzJub1B3VjZ1VWNTZ0liZ9IBakFVX3lxTE9qblh2cEd3d1E4RmZIbEFhb25tRjlDbmJWRWt0OUIzX01iSXlGTlFseFhqdE5PVlQ2MkMtMzloOFlHbmxQaVpZdFpJSG55c1g1RU11bDBSTHloODI0YVBFLWdSaWtpWkRTWGc?oc=5",
+      "press": "테크M",
+      "date": "2023-06-28",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 배달전용 커피로봇 ‘바리스브루’ 선보여",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9XaGloTWZnUldJdHV5d0tQYmlyRUNGZUdNTTY5aUxvbXhOSlM5RF9qaE9GYVRjcUtnSW9oX3pVN3VNUWhFbE1tUWhrRlNvZw?oc=5",
+      "press": "벤처스퀘어",
+      "date": "2021-07-13",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "커피 로봇부터 로봇 빌딩까지, 일상을 변화시키는 로봇 전문 기업, 엑스와이지",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9teDBEZlRRMURHUnctNWhJMzJFMVMxR2RSb0ZLSjBicXpaTGsxYWZ1SURJZWFDRVJDd2N6VlNxT2x3Rk8zelJaWnE1MWN5Zw?oc=5",
+      "press": "벤처스퀘어",
+      "date": "2025-04-15",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, '유니티' 기반 실시간 모방학습 환경 '트윈엑스' 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iV2JDWlg5NUljdVpfNWp6dmRIVEJDRXdocjRsWERKeXpDc0VjRGozSU1iM2J2bTd2S2lBTFdQUUQ2WFBRYkt2U1BGNW5Fa0tuc09RR2pHMERyWnJsbXRwNzk2Yk9YN0p4ckJBWQ?oc=5",
+      "press": "로봇신문",
+      "date": "2025-06-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[융합의 시대, 푸드에 테크를 입히다] 황성재 라운지랩 대표",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBUVjFRZkp4N19WbHR5TjRnREtMT3ZTTlpnMm9Gd2p1MDIzUDNiS1JBUFN2cHB3ZjFTR2xlaS03TUIxZnpmeDZJcHZCWXlGSVFaeWVOWWV3VFB4dzlLb0ZDTlFfLUMxRHE3b1RWazh4T1puUQ?oc=5",
+      "press": "포브스코리아",
+      "date": "2020-03-24",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "피지컬 AI 전문 ‘엑스와이지’, 데이터 기반 로봇 지능 고도화 및 피지컬 AI 확장 전략 발표",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE4wMEFvU2tvOFFDVm82ZXRHQ25jVEtMeE5OSUJ4TFE0Rld5U0tuaUhQSEFLOWZIXzBHYkNCS1JpUHI1NlBXRlE?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-03-30",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 오픈형 무인 로봇 카페 ‘엑스익스프레스’ 성수동서 첫 선",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xNzF1ZkVpZnQ2UGJhODhqeTN3OTB3ZXd3Q2ttUmhsYXZkb3V2Sy1CdU5GbnRBbHpKY21JbTd5azhnd1dkd2MtZ2swVGNhUE94THdDRE5GNHU1ckFqRkJDUXFmMk0tN2ZZ?oc=5",
+      "press": "테크월드",
+      "date": "2022-10-24",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 중기부 '아기유니콘 200' 선정",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WU1BQZTVqZGI1ZXNMR25fcFJFaVY2S19yWkpTTHFXaUpLYkhBS2ZFY3N1U3B4RldYay05RmZ1ajZra2w0cTA1Vzg0NW9Id205VEJhZV9VSWZ1XzFiWXhWTEp2OTUxZFR3dC1Wdg?oc=5",
+      "press": "로봇신문",
+      "date": "2022-06-03",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩-두산로보틱스, 바리스타 로봇 서비스 개발한다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE04bkItVE05NTRUM0EyXzhXSHVURDZPanBrSXcxVkRvRTF2MUNNNlpWeDNNR3Y5R0lKZFlWdVBoRU1vVkIzVldfaUt6RlR2OVYtV2YtQmI5RlpGX1JnQWVTeExIcnlfNXlTOW01dw?oc=5",
+      "press": "로봇신문",
+      "date": "2020-06-18",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 식음료 리테일 스타트업 ‘엠비치오넴’ 인수",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9EMFBmWkJSdjRHWXZRbWhCTUdrSHpkZVJfaG0xZXFnQXEwdmVpQU0tX0E1X1BxUUxfN25wT3FqNmFXMkV1NTlsYnVMLVRianBFemRoWnN6Q2VUZEV2LUE?oc=5",
+      "press": "hellot.net",
+      "date": "2022-07-26",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "두산로보틱스, 스타트업 라운지랩과 아이스크림 로봇 개발한다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40MXlEcWtJbHF6NVBkazBDVXNyNmRFWWFGaThWZGt1YWYzTHJhQ3R0SGtKdWNUYWVWRHk1VElqQWZPN0xIQmJTLW1DWlV0c0pjTTNLX2VSSWJFZkVocWZZaE5ySm5qSjhlY3laVG8xQ2zSAXRBVV95cUxQYVN5Y3BMX0Y0a09BY1kwa3VFT2RuUHA1cmVIb3Ixbnlob1dxLTBFSGtFSklrLThCTjFxVnd0VlhQOUhiOHlGUnVQSjNGbXpRa0NWdW1GdmNRV0o2M043QTBFVkNIa3lrcmN1UmNDYmlxWTcwMQ?oc=5",
+      "press": "연합인포맥스",
+      "date": "2021-11-15",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩-점프컴퍼니, 로봇 빌딩 솔루션 개발 MOU 체결",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE93RmNmbG11SVRCaG5wRjN2cDFsTFE3MFRaeGMxNjk5eDluT081azRVRlduTjVXQ1k3dXZxby1NUmNGdDJXNnl0ME05YUV5QQ?oc=5",
+      "press": "벤처스퀘어",
+      "date": "2022-01-28",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 배달커피 전용 바리스타 로봇 ‘바리스 브루’ 선보인다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBFNVUwUGVESlVjT0swLTFjVVcyX05KZ1M0UlBuS29EOGlxbTkzYUJnTHdHdVdwblJvcHlnNHRjSm0zSTcxdjZaX2hUamVrZGNLRHRuancweF90XzhZOFE?oc=5",
+      "press": "hellot.net",
+      "date": "2021-07-12",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 식음료 협동 로봇 서비스 선보인다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8ydnRmTjJhOWNSYk16R0Z6T2ZSTHhXOXlQTUJsUUlFYXpxTGZaUmc5RDdXRkFiNGM5NGFGS180Q19aTXlSenhSOUF2TU1jRnQ5WDRhTlBhY0ctdGxSbllDMWZQRHFsT2FaSFlJbw?oc=5",
+      "press": "로봇신문",
+      "date": "2021-06-28",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "리테일테크 ‘라운지랩’, 30억 기관 투자 유치",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5lQWxiWlpYRDVjTHRHaGZ4bFIzeWFHWnlQMFpaQ2hxVjJvcy1nTGRuckljdkc5TC1kd2JSUEQ3bGVsZ2F4dEFMQk50dEdrQQ?oc=5",
+      "press": "벤처스퀘어",
+      "date": "2020-12-18",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 캡슐 기반 아이스크림 로봇 '아리스' 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4yd0V6T1poWUhKUjE5RkRHTjJWMlk2bEZHQW1XQksyLUlBZF9sc1cyaVBtRUNvQTQ4OS1hUUw2SEdsRlVUaHo0cGlLMDVjNmFnM2h1QkY4d0UwaTNQNkF4bk9aRDBkaEswd3dZRg?oc=5",
+      "press": "로봇신문",
+      "date": "2021-01-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩-두산로보틱스, 협동로봇 솔루션 강화 MOU",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9FdWhiMGZuNkN2bkttMzNhREl4NkREdV9GZjI3M0c4cFo2azVTX0ZpcFBwcV9RTHdvNk54TXVvR2RQZk5ncWlacmFzcFFJdw?oc=5",
+      "press": "벤처스퀘어",
+      "date": "2021-11-15",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, ‘데스커’와 기술⋅미래 라이프스타일 공간 선봬",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CRXVrSFRPa0pZZ1RKXzR0bzJUTEVmdVR3elhObDM2dmZ3ZE1xOVpiVDZWUEhVRUVkRWhaZW5jdFdZRWxpWEhlWW15d3lJRU1PYTNfWVFTendLeURicmxjSGtTTVlDOWVaUnBZQQ?oc=5",
+      "press": "로봇신문",
+      "date": "2021-08-13",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩-UNIST, 로봇 서비스 공동연구 MOU 체결",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQZDN2STlld0NRZ192Qi1WRVozb3RiSVh4NGZLSkg5QmFLbTU3UVRVSi12YzlBeW5DMlR4NThrTkVWVmJuNTJvYWJUUktoMzBXNVV6YjB3Sy1BQlFNZEtaRUlXVXNmWE1tVnFjeA?oc=5",
+      "press": "로봇신문",
+      "date": "2021-10-06",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 인공지능 스마트스토어 무인상회(無人商會) 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Eendsc0NpOGdqNkt3T2lRbFhWZmRxSXQwLXdRcVp0OEJXaG1HaE5TUC0wRkI4RFVUbFBPYmd4SndFZEZKaks2UkRCOFNyVkpJS1c0MG1raG4ybTJLYTlnXzdjSVZPYzJSa1VnWQ?oc=5",
+      "press": "로봇신문",
+      "date": "2020-09-14",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩-비다스테크, 무인매장용 '식음료 컨트롤' 기술 개발한다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81YVN1X3VpNnQ3Y1VjOGcxZ3ZEcmFEZkJGVFR5UjNpS0VSMTZZMHFsT3FRYmR4aUV4ZndSNnNDODhMQWdTOHR2MjJtYUhiSVhzampDeWFKT0NtSU1jajBBNWFCY3ZqaUhHYTh2dA?oc=5",
+      "press": "로봇신문",
+      "date": "2020-07-14",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 협동로봇 아이스크림 스토어 ‘브라운바나’ 오픈",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JTU92aThYV3ZvNXlLZ3JEampOSFBXUWFUallsZVlTMzd3V2xUbU1WbFlJY05wejNab1RoVXNTaU5sU2ptRGxJMlBvSDJrSWthZVl6NzFWdUFTb1NmTmM0ZkpxNlQwNV9mZ20xbw?oc=5",
+      "press": "로봇신문",
+      "date": "2021-04-21",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩-점프컴퍼니, 로봇 빌딩 솔루션 개발 위해 MOU 체결...부산시 지식산업센터에 적용 첫 사례 선보일 것",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9taWtWbWpwSzdVUEZYdm52YlM2dGdmUk5LbDBQLUtrUnJUVU9uc212QzcwcXhWUER4V25XWDV0T3NDYWc2OE5hWWNvdjZtS0QxMGx6ZUItVkw1Uk1UZy1yTU1JdF85cXc?oc=5",
+      "press": "인공지능신문",
+      "date": "2022-01-31",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "로봇 기업 라운지랩, 자율주행 로봇 스타트업 ‘코봇’ 인수",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9hbHE1Rmdpdl82UWJvQTF1c001VUp3Y3B2T2t6emViMnZyVEpHZG16Znc3azBlSWZ2QlN2Y3gzWVN6enl4Y19qQzBFdGpuTzNuZjNZbjJuSDY3VDY0emxHRFpRYXRDTFV1LTlaczZYTl9kb3c0VkHSAWZBVV95cUxQRTZuRE8zWnRwNW56SUdTeGVEa09zUkdCWFUtLWpXZWN1RDVrOTVmVFhjV2dsSW1ob3p3NDg3VTdVTUM1YWhnMDZlcUFWeGV0VHNqOE9BMDBKOG5ydFh2UkxUaGdUV0E?oc=5",
+      "press": "동아일보",
+      "date": "2022-08-01",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "리테일 무인화 로봇 솔루션 '라운지랩', 중기부 아기유니콘 200 선정",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wbkFLaW90U09uQWUwVjBrY09oa1dXS1Vna2dIeU12akhYcjAtWjVORFlWWnBqOVk1cGJJOGhvNTVnU0Y2SkZtRnlvblpyNXBYVS05Vm9Nb0YxWU5JeFJDMw?oc=5",
+      "press": "hellot.net",
+      "date": "2022-06-03",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[인터뷰] 황성재 라운지랩 대표 \"기술 과잉시대, 소비자 삶에 기여해야\"",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uX1NtZW90STY0VXU4OFYxOVlHWEZUWGpwVkowWE53THY1YmpYcXZoUHBmRVFybFF0M2Rld2dfQWNBTmdZdHRLd3RwRnhIekdpVUNla19sWU12RExl?oc=5",
+      "press": "뉴스핌",
+      "date": "2020-01-21",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 엠비치오넴 인수…로봇 기반 리테일비즈니스 성장시킨다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9BWUFUQlBhUXJ5MGJHN0NZZGtqMFllQkZBeGhRSUdCS2t5ekF3QkxvWFRlZVpNUzYxdU1vZEo0cXFuZUpn?oc=5",
+      "press": "산업일보",
+      "date": "2022-07-26",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "로봇 스타트업 라운지랩, 4월 완전 무인카페 오픈",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5NcmZXdmlBMnNBV2xJd3J0TEJBMnhBMGxKVm53ZzJFY0ZsaThaOU5ZT1hvSjcwT2w3MzJfeEgxYmZ6eWpvelIwcFdhTXQ4Zw?oc=5",
+      "press": "전자신문",
+      "date": "2022-02-25",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩 '커피로봇', 10가지 이상 음료 제조 가능",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tRmhVRXZvTV8xNTZEY2VINVBQZjZJdkktek5kQk1VeHhsbTFUeDMxNnE5SlRYaE5pNDV5YUoya25pa0JQZVJwUGp0cnZfbEZ5dlJzbFpaUHF5U1k5bXk3amFGajZNYkNH?oc=5",
+      "press": "더에이아이",
+      "date": "2021-04-30",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[푸드테크] 라운지랩, 두산로보틱스와 MOU로 ‘협동로봇 솔루션’ 강화한다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9LMXk1T3oyRHUtUVdBcWl5ZndEM3ZaTG16WkowYmMtVG9hc1FiNXpVVWxIeEJoeE96VGk0ZzNzMTM1SFU2VDNBenpma25UaWI0VUdueUQxMjhmaGNDRWpFdmE2MA?oc=5",
+      "press": "foodnews.news",
+      "date": "2021-11-16",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 식음료 리테일 스타트업 '엠비치오넴' 인수 - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yY3phbmlOSURqNlVVSWpydXl5SjZyd0Jnb3dPWnFyMTFGQkZjTkI3V2ZqTGplZ2ZWX2JlRndjZFQxX0oyc0lHNkFGZ2wxWE12RjJYVko5a05sbVI5d2RVeGM2LU1kTFJSWkHSAW9BVV95cUxObmlKRmdFLTdnMXpfWXM1UmFjSzlESEJsZy1WNE9YbXJHZmwxemRmRlpFSm52OG4yMHRIRGZ2VXhGTWw0UFFHeVZMRXpFVWlBXzVtRW9JNHpWMW5ONEE2cC0yc21JQlM1NjhLOEVYRlU?oc=5",
+      "press": "머니투데이",
+      "date": "2022-07-26",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩-레인보우 로보틱스, 상업공간 로봇 활용 협력",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBcGc3aUdnUjhXaDA4Mk4yanl1YWRiVlN3NmlwLVo3SktpZDM0MTNZZUhTMjhqUl95eGZxd0kyd2NDUVZZTEpXR3c2ejhLekJsTkMxMVVR?oc=5",
+      "press": "지디넷코리아",
+      "date": "2019-12-24",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "\"로봇이 만드는 칵테일 한 잔\"…라운지랩·두산로보틱스 협약",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xV0dlUUhNWF9tUDFhcGZISzB3Z255RkRiRmU1YTNwdFg2V0RoMVd4dmVGWUVrXzlEaVRfMUlfd2hpOV82VnZqSG9qUFdhelVGeGh5S05DMUpoQQ?oc=5",
+      "press": "한국경제",
+      "date": "2019-11-22",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 회전형 레일 시스템 접목된 에스프레소 로봇 운영 개시",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBqSUpjOFd2Z1VKbmJtM3ZkYlBYR1ZTYzFYZGNEbWZJRHQ4emw5LWp3UjU0dGNKRXJhMGFaQVBkNnJwNDk5QVExSA?oc=5",
+      "press": "플래텀(Platum)",
+      "date": "2021-04-30",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 무인 아이스크림 로봇 ‘아리스’ 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EaHFKOHhfXzdFWTYzdXZmWi1tbWhlTzluSTFLMi1RLVFZTG84SG45UURpRjVfbHJmT21rTFJZY3dIWW1WRkU1czJWOHF0Zi1nVjh0NGZ3?oc=5",
+      "press": "지디넷코리아",
+      "date": "2021-01-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "'발명왕' 황성재의 로봇 스타트업 라운지랩, 식음료 스타트업 엠비치오넴 인수",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zeUJrTzZ5RzhMSXdvNG14Q2hoc3o2NFVLN0dpdmVOMjhBSW91UU1iMVpqSFlQblRmN3dOeFhwbzVYUG9YSU9fYkJyTkpKLU5sMTZ4UXJ4dzQzVWZkXy1wZkpaNDYyYWV6X3NYYWN30gFzQVVfeXFMUDZab3BuYWlXR3o5S1gzNFFOT2ZOdmJzVUk1bGp3elNtN2ZCZUF6UzJ1ajVZU1lFOHh0cGw0elJ5MG0tbFJBeXNudFktUTBhamktVDZoVHExa01xYk9leFlvajBPNzN2NVJISG4tWC0zdk90UQ?oc=5",
+      "press": "한국일보",
+      "date": "2022-07-26",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "리테일테크 스타트업 ‘라운지랩’, 30억 규모 첫 기관 투자 유치",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JbTM4SUJ0dFJvanJRQTIzaEdyU29zaWwxdW1JUDY5MGh0di1pcFlfQ2RqNlo2UHU4UElYLUtndUtRM1I3UkcyWTFRN3NwbmhBdGt4UGtjNWs3ZjFldFVWVnp6SmUxNDZKdHQzVDJB?oc=5",
+      "press": "startuptoday.kr",
+      "date": "2020-12-18",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 30억원 규모 투자 유치",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5jNW83cXZZR1EzaThtUHExT29hN09ZMUhNQ2xfSUNKY1FFU3JWNHFSc3FpTVRHS2R5eVpfSklDT2l1Zk10bW9wQ2FHR2hKUm1panczaG9BeFdEUdIBWEFVX3lxTE5PeTlNbkhmTkpNTGlYTHZCcDZJT01JQnRnLTZRU1FUVFl2Uk9MMVZEMVJjWnNqWFRXbkVuNVNoaUFmcm05YlJJNFpWY29Hd0tCd1ZVbmV0VjA?oc=5",
+      "press": "아주경제",
+      "date": "2020-12-18",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 자율주행 로봇 스타트업 ‘코봇’ 인수",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8tRFZLSXpwdWM0eWtuN20ya1BsRWswUld1WFRDSW9RSl9xTlViY3ZLTGl4VHU4SHFxOHNwc00ydzNwQ3ZjUDNrWA?oc=5",
+      "press": "플래텀(Platum)",
+      "date": "2022-08-01",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, '코봇' 인수하고 'XYZ'로 사명 변경",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02TjdBX0VVSkl0Ry1UaThhbktMVzZyWnYxR0hMMzhlOE9xaWVPUnZFM1JTSUpIZ3R3dm1obHBzbjRZUkRoVlhnT0VaRU1TZkROMkE2cnp5Nk9FMDZXRlV6WEpYZUMtdkk3QmRV?oc=5",
+      "press": "한경매거진&북",
+      "date": "2022-08-01",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 음료 제조·밀봉 바리스타 로봇 선봬",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOT2RfMVc4U2E4V1BYOWk1YW9EcW1CdXBvSXFTQ0p5VElxd01HYnVta1NScjR5el9ZU1pPRjI0TC16MUExRDhlenBLUXpoR3FpVURKS1d4TXliODNLZzlOaWNtVDB0Mk40eDdOa2RWcTbSAXRBVV95cUxORWlNWXpjX05sVmFCOF93WV9Zbk9XNFpyLVlOaWpyZUlsbFF5b1hCTE9SbU1vVDJkRW5xNlVpM0xQY0dZTWE4OTU2VGJnY1ppTUlGLS1OM25rVzkzbXdVNjlaWGNkTGVac0pYdTBHSllJSlc2Ng?oc=5",
+      "press": "IT조선",
+      "date": "2021-07-12",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 캡슐 기반의 아이스크림 로봇 '아리스' 개발",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE83REFGLWNzNzZ6SGdXMUhacGtjT1NNQktmYS1LTDZmWVpnRHoyRmE3T0xQTkREU3Z4Y0pTakR6VlZreDJfNVVXamRXdkVCVmRaOTczOHRwZU1XcVNCUUpMLW0tM2lMVERqQ1VGNDAyNNIBc0FVX3lxTFBHWk1vOXBGeE13YzZTLVB2ZGl1S0tEUDBzdUxzLS1UZUE4TmdvVDZpaWgzNE5sNlR6cnhVbm5pcm5sTEhIdGpWQWpPeVR5d3l3M1V1dTB2X3RYcm1xbXhYWkxHU3BQQnhSOFRKN1d6WmtxUU0?oc=5",
+      "press": "뉴스웍스",
+      "date": "2021-01-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "로봇 협업 카페 ‘라운지엑스’, 두산 신사옥 7호점 오픈",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1VUmN3ejY3c1dFNTNWOTA0NUp4SmNfZmFRZ3ZBUDd5Qy1JNzFGcjZOcEpFRG05amJqdHZUNlVYZFpFbThoQXRURmt2VFhyLUNUTXRIdGZ3?oc=5",
+      "press": "지디넷코리아",
+      "date": "2021-01-18",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[UP! START] 라운지랩, 봉사활동에 로봇 바리스타 '롤아웃'",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tMl9aX3lObnVjTTk2M2VpZlVOODQydXo1SVlEd3c1dEFwMUw0bGZCN3R5T1IwRnluMktaZmxmTGFhY3hxOHExVFVLeG9tWU9mTERfLXlIRFcxV0prZzg0czU4Mk42Tjc3VUE?oc=5",
+      "press": "내외경제TV",
+      "date": "2021-06-08",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "“5년 내외로 로봇 시대 올 것…고된 업무, 로봇이 대체해야” 황성재 라운지랩 대표",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EQk1YbVFEcVE0MUpDd1FjV08zb1VMWlpCX2dOUFFpeXlsM29HT1JkUWtKSGtFc3hzQk5PcjMyYnNGTEg0TnlWVVpJWURPbDBuSXhPSw?oc=5",
+      "press": "헤럴드경제",
+      "date": "2021-04-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "죽도해변의 아이스크림 로봇...데스커X라운지랩 '멤버십 비치 라운지' 오픈",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRR21oMzVqaDRfT0dhQTllallTdm9CVllDemFMRHFRalNXbi0yRTBvR2lfM1MydEJqbzNob0dtZy1jVGM0cUo3VlJQVzBIYXdSdUFsNllHYzNvVkQzMkNXVFRzdzEzQQ?oc=5",
+      "press": "싱글리스트",
+      "date": "2021-08-13",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "라운지랩, 블록체인 메타버스 '더 샌드박스'와 MOU",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE82OVZTU1Y5eTlpNWVUQjRkcUFyM1RaUEN1SWVtYUFjY21nb215SFY1ejNNbXdUOWNSblowQWVGT2FwT2V0SkRVWFpLMHhOVUlXemVqVzNGVEhNOUZ3M1E?oc=5",
+      "press": "인벤",
+      "date": "2021-05-25",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지 '듀스', 성수 매장 투입…행동데이터로 피지컬 AI 고도화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAzTDFRV2ROWmp5clNvbks5dWdLTmRkYkQwQlJLY0VHU2xtdms3V1VkbldJZnppR0lNZ2RaQ0FJUWdORTR4QVdiUlhNSkR1Wm1SbU5DN1dzT1hwM0h0MmNpLWhyU28xVVVU0gFsQVVfeXFMUDdXdXFKaGZTTmdDQjVEbHRiRlhzb183aEZpSFJ2N2FVWEZUT0Q3WnlpTXZLTFlBUnIyX2trYjdQd1N6LUlUbHZYZ0NvS3I5aWtrTFo0dmlxYkt4TjZ4dGZZM2NMNW13aWhSNWN3?oc=5",
+      "press": "블로터",
+      "date": "2026-07-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 오픈그래프랩스와 피지컬 AI 행동 데이터 수집 협력",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNeFE4Qm1yWFZIRExpQTBfXzQ1OG1NM05Ddl9BenZaSUU1MVFXQXVpeDBoU3JkNVdhd0lnT2hSTERVRW9wMHR3a01wN0xlVlBrWTNhQjVBVmt4RTVwSC1sZXRoeURnZk9lZHlHUA?oc=5",
+      "press": "로봇신문",
+      "date": "2026-07-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 세미 휴머노이드 '듀스' 실매장 투입…실환경 기반 피지컬 AI 검증 본격화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1xVGRwNGNMTlQxZ05fNU1PNkdaQ2c0dE5CZnNqa19KU2F4UGZNYllnanMtemtjMUxxR29ITkRlTFppeGNVYVZid3lQMGtxaHF1bU01ZjdQdzMzRWgtV0lVUm02THlhSUU?oc=5",
+      "press": "인공지능신문",
+      "date": "2026-07-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 세미 휴머노이드 '듀스' 실매장 투입",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE14aUJQX2hTc21acnFtYVJ5VDFEaTFLODJJRTdBTkk5V0IyU3JyaDN6dk9WalpraXVHaFRsM2FjY3RnaU9PelZjTGVfSGVPUQ?oc=5",
+      "press": "전자신문",
+      "date": "2026-07-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "실제 매장을 로봇 학습장으로…엑스와이지, Physical AI 고도화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPX2dLLXFMQllYT0N4dG1yUlJGZTFXdV9rQ0xBaVhxSEgyQldUTm1aRmdmYXNob1psakpCWEZuR3NlNjMzamV0bWhlT1lxRGNkMGFuY1RvZm90VkNndzBJSmdNRTJFSWVLRFZ6cUl5d1BBZ1dCb2RDSzYyZ2dzTjJUZEJuVUhrUlnSAXtBVV95cUxQbkE4NWRvZG13ZVBENmczY3dWVExMbm5MV21rZ0NmOGVMV2V2VHlnOFVGbjl3SHlQMUwyVXpoQU1pUUdFMmN0TWFQVzRTNEw4WFhzMHFPVmZWQXh0MWNXNi1SRUllNGZ2Z3BoRjFPX3JOek9JNDdWU1phTFk?oc=5",
+      "press": "디지틀조선일보",
+      "date": "2026-07-30",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "“세미 휴머노이드로 리테일 혁신” 엑스와이지, 세미 휴머노이드 ‘듀스’ 매장 투입",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8wS2hHMmIxc3E3VlFlbXlIdUtTcEJuWXpUVHJrU0RCNEh3dmNCclRmSHdNeHNRSWZFcTRZc2Z3WWFIUlF3enhFZWNjS3lPYnBkVTdvSU9hemNMN2VaUE9V?oc=5",
+      "press": "hellot.net",
+      "date": "2026-07-28",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "\"피지컬AI 핵심은 행동 데이터\"…엑스와이지, 실환경 데이터 수집 - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA3WTZWTlVnMGtWMHEwa3NXeC1uM1dvT2NuWDh5bTRySzk2eHlTbkh2R1Yxczk4OVdQNDJYWGlLX3B3cEs5ei1SWHY4bjlZME55RjBuZlJMSU96aUEydHcyMTMtZWlKT0pRV1HSAW9BVV95cUxNN0JNMEVjRl8xTXp0U1YwcjYwZnBvOWxMT1B6VFZlTm9zdGdoYlFhckFweUdoRHptYUpDWmpGT1NuYUZjMnFvY3dkMkptWVE3V1ZGTGFDWGFLQzJoZTljWlpmOHZPY2l4UVM1V0laSG8?oc=5",
+      "press": "머니투데이",
+      "date": "2026-07-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 오픈그래프랩스와 손잡고 Physical AI 행동 데이터 수집 본격화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9SS1pVbk02bmFtcWIwNG02V045bzlfZGlndDdNMVlqOUhxeWVBNmo3dW12cUtfMTRxb05EY0dOS3p0dm9TaWJKZ1pIRzc3XzJzOTdMdjQya1FqU1VHcEhkWWlRaEhiY2xKOFE?oc=5",
+      "press": "한국M&A경제신문",
+      "date": "2026-07-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지∙오픈그래프랩스, 실환경 Physical AI 데이터 파이프라인 공동 구축",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yai1OSUI2aVlPQXFUaGF5eGh2X01NR1dLOEthMkhyRktOY0VhZUVzZVZod0NwMkRQbFl4a1NVSWRjdVVQTUNpUTQ1d1RueTJEaHc4QTFlNzlOWU4tdDZ3LUhCUGJqeHZoMGI0WTBn?oc=5",
+      "press": "startuptoday.kr",
+      "date": "2026-07-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지 \"피지컬 AI 데이터 파이프라인 구축\"",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvRUZxNC16NndRTERJV21PNldET1Z0U2F4dnhuOFVMbnMxZlJfUmt2UTJYaThKWXc5NjBiX1RqLU1iaFFGZnpkMlhvbmhESlJXemljZEpn?oc=5",
+      "press": "지디넷코리아",
+      "date": "2026-07-14",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, '매장 데이터' 기반 Physical AI 고도화… 서비스 로봇 생태계 주도권 확보",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SRGt3eTdFaS1TNmJaVVJFbHRGVGYwWFdqcUFDU09YQ2NtbkRmRF9ObEhYNXNzMDhCOGtRS2lqUHZDcmxhZktOVVBKN2lkcVZjT3lVSDFHUVd5S3MwMHdLd3k4SHI3dUZSVnlOaTAyaznSAXRBVV95cUxPM3A3aEVNYWRmYzVHV3BhUjNPOE9CNDNuNXF4aVNpNmsxWEJLQVdJTzFrMUhJZkpsN0M1b2ZiNWZvZVdSOTF5VGNIRlVFRmpLTGJudkFrR2pYSGJQaE9ZbFZISFluaHNDQVE3OFAtSXUtOXc5Zg?oc=5",
+      "press": "한국데이터경제신문",
+      "date": "2026-07-30",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지·오픈그래프랩스, Physical AI 행동 데이터 확보 맞손… 로봇 AI 고도화 나선다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VcG52MkVOeFRXTTVyRGN6MlY1cUVWTUIyQ2FfbVR3OTBUbjZFbHd1bVlhYnFtTDJOSGxJbTdjOWdqUk9ySE5PT01TOVByYXFWOGpOQWVhM0pEOU12cmhkOFBJZHFaQlQ10gFsQVVfeXFMT0VndTNDOWZBX0dMaVdDcUhwbmM0Q1VWVXRZVGlCWV9zODRldGl1QmlCdkJFNlVpNXRseDIyWERacmtnTFdOaFJXU0tDSlk4blhsQnB0dEtob1lmYVBXNVlVa1JiQkloYzNMZVJj?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-07-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[게시판] 엑스와이지, 세미 휴머노이드 '듀스' 실증 등 단신",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lZTktQXNfZ250Y2JPc3Zoa3pESkMtUE9HZ0thbW1xYjczdS1uNHNJYnZUV1FlTlo0QlpZYk1yNnRGRXY5akw4bGF0RnFQQ29Cc3RSdUNEVUc1dExkQmlMc1dfRTVaSjNVakE?oc=5",
+      "press": "AI타임스",
+      "date": "2026-07-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 로봇 바리스타 '바리스브루'로 ESG 강화…플라스틱 연 5.1톤 절감",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TeUlWMldtRkFnbXdYYU9rNW5XVExIS19kMDhIRnpYUnozWjUtVXZCcWl3ZkFqRzBMOVJlZU1GWGM3WmQyTFJURWJmV3BOZ25zS1Z0ZVZ4S0ZfYUFjOHlqZG1jVVpIbXV50gFsQVVfeXFMUEdROWY0aXZyV1R6WUtoUHBCTTdiN0NpUDdudHlmMGxNYVRoR2hkaHlCLTZrcFhVMXh5ZkhXNmRxSzlkQlFoQks1VjBuUGo3eTFtVUdZUWhtNzdLbjRtR0o5WXVuS0dydTVrZUg2?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-07-15",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 양팔형 세미 휴머노이드 로봇 ‘듀스’ 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9yNnFDWTM1bGFuVUJILXdtQkVOc1hhYzNmdTU2WVFJd2lUMHJhWVFpQVVid3dWNGk1MEc5WGhBczBXMDFnUURJWnJ2YUV3U0pHSDB3aTlzS2pPcXpENkd0MDEwNGR6ejNUNm9zVg?oc=5",
+      "press": "로봇신문",
+      "date": "2026-04-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지 ‘바리스브루’, 로봇 자동화로 연간 플라스틱 5.1톤 저감",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zZDktTFlLTGRRNlN1c0xDV051SUg0S015VGdVQU1xZTFaSF9aVXVRQzNwY3JXbVh4RFBjbS16T2p5MFRTOWNpTVYzYlROdw?oc=5",
+      "press": "매일경제",
+      "date": "2026-07-15",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 세미 휴머노이드 '듀스' 실매장 투입…실환경 피지컬 AI 검증",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1mdlY0bFhlOFpPMzhYdG9yV3R6b3h0N1llcmtfT1Q2VU55YkFOLThLampna3A5bm1MUmtIVnhUMnhLQjRWV09XSUZ2UQ?oc=5",
+      "press": "티스토리",
+      "date": "2026-07-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지 바리스타 로봇 ‘바리스’, 누적 식음료 제조 100만건 돌파",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kLWdUVlViZnRMalI0c3FVZUhqdWlZLWpxU0dtTUJ5ekQ3c3BxSkJlLXQ0TWgwR0NSSzk0NkJyaHFIY013S2VxU3VzWVRoTWtBTlFYVDJKa3FLYWljQkxmUU11QW9TT1dLWi1Deg?oc=5",
+      "press": "로봇신문",
+      "date": "2026-05-22",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 한양대 기술경영전문대학원과 ‘휴먼로봇인터렉션 센터’ 오픈",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QcnEzeTFRc3RaNEJuQVM3RFgxWTM0SXpNcGVDRURsdXIxY0x4UUI0Mk1fSUhwREZnUzdfQ21OcXlWTmk3SkR0LWVCb0F1X3VaOUFpbU81VjV1ZGprVlA0dC0wbnFTS2V4cWQtNg?oc=5",
+      "press": "로봇신문",
+      "date": "2026-04-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 오픈그래프랩스와 피지컬 AI 데이터 수집 협력",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XVHpGT211UHVldnFGMlhoclJBeGlQRzdVN2t4bTA1WUZrME82VEl1eFNRTHB5LVZJb0tMcmxZQW9SaXU3eENGZGYwaFhUZDRucGp3?oc=5",
+      "press": "news.nate.com",
+      "date": "2026-07-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "메디아나, 퓨리오사AI·엑스와이지와 병원형 피지컬 AI 플랫폼 공동 구축",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBQdkZjbEZzMHVkSS1WcWJ5cG5TQ1hhVWhWbXdsYjlkVkZsd2RqbTlyd19qVXRsZEk1NWNuV2IxWks0cUQxNVM1aUpBZ2E0ZnBkQ05mZQ?oc=5",
+      "press": "MEDI:GATE NEWS",
+      "date": "2026-07-08",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "“AI가 내린 커피 100만잔”…엑스와이지, 리테일 로봇 운영 데이터 축적 가속",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1NeEFLeHB6UlRfa21Ba2RzbUpYOVVCeWJtMTRmVkhCUVBkNkh1MVJwSGxtbW5tUWJSRE9Vem9OQ3RPdlpseVh3RE55QkJlZlE?oc=5",
+      "press": "벤처스퀘어",
+      "date": "2026-05-22",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "‘130억 확보’ 엑스와이지, 현장 검증으로...피지컬 AI 사업화 ‘속도’",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE40MlIwdmZzZDJCd212UkdCSjlJTUViWDduVzlXWWY1bnlUY0NlbWdRNjFOZkZodG5MbWlxUWtsNnk4NmdER3ZOdlktalNTRkp3UnZkaG93WHYtZXVocE40?oc=5",
+      "press": "hellot.net",
+      "date": "2026-03-20",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "메디아나-퓨리오사AI-엑스와이지, 병원용 피지컬 AI 플랫폼 구축 위해 협력",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qMmJDQ0ZXektFZ1VRclFUYlVTWDh4TF9MQ2FoRlZYUExQRUR6Q1ppbXdqc2ZEbVNkV09UZXFFSDBOZHVraXpBTk1DYzBMRTdJSV9NSlU3dnpLbU56TDBWdjhhM0RoOHByT1ZnMg?oc=5",
+      "press": "데일리시큐",
+      "date": "2026-07-08",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 엔비디아 손잡고 '피지컬 AI' 인재 육성",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE92Smg2dkdydF9jYlBmemp1anRIUEtTSnphcno1YVRzMGtmSXFVbEV0NEZvUlYzelg4NFlxdlg4MjZvVHRQaFVxcUppWVp3MTMzeGdPM0N3?oc=5",
+      "press": "지디넷코리아",
+      "date": "2026-06-26",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 서비스 특화 양팔형 로봇 ‘듀스’ 공개...\"카페 알바·고객 응대도 척척\"",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8taENJNHhjN3NIRG5sMVI0dEcyTlR2c3FNTnNjWTdwZEdtTnFyNFJLUjZhU1NBVXF1QlZtTlhLTFBaUERXUUV1ck5GWExVaUpwQ0NkbGZxUGNjc2hpNDBrZGl2UG5HWXVLd3c?oc=5",
+      "press": "AI타임스",
+      "date": "2026-04-28",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "메디아나, 퓨리오사AI·엑스와이지와 '병원형 피지컬 AI' 구축",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA4cVgzN3djN1JMMmFDVFU0YmJGZ3lLWE9jR1poeGpHSVYxM0tHcllId185TWFFTm9rdUltWU43djRkc3ByMG5GWUkxRzRYeTFLQ00xbGkza09NN0k0aDZuOWllY1Exc1AzRFU2TFFR?oc=5",
+      "press": "팜이데일리",
+      "date": "2026-07-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "한양대-엑스와이지 ‘휴먼로봇인터렉션 센터’ 설립 협약",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8xU0RHQ2Fsb21remJycUJVS0FFRENEVkJJYllfejRHb1EyQldReGs1dEdnQ29DeDdyNTU1eVlyaFRoS0FGNFlaRnpibDRUVWd5VmRZUmhB?oc=5",
+      "press": "중앙일보",
+      "date": "2026-04-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 엔비디아 협력 피지컬 AI 인재 양성 교육 운영",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE52d1hQWnd6dFZsVlFDWENtbUVVeFJVc0hfN01CcHprbE9udmJNdC1Qa3hhUXBsNHRrcGpRQkxYYjZGcDhFV3lucEQ2N3Y5Ui1lWUZWaGJ5WEt5eEdCVFpoT3BTNG9pS0Q0ZHlJ?oc=5",
+      "press": "물류신문",
+      "date": "2026-06-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "광운대 로빛, 로보컵 2026 인천 출전… 엑스와이지와 휴머노이드 기술력 세계 무대 검증",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBNkZPVWx6YlN5V0lQelFmRUhIeTBsTDlwTmZHUzZmSHh6RlY5MUN4ZzlfbmVhUVRkUlZxMXZfd0hyck1BZjRaaTdKRXNMV1NXNWZBTGw2UG1oQ2NzeGtGUUZpR1gxWjVN0gFsQVVfeXFMUGRWbUtIZDU0MDBxRHdWRTNiWDZYVnYwa0NXbWdGT19DRmV6YVBLV2k4R3Ayc21RZUxGaERmYnZUX0JvTXVrUHVUYUdTTEZ2UmNkYkJUczdzOEpxR2ttVng3ZmVuOGo3S2ZiOGJV?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-07-03",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "메디아나, 퓨리오사AI·엑스와이지와 병원형 피지컬AI 플랫폼 구축",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5SM25fdWh3azlEUm1waTNRMGJrbnNJVmE1RWM0NFhFWWQ1bFllcXNmR2lEeV9aS2llb0syM19NUFJEWG9IREFCa0hVVTFOYlBJaUpnVGl1eENmMVhnVmlrM1dYZHhsTUJicHFjSw?oc=5",
+      "press": "unicornfactory.co.kr",
+      "date": "2026-07-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "피지컬 AI 인재 양성 본격화…엑스와이지, 엔비디아 협력 교육과정 운영",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1DWFNFVzhJM0VqSXp5bHZMeEQ0SU11TzFCcGR3WjQteXlydHM1ZHlranU4NnJpdnJlSk5aX0FCRkd5SlREc3IxTmFicmhXOUxJV3FyWXo4VGstQW1CZTJPMTNNcXpkX3c?oc=5",
+      "press": "인공지능신문",
+      "date": "2026-06-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[게시판] 메디아나, 퓨리오사AI·엑스와이지와 의료 AI 플랫폼 구축 등 단신",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81V2t0dUxLVmU5SVU0eWE5UEoxekMyY0syNVE1S1JPalNhbGhuRzhYRVh5NWdJckxEUGlpZnhiSzVWTllmc25uYm5WRWt4ODg5TWF4WnRSSjhJdDgtLTJKNU1XTWt1dkotcVE?oc=5",
+      "press": "AI타임스",
+      "date": "2026-07-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "메디아나, '엔비디아'가 점찍은 엑스와이지와 의료 AI 협업",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QRlZ2S3NTNVg3R241aWk4NWJRd1JfUHlONGc1eDlRNWtLSWl6bm5WQ1VnQkZKdmhTakpJRHVQekJNVzVLMThtR3g4aVNrdDNHVzZ1Z3gyU2c0S2ZoZ3RzWXg5cHJLWU9fMjVsRA?oc=5",
+      "press": "로봇신문",
+      "date": "2026-06-09",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 130억원 규모 시리즈 B 투자 유치",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1nVFc5aXk0T2VmYm5Fb3NMajVKY0kxa3haekg0NVpqekN1OVU5WllyYWMwTWpURkRMeUZBWkxISmlFYlJleVF6SUhHamwyNUdmbXhwc3NIak45eHhRREZ4MHgwZktzRHJKZkJLRQ?oc=5",
+      "press": "로봇신문",
+      "date": "2026-03-09",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 130억원 규모 시리즈B 투자 유치…로봇 지능 플랫폼 도약",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1JbFQ5d1dzNDRUZm9IcnM3QjBqUmZ1Zy1xWE1jSXFIQ2REUG5tcVNOdlVwd29nY3ptU3BWS05LblN5VmFGMXNfb3pIWnlkUWc?oc=5",
+      "press": "와우테일",
+      "date": "2026-03-09",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 엔비디아와 손잡고 ‘피지컬 AI 로보틱스’ 전문 인재 양성 나선다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9HTEZOV09INngtTmFINENHcFhfa25mQ3BBZEV5NnVXQTZrN1I5SnRnTmxndm5teEFFSGpzM0dDak80U2hGNkE?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-06-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 130억원 규모 시리즈B 투자 유치…피지컬 AI 사업 가속",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB0aFMyN2ZBcWY5NmZpQkNTTFdBYVVwUVJPWTVRa1Q1cERIUFhsbW4wcnhaUkJDRW5CN0UtUTd2aXg4R3RqYVZNQ0ZzQnpkQQ?oc=5",
+      "press": "전자신문",
+      "date": "2026-03-09",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "메디아나, 퓨리오사AI·엑스와이지와 '병원형 피지컬 AI' 구축 맞손",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5vWEI1RVo4cVltZHJMMHRQTzhIanpNV2RXVmVlVmZfQTUtM0JnVDAtYU1DeFRJX2JRY0NQdWRJN2pJVjk2dUFJT1ZjWFlvdXAtbVkzU0VSamN5cTJjS1BpY1FLOFIxamRhLUE?oc=5",
+      "press": "더스탁(The Stock)",
+      "date": "2026-07-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "메디아나, 퓨리오사AI·엑스와이지와 병원형 피지컬AI 플랫폼 구축 - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKZ0NTOGlhUnF5NVRJMGcyMWFJSi1DeFRabnZKNzFLRDNydzFlWFpXYnhjbDdMdTBZYm44RkowbVBpOW9FZ25xZHc5Z3NYRGpQMkMtNTV3dWdYSE9WZ0prdVBmSVZrSEFL0gFuQVVfeXFMT2V3VmF3cm5vdU5LQU5LYTd1QnJ3dlMzUnJVNlFrZl9KVG1pNWlfcnh3a3A2eFB1aktOd1YydXRYT0NRd2ZPbDBUV1Y1UVB0RjdSUlA1bjR6dm82V1VUY2p6amRrbkRJRkpzVUcyNGc?oc=5",
+      "press": "머니투데이",
+      "date": "2026-07-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 크라우드웍스와 MOU…피지컬 AI 데이터 고도화 나선다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkOW4teERXZmI1eXhWd0VKcXlGeGRBTUR5eE5CUEhxMllUV082clNRSXptckFwNFBXdV9zZWg0cHRBYUhjVHNyYzZROWlSTEhqb3VhaGRYNkJjZWVhWVFZSlFsSDZPdUlOZ3NwYQ?oc=5",
+      "press": "로봇신문",
+      "date": "2026-03-25",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "로봇과 인간의 소통을 디자인하다...엑스와이지, HRI 연구 거점 구축",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9MWmtXVUpMZ1E5eEhnZlZaTnVnemwzYV9TVWFiM1dvanFNdGtPeHRpNWRHSWdiajlYUTN5a3pac1NfaWYxb0JKQUQxb3lUMnZhcFM3MXJtZ3B3UW9KNmdn?oc=5",
+      "press": "hellot.net",
+      "date": "2026-04-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "현장 데이터로 피지컬AI 고도화…엑스와이지-크라우드웍스 맞손",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FSDkwNVZPbmRTNGZBc29kTHVTZW5Cb2dDZWlneDZTUkhKN18zUlhNZ25WUHFsUW0tWlBfMzdtQ0paRmFkRGdFWEtjR2lWSEhpYXNfQzhTbGVieGowZWlycm5vc2llT0hTQWstNQ?oc=5",
+      "press": "unicornfactory.co.kr",
+      "date": "2026-03-25",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 유진증권 ‘유망 기업 설명회’ 참가…피지컬 AI 기반 사업 확장 전략 발표",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBpV05CQV9qcUs5S0E4dmtrVzJjc2YyUHJJc1FEZ1ByQ2g0REpZZmhoTmZBVjQ2ejNRYmZNWHN1WTgzQ0JmNjNQcTQ5ZzFpWXZiT3lWd3NKbjJmS1pPX1BLVXIwcl84ZTVIOVJTVg?oc=5",
+      "press": "로봇신문",
+      "date": "2026-03-30",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "메디아나-퓨리오사AI-엑스와이지 '병원형 피지컬 AI' 구축",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5oWHlrbGd1UWFJYXljVlFCeEh6a3J6Wk9rckpkYzcza2lrYjZYdHZvNFZMelpwNDJ4Z1l2WVRvMUZZN19OVW5vaUpFV0xYZw?oc=5",
+      "press": "전자신문",
+      "date": "2026-07-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 한양대와 ‘휴먼로봇인터렉션 센터 설립’ MOU",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvUXd5QlhRdDJaRTRzMEJ5eEdwRXBmRExDMldabnF3c2FrR1h4c0pLbUM0b01ZQ2c0ZDdkdFdnSGZnSXdjakp0WTc5ZUQ5VF8zb0Y0cEtHRUw2aDQ5YTU4UGRJNnNTRUxuaWdr?oc=5",
+      "press": "물류신문",
+      "date": "2026-05-04",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 엔비디아와 AI 로봇 인재 키운다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9iZ2UwZWxkSnBXYW1UMzQyWUZDeHhqR1g2RW5ac2tzdUJSU0FBckRpdHVZeW9LS2tWZzdCX1gwel9pejU5NUFuTjhVX0VIazAyWGwxRw?oc=5",
+      "press": "이투데이",
+      "date": "2026-06-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, ‘글러브엑스’ 기반 로봇 행동 데이터 표준화 본격화...크라우드웍스와 손잡아",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBmaTZDcGV4LWZZcUVPcndGb3dMSElqU0p2TWk0ZWg0ei1pRlFLVWJVSE40ZzFNMGNXSi1JdldIMXk4dGw1VmpYYlhzVnlhaVRqaktUQWNRdTZrcWpnSXpn?oc=5",
+      "press": "hellot.net",
+      "date": "2026-03-25",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[게시판] 엑스와이지, 크라우드웍스와 로봇 학습 데이터 구축 협력 등 단신",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE91ZkRCSm1ZeC13LXdZVkFra090ajRSQk9LTWNxMXdnd2NNaVJrTWNGSzItckw3NDZVSV9GZ1U0eF95Z0JGSE1Ock9LNkJZcXRfT3MzMUFlZFRfVXpKb1EzdHNaMjNLZ3V4UkE?oc=5",
+      "press": "AI타임스",
+      "date": "2026-03-25",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 양팔형 로봇 ‘듀스’ 공개…서비스형 Physical AI 시장 도전",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBwTFE4S2dDZlhuOUxBd1NhRktLRHR1SjlJY2FuVGZEb011TkNoM2xlUlczdzdDMm5jSEdCVEx1WXczWWJReDNQRmdob3hfbUJ1Z1VSZmVYa08yTE1wTEJwSzlFRDRpVDU40gFsQVVfeXFMUFR5c1ZQYVlINlFwcDMycTNLaTlkc1c2ZXRuMklNTDlPR1J0WUJNVFNGM2Q4d1l2Wk9ObURueENmMmNmU3BwVmFsTzlTcUt2ejNVQ1RRM0loRXlQN2hXbVBFb3IzQ2p6dTRiMGFr?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-04-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 부산 에코델타 스마트시티서 ‘바리스브루’ 시연",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03T0o2OGhTMVA1VXpndEdFdmdtSFJDaGU0djkwVjQ5Vi1YM0pVVW5ldU5Bb01nMzFIeWlnVjB3bG04aEdjWXFWYVF6ZW1rdkI5RUt6SnRlbVRwNV9LcHNkMEhIUV82VzR2QlBMdA?oc=5",
+      "press": "로봇신문",
+      "date": "2026-04-01",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 130억 원 규모 시리즈 B 라운드 마감",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE94WmVBN1lOcVB4N3E3MlFLZHhqSjdJY3hiSWtRTExoR2J1RkZ6Zi1veWJKOWh4OEpXaEZlOUF0M2dvNUkyVDMzWHFISUdXTVQ5UFFBTVpwTUw2VExqRjg3Qzh6Y3BiRzVFTTF3?oc=5",
+      "press": "물류신문",
+      "date": "2026-03-11",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 양팔형 로봇 '듀스' 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBfYjJVQjNqalNYTDJxWDIzS200SDBwdVRZZ19iQloxbjFfXzhEaTk5QXY2cDBEbC1naGlSd2lEdlNhdlExNWVHai0wdXpmUQ?oc=5",
+      "press": "전자신문",
+      "date": "2026-04-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "[AI픽] 로봇 기업 엑스와이지, 시리즈B 자금 조달",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTcDF1ckpkWnpOTUFIbzVmY0Rvb3ZOYWdwcUZlbUxGUWxDbzhxV0c3MmdXOVpVQzJFRlFhME8ya0xCeW50SE5GbEtnMjY4QVN4R2xTZXd0WVhwckHSAWBBVV95cUxOTU9QQlMtR2RUM1JWbEpKQkRGM0FLSGFrZWtjbzhSYTIydWwxdkI1My1PeUNacks0dUl6QlRpN0RobTh0QXJYYWdCcDJqSzFZTmJQZjFBZkZjZ2hyQ0hJbEk?oc=5",
+      "press": "연합뉴스",
+      "date": "2026-03-09",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "\"사람 중심 로봇혁신 실현\"…엑스와이지, 한양대와 산학협력",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1EVjdOWm5BbFhWeVFKWThhbWVza3hJcmVpY25EamNsUWNCLUFJQUNTOGkyYnlWd0NoOHU4QzNSVVFmelh2ODFCQlYyWkd6U2M5Z0ItTUlnRFA5MEFGNGtxdmpDTmwxUGwwOG5VZw?oc=5",
+      "press": "unicornfactory.co.kr",
+      "date": "2026-04-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 엔비디아와 협력해 피지컬 AI 로보틱스 전문인재 기른다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBITVlkTEZwYXdWbGMyRDRwcm5RMlpWaXVzaWVQR21yRDFrcm9MNW42TnY5VzBMVnpPaHQzLWZNNU5SSW5neWx3dUZIaw?oc=5",
+      "press": "티스토리",
+      "date": "2026-06-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 양팔형 로봇 ‘듀스(DEUX)’ 공개 ... GloveX 기반 행동 학습 프레임워크 제시",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9va1VLMlRKa3F3bFhidXc5ei01ajY0dHZZdVpYTDZzb2otdmkyWWFzcERXaW9XZ0NZc05kUDFKVm5KaWVXa1Z4UkJwbFBhQnloV241b2J1Z1JxRW1uZUVFQVppX3hyRmc?oc=5",
+      "press": "인공지능신문",
+      "date": "2026-04-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "메디아나-퓨리오사AI-엑스와이지, 병원형 피지컬 AI 플랫폼 구축한다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0wejBRSmFHa3g4bXlmbDNOMEFuaGN3LWVQclItWXNsYVNSUFpOdFRKbzFuTFBDbkFHUHRfTmxXcFRGOFhUUzV4cXlNVFNHSzN4RDFheGEwQnJ0d0lqUW82UHp3eWhrcEU0bXc?oc=5",
+      "press": "디지털경제뉴스",
+      "date": "2026-07-07",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "\"로봇 서비스 일상 확산\"…엑스와이지, 130억 시리즈B 투자유치 - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBlOHRxR1h5azNzcTI5ejQ4MXFRMHVvdXZkVGpuQUZZZmtudnNSV05ZN1lxcGVtZzJ0UU83TElLeTd0Mm1fd1MwMTBpR3Uwb3U2N3Q1ZmozZ2pqX28wV05OZDRLOHcwRTdNaXfSAW9BVV95cUxPY2ZiejE3RVNoUXV5UW41azVxOHBPTjIzb1dEWGdfcjNlckd0YzVOakRfWnRmbldGV0oyb3Q3UDlUY2hPOEV6M3E5VHhybERGemplZHFsNjlyN2xNQ284RzByeU9lWExvOHVjRTA2VnM?oc=5",
+      "press": "머니투데이",
+      "date": "2026-03-09",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "크라우드웍스, 엑스와이지와 로봇 학습 데이터 협력…피지컬 AI 시장 공략",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXbXpLN2hPMkh5anV4SE5WQTZoMWRGdnlic3JUbWFnUTZrdHhXWlhHb180LWszWUdYOElOR0VhallnQlBFeVFlSmFCdHlaVzJqSkFaS2hnVE9ZWVU2Wl8wLWtQNTJUWHM?oc=5",
+      "press": "아이티데일리",
+      "date": "2026-03-25",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 국제e모빌리티엑스포서 ‘바리스 DT’ 선보여",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA3NEEwcjE4NjJjZTFOaXNnczE0b2dyQlh5SG5NUUYwVGdNUTJXbTJIcEdmZ1FQcHVJVkREQlBfNG5OQUtVdldyV2VPSnVwQzZweDhQZWhqQU9FQ0FSOHNaU3Nyd2dOU2pJbVhYMA?oc=5",
+      "press": "로봇신문",
+      "date": "2026-03-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "크라우드웍스-엑스와이지, 로봇 학습 데이터 사업 협력",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5vSWNqU3Nyd3p0X0JvUnpRUE5zdGVfRlNmY1RWR3h5OFVKT0hUVzhOTkNoVnE2dW82T2tuUmdMMG5yUDFEUEZqT1V3VmpKa2FibHhLSEMyVmV3ZU5aRGNVNE0zb1padw?oc=5",
+      "press": "디일렉",
+      "date": "2026-03-25",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 한양대와 ‘휴먼로봇인터렉션 센터’ 설립 및 업무협약 체결",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1lTmY3SnFWRkNZMTk0X21nS1lLOHg2SDhRb2s0ZjlnOVhBZ3hnQ1ZjV1ltR3hvUG1sWW95WkNZTnlIWXFScVE?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-04-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "휴머노이드, 공장 대신 집·사무실·카페로...세미 휴머노이드 ‘듀스’ 베일 벗긴 엑스와이지",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE84WF9OT3VaRERDbld6SDV1QjFsNm1TbGRrZ3R1M2ZrQWFfMDZMS2xSSzZnU1FhV0pqcVBCeDRvald0WmQ4VklvZktteEZnSF9ZNFNPcDUtT1BLdDIzSmdF?oc=5",
+      "press": "hellot.net",
+      "date": "2026-04-27",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "부산 에코델타 스마트시티 뚫었다...엑스와이지 ‘바리스브루’ 주거 단지 시연 성공",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE03aXBSN0JJOUZmaDlFNk5uNnplOGJFa1REd3NxcnB6SnVGaTV4azNWZk9xa2k2ZDlPSXRZUGg0d3ZSVHdlNVRCRGY1ajdGbXVhejBnRnpNOGVrZw?oc=5",
+      "press": "hellot.net",
+      "date": "2026-04-02",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 춤추고 커피 타주는 로봇...'브레인엑스' 기반 피지컬 AI 혁신 사례 공개한다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE45TjBQaFB0emhnYVRDTmQyejFfbjUwX2pXSWRDZG9qdFJnWmxZYmVOQ25Ob2NqR3BXMnEyekxGRVpuWExRRUU1TFBwdnhHWThpVmVBWnBqT0dJbHd3dGM4?oc=5",
+      "press": "hellot.net",
+      "date": "2025-09-29",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    },
+    {
+      "title": "엑스와이지, 음성 주문 로봇 시대 연다...로봇 바리스타 ‘바리스브루’에 시스템 도입",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE81M3NjMTFLWjlKcmUzUFlpOWhJaVdPWmxmNmRfbGoxcmZiVG1lOS03czVqM0dsWE9NbDhHbjVtT3VRWHlBc2FwNGR2NTRaYVdiVWlMQlE4cUJmRDVpb0JZ?oc=5",
+      "press": "hellot.net",
+      "date": "2026-01-14",
+      "source": "google",
+      "firstSeenAt": "2026-08-06T04:25:12.059Z"
+    }
+  ]
+}

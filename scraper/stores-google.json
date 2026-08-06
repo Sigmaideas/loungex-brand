@@ -61,5 +61,12 @@
     "googlePlaceId": "ChIJYViQ86CYfDURPLeqd29ZgLI",
     "googleDisplayName": "라운지엑스 마포 프론트원점",
     "googleAddress": "서울특별시 마포구 마포대로 122 프론트원 1층"
+  },
+  {
+    "id": "store_ifc",
+    "name": "라운지엑스 IFC몰점",
+    "googlePlaceId": "ChIJu_PsIwCffDURc32DEgSLyNs",
+    "googleDisplayName": "라운지엑스 IFC몰점",
+    "googleAddress": "서울특별시 영등포구 국제금융로 10 라운지엑스 L1 151호"
   }
 ]

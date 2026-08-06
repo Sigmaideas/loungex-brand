@@ -60,6 +60,13 @@ npm run update
 npm run scrape    # 리뷰 수집 → data/reviews.json
 npm run analyze   # 감성분석 + 요약 → data/summary.json
 
+# 그 외 수집원 (각각 독립 실행)
+npm run update:google  # 구글 리뷰
+npm run update:app     # 앱 리뷰 (구글플레이 + 앱스토어)
+npm run rank           # 네이버 플레이스 검색 순위
+npm run trend          # 브랜드 검색 관심도 (NAVER_CLIENT_ID/SECRET 필요)
+npm run news           # 브랜드 뉴스 (구글 뉴스 RSS — 키 불필요)
+
 # 2) 대시보드 보기
 npm run dashboard
 # 브라우저에서 http://localhost:8080 접속
@@ -126,12 +133,22 @@ launchctl load ~/Library/LaunchAgents/com.loungex.scrape.plist
 ```
 loungex-brand-dashboard/
 ├── scraper/
-│   ├── stores.json     # 모니터링 대상 매장 리스트
-│   ├── scrape.js       # Playwright 리뷰 크롤러
-│   └── analyze.js      # Claude 감성분석 + 요약 생성
-├── data/               # 자동 생성 (git 무시)
+│   ├── stores.json        # 모니터링 대상 매장 리스트 (네이버)
+│   ├── stores-google.json # 매장 → 구글 place_id 매핑
+│   ├── rank-config.json   # 매장별 순위 추적 좌표 + 검색어
+│   ├── scrape.js          # Playwright 리뷰 크롤러
+│   ├── scrape-google.js   # 구글 Places API 리뷰 수집
+│   ├── scrape-app.js      # 구글플레이 + 앱스토어 앱 리뷰 수집
+│   ├── scrape-rank.js     # 네이버 플레이스 검색 순위 수집
+│   ├── scrape-trend.js    # 네이버 데이터랩 검색 트렌드
+│   ├── scrape-news.js     # 브랜드 뉴스 수집 (구글 뉴스 RSS + 네이버 뉴스 API)
+│   └── analyze.js         # 감성분석 + 요약 생성
+├── data/               # 자동 생성 (원시 리뷰는 git 무시)
 │   ├── reviews.json    # 원시 리뷰 + 감성 라벨
-│   └── summary.json    # 대시보드 입력 데이터
+│   ├── summary.json    # 대시보드 입력 데이터
+│   ├── rank.json       # 검색 순위 + 일자별 추이
+│   ├── trend.json      # 브랜드 검색 관심도
+│   └── news.json       # 브랜드 기사 누적 + 집계 (커밋됨)
 ├── dashboard/
 │   ├── index.html
 │   ├── style.css

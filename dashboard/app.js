@@ -9,6 +9,11 @@ let monthlyChart = null;
 let keywordsChart = null;
 let trendChart = null;
 let rankData = null;
+let newsData = null;
+let newsMonthlyChart = null;
+let newsPressChart = null;
+let newsTopicsChart = null;
+let newsSelectedYear = null;
 let selectedYear = null;
 let currentSource = 'naver';
 
@@ -19,6 +24,7 @@ const SOURCE_PAGE_TITLE = {
   google: '구글 리뷰 모니터링',
   app: '라운지엑스앱 모니터링',
   rank: '네이버 플레이스 검색 순위',
+  news: '라운지엑스 뉴스 모니터링',
 };
 
 const $ = (s) => document.querySelector(s);
@@ -43,14 +49,16 @@ function emptySummary() {
   };
 }
 
-function toggleView(isRank) {
-  $('#summaryView').hidden = isRank;
-  $('#rankView').hidden = !isRank;
+function toggleView(view) {
+  $('#summaryView').hidden = view !== 'summary';
+  $('#rankView').hidden = view !== 'rank';
+  $('#newsView').hidden = view !== 'news';
 }
 
 async function load() {
   if (currentSource === 'rank') return loadRank();
-  toggleView(false);
+  if (currentSource === 'news') return loadNews();
+  toggleView('summary');
   const file = SOURCE_SUMMARY_FILE[currentSource];
   const res = await fetch(`../data/${file}`, { cache: 'no-store' });
   if (res.status === 404) {
@@ -108,12 +116,12 @@ function render() {
   drawKeywords();
 }
 
-function kpiCard({ icon, label, value, sub, accent }) {
+function kpiCard({ icon, label, value, sub, accent, valueClass }) {
   return `
     <div class="kpi-card${accent ? ' accent' : ''}">
       <div class="kpi-icon"><i data-lucide="${icon}"></i></div>
       <span class="kpi-label">${label}</span>
-      <span class="kpi-value">${value}</span>
+      <span class="kpi-value${valueClass ? ' ' + valueClass : ''}">${value}</span>
       <span class="kpi-sub">${sub}</span>
     </div>`;
 }
@@ -156,7 +164,7 @@ function applySourceLayout() {
 
 // ===== 검색 순위 뷰 =====
 async function loadRank() {
-  toggleView(true);
+  toggleView('rank');
   $('#pageTitle').textContent = SOURCE_PAGE_TITLE.rank;
   const res = await fetch('../data/rank.json', { cache: 'no-store' });
   if (!res.ok) {
@@ -298,6 +306,260 @@ function renderRank() {
       </div>`;
   }
   $('#rankBody').innerHTML = html;
+}
+
+// ===== 뉴스 모니터링 뷰 =====
+const NEWS_PRESS_TOP_N = 9; // 나머지는 '기타' 로 묶음 — 조각이 많아지면 도넛이 읽히지 않음
+
+async function loadNews() {
+  toggleView('news');
+  $('#pageTitle').textContent = SOURCE_PAGE_TITLE.news;
+  const res = await fetch('../data/news.json', { cache: 'no-store' });
+  if (!res.ok) {
+    newsData = null;
+    $('#lastUpdated').textContent = '-';
+    $('#newsKpiRow').innerHTML = '';
+    $('#newsList').innerHTML =
+      '<p class="empty-msg">뉴스 데이터가 아직 없습니다. 데이터 갱신 후 표시됩니다.</p>';
+    return;
+  }
+  newsData = await res.json();
+  $('#lastUpdated').textContent = fmtDateTime(newsData.lastScrapedAt);
+  renderNews();
+}
+
+function renderNews() {
+  buildNewsKpis();
+  setupNewsYearSelector();
+  drawNewsMonthly();
+  drawNewsPress();
+  drawNewsTopics();
+  renderNewsList();
+}
+
+function buildNewsKpis() {
+  const d = newsData;
+  const cards = [
+    kpiCard({ icon: 'newspaper', label: '총 기사 수', value: (d.totalArticles || 0).toLocaleString(), sub: '누적 수집' }),
+    kpiCard({ icon: 'building-2', label: '보도 언론사', value: (d.pressCount || 0).toLocaleString(), sub: '곳' }),
+    kpiCard({ icon: 'calendar', label: '최신 기사', value: d.latestArticleDate || '-', sub: '가장 최근 보도일', valueClass: 'kpi-date' }),
+    kpiCard({ icon: 'activity', label: '월간 보도량', value: (d.monthlyActivity || 0).toLocaleString(), sub: '최근 30일 기사', accent: true }),
+  ];
+  $('#newsKpiRow').innerHTML = cards.join('');
+  if (window.lucide) window.lucide.createIcons();
+}
+
+function setupNewsYearSelector() {
+  const select = $('#newsYearSelect');
+  const years = (newsData.availableYears && newsData.availableYears.length)
+    ? newsData.availableYears
+    : [new Date().getFullYear()];
+  if (!newsSelectedYear || !years.includes(newsSelectedYear)) newsSelectedYear = years[0];
+  select.innerHTML = years
+    .map((y) => `<option value="${y}" ${y === newsSelectedYear ? 'selected' : ''}>${y}년</option>`)
+    .join('');
+  select.onchange = () => {
+    newsSelectedYear = Number(select.value);
+    drawNewsMonthly();
+  };
+}
+
+function drawNewsMonthly() {
+  const ctx = $('#newsMonthly');
+  if (newsMonthlyChart) newsMonthlyChart.destroy();
+  const byYear = newsData.monthlyByYear || {};
+  const months = byYear[newsSelectedYear] || Array.from({ length: 12 }, () => 0);
+  newsMonthlyChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: Array.from({ length: 12 }, (_, i) => `${i + 1}월`),
+      datasets: [
+        {
+          label: '기사 수',
+          data: months,
+          backgroundColor: '#4263eb',
+          borderRadius: 6,
+          borderSkipped: false,
+          maxBarThickness: 40,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#1f2329',
+          padding: 10,
+          titleFont: { family: 'Pretendard, sans-serif', size: 12, weight: '600' },
+          bodyFont: { family: 'Pretendard, sans-serif', size: 12 },
+          callbacks: { label: (c) => `${c.parsed.y.toLocaleString()}건` },
+        },
+      },
+      scales: {
+        x: {
+          grid: { display: false },
+          ticks: { color: '#9a9fa8', font: { family: 'Pretendard, sans-serif', size: 11 } },
+          border: { color: '#ececf1' },
+        },
+        y: {
+          beginAtZero: true,
+          ticks: { color: '#9a9fa8', font: { family: 'Pretendard, sans-serif', size: 11 }, precision: 0 },
+          grid: { color: '#f0f0f4' },
+          border: { display: false },
+        },
+      },
+    },
+  });
+}
+
+function drawNewsPress() {
+  const ctx = $('#newsPress');
+  if (newsPressChart) newsPressChart.destroy();
+  const all = newsData.pressBreakdown || [];
+  const top = all.slice(0, NEWS_PRESS_TOP_N);
+  const restCount = all.slice(NEWS_PRESS_TOP_N).reduce((sum, p) => sum + p.count, 0);
+  const hasRest = restCount > 0;
+  const items = hasRest ? [...top, { press: `기타 ${all.length - NEWS_PRESS_TOP_N}곳`, count: restCount }] : top;
+  // '기타'는 팔레트를 이어 쓰면 앞쪽 언론사 색과 겹쳐 보인다 → 회색 고정
+  const colors = items.map((_, i) => (hasRest && i === items.length - 1 ? '#c1c5cd' : PALETTE[i % PALETTE.length]));
+  $('#newsPressHint').textContent =
+    all.length > NEWS_PRESS_TOP_N ? `전체 누적 기준 · 상위 ${NEWS_PRESS_TOP_N}곳` : '전체 누적 기준';
+  if (items.length === 0) {
+    newsPressChart = null;
+    ctx.getContext('2d').clearRect(0, 0, ctx.width, ctx.height);
+    return;
+  }
+  const total = items.reduce((sum, p) => sum + p.count, 0);
+  newsPressChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: items.map((p) => p.press),
+      datasets: [
+        {
+          data: items.map((p) => p.count),
+          backgroundColor: colors,
+          borderWidth: 0,
+          hoverOffset: 6,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      cutout: '62%',
+      plugins: {
+        legend: {
+          position: 'right',
+          labels: {
+            color: '#495057',
+            boxWidth: 10,
+            boxHeight: 10,
+            padding: 12,
+            usePointStyle: true,
+            pointStyle: 'circle',
+            font: { family: 'Pretendard, sans-serif', size: 12, weight: '500' },
+          },
+        },
+        tooltip: {
+          backgroundColor: '#1f2329',
+          padding: 10,
+          titleFont: { family: 'Pretendard, sans-serif', size: 12, weight: '600' },
+          bodyFont: { family: 'Pretendard, sans-serif', size: 12 },
+          callbacks: {
+            label: (c) => `${c.label}: ${c.parsed.toLocaleString()}건 (${((c.parsed / total) * 100).toFixed(1)}%)`,
+          },
+        },
+      },
+    },
+  });
+}
+
+function drawNewsTopics() {
+  const ctx = $('#newsTopics');
+  if (newsTopicsChart) newsTopicsChart.destroy();
+  const items = newsData.topicFrequency || [];
+  if (items.length === 0) {
+    newsTopicsChart = null;
+    ctx.getContext('2d').clearRect(0, 0, ctx.width, ctx.height);
+    return;
+  }
+  newsTopicsChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: items.map((t) => t.word),
+      datasets: [
+        {
+          data: items.map((t) => t.count),
+          backgroundColor: '#4263eb',
+          borderRadius: 6,
+          borderSkipped: false,
+          barThickness: 'flex',
+          maxBarThickness: 22,
+        },
+      ],
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#1f2329',
+          padding: 10,
+          titleFont: { family: 'Pretendard, sans-serif', size: 12, weight: '600' },
+          bodyFont: { family: 'Pretendard, sans-serif', size: 12 },
+          callbacks: { label: (c) => `${c.parsed.x.toLocaleString()}개 기사에서 언급` },
+        },
+      },
+      scales: {
+        x: {
+          beginAtZero: true,
+          ticks: { color: '#9a9fa8', font: { family: 'Pretendard, sans-serif', size: 11 }, precision: 0 },
+          grid: { color: '#f0f0f4' },
+          border: { display: false },
+        },
+        y: {
+          ticks: { color: '#495057', font: { family: 'Pretendard, sans-serif', size: 12, weight: '500' } },
+          grid: { display: false },
+          border: { color: '#ececf1' },
+        },
+      },
+    },
+  });
+}
+
+function renderNewsList() {
+  const items = newsData.recentArticles || [];
+  if (items.length === 0) {
+    $('#newsList').innerHTML = '<p class="empty-msg">수집된 기사가 없습니다.</p>';
+    return;
+  }
+  // 수집 시점이 아니라 보도일 기준으로 월 구분 — 같은 날 여러 건이 흔해서 날짜만으로는 덩어리가 커짐
+  let html = '';
+  let lastMonth = null;
+  for (const a of items) {
+    const month = (a.date || '').slice(0, 7);
+    if (month && month !== lastMonth) {
+      lastMonth = month;
+      const [y, m] = month.split('-');
+      html += `<div class="news-month">${y}년 ${Number(m)}월</div>`;
+    }
+    html += `
+      <a class="news-item" href="${escapeHtml(a.link)}" target="_blank" rel="noopener noreferrer">
+        <div class="news-item-main">
+          <span class="news-title">${escapeHtml(a.title)}</span>
+          <span class="news-desc">${escapeHtml(a.description || '')}</span>
+        </div>
+        <div class="news-item-meta">
+          <span class="news-press">${escapeHtml(a.press)}</span>
+          <span class="news-date">${escapeHtml(a.date || '-')}</span>
+        </div>
+      </a>`;
+  }
+  $('#newsList').innerHTML = html;
 }
 
 const KEYWORD_COLOR = { positive: '#2f9e44', negative: '#e03131', neutral: '#4263eb' };
@@ -703,6 +965,23 @@ $('#refreshBtn').addEventListener('click', async () => {
   btn.disabled = true;
   btn.classList.add('spinning');
   const start = Date.now();
+
+  // 순위·뉴스는 서버의 리뷰 수집 파이프라인(/api/update) 대상이 아니다.
+  // 그대로 두면 뉴스 화면에서 누른 버튼이 네이버 리뷰 수집을 돌리게 되므로 다시 불러오기만 한다.
+  if (currentSource === 'rank' || currentSource === 'news') {
+    label.textContent = '불러오는 중...';
+    try {
+      await load();
+      showToast('데이터를 다시 불러왔습니다 (수집은 매일 자동 실행)', 3000);
+    } catch (e) {
+      showToast(`로드 실패: ${e.message}`, 4000);
+    } finally {
+      label.textContent = originalText;
+      btn.classList.remove('spinning');
+      btn.disabled = false;
+    }
+    return;
+  }
 
   // GitHub Pages 등 백엔드가 없는 환경: 단순히 summary.json 만 다시 불러옴
   if (!HAS_BACKEND) {
