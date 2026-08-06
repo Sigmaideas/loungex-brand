@@ -310,6 +310,28 @@ function renderRank() {
 
 // ===== 뉴스 모니터링 뷰 =====
 const NEWS_PRESS_TOP_N = 9; // 나머지는 '기타' 로 묶음 — 조각이 많아지면 도넛이 읽히지 않음
+const NEWS_RECENT_LIMIT = 120;
+const NEWS_TOPIC_TOP_N = 12;
+
+// 기사 제목·요약에서 잡아낼 주제어. 리뷰용 KEYWORD_GROUPS 는 카페 리뷰 전용이라 뉴스엔 부적합
+const NEWS_TOPIC_GROUPS = [
+  { label: '로봇·자동화', terms: ['로봇', '자동화', '바리스타', '무인'] },
+  { label: '투자·유치', terms: ['투자', '유치', '시리즈', '펀딩', '라운드'] },
+  { label: '신규 매장·출점', terms: ['오픈', '출점', '입점', '개점', '매장 확대', '1호점'] },
+  { label: 'AI·기술', terms: ['ai', '인공지능', '기술', '특허', '알고리즘', '휴머노이드'] },
+  { label: '프랜차이즈·가맹', terms: ['프랜차이즈', '가맹', '창업'] },
+  { label: '수상·선정', terms: ['수상', '선정', '어워드', '대상', '우수'] },
+  { label: '제휴·협업', terms: ['제휴', '협업', '협약', 'mou', '파트너', '맞손'] },
+  { label: '해외·수출', terms: ['해외', '수출', '글로벌', '진출'] },
+  { label: '매출·실적', terms: ['매출', '실적', '흑자', '성장률'] },
+  { label: '카페·커피', terms: ['카페', '커피', '원두', '음료'] },
+  { label: '디저트·베이커리', terms: ['디저트', '베이커리', '케이크', '빵'] },
+  { label: '푸드테크·외식', terms: ['푸드테크', '외식', '식음료', 'f&b'] },
+];
+
+// 'brand' = '라운지엑스' 를 직접 언급한 기사, 'all' = 운영사(엑스와이지) 기사까지 포함
+let newsScope = 'brand';
+let newsAgg = null;
 
 async function loadNews() {
   toggleView('news');
@@ -319,16 +341,87 @@ async function loadNews() {
     newsData = null;
     $('#lastUpdated').textContent = '-';
     $('#newsKpiRow').innerHTML = '';
+    $('#newsScopeTabs').innerHTML = '';
     $('#newsList').innerHTML =
       '<p class="empty-msg">뉴스 데이터가 아직 없습니다. 데이터 갱신 후 표시됩니다.</p>';
     return;
   }
   newsData = await res.json();
   $('#lastUpdated').textContent = fmtDateTime(newsData.lastScrapedAt);
+  renderNewsScopeTabs();
   renderNews();
 }
 
+function newsArticles() {
+  const all = newsData.articles || [];
+  return newsScope === 'brand' ? all.filter((a) => a.scope === 'brand') : all;
+}
+
+// 집계는 선택된 scope 기준으로 그때그때 계산한다 (기사 수가 수백 건이라 비용이 없다)
+function aggregateNews(articles) {
+  const dated = articles.filter((a) => a.date);
+
+  const monthlyByYear = {};
+  for (const a of dated) {
+    const [y, m] = a.date.split('-');
+    if (!monthlyByYear[y]) monthlyByYear[y] = Array.from({ length: 12 }, () => 0);
+    monthlyByYear[y][Number(m) - 1]++;
+  }
+
+  const pressCount = new Map();
+  for (const a of articles) pressCount.set(a.press, (pressCount.get(a.press) || 0) + 1);
+
+  const topics = NEWS_TOPIC_GROUPS.map((g) => ({ word: g.label, count: 0 }));
+  for (const a of articles) {
+    const text = `${a.title} ${a.description || ''}`.toLowerCase();
+    NEWS_TOPIC_GROUPS.forEach((g, i) => {
+      if (g.terms.some((t) => text.includes(t))) topics[i].count++;
+    });
+  }
+
+  const cutoff = new Date(Date.now() - 30 * 24 * 3600 * 1000).toISOString().slice(0, 10);
+  const sorted = [...dated].sort((a, b) => b.date.localeCompare(a.date));
+
+  return {
+    totalArticles: articles.length,
+    monthlyActivity: dated.filter((a) => a.date >= cutoff).length,
+    pressCount: pressCount.size,
+    latestArticleDate: sorted[0]?.date || null,
+    monthlyByYear,
+    availableYears: Object.keys(monthlyByYear).map(Number).sort((a, b) => b - a),
+    pressBreakdown: [...pressCount.entries()]
+      .map(([press, count]) => ({ press, count }))
+      .sort((a, b) => b.count - a.count),
+    topicFrequency: topics.filter((t) => t.count > 0).sort((a, b) => b.count - a.count).slice(0, NEWS_TOPIC_TOP_N),
+    recentArticles: sorted.slice(0, NEWS_RECENT_LIMIT),
+  };
+}
+
+function renderNewsScopeTabs() {
+  const brand = newsData.brandArticles ?? 0;
+  const total = newsData.totalArticles ?? 0;
+  $('#newsScopeTabs').innerHTML = [
+    { key: 'brand', label: `라운지엑스 ${brand}건` },
+    { key: 'all', label: `운영사 포함 ${total}건` },
+  ]
+    .map(
+      (t) =>
+        `<button class="scope-tab${newsScope === t.key ? ' active' : ''}" data-scope="${t.key}">${t.label}</button>`
+    )
+    .join('');
+  $('#newsScopeTabs').querySelectorAll('.scope-tab').forEach((btn) => {
+    btn.onclick = () => {
+      if (newsScope === btn.dataset.scope) return;
+      newsScope = btn.dataset.scope;
+      newsSelectedYear = null; // scope 마다 기사가 있는 연도가 다르다
+      renderNewsScopeTabs();
+      renderNews();
+    };
+  });
+}
+
 function renderNews() {
+  newsAgg = aggregateNews(newsArticles());
   buildNewsKpis();
   setupNewsYearSelector();
   drawNewsMonthly();
@@ -338,12 +431,13 @@ function renderNews() {
 }
 
 function buildNewsKpis() {
-  const d = newsData;
+  const d = newsAgg;
+  const scopeSub = newsScope === 'brand' ? "'라운지엑스' 언급 기사" : '운영사 기사 포함';
   const cards = [
-    kpiCard({ icon: 'newspaper', label: '총 기사 수', value: (d.totalArticles || 0).toLocaleString(), sub: '누적 수집' }),
-    kpiCard({ icon: 'building-2', label: '보도 언론사', value: (d.pressCount || 0).toLocaleString(), sub: '곳' }),
+    kpiCard({ icon: 'newspaper', label: '총 기사 수', value: d.totalArticles.toLocaleString(), sub: scopeSub }),
+    kpiCard({ icon: 'building-2', label: '보도 언론사', value: d.pressCount.toLocaleString(), sub: '곳' }),
     kpiCard({ icon: 'calendar', label: '최신 기사', value: d.latestArticleDate || '-', sub: '가장 최근 보도일', valueClass: 'kpi-date' }),
-    kpiCard({ icon: 'activity', label: '월간 보도량', value: (d.monthlyActivity || 0).toLocaleString(), sub: '최근 30일 기사', accent: true }),
+    kpiCard({ icon: 'activity', label: '월간 보도량', value: d.monthlyActivity.toLocaleString(), sub: '최근 30일 기사', accent: true }),
   ];
   $('#newsKpiRow').innerHTML = cards.join('');
   if (window.lucide) window.lucide.createIcons();
@@ -351,8 +445,8 @@ function buildNewsKpis() {
 
 function setupNewsYearSelector() {
   const select = $('#newsYearSelect');
-  const years = (newsData.availableYears && newsData.availableYears.length)
-    ? newsData.availableYears
+  const years = (newsAgg.availableYears && newsAgg.availableYears.length)
+    ? newsAgg.availableYears
     : [new Date().getFullYear()];
   if (!newsSelectedYear || !years.includes(newsSelectedYear)) newsSelectedYear = years[0];
   select.innerHTML = years
@@ -367,7 +461,7 @@ function setupNewsYearSelector() {
 function drawNewsMonthly() {
   const ctx = $('#newsMonthly');
   if (newsMonthlyChart) newsMonthlyChart.destroy();
-  const byYear = newsData.monthlyByYear || {};
+  const byYear = newsAgg.monthlyByYear || {};
   const months = byYear[newsSelectedYear] || Array.from({ length: 12 }, () => 0);
   newsMonthlyChart = new Chart(ctx, {
     type: 'bar',
@@ -417,7 +511,7 @@ function drawNewsMonthly() {
 function drawNewsPress() {
   const ctx = $('#newsPress');
   if (newsPressChart) newsPressChart.destroy();
-  const all = newsData.pressBreakdown || [];
+  const all = newsAgg.pressBreakdown || [];
   const top = all.slice(0, NEWS_PRESS_TOP_N);
   const restCount = all.slice(NEWS_PRESS_TOP_N).reduce((sum, p) => sum + p.count, 0);
   const hasRest = restCount > 0;
@@ -479,7 +573,7 @@ function drawNewsPress() {
 function drawNewsTopics() {
   const ctx = $('#newsTopics');
   if (newsTopicsChart) newsTopicsChart.destroy();
-  const items = newsData.topicFrequency || [];
+  const items = newsAgg.topicFrequency || [];
   if (items.length === 0) {
     newsTopicsChart = null;
     ctx.getContext('2d').clearRect(0, 0, ctx.width, ctx.height);
@@ -532,7 +626,7 @@ function drawNewsTopics() {
 }
 
 function renderNewsList() {
-  const items = newsData.recentArticles || [];
+  const items = newsAgg.recentArticles || [];
   if (items.length === 0) {
     $('#newsList').innerHTML = '<p class="empty-msg">수집된 기사가 없습니다.</p>';
     return;

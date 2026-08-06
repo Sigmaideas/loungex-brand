@@ -17,6 +17,8 @@ const RANK_PATH = path.join(__dirname, '..', 'data', 'rank.json');
 const GRAPHQL_URL = 'https://api.place.naver.com/place/graphql';
 const DISPLAY = 100; // 100위까지 조회
 const HISTORY_MAX = 90; // 추이 보관 일수
+const RETRIES = 3; // 405 차단 대응 재시도 횟수
+const RETRY_BACKOFF_MS = 2500; // 재시도 간격 (시도마다 배수로 증가)
 const UA =
   'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1';
 
@@ -54,16 +56,23 @@ async function fetchRank(keyword, placeId, coord) {
       query: QUERY,
     },
   ]);
-  const res = await fetch(GRAPHQL_URL, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'User-Agent': UA,
-      Origin: 'https://m.place.naver.com',
-      Referer: 'https://m.place.naver.com/',
-    },
-    body,
-  });
+  // 네이버가 연속 호출을 간헐적으로 405 로 막는다(특히 GitHub Actions IP).
+  // 한 번 실패했다고 그 날 그 키워드 순위를 통째로 버리면 추이에 구멍이 생기므로 물러섰다 재시도한다.
+  let res;
+  for (let attempt = 0; attempt < RETRIES; attempt++) {
+    if (attempt > 0) await sleep(RETRY_BACKOFF_MS * attempt);
+    res = await fetch(GRAPHQL_URL, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'User-Agent': UA,
+        Origin: 'https://m.place.naver.com',
+        Referer: 'https://m.place.naver.com/',
+      },
+      body,
+    });
+    if (res.ok) break;
+  }
   if (!res.ok) throw new Error(`graphql ${res.status}`);
   const j = await res.json();
   const biz = j[0]?.data?.placeList?.businesses;
@@ -109,7 +118,7 @@ async function main() {
       } catch (e) {
         log(`실패: ${store.name} · "${keyword}" — ${e.message}`);
       }
-      await sleep(400);
+      await sleep(1200);
     }
   }
 

@@ -9,7 +9,9 @@
  * 기사는 시간이 지나면 검색 결과에서 밀려나므로 제목 기준 dedup 으로 누적한다.
  * 공개 정보라 캐시 대신 data/news.json 을 커밋해 그 파일 자체를 누적 저장소로 쓴다.
  *
- * 집계(월별/언론사별/주제어)까지 같은 파일에 담아 대시보드가 그대로 그리게 한다.
+ * 기사마다 scope('brand' = 라운지엑스 직접 언급 / 'operator' = 운영사 기사)를 붙여두고,
+ * 월별·언론사별·주제어 집계는 대시보드가 선택된 scope 로 직접 계산한다
+ * (토글 즉시 반응 + 집계 기준이 한 군데에만 존재).
  */
 require('dotenv').config();
 const fs = require('fs').promises;
@@ -20,7 +22,6 @@ const GOOGLE_RSS = 'https://news.google.com/rss/search';
 const NAVER_API = 'https://openapi.naver.com/v1/search/news.json';
 const NAVER_DISPLAY = 100;
 const NAVER_MAX_START = 1000; // API 상한 (start + display <= 1000)
-const RECENT_LIMIT = 120; // 대시보드 표에 넘길 최근 기사 수
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
 
 // 브랜드 표기 흔들림을 커버. 결과는 제목 기준으로 합쳐진다.
@@ -28,29 +29,19 @@ const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
 const QUERIES = ['라운지엑스', '라운지엑스24h', '라운지X 로봇카페', '라운지랩', '엑스와이지 로봇', 'loungex 카페'];
 
 // 검색 결과에는 '라운지'+'엑스'가 따로 걸린 무관 기사(롯데면세점 스타라운지, 펀디엑스 등)가 섞인다.
-// 제목·요약에 브랜드 표기가 실제로 등장하는 기사만 남긴다
-const BRAND_TOKENS = ['라운지엑스', '라운지x', 'loungex', 'loungelab', '라운지랩', '엑스와이지'];
-const isBrandArticle = (a) => {
-  const t = `${a.title} ${a.description || ''}`.toLowerCase().replace(/[\s'’·]+/g, '');
-  return BRAND_TOKENS.some((tok) => t.includes(tok));
+// 제목·요약에 아래 표기가 실제로 등장하는 기사만 남긴다.
+//  brand    = 매장 브랜드 '라운지엑스' 를 직접 언급한 기사
+//  operator = 운영사(라운지랩=구 사명, 엑스와이지=현 사명) 기사. 브랜드 기사가 이 이름으로 나오기도 해서
+//             버리진 않지만, 대시보드에서 기본으로는 브랜드 기사만 보여준다
+const BRAND_TOKENS = ['라운지엑스', '라운지x', 'loungex'];
+const OPERATOR_TOKENS = ['라운지랩', 'loungelab', '엑스와이지'];
+const normalize = (a) => `${a.title} ${a.description || ''}`.toLowerCase().replace(/[\s'’·]+/g, '');
+const scopeOf = (a) => {
+  const t = normalize(a);
+  if (BRAND_TOKENS.some((tok) => t.includes(tok))) return 'brand';
+  if (OPERATOR_TOKENS.some((tok) => t.includes(tok))) return 'operator';
+  return null; // 무관 기사
 };
-
-// 기사 제목·요약에서 잡아낼 주제어. 리뷰용 KEYWORD_GROUPS 는 카페 리뷰 전용이라 뉴스엔 부적합
-const TOPIC_GROUPS = [
-  { label: '로봇·자동화', terms: ['로봇', '자동화', '바리스타', '무인'] },
-  { label: '투자·유치', terms: ['투자', '유치', '시리즈', '펀딩', '라운드'] },
-  { label: '신규 매장·출점', terms: ['오픈', '출점', '입점', '개점', '매장 확대', '1호점'] },
-  { label: 'AI·기술', terms: ['ai', '인공지능', '기술', '특허', '알고리즘', '휴머노이드'] },
-  { label: '프랜차이즈·가맹', terms: ['프랜차이즈', '가맹', '창업'] },
-  { label: '수상·선정', terms: ['수상', '선정', '어워드', '대상', '우수'] },
-  { label: '제휴·협업', terms: ['제휴', '협업', '협약', 'mou', '파트너', '맞손'] },
-  { label: '해외·수출', terms: ['해외', '수출', '글로벌', '진출'] },
-  { label: '매출·실적', terms: ['매출', '실적', '흑자', '성장률'] },
-  { label: '카페·커피', terms: ['카페', '커피', '원두', '음료'] },
-  { label: '디저트·베이커리', terms: ['디저트', '베이커리', '케이크', '빵'] },
-  { label: '푸드테크·외식', terms: ['푸드테크', '외식', '식음료', 'f&b'] },
-];
-const TOPIC_TOP_N = 12;
 
 // 네이버 API 는 언론사명을 주지 않아 originallink 도메인으로 판별한다
 const PRESS_BY_DOMAIN = {
@@ -207,49 +198,6 @@ function dedupe(prev, fresh, runIso) {
   return { merged: [...byKey.values()], added };
 }
 
-function aggregate(articles) {
-  const dated = articles.filter((a) => a.date);
-
-  // 월별 기사 수 (연도별 12칸 배열) — 리뷰 대시보드의 monthlySentimentByYear 와 같은 형태
-  const monthlyByYear = {};
-  for (const a of dated) {
-    const [y, m] = a.date.split('-');
-    if (!monthlyByYear[y]) monthlyByYear[y] = Array.from({ length: 12 }, () => 0);
-    monthlyByYear[y][Number(m) - 1]++;
-  }
-  const availableYears = Object.keys(monthlyByYear).map(Number).sort((a, b) => b - a);
-
-  const pressCount = new Map();
-  for (const a of articles) pressCount.set(a.press, (pressCount.get(a.press) || 0) + 1);
-  const pressBreakdown = [...pressCount.entries()]
-    .map(([press, count]) => ({ press, count }))
-    .sort((a, b) => b.count - a.count);
-
-  const topics = TOPIC_GROUPS.map((g) => ({ word: g.label, count: 0 }));
-  for (const a of articles) {
-    const text = `${a.title} ${a.description}`.toLowerCase();
-    TOPIC_GROUPS.forEach((g, i) => {
-      if (g.terms.some((t) => text.includes(t))) topics[i].count++;
-    });
-  }
-  const topicFrequency = topics.filter((t) => t.count > 0).sort((a, b) => b.count - a.count).slice(0, TOPIC_TOP_N);
-
-  const cutoff = new Date(Date.now() - 30 * 24 * 3600 * 1000).toISOString().slice(0, 10);
-  const sorted = [...dated].sort((a, b) => b.date.localeCompare(a.date));
-
-  return {
-    totalArticles: articles.length,
-    monthlyActivity: dated.filter((a) => a.date >= cutoff).length,
-    pressCount: pressCount.size,
-    latestArticleDate: sorted[0]?.date || null,
-    monthlyByYear,
-    availableYears,
-    pressBreakdown,
-    topicFrequency,
-    recentArticles: sorted.slice(0, RECENT_LIMIT),
-  };
-}
-
 async function main() {
   const fresh = [];
 
@@ -284,22 +232,31 @@ async function main() {
     return;
   }
 
-  const relevant = fresh.filter(isBrandArticle);
-  log(`관련 기사 ${relevant.length}건 / 검색 결과 ${fresh.length}건 (브랜드 미언급 ${fresh.length - relevant.length}건 제외)`);
+  const relevant = fresh.filter((a) => scopeOf(a));
+  log(`관련 기사 ${relevant.length}건 / 검색 결과 ${fresh.length}건 (브랜드·운영사 미언급 ${fresh.length - relevant.length}건 제외)`);
 
   const existing = await loadExisting();
   const runIso = new Date().toISOString();
   const { merged, added } = dedupe(existing.articles || [], relevant, runIso);
 
+  // scope 는 제목·요약에서 매번 다시 계산한다 — 판정 규칙을 고쳐도 기존 누적분이 알아서 갱신됨
+  for (const a of merged) a.scope = scopeOf(a);
+  const articles = merged
+    .filter((a) => a.scope)
+    .sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
+
+  const brandCount = articles.filter((a) => a.scope === 'brand').length;
   const out = {
     lastScrapedAt: runIso,
     queries: QUERIES,
-    ...aggregate(merged),
-    articles: merged,
+    totalArticles: articles.length,
+    brandArticles: brandCount,
+    operatorArticles: articles.length - brandCount,
+    articles,
   };
   await fs.mkdir(path.dirname(OUT_PATH), { recursive: true });
   await fs.writeFile(OUT_PATH, JSON.stringify(out, null, 2), 'utf8');
-  log(`저장 완료: 누적 ${merged.length}건 (신규 +${added}건, 언론사 ${out.pressCount}곳) → ${OUT_PATH}`);
+  log(`저장 완료: 누적 ${articles.length}건 (신규 +${added}건 · 브랜드 ${brandCount} / 운영사 ${articles.length - brandCount}) → ${OUT_PATH}`);
 }
 
 main().catch((err) => {
