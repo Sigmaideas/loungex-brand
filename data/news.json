@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-06T07:37:26.611Z",
+  "lastScrapedAt": "2026-08-06T08:09:09.827Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,9 +15,9 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 142,
+  "totalArticles": 143,
   "brandArticles": 36,
-  "operatorArticles": 105,
+  "operatorArticles": 106,
   "overseasArticles": 1,
   "articles": [
     {
@@ -976,6 +976,17 @@
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
       "scope": "operator",
       "region": "kr"
+    },
+    {
+      "title": "\"로봇 서비스 일상 확산\"…엑스와이지, 130억 시리즈B 투자유치",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9DV2M0clRTQXA3QjI5U2xSVHJqVW1VMUswVUVkWUttU2Z1YVdZOENpN3R3ZTZ1Um1GdDRrNnMtSTNZekhoXzEtTnBFQzBaVjBtSTNiWWowcHFqdXlJd1I5aGJFV1NJb1hkZVpPVg?oc=5",
+      "press": "유니콘팩토리",
+      "date": "2026-03-09",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-06T08:09:09.827Z",
+      "scope": "operator"
     },
     {
       "title": "엑스와이지, ‘독자 AI 파운데이션 모델’ 국책과제 참여",

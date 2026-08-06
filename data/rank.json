@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-06T06:57:22.290Z",
+  "lastScrapedAt": "2026-08-06T08:09:00.835Z",
   "updatedDate": "2026-08-06",
   "records": {
     "store_seongsu|성수 카페": {
@@ -404,11 +404,15 @@
         {
           "date": "2026-08-01",
           "rank": null
+        },
+        {
+          "date": "2026-08-06",
+          "rank": null
         }
       ],
       "prevRank": null,
       "rank": null,
-      "total": 1342
+      "total": 1343
     },
     "store_seoulforest_ak|서울숲 로봇카페": {
       "storeId": "store_seoulforest_ak",
@@ -742,7 +746,7 @@
       ],
       "prevRank": null,
       "rank": null,
-      "total": 13166
+      "total": 13167
     },
     "store_gangnam|강남 로봇카페": {
       "storeId": "store_gangnam",
@@ -956,7 +960,7 @@
           "rank": 15
         }
       ],
-      "prevRank": 14,
+      "prevRank": 15,
       "rank": 15,
       "total": 137
     },
@@ -1066,7 +1070,7 @@
           "rank": 48
         }
       ],
-      "prevRank": 25,
+      "prevRank": 48,
       "rank": 48,
       "total": 4016
     },
@@ -1380,9 +1384,9 @@
           "rank": 80
         }
       ],
-      "prevRank": null,
+      "prevRank": 80,
       "rank": 80,
-      "total": 7710
+      "total": 7711
     },
     "store_yongsan_prime|용산 로봇카페": {
       "storeId": "store_yongsan_prime",
@@ -1984,9 +1988,9 @@
           "rank": 9
         }
       ],
-      "prevRank": 4,
+      "prevRank": 9,
       "rank": 9,
-      "total": 2164
+      "total": 2163
     },
     "store_sangam_dmc|상암 로봇카페": {
       "storeId": "store_sangam_dmc",
@@ -2554,7 +2558,7 @@
           "rank": 7
         }
       ],
-      "prevRank": null,
+      "prevRank": 7,
       "rank": 7,
       "total": 2178
     },
@@ -2582,9 +2586,9 @@
           "rank": 20
         }
       ],
-      "prevRank": null,
+      "prevRank": 20,
       "rank": 20,
-      "total": 5008
+      "total": 5009
     },
     "store_ifc|여의도역 카페": {
       "storeId": "store_ifc",
@@ -2596,7 +2600,7 @@
           "rank": 30
         }
       ],
-      "prevRank": null,
+      "prevRank": 30,
       "rank": 30,
       "total": 1046
     },
@@ -2610,9 +2614,9 @@
           "rank": 75
         }
       ],
-      "prevRank": null,
+      "prevRank": 75,
       "rank": 75,
-      "total": 3738
+      "total": 3739
     }
   }
 }
