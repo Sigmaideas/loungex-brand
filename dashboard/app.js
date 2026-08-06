@@ -331,7 +331,7 @@ const NEWS_TOPIC_GROUPS = [
 
 // 탭 세 개는 서로 겹치지 않는다 — 각각 따로 본다.
 //  brand    = 국내 · 매장 브랜드 '라운지엑스' 기사
-//  operator = 국내 · 운영사 '엑스와이지'(구 라운지랩) 기사
+//  operator = 국내 · 운영사 '엑스와이지' 기사
 //  overseas = 해외 매체 보도 (언어권 무관)
 let newsScope = 'brand';
 let newsAgg = null;
@@ -419,8 +419,8 @@ function renderNewsScopeTabs() {
     .join('');
   $('#newsScopeHint').textContent = {
     brand: "'라운지엑스'를 직접 언급한 국내 기사",
-    operator: '엑스와이지 = 라운지엑스 운영사 (구 사명 라운지랩)',
-    overseas: '해외 매체는 주로 \'Lounge Lab\' 표기로 보도 — 절대량이 적습니다',
+    operator: '엑스와이지 = 라운지엑스 운영사',
+    overseas: '해외 매체 보도 — 절대량이 적습니다',
   }[newsScope];
   $('#newsScopeTabs').querySelectorAll('.scope-tab').forEach((btn) => {
     btn.onclick = () => {

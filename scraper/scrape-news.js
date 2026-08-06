@@ -25,17 +25,16 @@ const NAVER_MAX_START = 1000; // API 상한 (start + display <= 1000)
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
 
 // 브랜드 표기 흔들림을 커버. 결과는 제목 기준으로 합쳐진다.
-// 라운지랩=구 사명, 엑스와이지=현 사명 — 매장 브랜드 기사가 이 이름으로도 나온다
-const QUERIES = ['라운지엑스', '라운지엑스24h', '라운지X 로봇카페', '라운지랩', '엑스와이지 로봇', 'loungex 카페'];
+// 엑스와이지 = 현 운영사 사명 — 매장 브랜드 기사가 이 이름으로도 나온다.
+// 구 사명 '라운지랩' 은 제외 — 걸리는 기사가 전부 2019~2022년이라 현재 브랜드 상황과 무관하다
+const QUERIES = ['라운지엑스', '라운지엑스24h', '라운지X 로봇카페', '엑스와이지 로봇', 'loungex 카페'];
 
-// 해외 보도는 국문 검색에 거의 안 걸리고, 영문권에서는 'Lounge Lab' 표기가 주로 쓰인다.
+// 해외 보도는 국문 검색에 거의 안 걸린다.
 // 로케일을 바꿔 따로 훑는다 (구글 뉴스는 hl/gl/ceid 로 언어권이 갈린다)
 const INTL_QUERIES = [
-  { q: '"Lounge Lab" robot', hl: 'en-US', gl: 'US', ceid: 'US:en' },
-  { q: 'LOUNGELAB', hl: 'en-US', gl: 'US', ceid: 'US:en' },
   { q: "LOUNGE'X robot cafe", hl: 'en-US', gl: 'US', ceid: 'US:en' },
+  { q: 'LOUNGEX Korea robot cafe', hl: 'en-US', gl: 'US', ceid: 'US:en' },
   { q: 'Barisbrew robot cafe', hl: 'en-US', gl: 'US', ceid: 'US:en' },
-  { q: 'ARIS robot ice cream Lounge', hl: 'en-US', gl: 'US', ceid: 'US:en' },
   { q: 'XYZ robot barista Korea', hl: 'en-US', gl: 'US', ceid: 'US:en' },
   { q: 'ラウンジエックス ロボットカフェ', hl: 'ja', gl: 'JP', ceid: 'JP:ja' },
   { q: '韩国 机器人咖啡 Lounge', hl: 'zh-CN', gl: 'CN', ceid: 'CN:zh-Hans' },
@@ -44,10 +43,10 @@ const INTL_QUERIES = [
 // 검색 결과에는 '라운지'+'엑스'가 따로 걸린 무관 기사(롯데면세점 스타라운지, 펀디엑스 등)가 섞인다.
 // 제목·요약에 아래 표기가 실제로 등장하는 기사만 남긴다.
 //  brand    = 매장 브랜드 '라운지엑스' 를 직접 언급한 기사
-//  operator = 운영사(라운지랩=구 사명, 엑스와이지=현 사명) 기사. 브랜드 기사가 이 이름으로 나오기도 해서
+//  operator = 운영사(엑스와이지) 기사. 브랜드 기사가 이 이름으로 나오기도 해서
 //             버리진 않지만, 대시보드에서 기본으로는 브랜드 기사만 보여준다
 const BRAND_TOKENS = ['라운지엑스', '라운지x', 'loungex'];
-const OPERATOR_TOKENS = ['라운지랩', 'loungelab', '엑스와이지'];
+const OPERATOR_TOKENS = ['엑스와이지'];
 const normalize = (a) => `${a.title} ${a.description || ''}`.toLowerCase().replace(/[\s'’·]+/g, '');
 const scopeOf = (a) => {
   const t = normalize(a);
@@ -56,8 +55,8 @@ const scopeOf = (a) => {
   return null; // 무관 기사
 };
 
-// 해외 판정은 국내보다 빡빡하게. 라틴 문자권에서 'Lounge Lab' 은 동명이인이 많아
-// (포틀랜드 광장 시설, 아디다스 LOUNGE X 팝업 등) 브랜드 표기만으로는 못 거른다.
+// 해외 판정은 국내보다 빡빡하게. 라틴 문자권에서 'LOUNGE X' 는 동명이인이 많아
+// (아디다스 LOUNGE X 팝업 등) 브랜드 표기만으로는 못 거른다.
 // → 브랜드 표기 + 로봇/카페 맥락이 같이 있어야 하고, 알려진 동명 케이스는 명시적으로 뺀다
 const INTL_BRAND_TOKENS = [...BRAND_TOKENS, ...OPERATOR_TOKENS, 'barisbrew', '바리스브루'];
 const INTL_ANCHORS = ['robot', 'cafe', 'café', 'coffee', 'barista', 'icecream', 'kiosk', 'foodtech',

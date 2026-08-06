@@ -1,27 +1,24 @@
 {
-  "lastScrapedAt": "2026-08-06T07:04:15.040Z",
+  "lastScrapedAt": "2026-08-06T07:37:26.611Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
     "라운지X 로봇카페",
-    "라운지랩",
     "엑스와이지 로봇",
     "loungex 카페"
   ],
   "intlQueries": [
-    "\"Lounge Lab\" robot",
-    "LOUNGELAB",
     "LOUNGE'X robot cafe",
+    "LOUNGEX Korea robot cafe",
     "Barisbrew robot cafe",
-    "ARIS robot ice cream Lounge",
     "XYZ robot barista Korea",
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 193,
+  "totalArticles": 142,
   "brandArticles": 36,
-  "operatorArticles": 154,
-  "overseasArticles": 3,
+  "operatorArticles": 105,
+  "overseasArticles": 1,
   "articles": [
     {
       "title": "엑스와이지 로봇카페 ‘바리스브루’, 피크타임에도 음료 제조 평균 3분대 기록",
@@ -1399,121 +1396,11 @@
       "region": "kr"
     },
     {
-      "title": "라운지랩, 자율주행 로봇 스타트업 코봇 인수하고 ‘XYZ’로 사명 변경",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1rbUlLYXZSUjNyS0gtaDc0Nm1PamlCcWhxWmZBLW52T1BmMmVLeVY0QV9SYUZYWTJYZDdKNlB5eER4VmpaU2pfRHN5bDV2Zw?oc=5",
-      "press": "벤처스퀘어",
-      "date": "2022-08-01",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "로봇 기업 라운지랩, 자율주행 로봇 스타트업 ‘코봇’ 인수",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9hbHE1Rmdpdl82UWJvQTF1c001VUp3Y3B2T2t6emViMnZyVEpHZG16Znc3azBlSWZ2QlN2Y3gzWVN6enl4Y19qQzBFdGpuTzNuZjNZbjJuSDY3VDY0emxHRFpRYXRDTFV1LTlaczZYTl9kb3c0VkHSAWZBVV95cUxQRTZuRE8zWnRwNW56SUdTeGVEa09zUkdCWFUtLWpXZWN1RDVrOTVmVFhjV2dsSW1ob3p3NDg3VTdVTUM1YWhnMDZlcUFWeGV0VHNqOE9BMDBKOG5ydFh2UkxUaGdUV0E?oc=5",
-      "press": "동아일보",
-      "date": "2022-08-01",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
       "title": "엑스와이지, 자율주행 로봇 스타트업 ‘코봇’ 인수",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8tRFZLSXpwdWM0eWtuN20ya1BsRWswUld1WFRDSW9RSl9xTlViY3ZLTGl4VHU4SHFxOHNwc00ydzNwQ3ZjUDNrWA?oc=5",
       "press": "플래텀(Platum)",
       "date": "2022-08-01",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, '코봇' 인수하고 'XYZ'로 사명 변경",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE02TjdBX0VVSkl0Ry1UaThhbktMVzZyWnYxR0hMMzhlOE9xaWVPUnZFM1JTSUpIZ3R3dm1obHBzbjRZUkRoVlhnT0VaRU1TZkROMkE2cnp5Nk9FMDZXRlV6WEpYZUMtdkk3QmRV?oc=5",
-      "press": "한경매거진&북",
-      "date": "2022-08-01",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, 식음료 리테일 스타트업 ‘엠비치오넴’ 인수",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9EMFBmWkJSdjRHWXZRbWhCTUdrSHpkZVJfaG0xZXFnQXEwdmVpQU0tX0E1X1BxUUxfN25wT3FqNmFXMkV1NTlsYnVMLVRianBFemRoWnN6Q2VUZEV2LUE?oc=5",
-      "press": "hellot.net",
-      "date": "2022-07-26",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, 엠비치오넴 인수…로봇 기반 리테일비즈니스 성장시킨다",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9BWUFUQlBhUXJ5MGJHN0NZZGtqMFllQkZBeGhRSUdCS2t5ekF3QkxvWFRlZVpNUzYxdU1vZEo0cXFuZUpn?oc=5",
-      "press": "산업일보",
-      "date": "2022-07-26",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, 식음료 리테일 스타트업 '엠비치오넴' 인수 - 머니투데이",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9yY3phbmlOSURqNlVVSWpydXl5SjZyd0Jnb3dPWnFyMTFGQkZjTkI3V2ZqTGplZ2ZWX2JlRndjZFQxX0oyc0lHNkFGZ2wxWE12RjJYVko5a05sbVI5d2RVeGM2LU1kTFJSWkHSAW9BVV95cUxObmlKRmdFLTdnMXpfWXM1UmFjSzlESEJsZy1WNE9YbXJHZmwxemRmRlpFSm52OG4yMHRIRGZ2VXhGTWw0UFFHeVZMRXpFVWlBXzVtRW9JNHpWMW5ONEE2cC0yc21JQlM1NjhLOEVYRlU?oc=5",
-      "press": "머니투데이",
-      "date": "2022-07-26",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "'발명왕' 황성재의 로봇 스타트업 라운지랩, 식음료 스타트업 엠비치오넴 인수",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9zeUJrTzZ5RzhMSXdvNG14Q2hoc3o2NFVLN0dpdmVOMjhBSW91UU1iMVpqSFlQblRmN3dOeFhwbzVYUG9YSU9fYkJyTkpKLU5sMTZ4UXJ4dzQzVWZkXy1wZkpaNDYyYWV6X3NYYWN30gFzQVVfeXFMUDZab3BuYWlXR3o5S1gzNFFOT2ZOdmJzVUk1bGp3elNtN2ZCZUF6UzJ1ajVZU1lFOHh0cGw0elJ5MG0tbFJBeXNudFktUTBhamktVDZoVHExa01xYk9leFlvajBPNzN2NVJISG4tWC0zdk90UQ?oc=5",
-      "press": "한국일보",
-      "date": "2022-07-26",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "[인터뷰] 황성재 라운지랩 대표 '일상을 위한 로봇 만들 것'",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92bDl2VWpLVzNueFFENjlvR1gzUlRSVFVNa2tRNUREb2RYUmpUUXhSNzhjQlhhalltNlNOU3pTZHRuS3V1QlFGZjJqX2k3S0RNWjE4RnZxSzROUXlKZGp5QUs5N3Q3MURKaTJNMUpZbnfSAXRBVV95cUxPX1JsWXQyOGwyWll1NmZIQy1fcnBSdU5iWFpNVUdIbUF2b08xaUxTdXdQVUpSMjczdlpaekw0UG55aWN0SEJLZjZtV3loWG5vb1ZZOF9uNVh3eF81WUlNSWhOcXhBbzdqakNEYS1tdE9YdFZHRw?oc=5",
-      "press": "스포츠한국",
-      "date": "2022-06-12",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, 중기부 '아기유니콘 200' 선정",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5WU1BQZTVqZGI1ZXNMR25fcFJFaVY2S19yWkpTTHFXaUpLYkhBS2ZFY3N1U3B4RldYay05RmZ1ajZra2w0cTA1Vzg0NW9Id205VEJhZV9VSWZ1XzFiWXhWTEp2OTUxZFR3dC1Wdg?oc=5",
-      "press": "로봇신문",
-      "date": "2022-06-03",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "리테일 무인화 로봇 솔루션 '라운지랩', 중기부 아기유니콘 200 선정",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4wbkFLaW90U09uQWUwVjBrY09oa1dXS1Vna2dIeU12akhYcjAtWjVORFlWWnBqOVk1cGJJOGhvNTVnU0Y2SkZtRnlvblpyNXBYVS05Vm9Nb0YxWU5JeFJDMw?oc=5",
-      "press": "hellot.net",
-      "date": "2022-06-03",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "operator",
@@ -1542,17 +1429,6 @@
       "region": "kr"
     },
     {
-      "title": "라운지랩, 에버랜드에 로봇 협업 카페 오픈",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VVmc4eEpWR29ZQkEyQjBsbmdyWGZ1bTdJdlRDaU1vMDkzN0Y0VGNpVDA2TE1lcTdqSTNQcG50VWY1REw3YTFfQUQ0eFFkTGdubnJ5TW9yRmxxX1g0dW8zTlhCQUlzNDRm?oc=5",
-      "press": "테크월드",
-      "date": "2022-03-07",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
       "title": "에버랜드에선 로봇이 커피·아이스크림 만든다…'라운지엑스' 오픈 - 머니투데이",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5rTnBubGNMMFBOOGdFbDEwRE9KbkVXbHgyNF9zeDh2bmpLa1VZUS1JOUEwb0RRVVNDVGZNdTU0S0tDWkk2aGx3NkhHTF9MNVdyTDVDTVFQY29PakVxQUd3RjNJSnNBWnJvWnfSAW9BVV95cUxNVkh6cDR6VF9RdWhaMVpwLUJUMm1FOEdhYlZFUU5xaUZRQzQ4UWJlb0tzYzdWVXF6Um5vMDJxUjV3LXA1eThGRkFoY0RYeUhKbGJHTnZ2eFRXbUNGcDlKU1ZCMDVIbTNpMmpiT1o5NlE?oc=5",
@@ -1562,270 +1438,6 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "brand",
       "region": "kr"
-    },
-    {
-      "title": "로봇 스타트업 라운지랩, 4월 완전 무인카페 오픈",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5NcmZXdmlBMnNBV2xJd3J0TEJBMnhBMGxKVm53ZzJFY0ZsaThaOU5ZT1hvSjcwT2w3MzJfeEgxYmZ6eWpvelIwcFdhTXQ4Zw?oc=5",
-      "press": "전자신문",
-      "date": "2022-02-25",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩-점프컴퍼니, 로봇 빌딩 솔루션 개발 위해 MOU 체결...부산시 지식산업센터에 적용 첫 사례 선보일 것",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9taWtWbWpwSzdVUEZYdm52YlM2dGdmUk5LbDBQLUtrUnJUVU9uc212QzcwcXhWUER4V25XWDV0T3NDYWc2OE5hWWNvdjZtS0QxMGx6ZUItVkw1Uk1UZy1yTU1JdF85cXc?oc=5",
-      "press": "인공지능신문",
-      "date": "2022-01-31",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩-점프컴퍼니, 로봇 빌딩 솔루션 개발 MOU 체결",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE93RmNmbG11SVRCaG5wRjN2cDFsTFE3MFRaeGMxNjk5eDluT081azRVRlduTjVXQ1k3dXZxby1NUmNGdDJXNnl0ME05YUV5QQ?oc=5",
-      "press": "벤처스퀘어",
-      "date": "2022-01-28",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "[푸드테크] 라운지랩, 두산로보틱스와 MOU로 ‘협동로봇 솔루션’ 강화한다",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9LMXk1T3oyRHUtUVdBcWl5ZndEM3ZaTG16WkowYmMtVG9hc1FiNXpVVWxIeEJoeE96VGk0ZzNzMTM1SFU2VDNBenpma25UaWI0VUdueUQxMjhmaGNDRWpFdmE2MA?oc=5",
-      "press": "foodnews.news",
-      "date": "2021-11-16",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "두산로보틱스, 스타트업 라운지랩과 아이스크림 로봇 개발한다",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40MXlEcWtJbHF6NVBkazBDVXNyNmRFWWFGaThWZGt1YWYzTHJhQ3R0SGtKdWNUYWVWRHk1VElqQWZPN0xIQmJTLW1DWlV0c0pjTTNLX2VSSWJFZkVocWZZaE5ySm5qSjhlY3laVG8xQ2zSAXRBVV95cUxQYVN5Y3BMX0Y0a09BY1kwa3VFT2RuUHA1cmVIb3Ixbnlob1dxLTBFSGtFSklrLThCTjFxVnd0VlhQOUhiOHlGUnVQSjNGbXpRa0NWdW1GdmNRV0o2M043QTBFVkNIa3lrcmN1UmNDYmlxWTcwMQ?oc=5",
-      "press": "연합인포맥스",
-      "date": "2021-11-15",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩-두산로보틱스, 협동로봇 솔루션 강화 MOU",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9FdWhiMGZuNkN2bkttMzNhREl4NkREdV9GZjI3M0c4cFo2azVTX0ZpcFBwcV9RTHdvNk54TXVvR2RQZk5ncWlacmFzcFFJdw?oc=5",
-      "press": "벤처스퀘어",
-      "date": "2021-11-15",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩-UNIST, 로봇 서비스 공동연구 MOU 체결",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQZDN2STlld0NRZ192Qi1WRVozb3RiSVh4NGZLSkg5QmFLbTU3UVRVSi12YzlBeW5DMlR4NThrTkVWVmJuNTJvYWJUUktoMzBXNVV6YjB3Sy1BQlFNZEtaRUlXVXNmWE1tVnFjeA?oc=5",
-      "press": "로봇신문",
-      "date": "2021-10-06",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, ‘데스커’와 기술⋅미래 라이프스타일 공간 선봬",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CRXVrSFRPa0pZZ1RKXzR0bzJUTEVmdVR3elhObDM2dmZ3ZE1xOVpiVDZWUEhVRUVkRWhaZW5jdFdZRWxpWEhlWW15d3lJRU1PYTNfWVFTendLeURicmxjSGtTTVlDOWVaUnBZQQ?oc=5",
-      "press": "로봇신문",
-      "date": "2021-08-13",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "죽도해변의 아이스크림 로봇...데스커X라운지랩 '멤버십 비치 라운지' 오픈",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRR21oMzVqaDRfT0dhQTllallTdm9CVllDemFMRHFRalNXbi0yRTBvR2lfM1MydEJqbzNob0dtZy1jVGM0cUo3VlJQVzBIYXdSdUFsNllHYzNvVkQzMkNXVFRzdzEzQQ?oc=5",
-      "press": "싱글리스트",
-      "date": "2021-08-13",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, 배달전용 커피로봇 ‘바리스브루’ 선보여",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9XaGloTWZnUldJdHV5d0tQYmlyRUNGZUdNTTY5aUxvbXhOSlM5RF9qaE9GYVRjcUtnSW9oX3pVN3VNUWhFbE1tUWhrRlNvZw?oc=5",
-      "press": "벤처스퀘어",
-      "date": "2021-07-13",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, 배달커피 전용 로봇 ‘바리스 브루’ 운영",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBZTkp6UHdnOXdocEJrYk9DM183QlJZTVFwTU5xZmFQUUpLd2ZvckVxNlFqbUpFV2pSa0prT2NEQlNwZmlFbndLVzFUOGw1UQ?oc=5",
-      "press": "와우테일",
-      "date": "2021-07-12",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "[푸드테크] 라운지랩, 배달커피 전용 바리스타 로봇 ‘바리스 브루’ 선보여",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBaWXJuZU9Hd1FaaFBaZ1pvVHAybEkxYWxlR0tKTTg1MlpVcFhWbVhWRlh0WE9fWnBCT3RRQzF2RkVqSjdrN3V3djlMNERScjVsWjhtSG1EREVfTWVfaTNQeW13dw?oc=5",
-      "press": "foodnews.news",
-      "date": "2021-07-12",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, 배달커피 전용 바리스타 로봇 ‘바리스 브루’ 선보인다",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBFNVUwUGVESlVjT0swLTFjVVcyX05KZ1M0UlBuS29EOGlxbTkzYUJnTHdHdVdwblJvcHlnNHRjSm0zSTcxdjZaX2hUamVrZGNLRHRuancweF90XzhZOFE?oc=5",
-      "press": "hellot.net",
-      "date": "2021-07-12",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, 음료 제조·밀봉 바리스타 로봇 선봬",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBOT2RfMVc4U2E4V1BYOWk1YW9EcW1CdXBvSXFTQ0p5VElxd01HYnVta1NScjR5el9ZU1pPRjI0TC16MUExRDhlenBLUXpoR3FpVURKS1d4TXliODNLZzlOaWNtVDB0Mk40eDdOa2RWcTbSAXRBVV95cUxORWlNWXpjX05sVmFCOF93WV9Zbk9XNFpyLVlOaWpyZUlsbFF5b1hCTE9SbU1vVDJkRW5xNlVpM0xQY0dZTWE4OTU2VGJnY1ppTUlGLS1OM25rVzkzbXdVNjlaWGNkTGVac0pYdTBHSllJSlc2Ng?oc=5",
-      "press": "IT조선",
-      "date": "2021-07-12",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, 식음료 협동 로봇 서비스 선보인다",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8ydnRmTjJhOWNSYk16R0Z6T2ZSTHhXOXlQTUJsUUlFYXpxTGZaUmc5RDdXRkFiNGM5NGFGS180Q19aTXlSenhSOUF2TU1jRnQ5WDRhTlBhY0ctdGxSbllDMWZQRHFsT2FaSFlJbw?oc=5",
-      "press": "로봇신문",
-      "date": "2021-06-28",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "South Korea: Lounge Lab Opens Brown Bana Robot Ice Cream Shop",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdk9fOUhXZG5Jd1JzNXpDVXdoUUZncFRNdkpITGxWUUtsbVFoeDlZb2pjRWJnbTRoZVdhWC1wUjdBNWxsLXNiZGxMcjZiN0kzRG0teHBKNGR3ZF9UdHdmejJkWjNMM0NtaHBYdFl6eGdKNGpJTnlFQXFQN192SHc1eUY4cF94RGhXRElR?oc=5",
-      "press": "The Spoon.tech",
-      "date": "2021-06-16",
-      "source": "google",
-      "region": "overseas",
-      "firstSeenAt": "2026-08-06T07:04:15.040Z",
-      "scope": "operator"
-    },
-    {
-      "title": "[UP! START] 라운지랩, 봉사활동에 로봇 바리스타 '롤아웃'",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5tMl9aX3lObnVjTTk2M2VpZlVOODQydXo1SVlEd3c1dEFwMUw0bGZCN3R5T1IwRnluMktaZmxmTGFhY3hxOHExVFVLeG9tWU9mTERfLXlIRFcxV0prZzg0czU4Mk42Tjc3VUE?oc=5",
-      "press": "내외경제TV",
-      "date": "2021-06-08",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, 블록체인 메타버스 '더 샌드박스'와 MOU",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE82OVZTU1Y5eTlpNWVUQjRkcUFyM1RaUEN1SWVtYUFjY21nb215SFY1ejNNbXdUOWNSblowQWVGT2FwT2V0SkRVWFpLMHhOVUlXemVqVzNGVEhNOUZ3M1E?oc=5",
-      "press": "인벤",
-      "date": "2021-05-25",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩 '커피로봇', 10가지 이상 음료 제조 가능",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tRmhVRXZvTV8xNTZEY2VINVBQZjZJdkktek5kQk1VeHhsbTFUeDMxNnE5SlRYaE5pNDV5YUoya25pa0JQZVJwUGp0cnZfbEZ5dlJzbFpaUHF5U1k5bXk3amFGajZNYkNH?oc=5",
-      "press": "더에이아이",
-      "date": "2021-04-30",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, 회전형 레일 시스템 접목된 에스프레소 로봇 운영 개시",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBqSUpjOFd2Z1VKbmJtM3ZkYlBYR1ZTYzFYZGNEbWZJRHQ4emw5LWp3UjU0dGNKRXJhMGFaQVBkNnJwNDk5QVExSA?oc=5",
-      "press": "플래텀(Platum)",
-      "date": "2021-04-30",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "[UP! START] 라운지랩, '에스프레스 로봇' 카페로 출동",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9oQ3lZX3U1RGs2OWx5UENIOEp5LTRJTmxENUYtTDJzNjkyY3JHenVWNEY0NWdkbUhibHl4NUFER2lLbTdqblBNd2ZKWWNMMGw4dEh4NEpsLTlMUGhvUVlIYmZ4NjJKaDJSVHc?oc=5",
-      "press": "nbntv.co.kr",
-      "date": "2021-04-30",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, 협동로봇 아이스크림 스토어 ‘브라운바나’ 오픈",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1JTU92aThYV3ZvNXlLZ3JEampOSFBXUWFUallsZVlTMzd3V2xUbU1WbFlJY05wejNab1RoVXNTaU5sU2ptRGxJMlBvSDJrSWthZVl6NzFWdUFTb1NmTmM0ZkpxNlQwNV9mZ20xbw?oc=5",
-      "press": "로봇신문",
-      "date": "2021-04-21",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "“5년 내외로 로봇 시대 올 것…고된 업무, 로봇이 대체해야” 황성재 라운지랩 대표",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9EQk1YbVFEcVE0MUpDd1FjV08zb1VMWlpCX2dOUFFpeXlsM29HT1JkUWtKSGtFc3hzQk5PcjMyYnNGTEg0TnlWVVpJWURPbDBuSXhPSw?oc=5",
-      "press": "헤럴드경제",
-      "date": "2021-04-07",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "LOUNGE LAB Unveils 'ARIS', Capsule-Based Ice Cream Robot Customizable with 10 Flavors and 3 Shapes",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUHBZaWtWSVpBY0ZEVUdsMEtScmxlc1o5SUhvV2pTeWtscFdHNXNMbFhfY29LcldSVEk4R1N2Y1g3VDV2VEFVSTNYZXB6SFk0WnJBYlRxVjAzY2JaanFxSHR3aDVtdlM3ZGhfZFB0bzNaY3dITU1pazdDRVRKblg5RnltVQ?oc=5",
-      "press": "Yahoo Finance",
-      "date": "2021-04-02",
-      "source": "google",
-      "region": "overseas",
-      "firstSeenAt": "2026-08-06T07:04:15.040Z",
-      "scope": "operator"
     },
     {
       "title": "​현대차 아이오닉 5 체험 공간에 자리한 라운지엑스 바리스타 로봇 바리스",
@@ -1847,39 +1459,6 @@
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "brand",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, 캡슐 기반 아이스크림 로봇 '아리스' 공개",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4yd0V6T1poWUhKUjE5RkRHTjJWMlk2bEZHQW1XQksyLUlBZF9sc1cyaVBtRUNvQTQ4OS1hUUw2SEdsRlVUaHo0cGlLMDVjNmFnM2h1QkY4d0UwaTNQNkF4bk9aRDBkaEswd3dZRg?oc=5",
-      "press": "로봇신문",
-      "date": "2021-01-29",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, 무인 아이스크림 로봇 ‘아리스’ 공개",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9EaHFKOHhfXzdFWTYzdXZmWi1tbWhlTzluSTFLMi1RLVFZTG84SG45UURpRjVfbHJmT21rTFJZY3dIWW1WRkU1czJWOHF0Zi1nVjh0NGZ3?oc=5",
-      "press": "지디넷코리아",
-      "date": "2021-01-29",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, 캡슐 기반의 아이스크림 로봇 '아리스' 개발",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE83REFGLWNzNzZ6SGdXMUhacGtjT1NNQktmYS1LTDZmWVpnRHoyRmE3T0xQTkREU3Z4Y0pTakR6VlZreDJfNVVXamRXdkVCVmRaOTczOHRwZU1XcVNCUUpMLW0tM2lMVERqQ1VGNDAyNNIBc0FVX3lxTFBHWk1vOXBGeE13YzZTLVB2ZGl1S0tEUDBzdUxzLS1UZUE4TmdvVDZpaWgzNE5sNlR6cnhVbm5pcm5sTEhIdGpWQWpPeVR5d3l3M1V1dTB2X3RYcm1xbXhYWkxHU3BQQnhSOFRKN1d6WmtxUU0?oc=5",
-      "press": "뉴스웍스",
-      "date": "2021-01-29",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
       "region": "kr"
     },
     {
@@ -1916,50 +1495,6 @@
       "region": "kr"
     },
     {
-      "title": "'로봇 바리스타' 만든 라운지랩, 30억 기관투자 유치",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBIMHJNTmVuT191Y0J3clNBdURHQzhIUy1KNEpxQnhmazlDaTlkclpNSDRIYk96aUFfX09KRXhVQzkwOTU1Q3lZbWkyNHpiNVNWX2E0cHhzNHZIRkFRdXJyVkZibzdsUDI3WjlzT3lwbGtHN3M?oc=5",
-      "press": "디지털투데이",
-      "date": "2020-12-18",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "리테일테크 ‘라운지랩’, 30억 기관 투자 유치",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5lQWxiWlpYRDVjTHRHaGZ4bFIzeWFHWnlQMFpaQ2hxVjJvcy1nTGRuckljdkc5TC1kd2JSUEQ3bGVsZ2F4dEFMQk50dEdrQQ?oc=5",
-      "press": "벤처스퀘어",
-      "date": "2020-12-18",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "리테일테크 스타트업 ‘라운지랩’, 30억 규모 첫 기관 투자 유치",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5JbTM4SUJ0dFJvanJRQTIzaEdyU29zaWwxdW1JUDY5MGh0di1pcFlfQ2RqNlo2UHU4UElYLUtndUtRM1I3UkcyWTFRN3NwbmhBdGt4UGtjNWs3ZjFldFVWVnp6SmUxNDZKdHQzVDJB?oc=5",
-      "press": "startuptoday.kr",
-      "date": "2020-12-18",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, 30억원 규모 투자 유치",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5jNW83cXZZR1EzaThtUHExT29hN09ZMUhNQ2xfSUNKY1FFU3JWNHFSc3FpTVRHS2R5eVpfSklDT2l1Zk10bW9wQ2FHR2hKUm1panczaG9BeFdEUdIBWEFVX3lxTE5PeTlNbkhmTkpNTGlYTHZCcDZJT01JQnRnLTZRU1FUVFl2Uk9MMVZEMVJjWnNqWFRXbkVuNVNoaUFmcm05YlJJNFpWY29Hd0tCd1ZVbmV0VjA?oc=5",
-      "press": "아주경제",
-      "date": "2020-12-18",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
       "title": "라운지엑스, 포르쉐와 구성한 브랜드 하우스 성공적으로 종료",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1tNmF0UEYyQng5ZVlvczdrSURBSko4d3VlMUVlQUpHdXBLUTRrcmJiNk9xbDZtaWQyYmdsaG53UFFjUnZMLWRQS2taeXNiY3NiTnpqejM5RVdOV0kxVmhlLXdwRVNucWRIU05INw?oc=5",
@@ -1990,28 +1525,6 @@
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "brand",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, 완전 무인화 커피 로봇 ‘바리스 캔’ 출시",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SRnk5ZlRnbE54M04zZG1MQUxyWXJfNWZFSUptRlh4V2VxZ2NTNTFPazdPdTNEeDdQZmNRcEdpbDhJaVpnOGdpQU1yalVHWGZEbUpCWHlfM2pHOTdHVjM1TmpabVhpQ3JkcWxMQg?oc=5",
-      "press": "로봇신문",
-      "date": "2020-11-18",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩, 인공지능 스마트스토어 무인상회(無人商會) 공개",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Eendsc0NpOGdqNkt3T2lRbFhWZmRxSXQwLXdRcVp0OEJXaG1HaE5TUC0wRkI4RFVUbFBPYmd4SndFZEZKaks2UkRCOFNyVkpJS1c0MG1raG4ybTJLYTlnXzdjSVZPYzJSa1VnWQ?oc=5",
-      "press": "로봇신문",
-      "date": "2020-09-14",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
       "region": "kr"
     },
     {
@@ -2048,28 +1561,6 @@
       "region": "kr"
     },
     {
-      "title": "라운지랩-비다스테크, 무인매장용 '식음료 컨트롤' 기술 개발한다",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE81YVN1X3VpNnQ3Y1VjOGcxZ3ZEcmFEZkJGVFR5UjNpS0VSMTZZMHFsT3FRYmR4aUV4ZndSNnNDODhMQWdTOHR2MjJtYUhiSVhzampDeWFKT0NtSU1jajBBNWFCY3ZqaUhHYTh2dA?oc=5",
-      "press": "로봇신문",
-      "date": "2020-07-14",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩-두산로보틱스, 바리스타 로봇 서비스 개발한다",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE04bkItVE05NTRUM0EyXzhXSHVURDZPanBrSXcxVkRvRTF2MUNNNlpWeDNNR3Y5R0lKZFlWdVBoRU1vVkIzVldfaUt6RlR2OVYtV2YtQmI5RlpGX1JnQWVTeExIcnlfNXlTOW01dw?oc=5",
-      "press": "로봇신문",
-      "date": "2020-06-18",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
       "title": "\"제주서 로봇이 내리는 커피 맛봐요\"…로봇카페 라운지X, 제주에 3호점",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9iaWpnWGlpQjF6cXpGVTdHRkpTWHFOSGRURGhkMHdSeEhRcGFZWnVVQ21acnBYbUV1dk5acHhWTGpncnRueU1heV9BbTgyWTd6cmVCbUVOdmJqLUVk?oc=5",
@@ -2089,61 +1580,6 @@
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "brand",
-      "region": "kr"
-    },
-    {
-      "title": "[융합의 시대, 푸드에 테크를 입히다] 황성재 라운지랩 대표",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBUVjFRZkp4N19WbHR5TjRnREtMT3ZTTlpnMm9Gd2p1MDIzUDNiS1JBUFN2cHB3ZjFTR2xlaS03TUIxZnpmeDZJcHZCWXlGSVFaeWVOWWV3VFB4dzlLb0ZDTlFfLUMxRHE3b1RWazh4T1puUQ?oc=5",
-      "press": "포브스코리아",
-      "date": "2020-03-24",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "[인터뷰] 황성재 라운지랩 대표 \"기술 과잉시대, 소비자 삶에 기여해야\"",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uX1NtZW90STY0VXU4OFYxOVlHWEZUWGpwVkowWE53THY1YmpYcXZoUHBmRVFybFF0M2Rld2dfQWNBTmdZdHRLd3RwRnhIekdpVUNla19sWU12RExl?oc=5",
-      "press": "뉴스핌",
-      "date": "2020-01-21",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩x레인보우로보틱스, 상업용 조립로봇 만든다",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1HVkttcHQ3anFtNXlGeEhVUGYtUlIzZU5LVUZROXlpT0p1TFlrZmJJa2txcFMxZ1lwdU5Ga2ppWmZ0RlpRbU9RZw?oc=5",
-      "press": "플래텀(Platum)",
-      "date": "2019-12-24",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "라운지랩-레인보우 로보틱스, 상업공간 로봇 활용 협력",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBBcGc3aUdnUjhXaDA4Mk4yanl1YWRiVlN3NmlwLVo3SktpZDM0MTNZZUhTMjhqUl95eGZxd0kyd2NDUVZZTEpXR3c2ejhLekJsTkMxMVVR?oc=5",
-      "press": "지디넷코리아",
-      "date": "2019-12-24",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
-      "region": "kr"
-    },
-    {
-      "title": "\"로봇이 만드는 칵테일 한 잔\"…라운지랩·두산로보틱스 협약",
-      "description": "",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xV0dlUUhNWF9tUDFhcGZISzB3Z255RkRiRmU1YTNwdFg2V0RoMVd4dmVGWUVrXzlEaVRfMUlfd2hpOV82VnZqSG9qUFdhelVGeGh5S05DMUpoQQ?oc=5",
-      "press": "한국경제",
-      "date": "2019-11-22",
-      "source": "google",
-      "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator",
       "region": "kr"
     }
   ]
