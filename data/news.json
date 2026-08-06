@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-06T08:09:09.827Z",
+  "lastScrapedAt": "2026-08-06T09:24:47.987Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,8 +15,8 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 143,
-  "brandArticles": 36,
+  "totalArticles": 144,
+  "brandArticles": 37,
   "operatorArticles": 106,
   "overseasArticles": 1,
   "articles": [
@@ -1537,6 +1537,17 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "brand",
       "region": "kr"
+    },
+    {
+      "title": "카페 라운지엑스, '올데이 캔 콜드브루' 캔커피 출시",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoQm10ZzFOejEtUFpqLXktQ1NZM1VQRTZlMDhLNlZraFhidUFCM19yU2xMRjdmZW1jenc5LWVQYWZRVkVWd3dZUkthU1UtMHFya2lzRU1aZHZ3VVHSAWBBVV95cUxPNkd2dVlWYkFVejg2MGVZbkstcjVLNmM3UTdLa3VLQk1xUk9ZVHJtYXhCakZlaXhRbm8tQl8zZ1NsOV9QNGowRWVkSnRUbVhNRnE4MHdFcUdscGxKWkJaWU0?oc=5",
+      "press": "연합뉴스",
+      "date": "2020-09-03",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-06T09:24:47.987Z",
+      "scope": "brand"
     },
     {
       "title": "[외식BIZ 단신] 카페 라운지엑스, '프로집콕러'를 위한 콜드브루 캔커피 출시",

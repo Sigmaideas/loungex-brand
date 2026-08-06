@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-06T08:09:00.835Z",
+  "lastScrapedAt": "2026-08-06T09:24:39.079Z",
   "updatedDate": "2026-08-06",
   "records": {
     "store_seongsu|성수 카페": {
@@ -98,11 +98,15 @@
         {
           "date": "2026-08-01",
           "rank": null
+        },
+        {
+          "date": "2026-08-06",
+          "rank": 62
         }
       ],
       "prevRank": null,
-      "rank": null,
-      "total": 3234
+      "rank": 62,
+      "total": 3236
     },
     "store_seongsu|성수 로봇카페": {
       "storeId": "store_seongsu",
@@ -746,7 +750,7 @@
       ],
       "prevRank": null,
       "rank": null,
-      "total": 13167
+      "total": 0
     },
     "store_gangnam|강남 로봇카페": {
       "storeId": "store_gangnam",
@@ -1072,7 +1076,7 @@
       ],
       "prevRank": 48,
       "rank": 48,
-      "total": 4016
+      "total": 4018
     },
     "store_euljiro|을지로 로봇카페": {
       "storeId": "store_euljiro",
@@ -1170,7 +1174,7 @@
       ],
       "prevRank": null,
       "rank": null,
-      "total": 1
+      "total": 0
     },
     "store_euljiro|을지로 24시 카페": {
       "storeId": "store_euljiro",
@@ -1386,7 +1390,7 @@
       ],
       "prevRank": 80,
       "rank": 80,
-      "total": 7711
+      "total": 7712
     },
     "store_yongsan_prime|용산 로봇카페": {
       "storeId": "store_yongsan_prime",
