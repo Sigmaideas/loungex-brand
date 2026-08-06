@@ -28,6 +28,19 @@ const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
 // 라운지랩=구 사명, 엑스와이지=현 사명 — 매장 브랜드 기사가 이 이름으로도 나온다
 const QUERIES = ['라운지엑스', '라운지엑스24h', '라운지X 로봇카페', '라운지랩', '엑스와이지 로봇', 'loungex 카페'];
 
+// 해외 보도는 국문 검색에 거의 안 걸리고, 영문권에서는 'Lounge Lab' 표기가 주로 쓰인다.
+// 로케일을 바꿔 따로 훑는다 (구글 뉴스는 hl/gl/ceid 로 언어권이 갈린다)
+const INTL_QUERIES = [
+  { q: '"Lounge Lab" robot', hl: 'en-US', gl: 'US', ceid: 'US:en' },
+  { q: 'LOUNGELAB', hl: 'en-US', gl: 'US', ceid: 'US:en' },
+  { q: "LOUNGE'X robot cafe", hl: 'en-US', gl: 'US', ceid: 'US:en' },
+  { q: 'Barisbrew robot cafe', hl: 'en-US', gl: 'US', ceid: 'US:en' },
+  { q: 'ARIS robot ice cream Lounge', hl: 'en-US', gl: 'US', ceid: 'US:en' },
+  { q: 'XYZ robot barista Korea', hl: 'en-US', gl: 'US', ceid: 'US:en' },
+  { q: 'ラウンジエックス ロボットカフェ', hl: 'ja', gl: 'JP', ceid: 'JP:ja' },
+  { q: '韩国 机器人咖啡 Lounge', hl: 'zh-CN', gl: 'CN', ceid: 'CN:zh-Hans' },
+];
+
 // 검색 결과에는 '라운지'+'엑스'가 따로 걸린 무관 기사(롯데면세점 스타라운지, 펀디엑스 등)가 섞인다.
 // 제목·요약에 아래 표기가 실제로 등장하는 기사만 남긴다.
 //  brand    = 매장 브랜드 '라운지엑스' 를 직접 언급한 기사
@@ -42,6 +55,28 @@ const scopeOf = (a) => {
   if (OPERATOR_TOKENS.some((tok) => t.includes(tok))) return 'operator';
   return null; // 무관 기사
 };
+
+// 해외 판정은 국내보다 빡빡하게. 라틴 문자권에서 'Lounge Lab' 은 동명이인이 많아
+// (포틀랜드 광장 시설, 아디다스 LOUNGE X 팝업 등) 브랜드 표기만으로는 못 거른다.
+// → 브랜드 표기 + 로봇/카페 맥락이 같이 있어야 하고, 알려진 동명 케이스는 명시적으로 뺀다
+const INTL_BRAND_TOKENS = [...BRAND_TOKENS, ...OPERATOR_TOKENS, 'barisbrew', '바리스브루'];
+const INTL_ANCHORS = ['robot', 'cafe', 'café', 'coffee', 'barista', 'icecream', 'kiosk', 'foodtech',
+  'ロボット', 'カフェ', 'コーヒー', '机器人', '咖啡'];
+const INTL_EXCLUDE = ['ultraboost', 'adidas', '表参道', 'plaza', 'streetplaza', 'chandigarh'];
+const isOverseasRelevant = (a) => {
+  const t = normalize(a);
+  if (INTL_EXCLUDE.some((x) => t.includes(x))) return false;
+  return INTL_BRAND_TOKENS.some((x) => t.includes(x)) && INTL_ANCHORS.some((x) => t.includes(x));
+};
+
+// region('kr' | 'overseas') + scope 를 함께 판정. 관련 없으면 null → 저장에서 제외
+function classify(a) {
+  if (a.region === 'overseas') {
+    return isOverseasRelevant(a) ? { region: 'overseas', scope: scopeOf(a) || 'operator' } : null;
+  }
+  const scope = scopeOf(a);
+  return scope ? { region: 'kr', scope } : null;
+}
 
 // 네이버 API 는 언론사명을 주지 않아 originallink 도메인으로 판별한다
 const PRESS_BY_DOMAIN = {
@@ -106,8 +141,8 @@ function pressFromDomain(url) {
 }
 
 // ── 구글 뉴스 RSS ────────────────────────────────────────────
-async function collectGoogle(query) {
-  const url = `${GOOGLE_RSS}?q=${encodeURIComponent(query)}&hl=ko&gl=KR&ceid=KR:ko`;
+async function collectGoogle(query, locale = { hl: 'ko', gl: 'KR', ceid: 'KR:ko' }, region = 'kr') {
+  const url = `${GOOGLE_RSS}?q=${encodeURIComponent(query)}&hl=${locale.hl}&gl=${locale.gl}&ceid=${locale.ceid}`;
   const res = await fetch(url, { headers: { 'User-Agent': UA } });
   if (!res.ok) throw new Error(`구글 뉴스 RSS ${res.status}`);
   const xml = await res.text();
@@ -129,9 +164,10 @@ async function collectGoogle(query) {
       press: press || '기타',
       date: kstDate(pick(/<pubDate>([\s\S]*?)<\/pubDate>/)),
       source: 'google',
+      region,
     });
   }
-  log(`구글 뉴스 '${query}' → ${out.length}건`);
+  log(`구글 뉴스[${locale.hl}] '${query}' → ${out.length}건`);
   return out;
 }
 
@@ -160,6 +196,7 @@ async function collectNaver(query, id, secret) {
         press: pressFromDomain(link),
         date: kstDate(it.pubDate),
         source: 'naver',
+        region: 'kr',
       });
     }
     if (batch.length < NAVER_DISPLAY) break;
@@ -210,6 +247,15 @@ async function main() {
     await sleep(300);
   }
 
+  for (const { q, ...locale } of INTL_QUERIES) {
+    try {
+      fresh.push(...(await collectGoogle(q, locale, 'overseas')));
+    } catch (e) {
+      log(`해외 뉴스 '${q}' 실패: ${e.message}`);
+    }
+    await sleep(300);
+  }
+
   const id = process.env.NAVER_CLIENT_ID;
   const secret = process.env.NAVER_CLIENT_SECRET;
   if (id && secret) {
@@ -232,31 +278,39 @@ async function main() {
     return;
   }
 
-  const relevant = fresh.filter((a) => scopeOf(a));
-  log(`관련 기사 ${relevant.length}건 / 검색 결과 ${fresh.length}건 (브랜드·운영사 미언급 ${fresh.length - relevant.length}건 제외)`);
+  const relevant = fresh.filter((a) => classify(a));
+  log(`관련 기사 ${relevant.length}건 / 검색 결과 ${fresh.length}건 (무관 ${fresh.length - relevant.length}건 제외)`);
 
   const existing = await loadExisting();
   const runIso = new Date().toISOString();
   const { merged, added } = dedupe(existing.articles || [], relevant, runIso);
 
-  // scope 는 제목·요약에서 매번 다시 계산한다 — 판정 규칙을 고쳐도 기존 누적분이 알아서 갱신됨
-  for (const a of merged) a.scope = scopeOf(a);
+  // region/scope 는 제목·요약에서 매번 다시 계산한다 — 판정 규칙을 고쳐도 기존 누적분이 알아서 갱신됨
   const articles = merged
-    .filter((a) => a.scope)
+    .map((a) => {
+      const c = classify(a);
+      return c ? { ...a, ...c } : null;
+    })
+    .filter(Boolean)
     .sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
 
-  const brandCount = articles.filter((a) => a.scope === 'brand').length;
+  const count = (fn) => articles.filter(fn).length;
+  const brandCount = count((a) => a.region === 'kr' && a.scope === 'brand');
+  const operatorCount = count((a) => a.region === 'kr' && a.scope === 'operator');
+  const overseasCount = count((a) => a.region === 'overseas');
   const out = {
     lastScrapedAt: runIso,
     queries: QUERIES,
+    intlQueries: INTL_QUERIES.map((x) => x.q),
     totalArticles: articles.length,
     brandArticles: brandCount,
-    operatorArticles: articles.length - brandCount,
+    operatorArticles: operatorCount,
+    overseasArticles: overseasCount,
     articles,
   };
   await fs.mkdir(path.dirname(OUT_PATH), { recursive: true });
   await fs.writeFile(OUT_PATH, JSON.stringify(out, null, 2), 'utf8');
-  log(`저장 완료: 누적 ${articles.length}건 (신규 +${added}건 · 브랜드 ${brandCount} / 운영사 ${articles.length - brandCount}) → ${OUT_PATH}`);
+  log(`저장 완료: 누적 ${articles.length}건 (신규 +${added}건 · 브랜드 ${brandCount} / 운영사 ${operatorCount} / 해외 ${overseasCount}) → ${OUT_PATH}`);
 }
 
 main().catch((err) => {

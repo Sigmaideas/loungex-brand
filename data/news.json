@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-06T06:57:28.413Z",
+  "lastScrapedAt": "2026-08-06T07:04:15.040Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -8,9 +8,20 @@
     "엑스와이지 로봇",
     "loungex 카페"
   ],
-  "totalArticles": 190,
+  "intlQueries": [
+    "\"Lounge Lab\" robot",
+    "LOUNGELAB",
+    "LOUNGE'X robot cafe",
+    "Barisbrew robot cafe",
+    "ARIS robot ice cream Lounge",
+    "XYZ robot barista Korea",
+    "ラウンジエックス ロボットカフェ",
+    "韩国 机器人咖啡 Lounge"
+  ],
+  "totalArticles": 193,
   "brandArticles": 36,
   "operatorArticles": 154,
+  "overseasArticles": 3,
   "articles": [
     {
       "title": "엑스와이지 로봇카페 ‘바리스브루’, 피크타임에도 음료 제조 평균 3분대 기록",
@@ -20,7 +31,8 @@
       "date": "2026-08-03",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "“주문한 음료 1분48초 뒤 나옵니다”…엑스와이지 바리스타 로봇의 진화",
@@ -30,6 +42,18 @@
       "date": "2026-08-03",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
+      "scope": "operator",
+      "region": "kr"
+    },
+    {
+      "title": "Know the preparation time before ordering… Barisbrew changes the robot cafe waiting experience",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aT0dKYm1OMDhzZkRaclVPbW0tNWtuSUFUeC15ZkZENmJIeVdKdGZIZE9vYVlqQkNfYkpKekdMMndzcmFXM2hnOVhTeGFzWnVuRUM0?oc=5",
+      "press": "벤처스퀘어",
+      "date": "2026-08-03",
+      "source": "google",
+      "region": "overseas",
+      "firstSeenAt": "2026-08-06T07:04:15.040Z",
       "scope": "operator"
     },
     {
@@ -40,7 +64,8 @@
       "date": "2026-07-30",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, '매장 데이터' 기반 Physical AI 고도화… 서비스 로봇 생태계 주도권 확보",
@@ -50,7 +75,8 @@
       "date": "2026-07-30",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 매장 데이터로 로봇 학습시키는 Physical AI 고도화",
@@ -60,7 +86,8 @@
       "date": "2026-07-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 오픈그래프랩스와 피지컬 AI 행동 데이터 수집 협력",
@@ -70,7 +97,8 @@
       "date": "2026-07-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "\"피지컬AI 핵심은 행동 데이터\"…엑스와이지, 실환경 데이터 수집 - 머니투데이",
@@ -80,7 +108,8 @@
       "date": "2026-07-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 오픈그래프랩스와 손잡고 Physical AI 행동 데이터 수집 본격화",
@@ -90,7 +119,8 @@
       "date": "2026-07-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지∙오픈그래프랩스, 실환경 Physical AI 데이터 파이프라인 공동 구축",
@@ -100,7 +130,8 @@
       "date": "2026-07-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지·오픈그래프랩스, Physical AI 행동 데이터 확보 맞손… 로봇 AI 고도화 나선다",
@@ -110,7 +141,8 @@
       "date": "2026-07-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 오픈그래프랩스와 피지컬 AI 데이터 수집 협력",
@@ -120,7 +152,8 @@
       "date": "2026-07-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "\"피지컬AI 핵심은 행동 데이터\"…엑스와이지, 실환경 데이터 수집",
@@ -130,7 +163,8 @@
       "date": "2026-07-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "“세미 휴머노이드로 리테일 혁신” 엑스와이지, 세미 휴머노이드 ‘듀스’ 매장 투입",
@@ -140,7 +174,8 @@
       "date": "2026-07-28",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 양팔 세미 휴머노이드 '듀스' 첫 실증 돌입",
@@ -150,7 +185,8 @@
       "date": "2026-07-27",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "양팔 달린 로봇이 매장관리… 엑스와이지, 세미 휴머노이드 ‘듀스’ 실물 공개 [로보 인사이트]",
@@ -160,7 +196,8 @@
       "date": "2026-07-27",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지 '듀스', 성수 매장 투입…행동데이터로 피지컬 AI 고도화",
@@ -170,7 +207,8 @@
       "date": "2026-07-27",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 세미 휴머노이드 '듀스' 실매장 투입…실환경 기반 피지컬 AI 검증 본격화",
@@ -180,7 +218,8 @@
       "date": "2026-07-27",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 세미 휴머노이드 '듀스' 실매장 투입",
@@ -190,7 +229,8 @@
       "date": "2026-07-27",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "[게시판] 엑스와이지, 세미 휴머노이드 '듀스' 실증 등 단신",
@@ -200,7 +240,8 @@
       "date": "2026-07-27",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 세미 휴머노이드 '듀스' 실매장 투입…실환경 피지컬 AI 검증",
@@ -210,7 +251,8 @@
       "date": "2026-07-27",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "카페에서 일하는 휴머노이드… 엑스와이지, 성수 매장서 AI 행동지능 검증",
@@ -220,7 +262,8 @@
       "date": "2026-07-27",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "[UP! START] 라운지엑스, 로봇과 펫이 만났다",
@@ -230,7 +273,8 @@
       "date": "2026-07-25",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "AI 로봇카페와 펫산업이 만나다… 펫비즈코리아·라운지엑스 맞손",
@@ -240,7 +284,8 @@
       "date": "2026-07-24",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 로봇 바리스타 '바리스브루'로 ESG 강화…플라스틱 연 5.1톤 절감",
@@ -250,7 +295,8 @@
       "date": "2026-07-15",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지 ‘바리스브루’, 로봇 자동화로 연간 플라스틱 5.1톤 저감",
@@ -260,7 +306,8 @@
       "date": "2026-07-15",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지 \"피지컬 AI 데이터 파이프라인 구축\"",
@@ -270,7 +317,8 @@
       "date": "2026-07-14",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "메디아나, 퓨리오사AI·엑스와이지와 병원형 피지컬 AI 플랫폼 공동 구축",
@@ -280,7 +328,8 @@
       "date": "2026-07-08",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "메디아나-퓨리오사AI-엑스와이지, 병원용 피지컬 AI 플랫폼 구축 위해 협력",
@@ -290,7 +339,8 @@
       "date": "2026-07-08",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "메디아나, 퓨리오사AI·엑스와이지와 '병원형 피지컬 AI' 구축",
@@ -300,7 +350,8 @@
       "date": "2026-07-07",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "메디아나, 퓨리오사AI·엑스와이지와 병원형 피지컬AI 플랫폼 구축",
@@ -310,7 +361,8 @@
       "date": "2026-07-07",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "[게시판] 메디아나, 퓨리오사AI·엑스와이지와 의료 AI 플랫폼 구축 등 단신",
@@ -320,7 +372,8 @@
       "date": "2026-07-07",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "메디아나, 퓨리오사AI·엑스와이지와 '병원형 피지컬 AI' 구축 맞손",
@@ -330,7 +383,8 @@
       "date": "2026-07-07",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "메디아나, 퓨리오사AI·엑스와이지와 병원형 피지컬AI 플랫폼 구축 - 머니투데이",
@@ -340,7 +394,8 @@
       "date": "2026-07-07",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "메디아나-퓨리오사AI-엑스와이지 '병원형 피지컬 AI' 구축",
@@ -350,7 +405,8 @@
       "date": "2026-07-07",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "메디아나-퓨리오사AI-엑스와이지, 병원형 피지컬 AI 플랫폼 구축한다",
@@ -360,7 +416,8 @@
       "date": "2026-07-07",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "광운대 로빛, 로보컵 2026 인천 출전… 엑스와이지와 휴머노이드 기술력 세계 무대 검증",
@@ -370,7 +427,8 @@
       "date": "2026-07-03",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 엔비디아 협력 피지컬 AI 인재 양성 교육 운영",
@@ -380,7 +438,8 @@
       "date": "2026-06-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "피지컬 AI 인재 양성 본격화…엑스와이지, 엔비디아 협력 교육과정 운영",
@@ -390,7 +449,8 @@
       "date": "2026-06-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 엔비디아와 손잡고 ‘피지컬 AI 로보틱스’ 전문 인재 양성 나선다",
@@ -400,7 +460,8 @@
       "date": "2026-06-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 엔비디아와 AI 로봇 인재 키운다",
@@ -410,7 +471,8 @@
       "date": "2026-06-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 엔비디아와 협력해 피지컬 AI 로보틱스 전문인재 기른다",
@@ -420,7 +482,8 @@
       "date": "2026-06-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 엔비디아 손잡고 '피지컬 AI' 인재 육성",
@@ -430,7 +493,8 @@
       "date": "2026-06-26",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지엑스 손창영 이사 \"무인화 경쟁에서 운영 경쟁으로 전환되는 시기\"",
@@ -440,7 +504,8 @@
       "date": "2026-06-18",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "메디아나, '엔비디아'가 점찍은 엑스와이지와 의료 AI 협업",
@@ -450,7 +515,8 @@
       "date": "2026-06-09",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지 바리스타 로봇 ‘바리스’, 누적 식음료 제조 100만건 돌파",
@@ -460,7 +526,8 @@
       "date": "2026-05-22",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "“AI가 내린 커피 100만잔”…엑스와이지, 리테일 로봇 운영 데이터 축적 가속",
@@ -470,7 +537,8 @@
       "date": "2026-05-22",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 한양대와 ‘휴먼로봇인터렉션 센터 설립’ MOU",
@@ -480,7 +548,8 @@
       "date": "2026-05-04",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 한양대 기술경영전문대학원과 ‘휴먼로봇인터렉션 센터’ 오픈",
@@ -490,7 +559,8 @@
       "date": "2026-04-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "한양대-엑스와이지 ‘휴먼로봇인터렉션 센터’ 설립 협약",
@@ -500,7 +570,8 @@
       "date": "2026-04-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "로봇과 인간의 소통을 디자인하다...엑스와이지, HRI 연구 거점 구축",
@@ -510,7 +581,8 @@
       "date": "2026-04-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "\"사람 중심 로봇혁신 실현\"…엑스와이지, 한양대와 산학협력",
@@ -520,7 +592,8 @@
       "date": "2026-04-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 한양대와 ‘휴먼로봇인터렉션 센터’ 설립 및 업무협약 체결",
@@ -530,7 +603,8 @@
       "date": "2026-04-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 서비스 특화 양팔형 로봇 ‘듀스’ 공개...\"카페 알바·고객 응대도 척척\"",
@@ -540,7 +614,8 @@
       "date": "2026-04-28",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 양팔형 세미 휴머노이드 로봇 ‘듀스’ 공개",
@@ -550,7 +625,8 @@
       "date": "2026-04-27",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 양팔형 로봇 ‘듀스’ 공개…서비스형 Physical AI 시장 도전",
@@ -560,7 +636,8 @@
       "date": "2026-04-27",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 양팔형 로봇 '듀스' 공개",
@@ -570,7 +647,8 @@
       "date": "2026-04-27",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 양팔형 로봇 ‘듀스(DEUX)’ 공개 ... GloveX 기반 행동 학습 프레임워크 제시",
@@ -580,7 +658,8 @@
       "date": "2026-04-27",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "휴머노이드, 공장 대신 집·사무실·카페로...세미 휴머노이드 ‘듀스’ 베일 벗긴 엑스와이지",
@@ -590,7 +669,8 @@
       "date": "2026-04-27",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "부산 에코델타 스마트시티 뚫었다...엑스와이지 ‘바리스브루’ 주거 단지 시연 성공",
@@ -600,7 +680,8 @@
       "date": "2026-04-02",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 부산 에코델타 스마트시티서 ‘바리스브루’ 시연",
@@ -610,7 +691,8 @@
       "date": "2026-04-01",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "피지컬 AI 전문 ‘엑스와이지’, 데이터 기반 로봇 지능 고도화 및 피지컬 AI 확장 전략 발표",
@@ -620,7 +702,8 @@
       "date": "2026-03-30",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 유진증권 ‘유망 기업 설명회’ 참가…피지컬 AI 기반 사업 확장 전략 발표",
@@ -630,7 +713,8 @@
       "date": "2026-03-30",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 국제e모빌리티엑스포서 ‘바리스 DT’ 선보여",
@@ -640,7 +724,8 @@
       "date": "2026-03-27",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "피지컬 AI 전문 ‘엑스와이지’, IEVE 2026 혁신상 수상…로봇 드라이브스루 기반 ‘제주 AI 섬’ 비전 공개",
@@ -650,7 +735,8 @@
       "date": "2026-03-26",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 크라우드웍스와 MOU…피지컬 AI 데이터 고도화 나선다",
@@ -660,7 +746,8 @@
       "date": "2026-03-25",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "현장 데이터로 피지컬AI 고도화…엑스와이지-크라우드웍스 맞손",
@@ -670,7 +757,8 @@
       "date": "2026-03-25",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, ‘글러브엑스’ 기반 로봇 행동 데이터 표준화 본격화...크라우드웍스와 손잡아",
@@ -680,7 +768,8 @@
       "date": "2026-03-25",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "[게시판] 엑스와이지, 크라우드웍스와 로봇 학습 데이터 구축 협력 등 단신",
@@ -690,7 +779,8 @@
       "date": "2026-03-25",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "크라우드웍스, 엑스와이지와 로봇 학습 데이터 협력…피지컬 AI 시장 공략",
@@ -700,7 +790,8 @@
       "date": "2026-03-25",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "크라우드웍스-엑스와이지, 로봇 학습 데이터 사업 협력",
@@ -710,7 +801,8 @@
       "date": "2026-03-25",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "크라우드웍스, 엑스와이지(XYZ)와 로봇 학습 데이터 협력… 피지컬AI 공략",
@@ -720,7 +812,8 @@
       "date": "2026-03-25",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "현장 데이터로 피지컬AI 고도화…엑스와이지-크라우드웍스 맞손 - 머니투데이",
@@ -730,7 +823,8 @@
       "date": "2026-03-25",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "[더벨]크라우드웍스, 엑스와이지와 로봇 학습 데이터 협력 - 머니투데이",
@@ -740,7 +834,8 @@
       "date": "2026-03-25",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "크라우드웍스, 엑스와이지와 로봇 데이터 협력…피지컬 AI 시장 공략",
@@ -750,7 +845,8 @@
       "date": "2026-03-25",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "‘130억 확보’ 엑스와이지, 현장 검증으로...피지컬 AI 사업화 ‘속도’",
@@ -760,7 +856,8 @@
       "date": "2026-03-20",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 차세대 바리스타 ‘바리스브루 4.0’ 출시",
@@ -770,7 +867,8 @@
       "date": "2026-03-12",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "'로봇은 거들 뿐, 경영은 AI가' 라운지엑스, 자율 운영 매장 시대 앞당긴다",
@@ -780,7 +878,8 @@
       "date": "2026-03-11",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "라운지엑스, 'AI 기반 리테일' 전략 실증",
@@ -790,7 +889,8 @@
       "date": "2026-03-11",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 130억 원 규모 시리즈 B 라운드 마감",
@@ -800,7 +900,8 @@
       "date": "2026-03-11",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 130억원 규모 시리즈 B 투자 유치",
@@ -810,7 +911,8 @@
       "date": "2026-03-09",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 130억원 규모 시리즈B 투자 유치…로봇 지능 플랫폼 도약",
@@ -820,7 +922,8 @@
       "date": "2026-03-09",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 130억원 규모 시리즈B 투자 유치…피지컬 AI 사업 가속",
@@ -830,7 +933,8 @@
       "date": "2026-03-09",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "[AI픽] 로봇 기업 엑스와이지, 시리즈B 자금 조달",
@@ -840,7 +944,8 @@
       "date": "2026-03-09",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "\"로봇 서비스 일상 확산\"…엑스와이지, 130억 시리즈B 투자유치 - 머니투데이",
@@ -850,7 +955,8 @@
       "date": "2026-03-09",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "로봇카페 스타트업 엑스와이지, 130억 시리즈B 투자 유치",
@@ -860,7 +966,8 @@
       "date": "2026-03-09",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 시리즈B 130억 투자 유치…휴머노이드 ‘듀스’ 개발 본격화",
@@ -870,7 +977,8 @@
       "date": "2026-03-09",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, ‘독자 AI 파운데이션 모델’ 국책과제 참여",
@@ -880,7 +988,8 @@
       "date": "2026-02-26",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, ‘ROSCon Korea 2026’ 워크숍 참여",
@@ -890,7 +999,8 @@
       "date": "2026-01-27",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 음성 주문 로봇 시대 연다...로봇 바리스타 ‘바리스브루’에 시스템 도입",
@@ -900,7 +1010,8 @@
       "date": "2026-01-14",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 로봇 점원과 대화로 주문하는 지능형 주문방식 공개",
@@ -910,7 +1021,8 @@
       "date": "2026-01-07",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 2025년 로봇 상용화 성과 '결실'...매출 35억 원 돌파해",
@@ -920,7 +1032,8 @@
       "date": "2026-01-02",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지엑스, 무인카페 용산더프라임점 오픈 “검증된 직영 데이터&로봇 기술 접목”",
@@ -930,7 +1043,8 @@
       "date": "2025-12-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 올해 로봇 상용 성과로 경쟁력 입증",
@@ -940,7 +1054,8 @@
       "date": "2025-12-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "로봇으로 돈 버는 단계 진입한 엑스와이지… 바리스타 로봇 첫해 매출 35억",
@@ -950,7 +1065,8 @@
       "date": "2025-12-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지엑스 (LoungeX)",
@@ -960,7 +1076,8 @@
       "date": "2025-12-04",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "무인운영·로봇카페 ‘라운지엑스’, 홈페이지 개편",
@@ -970,7 +1087,8 @@
       "date": "2025-11-20",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "라운지엑스, 홈페이지 전면 개편… 기술 기반 무인·로봇 카페 직영 투자 모델 본격 공개",
@@ -980,7 +1098,8 @@
       "date": "2025-11-20",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "엑스와이지 “바리스타 로봇 ‘바리스브루’ 구매 꾸준히 증가”",
@@ -990,7 +1109,8 @@
       "date": "2025-11-18",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 라운지엑스와 로봇카페 상용화 MOU…무인 매장 확산 본격화",
@@ -1000,7 +1120,8 @@
       "date": "2025-10-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 내년 로봇카페 100곳 늘린다",
@@ -1010,7 +1131,8 @@
       "date": "2025-10-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 맘스터치와 AI·로봇 기반 F&B 서비스 혁신 MOU",
@@ -1020,7 +1142,8 @@
       "date": "2025-10-27",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "[기업 최전선을 가다-엑스와이지] \"일상을 위한 지능형 로봇을 만들다\"",
@@ -1030,7 +1153,8 @@
       "date": "2025-10-26",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 춤추고 커피 타주는 로봇...'브레인엑스' 기반 피지컬 AI 혁신 사례 공개한다",
@@ -1040,7 +1164,8 @@
       "date": "2025-09-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지엑스, 로봇카페 최초 교보문고 큐레이션 도서 판매 개시 - 머니투데이",
@@ -1050,7 +1175,8 @@
       "date": "2025-09-16",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 교보문고와 문화 콘텐츠 공간 실증",
@@ -1060,7 +1186,8 @@
       "date": "2025-09-15",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, ‘K-휴머노이드 연합’ 최종 선정",
@@ -1070,7 +1197,8 @@
       "date": "2025-08-04",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 로봇카페 '바리스브루X' 공개",
@@ -1080,7 +1208,8 @@
       "date": "2025-07-14",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, '유니티' 기반 실시간 모방학습 환경 '트윈엑스' 공개",
@@ -1090,7 +1219,8 @@
       "date": "2025-06-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "무인운영과 프리미엄 커피 경험을 결합, 라운지엑스 24H 원그로브점’ 정식 오픈",
@@ -1100,7 +1230,8 @@
       "date": "2025-06-16",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "브라우니, 라운지엑스와 무인 로봇매장 운영 MOU",
@@ -1110,7 +1241,8 @@
       "date": "2025-06-04",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "무인 매장 관리 스타트업 ‘브라우니’, 로봇 카페 브랜드 ‘라운지엑스’와 전략적 MOU 체결",
@@ -1120,7 +1252,8 @@
       "date": "2025-06-04",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "커피 로봇부터 로봇 빌딩까지, 일상을 변화시키는 로봇 전문 기업, 엑스와이지",
@@ -1130,7 +1263,8 @@
       "date": "2025-04-15",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지 무인 로봇카페 하루 500잔 팔려",
@@ -1140,7 +1274,8 @@
       "date": "2024-06-04",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "[투데이 스타트업] 알리콘, 프로메디우스, 한국축산데이터, 코드잇, 엑스와이지",
@@ -1150,7 +1285,8 @@
       "date": "2024-06-04",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "AMD와 로봇카페 ‘라운지엑스’의 만남, 콜라보 행사 주목",
@@ -1160,7 +1296,8 @@
       "date": "2023-10-18",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "엑스와이지 로봇카페 '라운지엑스', AMD와 협업 행사 진행",
@@ -1170,7 +1307,8 @@
       "date": "2023-10-16",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 식음료 자회사 라운지엑스에 김동진 대표 선임",
@@ -1180,7 +1318,8 @@
       "date": "2023-09-05",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "15년 경력 바리스타 김동진, 로봇카페 '라운지엑스' 대표 선임",
@@ -1190,7 +1329,8 @@
       "date": "2023-09-05",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "15년 경력 바리스타 김동진, 로봇카페 '라운지엑스' 대표 선임 - 머니투데이",
@@ -1200,7 +1340,8 @@
       "date": "2023-09-05",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "[테크M 피플] '로봇 대중화' 이끄는 황성재의 엑스와이지, 코스닥 입성 '채비'",
@@ -1210,7 +1351,8 @@
       "date": "2023-06-28",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지엑스알, 무인 로봇카페 최초로 위생등급제 취득",
@@ -1220,7 +1362,8 @@
       "date": "2023-03-21",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 오픈형 로봇 매장 오픈···동남아 시장 개척 준비",
@@ -1230,7 +1373,8 @@
       "date": "2022-10-28",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 오픈형 무인 로봇 카페 ‘엑스익스프레스’ 성수동서 첫 선",
@@ -1240,7 +1384,8 @@
       "date": "2022-10-24",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 로봇 커피트럭 ‘MLB 홈런더비 X’에서 선봬",
@@ -1250,7 +1395,8 @@
       "date": "2022-09-16",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 자율주행 로봇 스타트업 코봇 인수하고 ‘XYZ’로 사명 변경",
@@ -1260,7 +1406,8 @@
       "date": "2022-08-01",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "로봇 기업 라운지랩, 자율주행 로봇 스타트업 ‘코봇’ 인수",
@@ -1270,7 +1417,8 @@
       "date": "2022-08-01",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "엑스와이지, 자율주행 로봇 스타트업 ‘코봇’ 인수",
@@ -1280,7 +1428,8 @@
       "date": "2022-08-01",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩, '코봇' 인수하고 'XYZ'로 사명 변경",
@@ -1290,7 +1439,8 @@
       "date": "2022-08-01",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 식음료 리테일 스타트업 ‘엠비치오넴’ 인수",
@@ -1300,7 +1450,8 @@
       "date": "2022-07-26",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 엠비치오넴 인수…로봇 기반 리테일비즈니스 성장시킨다",
@@ -1310,7 +1461,8 @@
       "date": "2022-07-26",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 식음료 리테일 스타트업 '엠비치오넴' 인수 - 머니투데이",
@@ -1320,7 +1472,8 @@
       "date": "2022-07-26",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "'발명왕' 황성재의 로봇 스타트업 라운지랩, 식음료 스타트업 엠비치오넴 인수",
@@ -1330,7 +1483,8 @@
       "date": "2022-07-26",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "[인터뷰] 황성재 라운지랩 대표 '일상을 위한 로봇 만들 것'",
@@ -1340,7 +1494,8 @@
       "date": "2022-06-12",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 중기부 '아기유니콘 200' 선정",
@@ -1350,7 +1505,8 @@
       "date": "2022-06-03",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "리테일 무인화 로봇 솔루션 '라운지랩', 중기부 아기유니콘 200 선정",
@@ -1360,7 +1516,8 @@
       "date": "2022-06-03",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "테마파크에 로봇 카페, ‘라운지엑스 에버랜드점’ 오픈한다",
@@ -1370,7 +1527,8 @@
       "date": "2022-03-07",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "​로봇 카페 라운지엑스, 에버랜드점 오픈",
@@ -1380,7 +1538,8 @@
       "date": "2022-03-07",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 에버랜드에 로봇 협업 카페 오픈",
@@ -1390,7 +1549,8 @@
       "date": "2022-03-07",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "에버랜드에선 로봇이 커피·아이스크림 만든다…'라운지엑스' 오픈 - 머니투데이",
@@ -1400,7 +1560,8 @@
       "date": "2022-03-07",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "로봇 스타트업 라운지랩, 4월 완전 무인카페 오픈",
@@ -1410,7 +1571,8 @@
       "date": "2022-02-25",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩-점프컴퍼니, 로봇 빌딩 솔루션 개발 위해 MOU 체결...부산시 지식산업센터에 적용 첫 사례 선보일 것",
@@ -1420,7 +1582,8 @@
       "date": "2022-01-31",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩-점프컴퍼니, 로봇 빌딩 솔루션 개발 MOU 체결",
@@ -1430,7 +1593,8 @@
       "date": "2022-01-28",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "[푸드테크] 라운지랩, 두산로보틱스와 MOU로 ‘협동로봇 솔루션’ 강화한다",
@@ -1440,7 +1604,8 @@
       "date": "2021-11-16",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "두산로보틱스, 스타트업 라운지랩과 아이스크림 로봇 개발한다",
@@ -1450,7 +1615,8 @@
       "date": "2021-11-15",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩-두산로보틱스, 협동로봇 솔루션 강화 MOU",
@@ -1460,7 +1626,8 @@
       "date": "2021-11-15",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩-UNIST, 로봇 서비스 공동연구 MOU 체결",
@@ -1470,7 +1637,8 @@
       "date": "2021-10-06",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩, ‘데스커’와 기술⋅미래 라이프스타일 공간 선봬",
@@ -1480,7 +1648,8 @@
       "date": "2021-08-13",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "죽도해변의 아이스크림 로봇...데스커X라운지랩 '멤버십 비치 라운지' 오픈",
@@ -1490,7 +1659,8 @@
       "date": "2021-08-13",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 배달전용 커피로봇 ‘바리스브루’ 선보여",
@@ -1500,7 +1670,8 @@
       "date": "2021-07-13",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 배달커피 전용 로봇 ‘바리스 브루’ 운영",
@@ -1510,7 +1681,8 @@
       "date": "2021-07-12",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "[푸드테크] 라운지랩, 배달커피 전용 바리스타 로봇 ‘바리스 브루’ 선보여",
@@ -1520,7 +1692,8 @@
       "date": "2021-07-12",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 배달커피 전용 바리스타 로봇 ‘바리스 브루’ 선보인다",
@@ -1530,7 +1703,8 @@
       "date": "2021-07-12",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 음료 제조·밀봉 바리스타 로봇 선봬",
@@ -1540,7 +1714,8 @@
       "date": "2021-07-12",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 식음료 협동 로봇 서비스 선보인다",
@@ -1550,6 +1725,18 @@
       "date": "2021-06-28",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
+      "scope": "operator",
+      "region": "kr"
+    },
+    {
+      "title": "South Korea: Lounge Lab Opens Brown Bana Robot Ice Cream Shop",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdk9fOUhXZG5Jd1JzNXpDVXdoUUZncFRNdkpITGxWUUtsbVFoeDlZb2pjRWJnbTRoZVdhWC1wUjdBNWxsLXNiZGxMcjZiN0kzRG0teHBKNGR3ZF9UdHdmejJkWjNMM0NtaHBYdFl6eGdKNGpJTnlFQXFQN192SHc1eUY4cF94RGhXRElR?oc=5",
+      "press": "The Spoon.tech",
+      "date": "2021-06-16",
+      "source": "google",
+      "region": "overseas",
+      "firstSeenAt": "2026-08-06T07:04:15.040Z",
       "scope": "operator"
     },
     {
@@ -1560,7 +1747,8 @@
       "date": "2021-06-08",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 블록체인 메타버스 '더 샌드박스'와 MOU",
@@ -1570,7 +1758,8 @@
       "date": "2021-05-25",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩 '커피로봇', 10가지 이상 음료 제조 가능",
@@ -1580,7 +1769,8 @@
       "date": "2021-04-30",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 회전형 레일 시스템 접목된 에스프레소 로봇 운영 개시",
@@ -1590,7 +1780,8 @@
       "date": "2021-04-30",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "[UP! START] 라운지랩, '에스프레스 로봇' 카페로 출동",
@@ -1600,7 +1791,8 @@
       "date": "2021-04-30",
       "source": "google",
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 협동로봇 아이스크림 스토어 ‘브라운바나’ 오픈",
@@ -1610,7 +1802,8 @@
       "date": "2021-04-21",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "“5년 내외로 로봇 시대 올 것…고된 업무, 로봇이 대체해야” 황성재 라운지랩 대표",
@@ -1620,6 +1813,18 @@
       "date": "2021-04-07",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
+      "scope": "operator",
+      "region": "kr"
+    },
+    {
+      "title": "LOUNGE LAB Unveils 'ARIS', Capsule-Based Ice Cream Robot Customizable with 10 Flavors and 3 Shapes",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNUHBZaWtWSVpBY0ZEVUdsMEtScmxlc1o5SUhvV2pTeWtscFdHNXNMbFhfY29LcldSVEk4R1N2Y1g3VDV2VEFVSTNYZXB6SFk0WnJBYlRxVjAzY2JaanFxSHR3aDVtdlM3ZGhfZFB0bzNaY3dITU1pazdDRVRKblg5RnltVQ?oc=5",
+      "press": "Yahoo Finance",
+      "date": "2021-04-02",
+      "source": "google",
+      "region": "overseas",
+      "firstSeenAt": "2026-08-06T07:04:15.040Z",
       "scope": "operator"
     },
     {
@@ -1630,7 +1835,8 @@
       "date": "2021-03-24",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "라운지엑스 바리스타 로봇, 현대차 아이오닉 5 체험 공간에 합류",
@@ -1640,7 +1846,8 @@
       "date": "2021-03-21",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 캡슐 기반 아이스크림 로봇 '아리스' 공개",
@@ -1650,7 +1857,8 @@
       "date": "2021-01-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 무인 아이스크림 로봇 ‘아리스’ 공개",
@@ -1660,7 +1868,8 @@
       "date": "2021-01-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 캡슐 기반의 아이스크림 로봇 '아리스' 개발",
@@ -1670,7 +1879,8 @@
       "date": "2021-01-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지엑스, 레일 시스템 적용한 새로운 커피 로봇 공개",
@@ -1680,7 +1890,8 @@
       "date": "2021-01-18",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "로봇 협업 카페 ‘라운지엑스’, 두산 신사옥 7호점 오픈",
@@ -1690,7 +1901,8 @@
       "date": "2021-01-18",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "[인스타산책] 라운지엑스 - 로봇 바리스타의 드립커피, '손맛'은 어떨까",
@@ -1700,7 +1912,8 @@
       "date": "2021-01-14",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "'로봇 바리스타' 만든 라운지랩, 30억 기관투자 유치",
@@ -1710,7 +1923,8 @@
       "date": "2020-12-18",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "리테일테크 ‘라운지랩’, 30억 기관 투자 유치",
@@ -1720,7 +1934,8 @@
       "date": "2020-12-18",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "리테일테크 스타트업 ‘라운지랩’, 30억 규모 첫 기관 투자 유치",
@@ -1730,7 +1945,8 @@
       "date": "2020-12-18",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 30억원 규모 투자 유치",
@@ -1740,7 +1956,8 @@
       "date": "2020-12-18",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지엑스, 포르쉐와 구성한 브랜드 하우스 성공적으로 종료",
@@ -1750,7 +1967,8 @@
       "date": "2020-12-03",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "라운지엑스, 포르쉐와 구성한 브랜드 하우스 성황리에 종료",
@@ -1760,7 +1978,8 @@
       "date": "2020-12-03",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "라운지엑스, 포르쉐코리아의 이벤트공간 내 브랜드 하우스 개최",
@@ -1770,7 +1989,8 @@
       "date": "2020-11-27",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 완전 무인화 커피 로봇 ‘바리스 캔’ 출시",
@@ -1780,7 +2000,8 @@
       "date": "2020-11-18",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩, 인공지능 스마트스토어 무인상회(無人商會) 공개",
@@ -1790,7 +2011,8 @@
       "date": "2020-09-14",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "[외식BIZ 단신] 카페 라운지엑스, '프로집콕러'를 위한 콜드브루 캔커피 출시",
@@ -1800,7 +2022,8 @@
       "date": "2020-09-01",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "라운지X, 로봇 바리스타가 만들어주는 캔커피",
@@ -1810,7 +2033,8 @@
       "date": "2020-07-30",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "[푸드테크]라운지엑스카페, 핸드드립 바(Bar)에 이어 '도로 위의 카페' 드라이브스루 매장 나온다",
@@ -1820,7 +2044,8 @@
       "date": "2020-07-15",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "라운지랩-비다스테크, 무인매장용 '식음료 컨트롤' 기술 개발한다",
@@ -1830,7 +2055,8 @@
       "date": "2020-07-14",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩-두산로보틱스, 바리스타 로봇 서비스 개발한다",
@@ -1840,7 +2066,8 @@
       "date": "2020-06-18",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "\"제주서 로봇이 내리는 커피 맛봐요\"…로봇카페 라운지X, 제주에 3호점",
@@ -1850,7 +2077,8 @@
       "date": "2020-06-02",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "로봇 카페 ‘라운지엑스’, 제주 애월에 3호점 오픈",
@@ -1860,7 +2088,8 @@
       "date": "2020-06-01",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "brand"
+      "scope": "brand",
+      "region": "kr"
     },
     {
       "title": "[융합의 시대, 푸드에 테크를 입히다] 황성재 라운지랩 대표",
@@ -1870,7 +2099,8 @@
       "date": "2020-03-24",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "[인터뷰] 황성재 라운지랩 대표 \"기술 과잉시대, 소비자 삶에 기여해야\"",
@@ -1880,7 +2110,8 @@
       "date": "2020-01-21",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩x레인보우로보틱스, 상업용 조립로봇 만든다",
@@ -1890,7 +2121,8 @@
       "date": "2019-12-24",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "라운지랩-레인보우 로보틱스, 상업공간 로봇 활용 협력",
@@ -1900,7 +2132,8 @@
       "date": "2019-12-24",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     },
     {
       "title": "\"로봇이 만드는 칵테일 한 잔\"…라운지랩·두산로보틱스 협약",
@@ -1910,7 +2143,8 @@
       "date": "2019-11-22",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "scope": "operator"
+      "scope": "operator",
+      "region": "kr"
     }
   ]
 }
