@@ -11,6 +11,7 @@ data/*
 !data/summary.json
 !data/summary-google.json
 !data/summary-app.json
+!data/summary-kakao.json
 !data/rank.json
 !data/trend.json
 # 뉴스는 공개 기사라 원문째로 커밋 — 커밋 파일 자체가 누적 저장소 역할(캐시 불필요)
@@ -19,6 +20,7 @@ data/*
 !data/reply-cache.json
 !data/reply-cache-google.json
 !data/reply-cache-app.json
+!data/reply-cache-kakao.json
 
 # 시스템/에디터
 .DS_Store

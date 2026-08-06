@@ -1,0 +1,611 @@
+{
+  "lastUpdated": "2026-08-06T08:00:27.710Z",
+  "totalStores": 10,
+  "totalReviews": 14,
+  "avgReviewsPerStore": 1.4,
+  "monthlyActivity": 1,
+  "stores": [
+    {
+      "id": "store_seongsu",
+      "name": "라운지엑스24h 성수본점",
+      "reviewCount": 3,
+      "positiveRatio": 0.3333333333333333,
+      "negativeRatio": 0,
+      "neutralRatio": 0.6666666666666666,
+      "monthlyActivity": 0,
+      "latestReviewDate": "2026-02-28",
+      "newReviewCount": 3,
+      "rating": 3.9,
+      "ratingCount": 14
+    },
+    {
+      "id": "store_seoulforest_ak",
+      "name": "라운지엑스24h 서울숲AK점",
+      "reviewCount": 2,
+      "positiveRatio": 1,
+      "negativeRatio": 0,
+      "neutralRatio": 0,
+      "monthlyActivity": 1,
+      "latestReviewDate": "2026-07-25",
+      "newReviewCount": 2,
+      "rating": 4,
+      "ratingCount": 2
+    },
+    {
+      "id": "store_gangnam",
+      "name": "라운지엑스24h 강남역점",
+      "reviewCount": 2,
+      "positiveRatio": 0.5,
+      "negativeRatio": 0,
+      "neutralRatio": 0.5,
+      "monthlyActivity": 0,
+      "latestReviewDate": "2026-06-20",
+      "newReviewCount": 2,
+      "rating": 2.5,
+      "ratingCount": 2
+    },
+    {
+      "id": "store_euljiro",
+      "name": "라운지엑스24h 을지돌담길점",
+      "reviewCount": 0,
+      "positiveRatio": 0,
+      "negativeRatio": 0,
+      "neutralRatio": 0,
+      "monthlyActivity": 0,
+      "latestReviewDate": null,
+      "newReviewCount": 0,
+      "rating": 0,
+      "ratingCount": 0
+    },
+    {
+      "id": "store_yongsan_prime",
+      "name": "라운지엑스24h 용산더프라임점",
+      "reviewCount": 3,
+      "positiveRatio": 1,
+      "negativeRatio": 0,
+      "neutralRatio": 0,
+      "monthlyActivity": 0,
+      "latestReviewDate": "2025-12-30",
+      "newReviewCount": 3,
+      "rating": 4.3,
+      "ratingCount": 6
+    },
+    {
+      "id": "store_garak_it",
+      "name": "라운지엑스24h 가락IT벤처타워점",
+      "reviewCount": 0,
+      "positiveRatio": 0,
+      "negativeRatio": 0,
+      "neutralRatio": 0,
+      "monthlyActivity": 0,
+      "latestReviewDate": null,
+      "newReviewCount": 0,
+      "rating": 4,
+      "ratingCount": 1
+    },
+    {
+      "id": "store_sangam_dmc",
+      "name": "라운지엑스24h 상암DMC역점",
+      "reviewCount": 1,
+      "positiveRatio": 0,
+      "negativeRatio": 0,
+      "neutralRatio": 1,
+      "monthlyActivity": 0,
+      "latestReviewDate": "2026-05-09",
+      "newReviewCount": 1,
+      "rating": 4,
+      "ratingCount": 1
+    },
+    {
+      "id": "store_one_grove",
+      "name": "라운지엑스24h 원그로브점",
+      "reviewCount": 0,
+      "positiveRatio": 0,
+      "negativeRatio": 0,
+      "neutralRatio": 0,
+      "monthlyActivity": 0,
+      "latestReviewDate": null,
+      "newReviewCount": 0,
+      "rating": 0,
+      "ratingCount": 0
+    },
+    {
+      "id": "store_mapo_frontone",
+      "name": "라운지엑스24h 마포프론트원점",
+      "reviewCount": 0,
+      "positiveRatio": 0,
+      "negativeRatio": 0,
+      "neutralRatio": 0,
+      "monthlyActivity": 0,
+      "latestReviewDate": null,
+      "newReviewCount": 0,
+      "rating": 0,
+      "ratingCount": 0
+    },
+    {
+      "id": "store_ifc",
+      "name": "라운지엑스 IFC몰점",
+      "reviewCount": 3,
+      "positiveRatio": 0.6666666666666666,
+      "negativeRatio": 0,
+      "neutralRatio": 0.3333333333333333,
+      "monthlyActivity": 0,
+      "latestReviewDate": "2026-01-29",
+      "newReviewCount": 3,
+      "rating": 3.3,
+      "ratingCount": 11
+    }
+  ],
+  "recentReviewsByStore": {
+    "store_seongsu": [
+      {
+        "date": "2026-02-28",
+        "text": "제발 없어지지 말고 영원히 남아 주세요",
+        "rating": 5,
+        "sentiment": "neutral",
+        "isNew": true
+      },
+      {
+        "date": "2025-10-07",
+        "text": "사람도 없고 조용한데 적당히 듣기 좋은 음악이 있어요\n매장 내부도 너무 예쁘고 한적해서 좋아요\n커피 맛도 너무 좋아서 놀랬어요",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true
+      },
+      {
+        "date": "2024-11-28",
+        "text": "자주 방문하는 카페입니다~!\n처음에는 다소 의아했는데 점차 발전 하는 것 같아요.\n커피 맛이 달라졌는데 취향저격으로 매일 아침 방문해서 테이크아웃 합니다ㅎㅎ\n겨울테마 너무 귀엽네용",
+        "rating": 5,
+        "sentiment": "neutral",
+        "isNew": true
+      }
+    ],
+    "store_seoulforest_ak": [
+      {
+        "date": "2026-07-25",
+        "text": "공간은 성수점보다 작지만 야밤에 사람없어서 조용히 작업 가능함. 베이커리류나 탄산수는 수량이 여기가 더 적음. 두 지점 모두 냉방이 빡셈. 춥다. 심오한 음악이 계속 반복되는것이 단점. 노래 플레이리스트를 손보면 좋겠다.",
+        "rating": 3,
+        "sentiment": "positive",
+        "isNew": true
+      },
+      {
+        "date": "2025-10-27",
+        "text": "24시라 야간에 업무하기 좋아요! 신기하게 무인인데 커피가 스벅보다 맛남",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true
+      }
+    ],
+    "store_gangnam": [
+      {
+        "date": "2026-06-20",
+        "text": "정말희한...오랜 시간 작업하기에 눈치가 보일락 말락 함 자리를 펴고 앉기도 뭐하고 그렇다고 기왕 왔는데 다른 무인카페보다 엄청 싼 것도 아니라 다른 곳 가기도 아까움",
+        "rating": 3,
+        "sentiment": "neutral",
+        "isNew": true
+      },
+      {
+        "date": "2026-06-09",
+        "text": "커피 맛있었는데 ... 음식이나 케이크 빵 이런 게 셀프로 가져갈 수 있게 되어 있어요. 빵 번 같은 경우는 오픈 되어 있고... 바닥 보는데 바퀴벌레 기어 가서 깜짝 놀랐음. 그리고 새벽에는 술집 여자들 와서 앉아 있음 메뉴 시키지도 않고. . 무인,  24시 인데다가 강남역 근처라서 ...",
+        "rating": 2,
+        "sentiment": "positive",
+        "isNew": true
+      }
+    ],
+    "store_euljiro": [],
+    "store_yongsan_prime": [
+      {
+        "date": "2025-12-30",
+        "text": "신기하지만 생각보다 맛있네요.\n커피도 저렴하고요.\n오픈 이벤트로 번도 주네요.\n자주 오겠습니다.",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true
+      },
+      {
+        "date": "2025-12-30",
+        "text": "무인카페 중에 젤 깔끔하고 신기해요 ㅎㅎ 커피맛도 넘 맛있어서 자주 올 것 같아요! 추천👍",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true
+      },
+      {
+        "date": "2025-12-29",
+        "text": "공간도 깔끔하고 로봇이 내리는 커피라서 신기하네요 ㅎㅎ 가성비 굳",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true
+      }
+    ],
+    "store_garak_it": [],
+    "store_sangam_dmc": [
+      {
+        "date": "2026-05-09",
+        "text": "괜찮다정도.",
+        "rating": 4,
+        "sentiment": "neutral",
+        "isNew": true
+      }
+    ],
+    "store_one_grove": [],
+    "store_mapo_frontone": [],
+    "store_ifc": [
+      {
+        "date": "2026-01-29",
+        "text": "IFC에서 강아지가 가방없이 들어올 수 있는 몇 안되는 카페중 하나라는 점에서 정말 좋아요.\n\n맛 괜찮습니다! 다른 후기보니 로봇 관련된게 있는 것 같은데 저는 못 봤습니당",
+        "rating": 4,
+        "sentiment": "positive",
+        "isNew": true
+      },
+      {
+        "date": "2025-06-10",
+        "text": "이럴거면 오전 할인해서 팔지 마세요.\n커피가 아니라 그냥 물이네.\n요즘 도가 지나친듯요.",
+        "rating": 1,
+        "sentiment": "neutral",
+        "isNew": true
+      },
+      {
+        "date": "2025-06-06",
+        "text": "마셔본 디카페인 아메리카노 중에 제일 향이 좋고 고소하고 맛있어요",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true
+      }
+    ]
+  },
+  "representativeByStore": {
+    "store_seongsu": {
+      "positive": [
+        {
+          "date": "2025-10-07",
+          "text": "사람도 없고 조용한데 적당히 듣기 좋은 음악이 있어요\n매장 내부도 너무 예쁘고 한적해서 좋아요\n커피 맛도 너무 좋아서 놀랬어요",
+          "rating": 5,
+          "sentiment": "positive"
+        }
+      ],
+      "negative": []
+    },
+    "store_seoulforest_ak": {
+      "positive": [
+        {
+          "date": "2025-10-27",
+          "text": "24시라 야간에 업무하기 좋아요! 신기하게 무인인데 커피가 스벅보다 맛남",
+          "rating": 5,
+          "sentiment": "positive"
+        },
+        {
+          "date": "2026-07-25",
+          "text": "공간은 성수점보다 작지만 야밤에 사람없어서 조용히 작업 가능함. 베이커리류나 탄산수는 수량이 여기가 더 적음. 두 지점 모두 냉방이 빡셈. 춥다. 심오한 음악이 계속 반복되는것이 단점. 노래 플레이리스트를 손보면 좋겠다.",
+          "rating": 3,
+          "sentiment": "positive"
+        }
+      ],
+      "negative": []
+    },
+    "store_gangnam": {
+      "positive": [
+        {
+          "date": "2026-06-09",
+          "text": "커피 맛있었는데 ... 음식이나 케이크 빵 이런 게 셀프로 가져갈 수 있게 되어 있어요. 빵 번 같은 경우는 오픈 되어 있고... 바닥 보는데 바퀴벌레 기어 가서 깜짝 놀랐음. 그리고 새벽에는 술집 여자들 와서 앉아 있음 메뉴 시키지도 않고. . 무인,  24시 인데다가 강남역 근처라서 ...",
+          "rating": 2,
+          "sentiment": "positive"
+        }
+      ],
+      "negative": []
+    },
+    "store_euljiro": {
+      "positive": [],
+      "negative": []
+    },
+    "store_yongsan_prime": {
+      "positive": [
+        {
+          "date": "2025-12-30",
+          "text": "무인카페 중에 젤 깔끔하고 신기해요 ㅎㅎ 커피맛도 넘 맛있어서 자주 올 것 같아요! 추천👍",
+          "rating": 5,
+          "sentiment": "positive"
+        },
+        {
+          "date": "2025-12-30",
+          "text": "신기하지만 생각보다 맛있네요.\n커피도 저렴하고요.\n오픈 이벤트로 번도 주네요.\n자주 오겠습니다.",
+          "rating": 5,
+          "sentiment": "positive"
+        },
+        {
+          "date": "2025-12-29",
+          "text": "공간도 깔끔하고 로봇이 내리는 커피라서 신기하네요 ㅎㅎ 가성비 굳",
+          "rating": 5,
+          "sentiment": "positive"
+        }
+      ],
+      "negative": []
+    },
+    "store_garak_it": {
+      "positive": [],
+      "negative": []
+    },
+    "store_sangam_dmc": {
+      "positive": [],
+      "negative": []
+    },
+    "store_one_grove": {
+      "positive": [],
+      "negative": []
+    },
+    "store_mapo_frontone": {
+      "positive": [],
+      "negative": []
+    },
+    "store_ifc": {
+      "positive": [
+        {
+          "date": "2025-06-06",
+          "text": "마셔본 디카페인 아메리카노 중에 제일 향이 좋고 고소하고 맛있어요",
+          "rating": 5,
+          "sentiment": "positive"
+        },
+        {
+          "date": "2026-01-29",
+          "text": "IFC에서 강아지가 가방없이 들어올 수 있는 몇 안되는 카페중 하나라는 점에서 정말 좋아요.\n\n맛 괜찮습니다! 다른 후기보니 로봇 관련된게 있는 것 같은데 저는 못 봤습니당",
+          "rating": 4,
+          "sentiment": "positive"
+        }
+      ],
+      "negative": []
+    }
+  },
+  "monthlySentimentByYear": {
+    "2024": [
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      }
+    ],
+    "2025": [
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 1
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 2,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 3,
+        "negative": 0,
+        "neutral": 0
+      }
+    ],
+    "2026": [
+      {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1
+      },
+      {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 1
+      },
+      {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      }
+    ]
+  },
+  "availableYears": [
+    2026,
+    2025,
+    2024
+  ],
+  "keywordFrequency": [
+    {
+      "word": "커피·음료",
+      "sentiment": "neutral",
+      "count": 9
+    },
+    {
+      "word": "맛있다",
+      "sentiment": "positive",
+      "count": 4
+    },
+    {
+      "word": "깨끗·깔끔",
+      "sentiment": "positive",
+      "count": 2
+    },
+    {
+      "word": "조용",
+      "sentiment": "positive",
+      "count": 2
+    },
+    {
+      "word": "넓은 공간",
+      "sentiment": "positive",
+      "count": 2
+    },
+    {
+      "word": "디저트·베이커리",
+      "sentiment": "neutral",
+      "count": 2
+    },
+    {
+      "word": "로봇",
+      "sentiment": "neutral",
+      "count": 2
+    },
+    {
+      "word": "가성비·가격",
+      "sentiment": "neutral",
+      "count": 2
+    },
+    {
+      "word": "공부·작업",
+      "sentiment": "neutral",
+      "count": 2
+    },
+    {
+      "word": "예쁘다",
+      "sentiment": "positive",
+      "count": 1
+    },
+    {
+      "word": "추천",
+      "sentiment": "positive",
+      "count": 1
+    },
+    {
+      "word": "자리·좌석",
+      "sentiment": "neutral",
+      "count": 1
+    }
+  ]
+}

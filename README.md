@@ -62,6 +62,7 @@ npm run analyze   # 감성분석 + 요약 → data/summary.json
 
 # 그 외 수집원 (각각 독립 실행)
 npm run update:google  # 구글 리뷰
+npm run update:kakao   # 카카오맵 리뷰 (키 불필요)
 npm run update:app     # 앱 리뷰 (구글플레이 + 앱스토어)
 npm run rank           # 네이버 플레이스 검색 순위
 npm run trend          # 브랜드 검색 관심도 (NAVER_CLIENT_ID/SECRET 필요)
@@ -138,6 +139,8 @@ loungex-brand-dashboard/
 │   ├── rank-config.json   # 매장별 순위 추적 좌표 + 검색어
 │   ├── scrape.js          # Playwright 리뷰 크롤러
 │   ├── scrape-google.js   # 구글 Places API 리뷰 수집
+│   ├── stores-kakao.json  # 매장 → 카카오맵 장소 ID 매핑
+│   ├── scrape-kakao.js    # 카카오맵(다음) 리뷰 수집
 │   ├── scrape-app.js      # 구글플레이 + 앱스토어 앱 리뷰 수집
 │   ├── scrape-rank.js     # 네이버 플레이스 검색 순위 수집
 │   ├── scrape-trend.js    # 네이버 데이터랩 검색 트렌드

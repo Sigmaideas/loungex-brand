@@ -1,4 +1,5 @@
-const PALETTE = ['#4263eb', '#1f2329', '#7950f2', '#f59f00', '#2f9e44', '#e8590c', '#15aabf', '#e64980', '#5c7cfa', '#fab005'];
+// 마지막 색은 원래 #fab005 였는데 매장이 10곳이 되면서 4번째(#f59f00)와 구분이 안 돼 회색으로 교체
+const PALETTE = ['#4263eb', '#1f2329', '#7950f2', '#f59f00', '#2f9e44', '#e8590c', '#15aabf', '#e64980', '#5c7cfa', '#868e96'];
 const SENTIMENT_LABEL = { positive: '긍정', negative: '부정', neutral: '중립' };
 
 let summary = null;
@@ -17,11 +18,12 @@ let newsSelectedYear = null;
 let selectedYear = null;
 let currentSource = 'naver';
 
-const SOURCE_LABEL = { naver: '네이버 플레이스', google: '구글', app: '라운지엑스앱' };
-const SOURCE_SUMMARY_FILE = { naver: 'summary.json', google: 'summary-google.json', app: 'summary-app.json' };
+const SOURCE_LABEL = { naver: '네이버 플레이스', google: '구글', kakao: '카카오맵', app: '라운지엑스앱' };
+const SOURCE_SUMMARY_FILE = { naver: 'summary.json', google: 'summary-google.json', kakao: 'summary-kakao.json', app: 'summary-app.json' };
 const SOURCE_PAGE_TITLE = {
   naver: '네이버 플레이스 리뷰 모니터링',
   google: '구글 리뷰 모니터링',
+  kakao: '카카오맵 리뷰 모니터링',
   app: '라운지엑스앱 모니터링',
   rank: '네이버 플레이스 검색 순위',
   news: '라운지엑스 뉴스 모니터링',
@@ -138,6 +140,19 @@ function buildKpis() {
       kpiCard({ icon: 'star', label: '구글 플레이 평점', value: rate(g), sub: cnt(g) }),
       kpiCard({ icon: 'star', label: '애플 앱스토어 평점', value: rate(a), sub: cnt(a) }),
       kpiCard({ icon: 'message-square', label: '총 리뷰 수', value: summary.totalReviews.toLocaleString(), sub: '수집된 텍스트 리뷰' }),
+      kpiCard({ icon: 'activity', label: '월간 활성도', value: summary.monthlyActivity.toLocaleString(), sub: '최근 30일 리뷰', accent: true }),
+    ];
+  } else if (currentSource === 'kakao') {
+    // 카카오는 별점만 남기고 글은 안 쓰는 이용자가 많아, 본문 리뷰 수보다 평점이 실질 지표다
+    const rated = summary.stores.filter((s) => s.ratingCount > 0);
+    const totalRatings = rated.reduce((sum, s) => sum + s.ratingCount, 0);
+    const avg = totalRatings
+      ? rated.reduce((sum, s) => sum + s.rating * s.ratingCount, 0) / totalRatings
+      : null;
+    cards = [
+      kpiCard({ icon: 'star', label: '평균 평점', value: avg != null ? `★ ${avg.toFixed(2)}` : '-', sub: `${totalRatings.toLocaleString()}개 평가 기준` }),
+      kpiCard({ icon: 'store', label: '평가 있는 매장', value: `${rated.length} / ${summary.totalStores}`, sub: '곳' }),
+      kpiCard({ icon: 'message-square', label: '본문 리뷰 수', value: summary.totalReviews.toLocaleString(), sub: '글이 있는 리뷰만' }),
       kpiCard({ icon: 'activity', label: '월간 활성도', value: summary.monthlyActivity.toLocaleString(), sub: '최근 30일 리뷰', accent: true }),
     ];
   } else {

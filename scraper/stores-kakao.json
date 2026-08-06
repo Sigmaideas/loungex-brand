@@ -1,0 +1,62 @@
+[
+  {
+    "id": "store_seongsu",
+    "name": "라운지엑스24h 성수본점",
+    "kakaoPlaceId": "356112103",
+    "kakaoDisplayName": "라운지엑스24h 성수본점"
+  },
+  {
+    "id": "store_seoulforest_ak",
+    "name": "라운지엑스24h 서울숲AK점",
+    "kakaoPlaceId": "516023474",
+    "kakaoDisplayName": "라운지엑스24h 서울숲AK점"
+  },
+  {
+    "id": "store_gangnam",
+    "name": "라운지엑스24h 강남역점",
+    "kakaoPlaceId": "1866626734",
+    "kakaoDisplayName": "라운지엑스24h 강남역점"
+  },
+  {
+    "id": "store_euljiro",
+    "name": "라운지엑스24h 을지돌담길점",
+    "kakaoPlaceId": "2144088909",
+    "kakaoDisplayName": "라운지엑스24h 을지돌담길점"
+  },
+  {
+    "id": "store_yongsan_prime",
+    "name": "라운지엑스24h 용산더프라임점",
+    "kakaoPlaceId": "726490786",
+    "kakaoDisplayName": "라운지엑스24h 용산더프라임점"
+  },
+  {
+    "id": "store_garak_it",
+    "name": "라운지엑스24h 가락IT벤처타워점",
+    "kakaoPlaceId": "1845477128",
+    "kakaoDisplayName": "라운지엑스24h 가락IT벤처타워점"
+  },
+  {
+    "id": "store_sangam_dmc",
+    "name": "라운지엑스24h 상암DMC역점",
+    "kakaoPlaceId": "1607341782",
+    "kakaoDisplayName": "라운지엑스24h 상암DMC역점"
+  },
+  {
+    "id": "store_one_grove",
+    "name": "라운지엑스24h 원그로브점",
+    "kakaoPlaceId": "1162251930",
+    "kakaoDisplayName": "라운지엑스24h 원그로브점"
+  },
+  {
+    "id": "store_mapo_frontone",
+    "name": "라운지엑스24h 마포프론트원점",
+    "kakaoPlaceId": "1220056702",
+    "kakaoDisplayName": "라운지엑스24h 마포프론트원점"
+  },
+  {
+    "id": "store_ifc",
+    "name": "라운지엑스 IFC몰점",
+    "kakaoPlaceId": "1385691644",
+    "kakaoDisplayName": "라운지엑스 IFC몰점"
+  }
+]

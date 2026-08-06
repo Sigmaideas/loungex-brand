@@ -28,7 +28,7 @@ const MIME = {
 
 let job = {
   running: false,
-  source: null, // 'naver' | 'google'
+  source: null, // 'naver' | 'google' | 'kakao'
   startedAt: null,
   finishedAt: null,
   ok: null,
@@ -72,8 +72,9 @@ async function runUpdate(source) {
   };
   log(`업데이트 시작 (source=${source})`);
 
-  const scrapeScript = source === 'google' ? 'scrape-google.js' : 'scrape.js';
-  const analyzeEnv = source === 'google' ? { SOURCE: 'google' } : {};
+  const SCRAPE_SCRIPT = { google: 'scrape-google.js', kakao: 'scrape-kakao.js' };
+  const scrapeScript = SCRAPE_SCRIPT[source] || 'scrape.js';
+  const analyzeEnv = source === 'naver' ? {} : { SOURCE: source };
 
   const scrapeCode = await runStep(scrapeScript, 'scrape');
   if (scrapeCode !== 0) {
@@ -130,7 +131,8 @@ const server = http.createServer((req, res) => {
   const url = new URL(req.url, `http://${req.headers.host}`);
   if (req.method === 'POST' && url.pathname === '/api/update') {
     if (job.running) return sendJson(res, 409, { error: '이미 실행 중입니다.' });
-    const source = url.searchParams.get('source') === 'google' ? 'google' : 'naver';
+    const requested = url.searchParams.get('source');
+    const source = ['google', 'kakao'].includes(requested) ? requested : 'naver';
     runUpdate(source);
     return sendJson(res, 202, { started: true, source });
   }
