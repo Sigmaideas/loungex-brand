@@ -1055,8 +1055,8 @@ const PHASE_LABEL = { scrape: '리뷰 수집 중', analyze: '감성 분석 중' 
 // 비워두면 버튼은 이미 수집된 데이터를 다시 불러오기만 한다.
 const TRIGGER_WORKER_URL = '';
 
-// 수집 스케줄 (update.yml cron: '40 23 * * *' UTC = 08:40 KST)
-const SCHEDULE_TEXT = '매일 08:40 KST';
+// 수집 스케줄 (update.yml cron: '40 11,23 * * *' UTC = 20:40 / 08:40 KST)
+const SCHEDULE_TEXT = '매일 오전·저녁 2회';
 
 if (!HAS_BACKEND) {
   document.addEventListener('DOMContentLoaded', () => {
