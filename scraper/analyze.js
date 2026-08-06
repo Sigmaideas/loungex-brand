@@ -142,6 +142,9 @@ function sentimentOf(review) {
   return { ...s, sentiment };
 }
 
+// 매장 상세 모달의 '최근 리뷰' 노출 건수 (최신순)
+const RECENT_COUNT = 10;
+
 // 대표 리뷰 후보: 글자 ≥ MIN_REP_LEN, 점수 ≥ MIN_REP_SCORE, 점수 높은 순 상위 N개
 const MIN_REP_LEN = 30;
 const MIN_REP_SCORE = 2;
@@ -283,7 +286,7 @@ async function main() {
   }
   const availableYears = Object.keys(monthlySentimentByYear).map(Number).sort((a, b) => b - a);
 
-  // 매장별 최근 5건 + 긍정/부정 대표 3건씩 (모달용)
+  // 매장별 최근 N건 + 긍정/부정 대표 3건씩 (모달용)
   const recentReviewsByStore = {};
   const representativeByStore = {};
   for (const b of buckets.values()) {
@@ -292,7 +295,7 @@ async function main() {
       const dc = parseDate(c.date)?.getTime() || 0;
       return dc - da;
     });
-    recentReviewsByStore[b.id] = sorted.slice(0, 5).map((r) => ({
+    recentReviewsByStore[b.id] = sorted.slice(0, RECENT_COUNT).map((r) => ({
       date: r.date,
       text: r.text,
       rating: r.rating,
