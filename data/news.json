@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-07T01:58:43.927Z",
+  "lastScrapedAt": "2026-08-07T12:33:58.158Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,9 +15,9 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 148,
-  "brandArticles": 38,
-  "operatorArticles": 109,
+  "totalArticles": 150,
+  "brandArticles": 39,
+  "operatorArticles": 110,
   "overseasArticles": 1,
   "articles": [
     {
@@ -29,6 +29,17 @@
       "source": "google",
       "region": "kr",
       "firstSeenAt": "2026-08-07T01:58:43.927Z",
+      "scope": "brand"
+    },
+    {
+      "title": "커피값 오르는데 할인은 늘렸다… 라운지엑스24h, AI 운영 효율로 가격 경쟁력 강화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAzVlVxSDJfZTZIUXRUVGJsYXFfWHVfdXp0VXpuVXFHSUFIamNkM2toOTk5MWZrNVgzeXQzVFJpRkpjeUhWR2ZRdnQ2OHBldFJEMERCaHN0SXo5Ylp6V21YSTZnR0QxZFFmMHBWc9IBbEFVX3lxTFAzVlVxSDJfZTZIUXRUVGJsYXFfWHVfdXp0VXpuVXFHSUFIamNkM2toOTk5MWZrNVgzeXQzVFJpRkpjeUhWR2ZRdnQ2OHBldFJEMERCaHN0SXo5Ylp6V21YSTZnR0QxZFFmMHBWcw?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-08-07",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-07T12:33:58.158Z",
       "scope": "brand"
     },
     {
@@ -1262,6 +1273,17 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "operator",
       "region": "kr"
+    },
+    {
+      "title": "엑스와이지, 유니티 기반 실시간 모방학습 환경 '트윈엑스' 첫 공개...차세대 로봇 지능화 기술",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xd0l0YjBlV3AxT0lHVlV1d1R2SzdvcDZJTXg1SXk2TlZIU3FjT3pmNllhUXZ4anhLcUsxLU1Rc0h2cGhVYmp0ZUl1OG8yelNKMUkyMjZmZGVWTnZTd1A3Wm1KS0lpalE?oc=5",
+      "press": "인공지능신문",
+      "date": "2025-06-27",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-07T12:33:58.158Z",
+      "scope": "operator"
     },
     {
       "title": "무인운영과 프리미엄 커피 경험을 결합, 라운지엑스 24H 원그로브점’ 정식 오픈",
