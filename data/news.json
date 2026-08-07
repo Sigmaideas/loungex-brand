@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-06T09:24:47.987Z",
+  "lastScrapedAt": "2026-08-07T01:58:43.927Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,11 +15,22 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 144,
-  "brandArticles": 37,
-  "operatorArticles": 106,
+  "totalArticles": 148,
+  "brandArticles": 38,
+  "operatorArticles": 109,
   "overseasArticles": 1,
   "articles": [
+    {
+      "title": "로봇카페 라운지엑스24h, 커피값 고공행진에도 할인 운영 확대",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBOa0tzNzQ5ZGtXODE5aklzX1VHY1pXdkc4cTVRWk94Q2FHanlkZTJlZzZlY1dDTXM0UVRDN2Nfci1ZWXJ0LWtsQWZoa1JVeUU2bWlZT1A4YnlnVmVjVmhTOU83N1FZd0dVd0Z5UA?oc=5",
+      "press": "로봇신문",
+      "date": "2026-08-07",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-07T01:58:43.927Z",
+      "scope": "brand"
+    },
     {
       "title": "엑스와이지 로봇카페 ‘바리스브루’, 피크타임에도 음료 제조 평균 3분대 기록",
       "description": "",
@@ -846,6 +857,17 @@
       "region": "kr"
     },
     {
+      "title": "엑스와이지, 크라우드웍스와 협력…피지털 AI 데이터 고도화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA3NEJVSUVYYjVwUWIwVWpYdzFSMTdGV2doQUVvWEt3YW95ai11azZEbjVkZkYwYVVTc3diM19wTURvOFZrUHlGSVo4Y1pqQQ?oc=5",
+      "press": "전자신문",
+      "date": "2026-03-25",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-07T01:58:43.927Z",
+      "scope": "operator"
+    },
+    {
       "title": "‘130억 확보’ 엑스와이지, 현장 검증으로...피지컬 AI 사업화 ‘속도’",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE40MlIwdmZzZDJCd212UkdCSjlJTUViWDduVzlXWWY1bnlUY0NlbWdRNjFOZkZodG5MbWlxUWtsNnk4NmdER3ZOdlktalNTRkp3UnZkaG93WHYtZXVocE40?oc=5",
@@ -1009,6 +1031,17 @@
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
       "scope": "operator",
       "region": "kr"
+    },
+    {
+      "title": "엑스와이지, ROSCon Korea 2026서 휴머노이드·바리스타 로봇 개발 사례 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TR2hwMkdSdnlxZ1AwU3pzSFduLUdIck80dFl6R2l5bVU5NlNfNXdmSktzZG9GdjdzbjZwaGxGQUlfaU9YNnBRQ0FDamFQYkpWNkJZRjR3M3JWZkNIejlnc3NYb0xZbmlE0gFsQVVfeXFMTVdBS25hVWhPY3VjN2VqeWZkeE5NeHlXa0VFY3NZS0h0Y1lrdzNWVzZid2pMNmVTQWY0SmwwMjF2R3AzN3BLSC03RzZxLUdVVDA5U2x6emhvbUc0dlpHX0o0dGdaRmRFVEhLTFZS?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-01-22",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-07T01:58:43.927Z",
+      "scope": "operator"
     },
     {
       "title": "엑스와이지, 음성 주문 로봇 시대 연다...로봇 바리스타 ‘바리스브루’에 시스템 도입",
@@ -1416,6 +1449,17 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "operator",
       "region": "kr"
+    },
+    {
+      "title": "라운지랩, 자율주행 로봇 스타트업 코봇 인수…엑스와이지로 사명 변경",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE82TzY0Q0lqREFsYjFhWUVwSUN2SkZZQ2Y5RVhXTDBHWjByUWpWbGFkNVRlMi1PNVRfRU9jQVZYN3BzTW1OaWVoMTZ4WkJGS0JGUFBNbFBSZUozaEVYUXhaQ1BFM2hBYVlK?oc=5",
+      "press": "테크월드",
+      "date": "2022-08-01",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-07T01:58:43.927Z",
+      "scope": "operator"
     },
     {
       "title": "테마파크에 로봇 카페, ‘라운지엑스 에버랜드점’ 오픈한다",
