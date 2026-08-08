@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-07T12:28:55.738Z",
+  "lastUpdated": "2026-08-08T00:06:40.026Z",
   "totalStores": 10,
   "totalReviews": 712,
   "avgReviewsPerStore": 71.2,
-  "monthlyActivity": 151,
+  "monthlyActivity": 144,
   "stores": [
     {
       "id": "store_seongsu",
@@ -38,7 +38,7 @@
       "positiveRatio": 0.96875,
       "negativeRatio": 0,
       "neutralRatio": 0.03125,
-      "monthlyActivity": 27,
+      "monthlyActivity": 25,
       "latestReviewDate": "2026-08-03",
       "newReviewCount": 0,
       "rating": null,
@@ -64,7 +64,7 @@
       "positiveRatio": 0.9223300970873787,
       "negativeRatio": 0,
       "neutralRatio": 0.07766990291262135,
-      "monthlyActivity": 14,
+      "monthlyActivity": 13,
       "latestReviewDate": "2026-08-06",
       "newReviewCount": 0,
       "rating": null,
@@ -90,9 +90,9 @@
       "positiveRatio": 0.9369369369369369,
       "negativeRatio": 0,
       "neutralRatio": 0.06306306306306306,
-      "monthlyActivity": 35,
+      "monthlyActivity": 33,
       "latestReviewDate": "2026-08-07",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -103,7 +103,7 @@
       "positiveRatio": 0.9047619047619048,
       "negativeRatio": 0,
       "neutralRatio": 0.09523809523809523,
-      "monthlyActivity": 6,
+      "monthlyActivity": 5,
       "latestReviewDate": "2026-08-04",
       "newReviewCount": 0,
       "rating": null,
@@ -118,7 +118,7 @@
       "neutralRatio": 0.05128205128205128,
       "monthlyActivity": 37,
       "latestReviewDate": "2026-08-06",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -129,7 +129,7 @@
       "positiveRatio": 0.7555555555555555,
       "negativeRatio": 0.022222222222222223,
       "neutralRatio": 0.2222222222222222,
-      "monthlyActivity": 1,
+      "monthlyActivity": 0,
       "latestReviewDate": "2026-07-09",
       "newReviewCount": 0,
       "rating": null,
@@ -635,7 +635,7 @@
         "text": "옆에 있는 더벤티갔다가 픽업만 가능해서ㅠ\n심란하던차에 우연히 들어왔는데\n차분하고 시원하고 너무 좋네요!!\n이 폭염에 오아시스 발견한 기분이었습니다!",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n폭염 속에서 우연히 방문하신 매장이 오아시스 같은 휴식처가 되었다니 정말 기쁩니다 :)\n\n차분하고 시원한 공간에서 편안한 시간을 보내실 수 있도록 앞으로도 쾌적한 환경 관리에 힘쓰겠습니다.\n다음 방문 때도 마음 편하게 쉬어가실 수 있는 공간으로 맞이하겠습니다. 감사합니다!"
       },
       {
@@ -799,7 +799,7 @@
         "text": "접근성도 좋고 메뉴도 트렌디해서 애용하고있어요 ㅎㅎ가격적으로도 맘에듭니다~",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 찾아주시고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n좋은 접근성과 트렌디한 메뉴, 합리적인 가격까지 모두 만족해 주셨다니 저희도 정말 기쁩니다. 앞으로도 고객님이 자주 찾고 싶은 카페가 될 수 있도록 더욱 노력하겠습니다. 언제든 편하게 들러주세요 :)"
       },
       {

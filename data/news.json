@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-07T12:33:58.158Z",
+  "lastScrapedAt": "2026-08-08T00:12:07.182Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,9 +15,9 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 150,
+  "totalArticles": 156,
   "brandArticles": 39,
-  "operatorArticles": 110,
+  "operatorArticles": 116,
   "overseasArticles": 1,
   "articles": [
     {
@@ -439,6 +439,28 @@
       "region": "kr"
     },
     {
+      "title": "메디아나, 퓨리오사AI·엑스와이지와 병원 AI 플랫폼 구축",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBSUGR3QTJROGpJSHN4TGV3Y3h4dGlOMU9MWVFFQW83ZktZak0xdkIyRU5mdXlBUndONEZFRm5lNnNxSER1R05rSko3NXc1bTdRNk9wSG1NZ3I5eWVq?oc=5",
+      "press": "뉴스핌",
+      "date": "2026-07-07",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-08T00:12:07.182Z",
+      "scope": "operator"
+    },
+    {
+      "title": "메디아나, 퓨리오사AI·엑스와이지와 병원형 피지컬 AI 플랫폼 구축 추진",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4wVVN0a090dmFhNzNrN0VBbnI5dUJHUFJSSkVYUTRaOVhGbFhMdjlEVWhDV2dfbkdJSFY0NTBJaDdZOE5YNGUwWGlvaWNHeDV0blZYUndrYkNhWVMtMEpMaFlpaF9YbmhNSENZSkVR?oc=5",
+      "press": "라포르시안",
+      "date": "2026-07-07",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-08T00:12:07.182Z",
+      "scope": "operator"
+    },
+    {
       "title": "광운대 로빛, 로보컵 2026 인천 출전… 엑스와이지와 휴머노이드 기술력 세계 무대 검증",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBNkZPVWx6YlN5V0lQelFmRUhIeTBsTDlwTmZHUzZmSHh6RlY5MUN4ZzlfbmVhUVRkUlZxMXZfd0hyck1BZjRaaTdKRXNMV1NXNWZBTGw2UG1oQ2NzeGtGUUZpR1gxWjVN0gFsQVVfeXFMUGRWbUtIZDU0MDBxRHdWRTNiWDZYVnYwa0NXbWdGT19DRmV6YVBLV2k4R3Ayc21RZUxGaERmYnZUX0JvTXVrUHVUYUdTTEZ2UmNkYkJUczdzOEpxR2ttVng3ZmVuOGo3S2ZiOGJV?oc=5",
@@ -503,6 +525,17 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "operator",
       "region": "kr"
+    },
+    {
+      "title": "엑스와이지, 엔비디아와 손잡고 Physical AI 인재 양성…실습형 교육과정 운영",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRaVdTcUxuemJwVEMwLTJxQW1LUnl6X2VvSXJPY3FhbFFDUlY0dk1TUzVfZHh6YjBOal9xTTk2UVpnNmhPU3o3b1FuQlUtNmpMQ1hkclhlZGNMSEpQZGRiSDY3ZVZzcTFT0gFsQVVfeXFMTVdpNS1uN0pPOTRES0VZcGV1dlNPMnNHdEFDb0ZOczBUbjRlS010N1ZYbGJ4UW9fNkx4Uk1jQ1k0X1lHYnRrXzhIRzFjRzZHbEQ4d0R0Q2xVclpnVUdxcjkwVjNXcWRBYkQtMGUt?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-06-29",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-08T00:12:07.182Z",
+      "scope": "operator"
     },
     {
       "title": "엑스와이지, 엔비디아 손잡고 '피지컬 AI' 인재 육성",
@@ -571,6 +604,17 @@
       "region": "kr"
     },
     {
+      "title": "한양대 기술경영전문대학원·엑스와이지, ‘휴먼로봇인터렉션 센터’ 설립",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwYnM5WTFIMnpjdU03cUNJYnRJSEM4LVpqSm1DZmVlbER0NnNzemZaRzZKVkpLYUUwalkxNm1tTHlXNHBTRE11dnptRS1GMlBqaWkzQl95Q29VejVGbVdraWU1Vm9oY1FHZUhsTWpDTUJxNGfSAXdBVV95cUxQUHY2ZmhudjhZcGtmVVFPdC0tUmhpZWlFNDNVWDg4LXBUMVBZc1NqX09zWmRxSmNuN0Z3bFF1ZE5GNmhIN24wM3RhUnluNGNoc2xwaVBBcHJQQmlla095Zm85TWM3WnZXT2QwRHM4R05VZ0pUV2R0OA?oc=5",
+      "press": "뉴스프리존",
+      "date": "2026-04-30",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-08T00:12:07.182Z",
+      "scope": "operator"
+    },
+    {
       "title": "엑스와이지, 한양대 기술경영전문대학원과 ‘휴먼로봇인터렉션 센터’ 오픈",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QcnEzeTFRc3RaNEJuQVM3RFgxWTM0SXpNcGVDRURsdXIxY0x4UUI0Mk1fSUhwREZnUzdfQ21OcXlWTmk3SkR0LWVCb0F1X3VaOUFpbU81VjV1ZGprVlA0dC0wbnFTS2V4cWQtNg?oc=5",
@@ -624,6 +668,17 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "operator",
       "region": "kr"
+    },
+    {
+      "title": "\"사람 중심 로봇혁신 실현\"…엑스와이지, 한양대와 산학협력 - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9UMHk0SVJEUGxqN3B5bXVVaFlwZ3ktdzFPV2RTcHJMN1lmamlfLXFicG52Q2JzTEJIRU9Ha2EybE5SRWRuX2xVa09YNi1UMEZlX245STJWdkRxcElidl8tanlLUWFQdnFpeFHSAW9BVV95cUxPV2U2dlg0bWJuNFRvSkItRDFvX1lQUjZaWXZsYmZZVzBabFhHWW1jd3Rxc2ZSaWFGLUxZNVpHbGVBa2F2Q2NPVlNKU2pEeng2ZFBYVFFrLUMtbXBYaEVsM1N6VjFycnVFM2NLY1ZMNWM?oc=5",
+      "press": "머니투데이",
+      "date": "2026-04-29",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-08T00:12:07.182Z",
+      "scope": "operator"
     },
     {
       "title": "엑스와이지, 서비스 특화 양팔형 로봇 ‘듀스’ 공개...\"카페 알바·고객 응대도 척척\"",
@@ -690,6 +745,17 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "operator",
       "region": "kr"
+    },
+    {
+      "title": "피지컬 AI 전문기업 ‘엑스와이지’, 양팔형 세미 휴머노이드 ‘듀스’ 공개…서비스 피지컬 AI 고도화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9TRk05VDNCMjlCNG1kaEh3VTVQZ0N1ZTU4czVyRjhRU0Z5Z1IyWngwUlBoMGRHc3c4ODlUTlVmSWw0ZnRfYVE?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-04-27",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-08T00:12:07.182Z",
+      "scope": "operator"
     },
     {
       "title": "부산 에코델타 스마트시티 뚫었다...엑스와이지 ‘바리스브루’ 주거 단지 시연 성공",
