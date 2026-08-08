@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-08T00:12:07.182Z",
+  "lastScrapedAt": "2026-08-08T12:06:26.850Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,9 +15,9 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 156,
+  "totalArticles": 158,
   "brandArticles": 39,
-  "operatorArticles": 116,
+  "operatorArticles": 118,
   "overseasArticles": 1,
   "articles": [
     {
@@ -1185,6 +1185,28 @@
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
       "scope": "operator",
       "region": "kr"
+    },
+    {
+      "title": "엑스와이지, 서울시각장애인연합회와 실내 안내지원 로봇 실증 협약",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02bTFqVDgzVExIV1lzMXROZkxnZDJhaXg4aHlGelVsMWRPcXdxeUtDN2o4NzBjZ1NZZjVMQ1E2ejRIdmtnXzRTRjQ4a1hVV1lGbmd6UDd5YmpxRjIyRDU4aHlTNnRVbEMyMi11MA?oc=5",
+      "press": "로봇신문",
+      "date": "2025-12-22",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-08T12:06:26.850Z",
+      "scope": "operator"
+    },
+    {
+      "title": "아이엘, 엑스와이지와 피지컬 AI 기반 스마트제조·로봇 DX 협력 MOU - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LcGtMLUJaS0NYYU1uM2FKbFFiSXRjZDVTQVR0X1dhdWp0NGlDS1RqSF9nd2ZrT0hKZmpFRnlIQkNQRUw5N3Bka3U5Vng2MnkyS2NIck5aT1NCT29GajZnRnR2ck1SYXJB0gFuQVVfeXFMUFdRUElCS2pYSWN1cFMwVjcteVNtenlMWWp5LVAwRnhkZ1RKWHZ6RHd6Qkhnd19RcFJ6RXhTU3d6M0dVcWJ1TkMxbXl6N0FtTHB5QU84UTk3T014X091dFhSWVRsRVVfcjlJYl9SM2c?oc=5",
+      "press": "머니투데이",
+      "date": "2025-12-10",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-08T12:06:26.850Z",
+      "scope": "operator"
     },
     {
       "title": "라운지엑스 (LoungeX)",
