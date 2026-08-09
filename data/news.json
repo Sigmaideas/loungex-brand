@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-08T12:06:26.850Z",
+  "lastScrapedAt": "2026-08-09T00:06:54.295Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,11 +15,22 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 158,
+  "totalArticles": 159,
   "brandArticles": 39,
   "operatorArticles": 118,
-  "overseasArticles": 1,
+  "overseasArticles": 2,
   "articles": [
+    {
+      "title": "Lounge X 24h Increases Discounts as Coffee Prices Rise… Price Competitiveness Created by AI Robots",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9JMnBXNWxvZUhYaEF3MjRtVEdPUVQ0RldWeFhhbm5qa3FwU21jOGt2TzBFM2F6M3NwUkVGbVBCY3ctNE9XdmpCOUxEVjVjaXZ5d1FN?oc=5",
+      "press": "벤처스퀘어",
+      "date": "2026-08-08",
+      "source": "google",
+      "region": "overseas",
+      "firstSeenAt": "2026-08-09T00:06:54.295Z",
+      "scope": "brand"
+    },
     {
       "title": "로봇카페 라운지엑스24h, 커피값 고공행진에도 할인 운영 확대",
       "description": "",
