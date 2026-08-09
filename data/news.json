@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-09T00:06:54.295Z",
+  "lastScrapedAt": "2026-08-09T12:07:32.275Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,9 +15,9 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 159,
+  "totalArticles": 164,
   "brandArticles": 39,
-  "operatorArticles": 118,
+  "operatorArticles": 123,
   "overseasArticles": 2,
   "articles": [
     {
@@ -582,6 +582,17 @@
       "region": "kr"
     },
     {
+      "title": "메디아나, 엑스와이지와 의료 AI 협업…플랫폼 구축·확장 박차",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ueFRheXpKYkRFRzZBNUw1TTNBUTE1LXVSajRzWlZZcWphSk1oZTVyNVhkVEFjUmZ3VWgxSE1pOGpYUXBRZUp3Q3BmVDJEcjhoQktQX0Jn?oc=5",
+      "press": "DealSite경제TV",
+      "date": "2026-06-09",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-09T12:07:32.275Z",
+      "scope": "operator"
+    },
+    {
       "title": "엑스와이지 바리스타 로봇 ‘바리스’, 누적 식음료 제조 100만건 돌파",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kLWdUVlViZnRMalI0c3FVZUhqdWlZLWpxU0dtTUJ5ekQ3c3BxSkJlLXQ0TWgwR0NSSzk0NkJyaHFIY013S2VxU3VzWVRoTWtBTlFYVDJKa3FLYWljQkxmUU11QW9TT1dLWi1Deg?oc=5",
@@ -835,6 +846,17 @@
       "region": "kr"
     },
     {
+      "title": "엑스와이지, AI 데이터 전문기업 크라우드웍스와 MOU",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxRjQtc3N6bmMySDFEMHhKcDExZlB1eEJtODljTXk5a1dPcHhuRkRlU1JyTlh5UXJnZFN2dnBMZFVPTW9aaV9zYXlnQklEVFhhdHdWWjE1NGUxbTZLcFVQTFlPUlhtY1Z0dlRr?oc=5",
+      "press": "물류신문",
+      "date": "2026-03-26",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-09T12:07:32.275Z",
+      "scope": "operator"
+    },
+    {
       "title": "엑스와이지, 크라우드웍스와 MOU…피지컬 AI 데이터 고도화 나선다",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkOW4teERXZmI1eXhWd0VKcXlGeGRBTUR5eE5CUEhxMllUV082clNRSXptckFwNFBXdV9zZWg0cHRBYUhjVHNyYzZROWlSTEhqb3VhaGRYNkJjZWVhWVFZSlFsSDZPdUlOZ3NwYQ?oc=5",
@@ -953,6 +975,17 @@
       "source": "google",
       "region": "kr",
       "firstSeenAt": "2026-08-07T01:58:43.927Z",
+      "scope": "operator"
+    },
+    {
+      "title": "크라우드웍스·엑스와이지, 로봇 학습 데이터 협력",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE43Uk1uS2wtLW56amZzeHdLM0FQWlhFM1ZNb3ZRNEtjc2ZlSHIwV3hmNW55cTBCZ3cxNWFhM3NITkZTVGVWY1BaUWtyUVVKa21pQnU0Sml1N3JONTTSAWBBVV95cUxQQTREaTVodm84WTREeGJvM1ZObEpnWDA3ZW9lMlZtUndNeWZuSDg3WlM5QVozNTlyemxOSndHODQtMXNLdkxhSWtWekZEUTBRQk5NMFFZVlRaTi1Ca3hLSDc?oc=5",
+      "press": "연합뉴스",
+      "date": "2026-03-25",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-09T12:07:32.275Z",
       "scope": "operator"
     },
     {
@@ -1132,6 +1165,17 @@
       "scope": "operator"
     },
     {
+      "title": "[ROSCon KR 2026 인터뷰] 황성재 엑스와이지 대표 “韓 로봇 산업, 공유로 발전...응용에 기회”",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fLWNsOVhOaEN2RnJiWWpUNnczbVlEd0huOU9Jd2ozZWkyYXBLMHNzV2w5MEY1VTRUWDlmZG9OcG9QTF9nR3hSWFp1cEhIcHZ4UVNXd1VvR2dhdDVpOFlEU0djX1Z3OGhhQXFIeg?oc=5",
+      "press": "로봇신문",
+      "date": "2026-01-22",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-09T12:07:32.275Z",
+      "scope": "operator"
+    },
+    {
       "title": "엑스와이지, 음성 주문 로봇 시대 연다...로봇 바리스타 ‘바리스브루’에 시스템 도입",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE81M3NjMTFLWjlKcmUzUFlpOWhJaVdPWmxmNmRfbGoxcmZiVG1lOS03czVqM0dsWE9NbDhHbjVtT3VRWHlBc2FwNGR2NTRaYVdiVWlMQlE4cUJmRDVpb0JZ?oc=5",
@@ -1206,6 +1250,17 @@
       "source": "google",
       "region": "kr",
       "firstSeenAt": "2026-08-08T12:06:26.850Z",
+      "scope": "operator"
+    },
+    {
+      "title": "로봇 지능 혁신 특공대 탄생...엑스와이지-아이엘, 휴머노이드 AI 극대화 ‘정조준’",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uT2lnVnVaZXhLV25SNTZCU3B6LTVDS28tNEdEeUZtRUNHdGoyUEhtajdmVHItcVFNdXozejFJZDQ5OVBibkJ2dWdCMzBRQzZTcTZvZTFmTmdMZw?oc=5",
+      "press": "헬로티",
+      "date": "2025-12-12",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-09T12:07:32.275Z",
       "scope": "operator"
     },
     {

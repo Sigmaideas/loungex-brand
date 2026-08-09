@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-09T00:01:57.471Z",
+  "lastUpdated": "2026-08-09T12:02:01.983Z",
   "totalStores": 10,
-  "totalReviews": 712,
-  "avgReviewsPerStore": 71.2,
-  "monthlyActivity": 139,
+  "totalReviews": 713,
+  "avgReviewsPerStore": 71.3,
+  "monthlyActivity": 140,
   "stores": [
     {
       "id": "store_seongsu",
@@ -60,13 +60,13 @@
     {
       "id": "store_yongsan_prime",
       "name": "라운지엑스24h 용산더프라임점",
-      "reviewCount": 103,
-      "positiveRatio": 0.9223300970873787,
+      "reviewCount": 104,
+      "positiveRatio": 0.9230769230769231,
       "negativeRatio": 0,
-      "neutralRatio": 0.07766990291262135,
-      "monthlyActivity": 13,
-      "latestReviewDate": "2026-08-06",
-      "newReviewCount": 0,
+      "neutralRatio": 0.07692307692307693,
+      "monthlyActivity": 14,
+      "latestReviewDate": "2026-08-09",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -467,6 +467,14 @@
     ],
     "store_yongsan_prime": [
       {
+        "date": "8.9.일",
+        "text": "카페가 굉장히 신선했습니다\n조용하게 카페 오고싶을 때 또 올 것 같습니다",
+        "rating": 4,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n카페의 신선한 분위기가 마음에 드셨다니 정말 기쁩니다 😊 조용하고 편안한 공간에서 여유로운 시간을 보내고 싶으실 때 언제든 편하게 찾아와 주세요. 항상 쾌적하고 편한 환경으로 준비해 기다리겠습니다."
+      },
+      {
         "date": "8.6.목",
         "text": "빨리나오고 저렴한 가경 좋아요",
         "rating": 4.5,
@@ -537,14 +545,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n동료분들과 함께 맛있는 커피로 즐거운 시간을 보내셨다니 저희도 정말 기쁩니다 😊 앞으로도 가성비 좋은 고소한 커피 한 잔이 생각나실 때면 언제든 편하게 찾아와 주세요. 항상 정성 가득 담아 준비하겠습니다 ♥"
-      },
-      {
-        "date": "7.24.금",
-        "text": "저녁에 급히 작업할 일이 있어서 방문했는데 집중도 잘 되고 깔끔해서 좋아요.\n논커피 메뉴도 다양해서 좋아요. 얼그레이티도 로봇이 타주네요. 시간 잘 보내고 갑니다",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n급한 작업을 마치실 때 저희 공간이 도움이 되었다니 정말 기쁩니다 😊 로봇 바리스타 '바리스'가 정성껏 만들어드린 얼그레이티도 만족스러우셨기를 바랍니다. 앞으로도 집중이 필요하실 때나 편안한 휴식이 필요하실 때 언제든 편하게 찾아와 주세요. 항상 쾌적하고 따뜻한 공간으로 준비해두겠습니다 ♥"
       }
     ],
     "store_garak_it": [
@@ -1344,7 +1344,7 @@
         "neutral": 3
       },
       {
-        "positive": 12,
+        "positive": 13,
         "negative": 0,
         "neutral": 1
       },
@@ -1408,7 +1408,7 @@
     {
       "word": "조용",
       "sentiment": "positive",
-      "count": 118
+      "count": 119
     },
     {
       "word": "넓은 공간",
