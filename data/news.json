@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-10T00:09:32.304Z",
+  "lastScrapedAt": "2026-08-10T12:35:31.017Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,9 +15,9 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 165,
+  "totalArticles": 166,
   "brandArticles": 39,
-  "operatorArticles": 124,
+  "operatorArticles": 125,
   "overseasArticles": 2,
   "articles": [
     {
@@ -1042,6 +1042,17 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "operator",
       "region": "kr"
+    },
+    {
+      "title": "엑스와이지(XYZ), 130억 원 규모 시리즈B 투자 유치",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9TUmt2QS1GcmppeEs2RzdNWXVabjU2MUZHbUVDdFI1Qm9lb3E5Qmg0X2VxTy12cS1yTjdQb2UwbGVnMktGY1NnMDdGSXU4dUNpVnY4cQ?oc=5",
+      "press": "outstanding.kr",
+      "date": "2026-03-10",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-10T12:35:31.017Z",
+      "scope": "operator"
     },
     {
       "title": "엑스와이지, 130억원 규모 시리즈 B 투자 유치",

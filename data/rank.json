@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-10T00:09:23.636Z",
+  "lastScrapedAt": "2026-08-10T12:35:22.227Z",
   "updatedDate": "2026-08-10",
   "records": {
     "store_seongsu|성수 카페": {
@@ -106,11 +106,15 @@
         {
           "date": "2026-08-07",
           "rank": 62
+        },
+        {
+          "date": "2026-08-10",
+          "rank": null
         }
       ],
       "prevRank": 62,
-      "rank": 62,
-      "total": 3235
+      "rank": null,
+      "total": 3221
     },
     "store_seongsu|성수 로봇카페": {
       "storeId": "store_seongsu",
@@ -216,11 +220,15 @@
         {
           "date": "2026-08-07",
           "rank": 1
+        },
+        {
+          "date": "2026-08-10",
+          "rank": 1
         }
       ],
       "prevRank": 1,
       "rank": 1,
-      "total": 4
+      "total": 5
     },
     "store_seongsu|성수 24시 카페": {
       "storeId": "store_seongsu",
@@ -1246,6 +1254,10 @@
         {
           "date": "2026-08-08",
           "rank": null
+        },
+        {
+          "date": "2026-08-10",
+          "rank": null
         }
       ],
       "prevRank": null,
@@ -2134,11 +2146,15 @@
         {
           "date": "2026-08-07",
           "rank": 9
+        },
+        {
+          "date": "2026-08-10",
+          "rank": 5
         }
       ],
       "prevRank": 9,
-      "rank": 9,
-      "total": 2162
+      "rank": 5,
+      "total": 2145
     },
     "store_sangam_dmc|상암 로봇카페": {
       "storeId": "store_sangam_dmc",
@@ -2756,10 +2772,14 @@
         {
           "date": "2026-08-09",
           "rank": 5
+        },
+        {
+          "date": "2026-08-10",
+          "rank": 4
         }
       ],
       "prevRank": 5,
-      "rank": 5,
+      "rank": 4,
       "total": 2150
     },
     "store_mapo_frontone|마포 카페": {
@@ -2774,11 +2794,15 @@
         {
           "date": "2026-08-07",
           "rank": null
+        },
+        {
+          "date": "2026-08-10",
+          "rank": 94
         }
       ],
       "prevRank": null,
-      "rank": null,
-      "total": 11166
+      "rank": 94,
+      "total": 11082
     },
     "store_ifc|IFC몰 카페": {
       "storeId": "store_ifc",
@@ -2813,11 +2837,11 @@
         },
         {
           "date": "2026-08-10",
-          "rank": 29
+          "rank": 25
         }
       ],
-      "prevRank": 30,
-      "rank": 29,
+      "prevRank": 29,
+      "rank": 25,
       "total": 1038
     },
     "store_ifc|여의도 카페": {
