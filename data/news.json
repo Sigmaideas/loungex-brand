@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-09T12:07:32.275Z",
+  "lastScrapedAt": "2026-08-10T00:09:32.304Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,9 +15,9 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 164,
+  "totalArticles": 165,
   "brandArticles": 39,
-  "operatorArticles": 123,
+  "operatorArticles": 124,
   "overseasArticles": 2,
   "articles": [
     {
@@ -1261,6 +1261,17 @@
       "source": "google",
       "region": "kr",
       "firstSeenAt": "2026-08-09T12:07:32.275Z",
+      "scope": "operator"
+    },
+    {
+      "title": "아이엘, 엑스와이지와 맞손…피지컬 AI 기반 '아이엘봇 C2' 지능 고도화 목표",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YSzJabEFTdmVfYU5Cdkc2bEpmRnpuQ1VOck1iOUQ0b3BlYlZCSVlvWmNyZUNkZVRmS195UW53dVJsVURMU25FUFBIQjZsUGMtRjVwRGdoTllVaDdHaWVHVFd3Yy1ITUZ6amc?oc=5",
+      "press": "파이낸스스코프",
+      "date": "2025-12-11",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-10T00:09:32.304Z",
       "scope": "operator"
     },
     {
