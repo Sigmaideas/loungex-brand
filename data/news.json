@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-11T00:12:37.029Z",
+  "lastScrapedAt": "2026-08-11T12:34:48.460Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,11 +15,33 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 171,
-  "brandArticles": 39,
-  "operatorArticles": 130,
+  "totalArticles": 177,
+  "brandArticles": 41,
+  "operatorArticles": 134,
   "overseasArticles": 2,
   "articles": [
+    {
+      "title": "현장 데이터로 키우는 피지컬AI…엑스와이지의 승부수[테크체인저]",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXbHR4WV9aZ2czQWxYX1FEaE1yS2hZaENiUjNXeHZwZjlRamhCd2xTMTN6YURtNFJPQlQxcnFRam9HcU5WMkhfYS00Q3JxRHVVbjczRWlsZnBCeF9lV1ZNcFJIRXJYaG9V0gFsQVVfeXFMTnJxdjRLOEV1N1h1NGRPVzQtdWM2TlM2Vk1jbzFKUHkzM25PTDNZQ3NXbEpmeF9BZnVpdG5waG54V05kcnVkZUhNY1hmUUcyck5IaWllX2pMMVlxT3B1QVlTNWJyTlk1Tkk5TUlS?oc=5",
+      "press": "블로터",
+      "date": "2026-08-11",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-11T12:34:48.460Z",
+      "scope": "operator"
+    },
+    {
+      "title": "음료 쏟자 청소봇 출동…엑스와이지가 구현한 지능형빌딩 [로봇onAI]",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5lTUFIUml2UHZJZ1BXakRyMUN0WnBCX29OTTZIVVpwX0VIdXdJbWJHZ1lWQW8xTTRtSkp6NnRPcVFXNW5FVXFCMzZDRUl2Ums0cmdLR3FHMzFxQ3VoM3lEMlJQYkFrYnpO0gFsQVVfeXFMT2NwRm5udDlxZWY3VXp0THZRY1FQNW8tZnVBcDhmNjUxdEpqZjZVV0FOS2hSUWhnUmZVMnNTcWlDLXBnZjAyNHU0STU2RWpOTno3cktSQnFZYXBnU0Jic19WaFlZVDNELU1TeWtK?oc=5",
+      "press": "블로터",
+      "date": "2026-08-11",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-11T12:34:48.460Z",
+      "scope": "operator"
+    },
     {
       "title": "Lounge X 24h Increases Discounts as Coffee Prices Rise… Price Competitiveness Created by AI Robots",
       "description": "",
@@ -1055,6 +1077,17 @@
       "region": "kr"
     },
     {
+      "title": "엑스와이지, '바리스브루 4.0' 출시",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBldW1EeWNmQ2g2ck1IcjN3ZnFtS0JuZXkyMDVtc3JFUnNrZmxoZWdKM3lEWnBjOTF6d19lSmVNWnZ6SlgwMFV5YWIySDB5dw?oc=5",
+      "press": "전자신문",
+      "date": "2026-03-12",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-11T12:34:48.460Z",
+      "scope": "operator"
+    },
+    {
       "title": "'로봇은 거들 뿐, 경영은 AI가' 라운지엑스, 자율 운영 매장 시대 앞당긴다",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5uRjhlNlN6WnZQRzFsQmYycXdsV3VMUE85OURTSGFXZThvYkp0SlNpc1c1Q0pqTDA1VFdfVkVzcjd2X3ZtY3ZyaVZpWTZOcUNKbWs4VVlySl9KcXF4UTBfc1g3WVNHNTha0gFsQVVfeXFMTTFNOXpwRkQxMExSY004R1lHVTliYmVKamxPYjFyUWdrVUNid1VjT3M3ZFFfeVRwTzctQjFIRUtla29TMEhQS25sZEJpMF9zNEI4VF81NXd2bHZkYTREZDRuaXI0MF9CbVBRMDlC?oc=5",
@@ -1086,6 +1119,17 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "operator",
       "region": "kr"
+    },
+    {
+      "title": "라운지엑스, AI 에이전트 기반 ‘AI Driven Retail’ 전략 실증",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0yalh5UTJPSlNsa0twRjFkZnVjd3Y3TlUzeVFpdkxLMGYySFlnWFYxa3hjSjhvRzh0TzhsaF9wLU9wai1RUVlSQU55UjNkWl9mdm5COXdsUWFXUm9nWlNzUTByeXJGc1p0MTR2MQ?oc=5",
+      "press": "로봇신문",
+      "date": "2026-03-11",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-11T12:34:48.460Z",
+      "scope": "brand"
     },
     {
       "title": "엑스와이지(XYZ), 130억 원 규모 시리즈B 투자 유치",
@@ -1405,6 +1449,17 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "operator",
       "region": "kr"
+    },
+    {
+      "title": "황성재 엑스와이지 대표, ‘빌드스마트 컨퍼런스’서 기조강연",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45NFI4YWRQYi05dWJGdm1EVUVhOVJoS0FDX0cxVlRvbEZxY19iR2RqY1dGanRFRlJubDdxRUxTR1Z1NHhlU0R2a3IwTVU1eXREZmtkTUs4ek12ZHNnTzlsRUxpaFJnelJudEdVMA?oc=5",
+      "press": "로봇신문",
+      "date": "2025-10-28",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-11T12:34:48.460Z",
+      "scope": "operator"
     },
     {
       "title": "엑스와이지, 맘스터치와 AI·로봇 기반 F&B 서비스 혁신 MOU",
@@ -1746,6 +1801,17 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "brand",
       "region": "kr"
+    },
+    {
+      "title": "에버랜드, 로봇 카페 '라운지엑스' 오픈",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tOEJjLTdmOFQzcGJJVmZTWHMxWU9CX2dxR19xTkxjVXhJa0piS0NqY2JPdmUwR1JaVGdDeENXdUFoalRjOUZuTTdONjJ3M1liWTJUVGlfQ2RxWnFvQjl0TUd5SktvMjNfVjkteVUzalc?oc=5",
+      "press": "인천일보",
+      "date": "2022-03-07",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-11T12:34:48.460Z",
+      "scope": "brand"
     },
     {
       "title": "​현대차 아이오닉 5 체험 공간에 자리한 라운지엑스 바리스타 로봇 바리스",
