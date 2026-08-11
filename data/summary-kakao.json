@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-10T12:31:06.491Z",
+  "lastUpdated": "2026-08-11T00:07:54.941Z",
   "totalStores": 10,
-  "totalReviews": 14,
-  "avgReviewsPerStore": 1.4,
-  "monthlyActivity": 1,
+  "totalReviews": 15,
+  "avgReviewsPerStore": 1.5,
+  "monthlyActivity": 2,
   "stores": [
     {
       "id": "store_seongsu",
@@ -47,15 +47,15 @@
     {
       "id": "store_euljiro",
       "name": "라운지엑스24h 을지돌담길점",
-      "reviewCount": 0,
-      "positiveRatio": 0,
+      "reviewCount": 1,
+      "positiveRatio": 1,
       "negativeRatio": 0,
       "neutralRatio": 0,
-      "monthlyActivity": 0,
-      "latestReviewDate": null,
-      "newReviewCount": 0,
-      "rating": 0,
-      "ratingCount": 0
+      "monthlyActivity": 1,
+      "latestReviewDate": "2026-08-10",
+      "newReviewCount": 1,
+      "rating": 4,
+      "ratingCount": 1
     },
     {
       "id": "store_yongsan_prime",
@@ -199,7 +199,16 @@
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주셨는데 불쾌한 경험을 드려 정말 죄송합니다.\n\n위생 관리 부분에서 큰 실망을 드린 점 깊이 사과드리며, 즉시 해충 방제 및 전체 시설에 대한 철저한 점검을 진행하겠습니다. 또한 무인 매장이지만 24시간 운영하는 만큼 정기적인 모니터링과 청소 루틴을 강화하여 고객님께 쾌적한 환경을 제공하도록 노력하겠습니다.\n\n소중한 지적 감사드리며, 개선된 모습으로 다시 뵐 수 있기를 바랍니다."
       }
     ],
-    "store_euljiro": [],
+    "store_euljiro": [
+      {
+        "date": "2026-08-10",
+        "text": "모기가너무많아요..1시간동안 2마리 잡음",
+        "rating": 4,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주셨는데 모기로 인해 불쾌한 경험을 드렸다니 정말 죄송합니다.\n\n즉시 매장의 방충망 상태를 점검하고 모기 방제를 강화하겠습니다. 고객님의 소중한 지적 덕분에 더욱 쾌적한 환경을 만들 수 있을 것 같습니다. 개선된 모습으로 다시 뵙기를 진심으로 기다리겠습니다."
+      }
+    ],
     "store_yongsan_prime": [
       {
         "date": "2025-12-30",
@@ -318,7 +327,15 @@
       ]
     },
     "store_euljiro": {
-      "positive": [],
+      "positive": [
+        {
+          "date": "2026-08-10",
+          "text": "모기가너무많아요..1시간동안 2마리 잡음",
+          "rating": 4,
+          "sentiment": "positive",
+          "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주셨는데 모기로 인해 불쾌한 경험을 드렸다니 정말 죄송합니다.\n\n즉시 매장의 방충망 상태를 점검하고 모기 방제를 강화하겠습니다. 고객님의 소중한 지적 덕분에 더욱 쾌적한 환경을 만들 수 있을 것 같습니다. 개선된 모습으로 다시 뵙기를 진심으로 기다리겠습니다."
+        }
+      ],
       "negative": []
     },
     "store_yongsan_prime": {
@@ -561,7 +578,7 @@
         "neutral": 1
       },
       {
-        "positive": 0,
+        "positive": 1,
         "negative": 0,
         "neutral": 0
       },

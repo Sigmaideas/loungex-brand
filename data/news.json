@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-10T12:35:31.017Z",
+  "lastScrapedAt": "2026-08-11T00:12:37.029Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,9 +15,9 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 166,
+  "totalArticles": 171,
   "brandArticles": 39,
-  "operatorArticles": 125,
+  "operatorArticles": 130,
   "overseasArticles": 2,
   "articles": [
     {
@@ -593,6 +593,28 @@
       "scope": "operator"
     },
     {
+      "title": "메디아나, '엔비디아 픽' 엑스와이지와 의료AI 협업…플랫폼 확장 - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4xOEdUWVZVazhKdnczcFN0WndfbU5xSGhCQXVjYXRJMElBdzRfVEFfeUVIUFQyYjFkSHQ3a1JiZjRlcVd4MUdRWDlJYmY5ajlrX0FUc0hNdEdVNGhnVjJKazJVOGtkVF9N0gFuQVVfeXFMTnpRSGU0WGx5Z2hzZWI4ZDJleTZScmxPMmNfUDhZWXZlOWUxTDBsR3I4UFZHVmpMeWhMQ3RrNGVvRGd0RmRwN3NEdUtOU1NYdGtqR1pjbTQ2OXExWE9iQmlUdWtiR0wxbDFOQUVveGc?oc=5",
+      "press": "머니투데이",
+      "date": "2026-06-09",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-11T00:12:37.029Z",
+      "scope": "operator"
+    },
+    {
+      "title": "젠슨 황 만난 K로봇 스타트업…에이로봇·엑스와이지 등 참석",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLVRKWnl6dWcta3hEeDBiRk02cnVscUpJblF5X0llWVRNWUlUOEtGYmtOWmRLSTZuc3BKbGNnejI0aW0xUENLUTlsQWp3VHh4ZzU2M0VZODJBb0w0Y0pqTjJSd1hNOUJZZFRtYkpRb1RFdzlsQWd2T2taS1hfX2YyTA?oc=5",
+      "press": "edaily.co.kr",
+      "date": "2026-06-08",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-11T00:12:37.029Z",
+      "scope": "operator"
+    },
+    {
       "title": "엑스와이지 바리스타 로봇 ‘바리스’, 누적 식음료 제조 100만건 돌파",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1kLWdUVlViZnRMalI0c3FVZUhqdWlZLWpxU0dtTUJ5ekQ3c3BxSkJlLXQ0TWgwR0NSSzk0NkJyaHFIY013S2VxU3VzWVRoTWtBTlFYVDJKa3FLYWljQkxmUU11QW9TT1dLWi1Deg?oc=5",
@@ -777,6 +799,17 @@
       "source": "google",
       "region": "kr",
       "firstSeenAt": "2026-08-08T00:12:07.182Z",
+      "scope": "operator"
+    },
+    {
+      "title": "\"사람과 집·사무실서 공존\"…엑스와이지, 양팔형 로봇 '듀스' 공개 - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9MWC0wSkNmdXp2VUwxalhKZV9YSU5OOGNWQVBqcWVoRzJzamxxaFRVenZuYUVrd19JVHZaeTRqa1FyV05aLVRtajdrWnR1ZU1xV3BWU3RaWUNPeEwxTlZyRENGZHhxM1l2ZVHSAW9BVV95cUxNVTVrZnlIeFdNTzB3X01GZTd6SUdFaVYyMklHVFdYeHgxa0ZCamZmUElraE1hNEptRWZ5bDAycFFkeHlULWpWNmoyd1RIVGU0am5rWVpYUXl1QW9aS0VmdThhME5PZEtNcGl1LTg2TTg?oc=5",
+      "press": "머니투데이",
+      "date": "2026-04-27",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-11T00:12:37.029Z",
       "scope": "operator"
     },
     {
@@ -986,6 +1019,17 @@
       "source": "google",
       "region": "kr",
       "firstSeenAt": "2026-08-09T12:07:32.275Z",
+      "scope": "operator"
+    },
+    {
+      "title": "엑스와이지, 크라우드웍스와 피지컬 AI 협력 위해 맞손∙∙∙로봇 행동지능 혁신 가속",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9NNkVsY2VobHE0Xy0yTDhGZHhhbHdYeWQ3aTBRRWRnZHRha25IeTdmNnRwaU0tS2JDNXNmOS1wY1VUOVI4N3pYZjFrai14bnd3UXVtS3duTWhxUFNyQW9OV2ZZZTItbDRIY0tDNVV3?oc=5",
+      "press": "스타트업투데이",
+      "date": "2026-03-25",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-11T00:12:37.029Z",
       "scope": "operator"
     },
     {
@@ -1394,6 +1438,17 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "operator",
       "region": "kr"
+    },
+    {
+      "title": "엑스와이지, 로봇이 커피 내리고 책 팔고...신규 문화 복합 공간 시운영",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1BLTl2ZzdZR1RkWWxZTFdxWF8xal9tclN5NkhvWjVoaDJxMGt2UnZEaDUyZkRjT1AtZjh6TGRUdkVHVF91Q21GZDhVUzBBWEVtcE11dXp1bjdyNDk1eVNQSUxR?oc=5",
+      "press": "헬로티",
+      "date": "2025-09-17",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-11T00:12:37.029Z",
+      "scope": "operator"
     },
     {
       "title": "라운지엑스, 로봇카페 최초 교보문고 큐레이션 도서 판매 개시 - 머니투데이",
