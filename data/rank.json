@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-12T00:46:11.469Z",
+  "lastScrapedAt": "2026-08-12T12:36:33.419Z",
   "updatedDate": "2026-08-12",
   "records": {
     "store_seongsu|성수 카페": {
@@ -2100,6 +2100,10 @@
         {
           "date": "2026-08-10",
           "rank": null
+        },
+        {
+          "date": "2026-08-12",
+          "rank": null
         }
       ],
       "prevRank": null,
@@ -2880,7 +2884,7 @@
       ],
       "prevRank": 4,
       "rank": 4,
-      "total": 2149
+      "total": 2150
     },
     "store_mapo_frontone|마포 카페": {
       "storeId": "store_mapo_frontone",
