@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-13T00:49:10.661Z",
+  "lastScrapedAt": "2026-08-13T12:37:21.027Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,9 +15,9 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 178,
+  "totalArticles": 179,
   "brandArticles": 42,
-  "operatorArticles": 134,
+  "operatorArticles": 135,
   "overseasArticles": 2,
   "articles": [
     {
@@ -744,6 +744,17 @@
       "source": "google",
       "region": "kr",
       "firstSeenAt": "2026-08-08T00:12:07.182Z",
+      "scope": "operator"
+    },
+    {
+      "title": "엑스와이지, 한양대와 손잡고 ‘사람-로봇 상호작용’ 연구 거점 구축",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0xZE5BLUdnM1VybDVzWHZOMEdLeTc0V0dGbDVHZHh1Vy1OaE02QTVVNTV3RUYwMDh1VjF0N2pHeG8tUU02Z3djampPd3VHU0k?oc=5",
+      "press": "벤처스퀘어",
+      "date": "2026-04-29",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-13T12:37:21.027Z",
       "scope": "operator"
     },
     {
