@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-12T12:36:42.371Z",
+  "lastScrapedAt": "2026-08-13T00:49:10.661Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,8 +15,8 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 177,
-  "brandArticles": 41,
+  "totalArticles": 178,
+  "brandArticles": 42,
   "operatorArticles": 134,
   "overseasArticles": 2,
   "articles": [
@@ -1966,6 +1966,17 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "brand",
       "region": "kr"
+    },
+    {
+      "title": "도심 속 ‘FUN& 樂’ 갖춘 이색 공간 3라운지엑스•고잉메리•쓰레기마트",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9JdVRtdE5qUnhaamJhSE5XQWdfYU1oQ0VnQVJyMFZmeV9nMDhvRXd2U1pkTjkxX2NzV3Y5Qm1oQkR5aHl2c0dTd19LUUs1NWpQ?oc=5",
+      "press": "패션비즈",
+      "date": "2019-09-08",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-13T00:49:10.661Z",
+      "scope": "brand"
     }
   ]
 }
