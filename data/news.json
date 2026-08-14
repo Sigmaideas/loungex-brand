@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-13T12:37:21.027Z",
+  "lastScrapedAt": "2026-08-14T00:49:41.657Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,11 +15,22 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 179,
+  "totalArticles": 182,
   "brandArticles": 42,
-  "operatorArticles": 135,
+  "operatorArticles": 138,
   "overseasArticles": 2,
   "articles": [
+    {
+      "title": "엑스와이지, H100·H200 확보…휴머노이드 개발 가속 [로보 인사이트]",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZelB6MXhtTGg4cnUtVnFwbnd4c0VfdWhvX2l1SERRd3ltbHcyaGxsT3NmWTJtV1pnb3RpV3RpeUZyd2s4ZXlpQTZEc0oxYWNKdUtz?oc=5",
+      "press": "네이트",
+      "date": "2026-08-14",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-14T00:49:41.657Z",
+      "scope": "operator"
+    },
     {
       "title": "현장 데이터로 키우는 피지컬AI…엑스와이지의 승부수[테크체인저]",
       "description": "",
@@ -1495,6 +1506,17 @@
       "region": "kr"
     },
     {
+      "title": "엑스와이지, 브레인엑스 기반 피지컬 AI 혁신 사례 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1tYTk3WVVlcnUzSVRsdnIzaEZOZENGYTB2UWtjLThhaExFVzM3WWllQzlKUy1iS1VHOWl6QzVpazNXN0NFdzJUbk1mZw?oc=5",
+      "press": "티스토리",
+      "date": "2025-09-30",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-14T00:49:41.657Z",
+      "scope": "operator"
+    },
+    {
       "title": "엑스와이지, 춤추고 커피 타주는 로봇...'브레인엑스' 기반 피지컬 AI 혁신 사례 공개한다",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE45TjBQaFB0emhnYVRDTmQyejFfbjUwX2pXSWRDZG9qdFJnWmxZYmVOQ25Ob2NqR3BXMnEyekxGRVpuWExRRUU1TFBwdnhHWThpVmVBWnBqT0dJbHd3dGM4?oc=5",
@@ -1702,6 +1724,17 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "brand",
       "region": "kr"
+    },
+    {
+      "title": "\"로봇카페도 재사용컵\"…엑스와이지, IFC몰 선도입",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wekNzNTJ1NjJBM2lOSHJwOERWdWhWNlNyNHlrMndTZlp3RlM4V1kxY3VXWGRqNjMwTW9zZ3V6YXFjZlBOZksxSkZRMGNEN1k4VFM2ekRR?oc=5",
+      "press": "지디넷코리아",
+      "date": "2023-08-22",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-14T00:49:41.657Z",
+      "scope": "operator"
     },
     {
       "title": "[테크M 피플] '로봇 대중화' 이끄는 황성재의 엑스와이지, 코스닥 입성 '채비'",

@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-08-13T12:37:12.328Z",
-  "updatedDate": "2026-08-13",
+  "lastScrapedAt": "2026-08-14T00:49:32.760Z",
+  "updatedDate": "2026-08-14",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -236,6 +236,10 @@
         {
           "date": "2026-08-13",
           "rank": 1
+        },
+        {
+          "date": "2026-08-14",
+          "rank": 1
         }
       ],
       "prevRank": 1,
@@ -357,6 +361,10 @@
         },
         {
           "date": "2026-08-13",
+          "rank": 2
+        },
+        {
+          "date": "2026-08-14",
           "rank": 2
         }
       ],
@@ -586,6 +594,10 @@
         {
           "date": "2026-08-12",
           "rank": 3
+        },
+        {
+          "date": "2026-08-14",
+          "rank": 3
         }
       ],
       "prevRank": 3,
@@ -715,6 +727,10 @@
         },
         {
           "date": "2026-08-13",
+          "rank": 4
+        },
+        {
+          "date": "2026-08-14",
           "rank": 4
         }
       ],
@@ -964,6 +980,10 @@
         {
           "date": "2026-08-13",
           "rank": null
+        },
+        {
+          "date": "2026-08-14",
+          "rank": null
         }
       ],
       "prevRank": null,
@@ -1204,11 +1224,15 @@
         {
           "date": "2026-08-12",
           "rank": 48
+        },
+        {
+          "date": "2026-08-14",
+          "rank": 48
         }
       ],
-      "prevRank": 49,
+      "prevRank": 48,
       "rank": 48,
-      "total": 3995
+      "total": 3998
     },
     "store_euljiro|을지로 로봇카페": {
       "storeId": "store_euljiro",
@@ -2486,6 +2510,10 @@
         {
           "date": "2026-08-12",
           "rank": 1
+        },
+        {
+          "date": "2026-08-14",
+          "rank": 1
         }
       ],
       "prevRank": 1,
@@ -2928,11 +2956,15 @@
         {
           "date": "2026-08-12",
           "rank": 4
+        },
+        {
+          "date": "2026-08-14",
+          "rank": 4
         }
       ],
       "prevRank": 4,
       "rank": 4,
-      "total": 2150
+      "total": 2152
     },
     "store_mapo_frontone|마포 카페": {
       "storeId": "store_mapo_frontone",
@@ -2954,9 +2986,13 @@
         {
           "date": "2026-08-13",
           "rank": 93
+        },
+        {
+          "date": "2026-08-14",
+          "rank": 93
         }
       ],
-      "prevRank": 94,
+      "prevRank": 93,
       "rank": 93,
       "total": 11097
     },
@@ -3006,6 +3042,10 @@
         {
           "date": "2026-08-13",
           "rank": 20
+        },
+        {
+          "date": "2026-08-14",
+          "rank": 20
         }
       ],
       "prevRank": 20,
@@ -3028,11 +3068,15 @@
         {
           "date": "2026-08-11",
           "rank": 52
+        },
+        {
+          "date": "2026-08-14",
+          "rank": 52
         }
       ],
-      "prevRank": 75,
+      "prevRank": 52,
       "rank": 52,
-      "total": 3710
+      "total": 3712
     }
   }
 }

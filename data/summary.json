@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-13T12:32:16.045Z",
+  "lastUpdated": "2026-08-14T00:44:59.022Z",
   "totalStores": 10,
-  "totalReviews": 715,
-  "avgReviewsPerStore": 71.5,
-  "monthlyActivity": 117,
+  "totalReviews": 716,
+  "avgReviewsPerStore": 71.6,
+  "monthlyActivity": 110,
   "stores": [
     {
       "id": "store_seongsu",
@@ -38,7 +38,7 @@
       "positiveRatio": 0.96875,
       "negativeRatio": 0,
       "neutralRatio": 0.03125,
-      "monthlyActivity": 17,
+      "monthlyActivity": 15,
       "latestReviewDate": "2026-08-03",
       "newReviewCount": 0,
       "rating": null,
@@ -47,13 +47,13 @@
     {
       "id": "store_euljiro",
       "name": "라운지엑스24h 을지돌담길점",
-      "reviewCount": 89,
-      "positiveRatio": 0.9325842696629213,
-      "negativeRatio": 0.011235955056179775,
-      "neutralRatio": 0.056179775280898875,
-      "monthlyActivity": 26,
-      "latestReviewDate": "2026-07-31",
-      "newReviewCount": 0,
+      "reviewCount": 90,
+      "positiveRatio": 0.9222222222222223,
+      "negativeRatio": 0.011111111111111112,
+      "neutralRatio": 0.06666666666666667,
+      "monthlyActivity": 25,
+      "latestReviewDate": "2026-08-13",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -90,7 +90,7 @@
       "positiveRatio": 0.9369369369369369,
       "negativeRatio": 0,
       "neutralRatio": 0.06306306306306306,
-      "monthlyActivity": 22,
+      "monthlyActivity": 20,
       "latestReviewDate": "2026-08-07",
       "newReviewCount": 0,
       "rating": null,
@@ -116,7 +116,7 @@
       "positiveRatio": 0.9487179487179487,
       "negativeRatio": 0,
       "neutralRatio": 0.05128205128205128,
-      "monthlyActivity": 33,
+      "monthlyActivity": 31,
       "latestReviewDate": "2026-08-06",
       "newReviewCount": 0,
       "rating": null,
@@ -385,6 +385,14 @@
     ],
     "store_euljiro": [
       {
+        "date": "8.13.목",
+        "text": "원래 아침에 갓나온 빵만 사러 왔었는데요.\n모닝커피 할인 시작하고\n커피원두가 저가 커피집보다 풍미가 있어서 커피도 애용하기 시작했습니다.\n근처직장인인데 아침마다 들리는중입니다. 근데 빵이 포장되어 나오기?시작부터\n아침에오면 빵이 없는경우가 많아요.ㅠㅜ\n여기직장인들은 출근이 7~9시경입니다. 9넘으면 아슬한데요.거의 넘어서 나오는것같습니다.\n아침에 커피+빵먹기 딱좋은데 빵이너무 늦게 나오다보니 애용할수없게 되었어요.\n9시전에 새빵나올수  있나요.?\n한번은 전날구운빵을 파시던데, 먹어보니 눅룩하고 바삭함이 전혀없는데 그대로 다음날 파시는건 좀  고려해보셔야할듯합니다.\n더불어 로봇제조라 그런가? 커피 물의 양이 조금씩 차이가 나네요. 생수를 배치해주시면 물을 조금 타서 먹을수 있게해주시면 좋겠습니다.",
+        "rating": 2.5,
+        "sentiment": "neutral",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 소중한 피드백 남겨주셔서 정말 감사합니다.\n\n아침 출근길에 저희 라운지엑스를 찾아주시고 있었군요. 빵의 준비 시간과 신선도 관리, 그리고 커피 품질에 대해 지적해주신 점들을 진심으로 받아들이겠습니다. 직장인분들의 출근 시간대에 맞춰 더 일찍 신선한 빵을 준비하고, 커피의 일관성을 높이기 위해 즉시 개선하겠습니다. 또한 고객분께서 편하게 물을 이용하실 수 있도록 배치하는 방안도 적극 검토하겠습니다.\n\n지적해주신 부분들이 저희가 더 나아져야 할 방향입니다. 다시 찾아주실 수 있도록 정성껏 개선하겠습니다."
+      },
+      {
         "date": "7.31.금",
         "text": "커피 향이 은근하게 감돌아서 들어서자마자 기분이 좋아졌어요. 을지로3가 쪽에 이런 분위기 좋은 곳이 있다니, 좌석도 넉넉하고 오래 머물기 편했어요.",
         "rating": 5,
@@ -455,14 +463,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 라운지엑스 을지돌담길점을 찾아주셔서 정말 감사합니다!\n\n편안한 공간에서 친구분과 함께 시간을 보내셨다니 저희도 너무 기쁩니다. 앞으로도 을지돌담길을 지나실 때 편하게 들러 쉬어가실 수 있는 포근한 카페로 남을 수 있도록 정성껏 준비하겠습니다. 조만간 또 봬요 ♥"
-      },
-      {
-        "date": "7.27.월",
-        "text": "처음엔 그냥 지나치려다 유리 너머 분위기에 끌려서 발걸음이 저절로 향했어요. 모던한 인테리어가 딱 취향이었고, 을지돌담길 일대에서 이만한 공간 찾기 쉽지 않겠다 싶었어요.",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 라운지엑스 을지돌담길점의 분위기에 끌려 방문해 주셨다니 정말 감사합니다!\n\n모던한 인테리어가 고객님 취향과 잘 맞으셨다니 저희도 너무 뿌듯한 마음입니다. 앞으로도 방문하시는 분들이 편안함을 느낄 수 있도록 공간을 정성껏 가꾸겠습니다.\n\n조만간 또 봬요 ♥"
       }
     ],
     "store_yongsan_prime": [
@@ -1346,7 +1346,7 @@
       {
         "positive": 15,
         "negative": 0,
-        "neutral": 1
+        "neutral": 2
       },
       {
         "positive": 0,
@@ -1378,7 +1378,7 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 458
+      "count": 459
     },
     {
       "word": "맛있다",
@@ -1388,7 +1388,7 @@
     {
       "word": "로봇",
       "sentiment": "neutral",
-      "count": 147
+      "count": 148
     },
     {
       "word": "깨끗·깔끔",
@@ -1428,7 +1428,7 @@
     {
       "word": "디저트·베이커리",
       "sentiment": "neutral",
-      "count": 54
+      "count": 55
     },
     {
       "word": "추천",
