@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-14T00:45:16.588Z",
+  "lastUpdated": "2026-08-14T12:29:22.248Z",
   "totalStores": 10,
-  "totalReviews": 84,
-  "avgReviewsPerStore": 8.4,
-  "monthlyActivity": 1,
+  "totalReviews": 85,
+  "avgReviewsPerStore": 8.5,
+  "monthlyActivity": 2,
   "stores": [
     {
       "id": "store_seongsu",
@@ -99,15 +99,15 @@
     {
       "id": "store_one_grove",
       "name": "라운지엑스24h 원그로브점",
-      "reviewCount": 0,
-      "positiveRatio": 0,
+      "reviewCount": 1,
+      "positiveRatio": 1,
       "negativeRatio": 0,
       "neutralRatio": 0,
-      "monthlyActivity": 0,
-      "latestReviewDate": null,
-      "newReviewCount": 0,
-      "rating": null,
-      "ratingCount": null
+      "monthlyActivity": 1,
+      "latestReviewDate": "2026-08-14",
+      "newReviewCount": 1,
+      "rating": 5,
+      "ratingCount": 1
     },
     {
       "id": "store_mapo_frontone",
@@ -639,7 +639,16 @@
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 자주 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사합니다!\n\n출근길의 든든한 아지트가 되어드릴 수 있어 저희도 무척 기쁜데, 앱 주문으로 편리하게 이용하시고 버터번까지 함께 즐겨주신다니 정말 고마우네요. 앞으로도 바쁜 아침을 맛있는 커피와 함께 시작할 수 있도록 정성껏 준비하고 있을게요. \n\n언제든 편하게 들러주세요 :)"
       }
     ],
-    "store_one_grove": [],
+    "store_one_grove": [
+      {
+        "date": "2026-08-14",
+        "text": "맛도리!!!!!!",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스에 방문해 주시고 이렇게 기분 좋은 리뷰 남겨주셔서 정말 감사합니다!\n\n로봇 바리스타 '바리스'가 정교하게 내린 커피의 맛을 제대로 느껴주셨네요. 고객님의 즐거움이 저희에게 큰 보람이 됩니다 :)\n\n앞으로도 항상 최고의 맛과 경험으로 찾아뵙겠습니다. 다음에도 언제든 편하게 들러주세요!"
+      }
+    ],
     "store_mapo_frontone": [
       {
         "date": "2026-07-23",
@@ -917,7 +926,15 @@
       "negative": []
     },
     "store_one_grove": {
-      "positive": [],
+      "positive": [
+        {
+          "date": "2026-08-14",
+          "text": "맛도리!!!!!!",
+          "rating": 5,
+          "sentiment": "positive",
+          "autoReply": "안녕하세요 :) 저희 라운지엑스에 방문해 주시고 이렇게 기분 좋은 리뷰 남겨주셔서 정말 감사합니다!\n\n로봇 바리스타 '바리스'가 정교하게 내린 커피의 맛을 제대로 느껴주셨네요. 고객님의 즐거움이 저희에게 큰 보람이 됩니다 :)\n\n앞으로도 항상 최고의 맛과 경험으로 찾아뵙겠습니다. 다음에도 언제든 편하게 들러주세요!"
+        }
+      ],
       "negative": []
     },
     "store_mapo_frontone": {
@@ -1128,7 +1145,7 @@
         "neutral": 0
       },
       {
-        "positive": 0,
+        "positive": 1,
         "negative": 0,
         "neutral": 0
       },

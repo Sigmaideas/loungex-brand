@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-14T00:49:41.657Z",
+  "lastScrapedAt": "2026-08-14T12:34:01.113Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,9 +15,9 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 182,
+  "totalArticles": 184,
   "brandArticles": 42,
-  "operatorArticles": 138,
+  "operatorArticles": 140,
   "overseasArticles": 2,
   "articles": [
     {
@@ -29,6 +29,28 @@
       "source": "google",
       "region": "kr",
       "firstSeenAt": "2026-08-14T00:49:41.657Z",
+      "scope": "operator"
+    },
+    {
+      "title": "엑스와이지, H100·H200 GPU 확보…휴머노이드·VLA 개발 가속",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1aeU1SN3doN1ZXbENndEhnaVJERjlmUjRieTlYNmF2eEthSDVuQnhDckJiSWNiY0JpVjFOT0F6TE1URE1DRUtfaVF5WUxUVi0yYjNxVXh4VTljdGwwVm9JN2lySksxS2RqMW42Sg?oc=5",
+      "press": "irobotnews.com",
+      "date": "2026-08-14",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-14T12:34:01.113Z",
+      "scope": "operator"
+    },
+    {
+      "title": "엑스와이지, 과기정통부·서울AI허브 GPU 인프라 확보…Physical AI 개발 가속",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1RWWIxSTVNZFlLSnM5ay1oa2NKNlR4SUtWWTRJMXdXX2pXVTQxVXVwcjdram5ZRTJQOS1Wb1B5djRvNkZMNnc?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-08-14",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-14T12:34:01.113Z",
       "scope": "operator"
     },
     {
