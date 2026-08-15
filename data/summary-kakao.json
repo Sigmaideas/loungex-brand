@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T12:29:36.641Z",
+  "lastUpdated": "2026-08-14T23:58:53.234Z",
   "totalStores": 10,
   "totalReviews": 16,
   "avgReviewsPerStore": 1.6,
@@ -53,7 +53,7 @@
       "neutralRatio": 0,
       "monthlyActivity": 2,
       "latestReviewDate": "2026-08-14",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": 4.5,
       "ratingCount": 2
     },
@@ -205,7 +205,7 @@
         "text": "갈 때마다 넘 조아요 커피도 맛있고 매장도 깔꼼하고\n빵도 넘 맛맛\n노트북하기 딱이에요 창가 추천👍👍",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 자주 찾아주시고 이렇게 따뜻한 리뷰를 남겨주셔서 정말 감사합니다!\n\n커피와 빵의 맛, 쾌적한 매장 환경, 그리고 창가에서의 편한한 작업 환경까지 모두 만족해 주셨다니 저희도 정말 기쁘네요. 고객님처럼 자주 찾아주시는 분들이 계셔서 저희는 늘 최선을 다하고 있습니다.\n\n앞으로도 편안한 휴식 공간이자 맛있는 커피의 아지트로 언제든 들러주세요. 다음 방문 때도 최고의 경험으로 맞아드리겠습니다! ♥"
       },
       {

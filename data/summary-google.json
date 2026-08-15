@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T12:29:22.248Z",
+  "lastUpdated": "2026-08-14T23:58:41.649Z",
   "totalStores": 10,
   "totalReviews": 85,
   "avgReviewsPerStore": 8.5,
@@ -105,7 +105,7 @@
       "neutralRatio": 0,
       "monthlyActivity": 1,
       "latestReviewDate": "2026-08-14",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": 5,
       "ratingCount": 1
     },
@@ -645,7 +645,7 @@
         "text": "맛도리!!!!!!",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스에 방문해 주시고 이렇게 기분 좋은 리뷰 남겨주셔서 정말 감사합니다!\n\n로봇 바리스타 '바리스'가 정교하게 내린 커피의 맛을 제대로 느껴주셨네요. 고객님의 즐거움이 저희에게 큰 보람이 됩니다 :)\n\n앞으로도 항상 최고의 맛과 경험으로 찾아뵙겠습니다. 다음에도 언제든 편하게 들러주세요!"
       }
     ],
