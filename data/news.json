@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-15T00:03:39.284Z",
+  "lastScrapedAt": "2026-08-15T12:00:22.588Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,8 +15,8 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 184,
-  "brandArticles": 42,
+  "totalArticles": 185,
+  "brandArticles": 43,
   "operatorArticles": 140,
   "overseasArticles": 2,
   "articles": [
@@ -1877,6 +1877,17 @@
       "source": "google",
       "region": "kr",
       "firstSeenAt": "2026-08-11T12:34:48.460Z",
+      "scope": "brand"
+    },
+    {
+      "title": "에버랜드에 문 연 로봇카페 '라운지엑스'",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ORmNjNHJHeGxHNzVSQmlxVXhXOW1iRS1JM213NUtjQXBQemloaFkxS0sxQ090QjZubWxLWS1FTFFzdlVzaEkxYWVFVHpzY1JheVRR?oc=5",
+      "press": "네이트",
+      "date": "2022-03-07",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-15T12:00:22.588Z",
       "scope": "brand"
     },
     {

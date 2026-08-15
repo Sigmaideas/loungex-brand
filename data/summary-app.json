@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-08-14T23:58:55.551Z",
+  "lastUpdated": "2026-08-15T11:55:35.291Z",
   "totalStores": 2,
-  "totalReviews": 36,
-  "avgReviewsPerStore": 18,
-  "monthlyActivity": 3,
+  "totalReviews": 39,
+  "avgReviewsPerStore": 19.5,
+  "monthlyActivity": 6,
   "stores": [
     {
       "id": "app_google",
       "name": "구글 플레이",
-      "reviewCount": 26,
-      "positiveRatio": 0.6538461538461539,
-      "negativeRatio": 0.23076923076923078,
-      "neutralRatio": 0.11538461538461539,
-      "monthlyActivity": 3,
-      "latestReviewDate": "2026-07-22",
-      "newReviewCount": 0,
-      "rating": 4.037037,
-      "ratingCount": 27
+      "reviewCount": 29,
+      "positiveRatio": 0.6896551724137931,
+      "negativeRatio": 0.20689655172413793,
+      "neutralRatio": 0.10344827586206896,
+      "monthlyActivity": 6,
+      "latestReviewDate": "2026-08-14",
+      "newReviewCount": 3,
+      "rating": 4.133333,
+      "ratingCount": 30
     },
     {
       "id": "app_apple",
@@ -28,12 +28,36 @@
       "monthlyActivity": 0,
       "latestReviewDate": "2026-05-11",
       "newReviewCount": 0,
-      "rating": 4.625,
-      "ratingCount": 40
+      "rating": 4.63415,
+      "ratingCount": 41
     }
   ],
   "recentReviewsByStore": {
     "app_google": [
+      {
+        "date": "2026-08-14",
+        "text": "시간을 단축할 수 있어서 좋아요! 빵도 앱에서 주문하고 픽업만 할 수 있게 되면 좋을 것 같습니다. 빵하고 커피를 먹으려면 두번 결제해야 하는 것 같아요..! x-pay를 사용하면 어떤 장점이 있는지 등록 화면에서 볼 수 있으면 좋을 것 같네용",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 이용해 주시고 소중한 피드백 남겨주셔서 감사합니다!\n\n빵과 커피를 함께 주문할 때 결제 과정이 번거로우셨군요. 말씀해 주신 통합 주문 시스템과 X-pay 안내 개선에 대해서는 본사와 함께 검토하여 고객님의 편의를 높일 수 있도록 노력하겠습니다.\n\n앞으로도 더 빠르고 편리한 서비스로 찾아뵐 수 있기를 바라며, 언제든 편하게 들러주세요 :)"
+      },
+      {
+        "date": "2026-08-14",
+        "text": "로벗이 커피를 만드는 과정을 보는 재미도 있고, 다 만들고 손 흔들어주는 모습도 은근 정답군요. 매장 가기 전에 미리 주문하기도 하고 무엇보다도 만든 커피를 놓아주는 곳에 내 이름이 표시되는게 다른사람이 주문한거랑 햇갈리지 않아 너무 좋으네요 ~",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 세심한 리뷰 남겨주셔서 정말 감사합니다!\n\n로봇 바리스타 '바리스'가 커피를 완성한 후 손을 흔들어주는 모습까지 눈여겨봐 주셨네요. 미리 주문할 수 있는 편의성과 이름으로 표시되는 픽업 시스템이 실제로 고객님께 편리한 경험이 되었다니 저희도 무척 기쁩니다. 앞으로도 편하고 즐거운 카페 경험을 드릴 수 있도록 정성껏 준비하겠습니다. 다음 방문도 기대하고 있을게요 :)"
+      },
+      {
+        "date": "2026-08-14",
+        "text": "자주 이용하는 매장이라 다운받았는데 혜택이 많아서 좋네요",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 자주 방문해 주시고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n고객님이 앱의 다양한 혜택을 잘 활용해 주시니 저희도 무척 기쁘네요. 앞으로도 더욱 알찬 혜택과 맛있는 커피로 보답하겠습니다. 언제든 편하게 들러주세요 :)"
+      },
       {
         "date": "2026-07-22",
         "text": "어제까지 잘 되다가 오늘 갑자기 본인 인증하라고 하더니 인증번호 문자도 안오고 해서 결국 앱으로 주문 못하고 키오스크로 주문했네요. 빠른 조치 부탁 드립니다.",
@@ -89,30 +113,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 출근길에 즐겨 이용해 주셔서 진심으로 감사합니다! 디카페인 메뉴가 없어 오후 방문이 어려우셨다니 아쉬운 마음인데요, 소중한 의견을 메뉴 구성에 적극 반영해 보겠습니다. 더 편하게 즐기실 수 있도록 노력하겠습니다!"
-      },
-      {
-        "date": "2026-05-11",
-        "text": "걸어가면서 주문하기 좋음. 맨날 같은 거만 시켜 먹는 나같은 사람들이 동일메뉴주문?간편주문?하기 편함",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스 앱을 편하게 이용해 주시고 좋은 리뷰까지 남겨주셔서 감사합니다! 동일메뉴 주문과 간편주문 기능을 잘 활용해 주신다니 정말 기쁩니다. 앞으로도 더 빠르고 간편한 주문 경험을 드릴 수 있도록 노력하겠습니다!"
-      },
-      {
-        "date": "2026-05-11",
-        "text": "커피 쿠폰 굿",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 라운지엑스를 이용해 주시고 좋은 평가 남겨주셔서 감사합니다! 쿠폰 혜택을 마음에 들어 하시니 더없이 기쁩니다. 앞으로도 알찬 혜택으로 보답하겠습니다. 다음 방문도 기다리고 있겠습니다!"
-      },
-      {
-        "date": "2026-05-11",
-        "text": "커피 맛 빼고는 모든게 비쌈. 빵같은 다른 상품은 나쁘지 않았습니다. 주문은 편리하나, 카드가 제한되고, 로그인 저장 기능이 있으면 좋겠습니다.",
-        "rating": 3,
-        "sentiment": "neutral",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스를 이용해 주시고 솔직한 의견 남겨주셔서 감사합니다. 가격과 결제 수단, 로그인 저장 기능에 대한 불편을 말씀해 주셨는데요, 결제 옵션 확대와 로그인 편의 기능 개선을 적극 검토하겠습니다. 더 만족스러운 경험을 드리도록 노력하겠습니다!"
       }
     ],
     "app_apple": [
@@ -436,7 +436,7 @@
         "neutral": 2
       },
       {
-        "positive": 0,
+        "positive": 3,
         "negative": 0,
         "neutral": 0
       },
@@ -471,7 +471,7 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 21
+      "count": 23
     },
     {
       "word": "맛있다",
@@ -489,6 +489,11 @@
       "count": 3
     },
     {
+      "word": "디저트·베이커리",
+      "sentiment": "neutral",
+      "count": 2
+    },
+    {
       "word": "분위기",
       "sentiment": "neutral",
       "count": 1
@@ -496,11 +501,6 @@
     {
       "word": "추천",
       "sentiment": "positive",
-      "count": 1
-    },
-    {
-      "word": "디저트·베이커리",
-      "sentiment": "neutral",
       "count": 1
     },
     {
