@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-15T12:00:22.588Z",
+  "lastScrapedAt": "2026-08-16T00:00:41.262Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,9 +15,9 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 185,
-  "brandArticles": 43,
-  "operatorArticles": 140,
+  "totalArticles": 187,
+  "brandArticles": 44,
+  "operatorArticles": 141,
   "overseasArticles": 2,
   "articles": [
     {
@@ -1341,6 +1341,17 @@
       "region": "kr"
     },
     {
+      "title": "엑스와이지, ‘로보월드 2025’서 차세대 서비스 로봇 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9IRi1uZFdBMVhMdm5Ba1hydmpBT21oV3VZbGdOMU5CdTU2aW5MYVVtX3VpM0NpczZvMUdQZElwVWkyVXRZcGE2Qk85QmhEMnM?oc=5",
+      "press": "venturesquare.net",
+      "date": "2026-01-05",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-16T00:00:41.262Z",
+      "scope": "operator"
+    },
+    {
       "title": "엑스와이지, 2025년 로봇 상용화 성과 '결실'...매출 35억 원 돌파해",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ISnFkOXVnbzJ4VE1KSW8xM1FmT2RyZnpCekgtM3VLbXhlNUtmR0Q1WGhYTXEwVDY2M2FzUnFUR0VpYXgwR0xka0NObFN4NnNpMUNnRWIyZlEtSHIyVEJn?oc=5",
@@ -1987,6 +1998,17 @@
       "source": "google",
       "region": "kr",
       "firstSeenAt": "2026-08-06T09:24:47.987Z",
+      "scope": "brand"
+    },
+    {
+      "title": "카페 라운지엑스, 프로집콕러 위한 캔 콜드브루 커피 출시",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5ZWNDdUVfZjRzRmlZSU1HRkpwemI3OXUwMUowUHh3M3ZDeGtzNTVvREN1T19saklzbW4wVWh4bEcwUl9iQV9lNVZNam9JdWtPdDhJZm51RFBhdmtqY2I4X2dNem1iUQ?oc=5",
+      "press": "시사뉴스",
+      "date": "2020-09-03",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-16T00:00:41.262Z",
       "scope": "brand"
     },
     {

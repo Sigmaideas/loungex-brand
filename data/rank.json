@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-08-15T12:00:13.872Z",
-  "updatedDate": "2026-08-15",
+  "lastScrapedAt": "2026-08-16T00:00:32.879Z",
+  "updatedDate": "2026-08-16",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -605,6 +605,10 @@
         },
         {
           "date": "2026-08-14",
+          "rank": 3
+        },
+        {
+          "date": "2026-08-16",
           "rank": 3
         }
       ],
@@ -1480,10 +1484,14 @@
         {
           "date": "2026-08-13",
           "rank": 2
+        },
+        {
+          "date": "2026-08-16",
+          "rank": 3
         }
       ],
       "prevRank": 2,
-      "rank": 2,
+      "rank": 3,
       "total": 8
     },
     "store_yongsan_prime|용산 카페": {
@@ -1707,6 +1715,10 @@
         },
         {
           "date": "2026-08-10",
+          "rank": null
+        },
+        {
+          "date": "2026-08-16",
           "rank": null
         }
       ],
@@ -3046,10 +3058,14 @@
         {
           "date": "2026-08-14",
           "rank": 93
+        },
+        {
+          "date": "2026-08-16",
+          "rank": null
         }
       ],
       "prevRank": 93,
-      "rank": 93,
+      "rank": null,
       "total": 11097
     },
     "store_ifc|IFC몰 카페": {
