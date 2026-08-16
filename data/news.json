@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-16T00:00:41.262Z",
+  "lastScrapedAt": "2026-08-16T12:00:36.324Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,8 +15,8 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 187,
-  "brandArticles": 44,
+  "totalArticles": 188,
+  "brandArticles": 45,
   "operatorArticles": 141,
   "overseasArticles": 2,
   "articles": [
@@ -349,6 +349,17 @@
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
       "scope": "operator",
       "region": "kr"
+    },
+    {
+      "title": "“AI 로봇 카페와 반려동물 산업 결합” 라운지엑스·펫비즈코리아, 생태계 확장 ‘정조준’",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5ZcEt2Z2lmSU81WnpvaVV4a3gzejB3X25mLTZUT2hJYnNLS05ZdzR0YUZLSEUxRWZuTHFkelZPR2VDYVdwSW5PRGMwVGdIdDJWdWhVaGgybmRLdWtzMlFR?oc=5",
+      "press": "헬로티",
+      "date": "2026-07-26",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-16T12:00:36.324Z",
+      "scope": "brand"
     },
     {
       "title": "[UP! START] 라운지엑스, 로봇과 펫이 만났다",

@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-16T00:00:32.879Z",
+  "lastScrapedAt": "2026-08-16T12:00:27.318Z",
   "updatedDate": "2026-08-16",
   "records": {
     "store_seongsu|성수 카페": {
@@ -243,6 +243,10 @@
         },
         {
           "date": "2026-08-15",
+          "rank": 1
+        },
+        {
+          "date": "2026-08-16",
           "rank": 1
         }
       ],
@@ -1114,10 +1118,14 @@
         {
           "date": "2026-08-13",
           "rank": 11
+        },
+        {
+          "date": "2026-08-16",
+          "rank": 14
         }
       ],
-      "prevRank": 16,
-      "rank": 11,
+      "prevRank": 11,
+      "rank": 14,
       "total": 137
     },
     "store_euljiro|을지로 카페": {
@@ -2078,9 +2086,13 @@
         {
           "date": "2026-08-14",
           "rank": 70
+        },
+        {
+          "date": "2026-08-16",
+          "rank": 70
         }
       ],
-      "prevRank": null,
+      "prevRank": 70,
       "rank": 70,
       "total": 3296
     },
@@ -2452,6 +2464,10 @@
         {
           "date": "2026-08-15",
           "rank": null
+        },
+        {
+          "date": "2026-08-16",
+          "rank": null
         }
       ],
       "prevRank": null,
@@ -2573,6 +2589,10 @@
         },
         {
           "date": "2026-08-14",
+          "rank": 1
+        },
+        {
+          "date": "2026-08-16",
           "rank": 1
         }
       ],
@@ -3064,7 +3084,7 @@
           "rank": null
         }
       ],
-      "prevRank": 93,
+      "prevRank": null,
       "rank": null,
       "total": 11097
     },
@@ -3118,11 +3138,15 @@
         {
           "date": "2026-08-14",
           "rank": 20
+        },
+        {
+          "date": "2026-08-16",
+          "rank": 17
         }
       ],
       "prevRank": 20,
-      "rank": 20,
-      "total": 1038
+      "rank": 17,
+      "total": 1037
     },
     "store_ifc|여의도 카페": {
       "storeId": "store_ifc",

@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-15T23:55:32.068Z",
+  "lastUpdated": "2026-08-16T11:55:44.284Z",
   "totalStores": 10,
-  "totalReviews": 722,
-  "avgReviewsPerStore": 72.2,
-  "monthlyActivity": 108,
+  "totalReviews": 723,
+  "avgReviewsPerStore": 72.3,
+  "monthlyActivity": 100,
   "stores": [
     {
       "id": "store_seongsu",
@@ -38,7 +38,7 @@
       "positiveRatio": 0.96875,
       "negativeRatio": 0,
       "neutralRatio": 0.03125,
-      "monthlyActivity": 13,
+      "monthlyActivity": 11,
       "latestReviewDate": "2026-08-03",
       "newReviewCount": 0,
       "rating": null,
@@ -51,7 +51,7 @@
       "positiveRatio": 0.9222222222222223,
       "negativeRatio": 0.011111111111111112,
       "neutralRatio": 0.06666666666666667,
-      "monthlyActivity": 23,
+      "monthlyActivity": 21,
       "latestReviewDate": "2026-08-13",
       "newReviewCount": 0,
       "rating": null,
@@ -90,7 +90,7 @@
       "positiveRatio": 0.9369369369369369,
       "negativeRatio": 0,
       "neutralRatio": 0.06306306306306306,
-      "monthlyActivity": 18,
+      "monthlyActivity": 15,
       "latestReviewDate": "2026-08-07",
       "newReviewCount": 0,
       "rating": null,
@@ -116,7 +116,7 @@
       "positiveRatio": 0.9487179487179487,
       "negativeRatio": 0,
       "neutralRatio": 0.05128205128205128,
-      "monthlyActivity": 29,
+      "monthlyActivity": 27,
       "latestReviewDate": "2026-08-06",
       "newReviewCount": 0,
       "rating": null,
@@ -125,13 +125,13 @@
     {
       "id": "store_ifc",
       "name": "라운지엑스 IFC몰점",
-      "reviewCount": 45,
-      "positiveRatio": 0.7555555555555555,
-      "negativeRatio": 0.022222222222222223,
-      "neutralRatio": 0.2222222222222222,
-      "monthlyActivity": 0,
-      "latestReviewDate": "2026-07-09",
-      "newReviewCount": 0,
+      "reviewCount": 46,
+      "positiveRatio": 0.7608695652173914,
+      "negativeRatio": 0.021739130434782608,
+      "neutralRatio": 0.21739130434782608,
+      "monthlyActivity": 1,
+      "latestReviewDate": "2026-08-13",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     }
@@ -877,6 +877,14 @@
     ],
     "store_ifc": [
       {
+        "date": "8.13.목",
+        "text": "좋아요",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 감사합니다!\n\n고객님께 좋은 경험을 선물할 수 있어서 저희도 기쁩니다. 앞으로도 더욱 정성껏 준비하겠습니다. 언제든 편하게 들러주세요 :)"
+      },
+      {
         "date": "7.9.목",
         "text": "분위기 좋아용",
         "rating": 4.5,
@@ -947,14 +955,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 감사합니다!\n\n로봇 바리스타와 이쁜 음료 비주얼, 그리고 모카번까지 모두 마음에 들어주셨다니 정말 기쁘네요. 고객님께서 느껴주신 즐거운 경험들이 저희 팀 전체의 에너지가 됩니다. 앞으로도 특별한 경험과 맛있는 제품으로 찾아뵐 수 있도록 노력하겠습니다. 언제든 다시 들러주세요 :)"
-      },
-      {
-        "date": "4.27.월",
-        "text": "대표 메뉴 맛있습니다.",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 감사합니다!\n\n대표 메뉴가 맛있으셨다니 정말 기쁘네요. 그 맛을 유지하기 위해 항상 최선을 다하고 있으니, 앞으로도 자주 찾아주시면 좋겠습니다. 다음 방문도 기대하겠습니다 :)"
       }
     ]
   },
@@ -1344,7 +1344,7 @@
         "neutral": 3
       },
       {
-        "positive": 21,
+        "positive": 22,
         "negative": 0,
         "neutral": 2
       },
