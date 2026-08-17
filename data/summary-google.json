@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T11:56:00.436Z",
+  "lastUpdated": "2026-08-16T23:55:40.975Z",
   "totalStores": 10,
   "totalReviews": 86,
   "avgReviewsPerStore": 8.6,
@@ -14,7 +14,7 @@
       "neutralRatio": 0,
       "monthlyActivity": 1,
       "latestReviewDate": "2026-08-16",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": 5,
       "ratingCount": 28
     },
@@ -143,7 +143,7 @@
         "text": "Amazing concept and open 24/7. The highlight is definitely the robot barista, which prepares your coffee using a robotic arm, really fun to watch and something different from a regular café. The drinks and food are very tasty as well, and I really like the modern concept. Definitely worth checking out!",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 이렇게 따뜻한 리뷰를 남겨주셔서 정말 감시합니다!\n\n로봇 바리스타 '바리스'의 정교한 움직임이 인상적이셨다니 정말 기쁘네요. 24시간 운영하는 만큼 언제든 색다른 경험과 맛있는 커피를 즐기실 수 있는 공간이 되길 바랍니다. 다음에 또 방문하실 때도 기분 좋은 시간으로 맞아드리겠습니다 :)"
       },
       {

@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-16T11:55:44.284Z",
+  "lastUpdated": "2026-08-16T23:55:24.464Z",
   "totalStores": 10,
-  "totalReviews": 723,
-  "avgReviewsPerStore": 72.3,
-  "monthlyActivity": 100,
+  "totalReviews": 724,
+  "avgReviewsPerStore": 72.4,
+  "monthlyActivity": 101,
   "stores": [
     {
       "id": "store_seongsu",
@@ -86,13 +86,13 @@
     {
       "id": "store_sangam_dmc",
       "name": "라운지엑스24h 상암DMC역점",
-      "reviewCount": 111,
-      "positiveRatio": 0.9369369369369369,
+      "reviewCount": 112,
+      "positiveRatio": 0.9375,
       "negativeRatio": 0,
-      "neutralRatio": 0.06306306306306306,
-      "monthlyActivity": 15,
-      "latestReviewDate": "2026-08-07",
-      "newReviewCount": 0,
+      "neutralRatio": 0.0625,
+      "monthlyActivity": 16,
+      "latestReviewDate": "2026-08-16",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -131,7 +131,7 @@
       "neutralRatio": 0.21739130434782608,
       "monthlyActivity": 1,
       "latestReviewDate": "2026-08-13",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     }
@@ -631,6 +631,14 @@
     ],
     "store_sangam_dmc": [
       {
+        "date": "8.16.일",
+        "text": "AI가 만들어요 너무 신기 맛도좋아요☺️☺️☺️☺️☺️☺️",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\nAI 로봇이 만드는 색다른 경험을 재미있게 느껴주시고, 맛까지 좋게 봐주셨다니 정말 기쁩니다 :)\n\n앞으로도 신기한 로봇 커피 경험과 함께 만족스러운 한 잔을 제공해드릴 수 있도록 꾸준히 신경 쓰겠습니다.\n다음 방문 때도 맛있는 커피로 기분 좋게 맞이하겠습니다. 감사합니다!"
+      },
+      {
         "date": "8.7.금",
         "text": "옆에 있는 더벤티갔다가 픽업만 가능해서ㅠ\n심란하던차에 우연히 들어왔는데\n차분하고 시원하고 너무 좋네요!!\n이 폭염에 오아시스 발견한 기분이었습니다!",
         "rating": 5,
@@ -701,14 +709,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n조용한 분위기에서 집중도 잘 하시고, 편안하게 시간을 보내실 수 있었다니 정말 기쁩니다 :)\n\n앞으로도 일이든 휴식이든 만족스러운 공간으로 언제든 편하게 찾아주실 수 있도록 쾌적한 환경 관리에 꾸준히 신경 쓰겠습니다.\n다음 방문 때도 기분 좋은 시간 보내실 수 있도록 준비하겠습니다. 감사합니다!"
-      },
-      {
-        "date": "7.20.월",
-        "text": "주문도 빠르고 편해서 좋고 디저트도 맛있습니다!",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n빠르고 편한 주문 시스템과 맛있는 디저트까지 만족해주셨다니 정말 기쁩니다 :)\n\n앞으로도 간편한 주문 환경과 함께 맛있는 커피, 디저트를 즐기실 수 있도록 꾸준히 관리하겠습니다.\n다음 방문 때도 만족스러운 시간 보내실 수 있도록 준비하겠습니다. 감사합니다!"
       }
     ],
     "store_one_grove": [
@@ -881,7 +881,7 @@
         "text": "좋아요",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 감사합니다!\n\n고객님께 좋은 경험을 선물할 수 있어서 저희도 기쁩니다. 앞으로도 더욱 정성껏 준비하겠습니다. 언제든 편하게 들러주세요 :)"
       },
       {
@@ -1344,7 +1344,7 @@
         "neutral": 3
       },
       {
-        "positive": 22,
+        "positive": 23,
         "negative": 0,
         "neutral": 2
       },
