@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-17T00:00:25.990Z",
+  "lastScrapedAt": "2026-08-17T12:03:10.541Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,8 +15,8 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 190,
-  "brandArticles": 46,
+  "totalArticles": 191,
+  "brandArticles": 47,
   "operatorArticles": 142,
   "overseasArticles": 2,
   "articles": [
@@ -558,6 +558,17 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "operator",
       "region": "kr"
+    },
+    {
+      "title": "매일 찾는 로봇 카페를 만들다 - 라운지엑스 김동진 대표",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9fSmw4OUZ3UjRzMEQtVnI0UzA3aVlTYThmbDcyeTc4b0VTOFBJTjZuNWdRMk1hXzByNEZJQXNsWG5DcHRhVWZEZjlRaW1fWmFOdTdUalNfRkVYRHktdlQ4eFQzaXl2VXPSAWtBVV95cUxQX1Y4eVpBUkdhNE5WSUlZX181VTF6RXZvamtBaGZETWJydEplSGRjZnFDbndZTGtUcXdjOHZjVGpmdWFrd3NXUHJCUVV1YkM0aDA5NU5kZ093Q1FZTDRhX2s2YjNZQ0ZBenROQQ?oc=5",
+      "press": "handmk.com",
+      "date": "2026-06-30",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-17T12:03:10.541Z",
+      "scope": "brand"
     },
     {
       "title": "엑스와이지, 엔비디아 협력 피지컬 AI 인재 양성 교육 운영",

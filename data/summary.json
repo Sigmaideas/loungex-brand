@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-16T23:55:24.464Z",
+  "lastUpdated": "2026-08-17T11:58:08.328Z",
   "totalStores": 10,
-  "totalReviews": 724,
-  "avgReviewsPerStore": 72.4,
-  "monthlyActivity": 101,
+  "totalReviews": 725,
+  "avgReviewsPerStore": 72.5,
+  "monthlyActivity": 94,
   "stores": [
     {
       "id": "store_seongsu",
@@ -38,7 +38,7 @@
       "positiveRatio": 0.96875,
       "negativeRatio": 0,
       "neutralRatio": 0.03125,
-      "monthlyActivity": 11,
+      "monthlyActivity": 9,
       "latestReviewDate": "2026-08-03",
       "newReviewCount": 0,
       "rating": null,
@@ -64,7 +64,7 @@
       "positiveRatio": 0.926605504587156,
       "negativeRatio": 0,
       "neutralRatio": 0.07339449541284404,
-      "monthlyActivity": 18,
+      "monthlyActivity": 17,
       "latestReviewDate": "2026-08-14",
       "newReviewCount": 0,
       "rating": null,
@@ -86,12 +86,12 @@
     {
       "id": "store_sangam_dmc",
       "name": "라운지엑스24h 상암DMC역점",
-      "reviewCount": 112,
-      "positiveRatio": 0.9375,
+      "reviewCount": 113,
+      "positiveRatio": 0.9380530973451328,
       "negativeRatio": 0,
-      "neutralRatio": 0.0625,
-      "monthlyActivity": 16,
-      "latestReviewDate": "2026-08-16",
+      "neutralRatio": 0.061946902654867256,
+      "monthlyActivity": 15,
+      "latestReviewDate": "2026-08-17",
       "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
@@ -116,7 +116,7 @@
       "positiveRatio": 0.9487179487179487,
       "negativeRatio": 0,
       "neutralRatio": 0.05128205128205128,
-      "monthlyActivity": 27,
+      "monthlyActivity": 24,
       "latestReviewDate": "2026-08-06",
       "newReviewCount": 0,
       "rating": null,
@@ -631,11 +631,19 @@
     ],
     "store_sangam_dmc": [
       {
+        "date": "8.17.월",
+        "text": "두번째 방문인데 커피도 맛있고 매장 분위기 음악이 좋아요~ 커피 번도 맛있고 세트 메뉴 구성도 좋은 것 같아요! ㅎㅎㅎ 굳굳👍🏻👍🏻👍🏻입니다 ㅎㅎ",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n두 번째 방문해주시고 소중한 후기까지 남겨주셔서 진심으로 감사합니다.\n커피와 번, 그리고 매장 분위기와 음악까지 모두 만족해주셨다니 정말 기쁩니다 :) 특히 세트 메뉴 구성을 좋게 봐주셔서 큰 힘이 됩니다.\n\n앞으로도 맛있는 커피와 디저트, 편안한 분위기로 언제 방문하셔도 기분 좋은 시간을 보내실 수 있도록 노력하겠습니다.\n자주 찾아주실 수 있기를 바랍니다. 감사합니다!"
+      },
+      {
         "date": "8.16.일",
         "text": "AI가 만들어요 너무 신기 맛도좋아요☺️☺️☺️☺️☺️☺️",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\nAI 로봇이 만드는 색다른 경험을 재미있게 느껴주시고, 맛까지 좋게 봐주셨다니 정말 기쁩니다 :)\n\n앞으로도 신기한 로봇 커피 경험과 함께 만족스러운 한 잔을 제공해드릴 수 있도록 꾸준히 신경 쓰겠습니다.\n다음 방문 때도 맛있는 커피로 기분 좋게 맞이하겠습니다. 감사합니다!"
       },
       {
@@ -701,14 +709,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n제주 유기농 말차라떼의 깊은 맛과 카페모카의 균형감 있는 맛까지 모두 만족해주셨다니 정말 기쁩니다 :) 특히 깔끔하게 정돈된 공간까지 좋게 평가해주셔서 큰 힘이 됩니다.\n\n앞으로도 다양한 메뉴의 맛과 함께 편안한 분위기를 제공할 수 있도록 꾸준히 신경 쓰겠습니다.\n다음에 또 친구분들과 함께 방문하실 때도 만족스러운 한 잔으로 맞이하겠습니다. 감사합니다!"
-      },
-      {
-        "date": "7.20.월",
-        "text": "조용하고 집중하기 좋아요 일하기도 좋고 수다떨기도 최적!",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n조용한 분위기에서 집중도 잘 하시고, 편안하게 시간을 보내실 수 있었다니 정말 기쁩니다 :)\n\n앞으로도 일이든 휴식이든 만족스러운 공간으로 언제든 편하게 찾아주실 수 있도록 쾌적한 환경 관리에 꾸준히 신경 쓰겠습니다.\n다음 방문 때도 기분 좋은 시간 보내실 수 있도록 준비하겠습니다. 감사합니다!"
       }
     ],
     "store_one_grove": [
@@ -1344,7 +1344,7 @@
         "neutral": 3
       },
       {
-        "positive": 23,
+        "positive": 24,
         "negative": 0,
         "neutral": 2
       },
@@ -1378,12 +1378,12 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 463
+      "count": 464
     },
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 317
+      "count": 318
     },
     {
       "word": "로봇",
@@ -1396,14 +1396,14 @@
       "count": 143
     },
     {
-      "word": "아늑·편안",
-      "sentiment": "positive",
+      "word": "분위기",
+      "sentiment": "neutral",
       "count": 133
     },
     {
-      "word": "분위기",
-      "sentiment": "neutral",
-      "count": 132
+      "word": "아늑·편안",
+      "sentiment": "positive",
+      "count": 133
     },
     {
       "word": "조용",
