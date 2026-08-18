@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-18T00:01:53.268Z",
+  "lastScrapedAt": "2026-08-18T12:03:42.214Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,11 +15,22 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 193,
+  "totalArticles": 195,
   "brandArticles": 48,
-  "operatorArticles": 143,
+  "operatorArticles": 145,
   "overseasArticles": 2,
   "articles": [
+    {
+      "title": "로봇 지능용 GPU 확충한 엑스와이지, 피지컬 AI 상용화 표준 구축 ‘속도’",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9hQkFxblctc3g1NXlWQnYtd282QmhlNXVGdmQwcmhzdy02NGNYN3c3c293c1JPRlpfdVh1YkZjUF9xRU9aZXQ4STVtcElNcVNYU0tuZURXTVhVUTBLSEtJ?oc=5",
+      "press": "헬로티",
+      "date": "2026-08-18",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-18T12:03:42.214Z",
+      "scope": "operator"
+    },
     {
       "title": "엑스와이지, H100·H200 확보…휴머노이드 개발 가속 [로보 인사이트]",
       "description": "",
@@ -1768,6 +1779,17 @@
       "firstSeenAt": "2026-08-06T06:35:57.584Z",
       "scope": "operator",
       "region": "kr"
+    },
+    {
+      "title": "엑스와이지, '바리스드립 챔피언 에디션' 출시",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWeTJlLUZxb3BMajB0UDFTRHBSMUtNVm9fVGZyZVdramlUc1FSeWtzOU5oR096S3RsNHRuR2NYSG1XeTRVbDh4ZTBaemtpOHNzZkRVZ3VB?oc=5",
+      "press": "지디넷코리아",
+      "date": "2024-03-25",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-18T12:03:42.214Z",
+      "scope": "operator"
     },
     {
       "title": "AMD와 로봇카페 ‘라운지엑스’의 만남, 콜라보 행사 주목",

@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-18T00:01:43.489Z",
+  "lastScrapedAt": "2026-08-18T12:03:33.857Z",
   "updatedDate": "2026-08-18",
   "records": {
     "store_seongsu|성수 카페": {
@@ -500,11 +500,15 @@
         {
           "date": "2026-08-10",
           "rank": null
+        },
+        {
+          "date": "2026-08-18",
+          "rank": null
         }
       ],
       "prevRank": null,
       "rank": null,
-      "total": 1337
+      "total": 1335
     },
     "store_seoulforest_ak|서울숲 로봇카페": {
       "storeId": "store_seoulforest_ak",
@@ -760,6 +764,10 @@
         {
           "date": "2026-08-14",
           "rank": 4
+        },
+        {
+          "date": "2026-08-18",
+          "rank": 4
         }
       ],
       "prevRank": 4,
@@ -1011,6 +1019,10 @@
         },
         {
           "date": "2026-08-14",
+          "rank": null
+        },
+        {
+          "date": "2026-08-18",
           "rank": null
         }
       ],
@@ -1264,11 +1276,15 @@
         {
           "date": "2026-08-15",
           "rank": 63
+        },
+        {
+          "date": "2026-08-18",
+          "rank": 44
         }
       ],
       "prevRank": 63,
-      "rank": 63,
-      "total": 3998
+      "rank": 44,
+      "total": 4002
     },
     "store_euljiro|을지로 로봇카페": {
       "storeId": "store_euljiro",
@@ -2630,6 +2646,10 @@
         {
           "date": "2026-08-16",
           "rank": 1
+        },
+        {
+          "date": "2026-08-18",
+          "rank": 1
         }
       ],
       "prevRank": 1,
@@ -3142,11 +3162,15 @@
         {
           "date": "2026-08-16",
           "rank": null
+        },
+        {
+          "date": "2026-08-18",
+          "rank": null
         }
       ],
       "prevRank": null,
       "rank": null,
-      "total": 11097
+      "total": 11094
     },
     "store_ifc|IFC몰 카페": {
       "storeId": "store_ifc",
