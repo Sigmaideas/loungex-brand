@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-17T12:03:10.541Z",
+  "lastScrapedAt": "2026-08-18T00:01:53.268Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,9 +15,9 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 191,
-  "brandArticles": 47,
-  "operatorArticles": 142,
+  "totalArticles": 193,
+  "brandArticles": 48,
+  "operatorArticles": 143,
   "overseasArticles": 2,
   "articles": [
     {
@@ -417,6 +417,17 @@
       "region": "kr"
     },
     {
+      "title": "“플라스틱 제로 규제 속 돌파구” 엑스와이지, 로봇 바리스타로 자원 순환 지평 연다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00VnVfaTdmaEJWNldMWE0xNi11VkNKOWVSS0FTQXBKYm1ocmZvT3I5d1hMOWk1ZlVwZklDV1F2MzlkT2paQ3d5emtha1lOS3RxR1lMTmJhNXMzR00xVmF3?oc=5",
+      "press": "헬로티",
+      "date": "2026-07-15",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-18T00:01:53.268Z",
+      "scope": "operator"
+    },
+    {
       "title": "엑스와이지 \"피지컬 AI 데이터 파이프라인 구축\"",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvRUZxNC16NndRTERJV21PNldET1Z0U2F4dnhuOFVMbnMxZlJfUmt2UTJYaThKWXc5NjBiX1RqLU1iaFFGZnpkMlhvbmhESlJXemljZEpn?oc=5",
@@ -426,6 +437,17 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "operator",
       "region": "kr"
+    },
+    {
+      "title": "[인터뷰]매일 찾는 로봇 카페를 만들다, 라운지엑스가 그리는 미래 - 라운지엑스 김동진 대표",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iRDZoMmMzSFV0QnZQUGdRRzRPVUcwRWpJbTlPRUlHbXNQbm1EWEhxcndjSV92ME9tSHkxSXFEUHZHVUFwTkJFQndFVl9hQVNpU1Fn?oc=5",
+      "press": "강소기업뉴스",
+      "date": "2026-07-13",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-18T00:01:53.268Z",
+      "scope": "brand"
     },
     {
       "title": "메디아나, 퓨리오사AI·엑스와이지와 병원형 피지컬 AI 플랫폼 공동 구축",

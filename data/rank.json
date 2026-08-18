@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-08-17T12:03:02.218Z",
-  "updatedDate": "2026-08-17",
+  "lastScrapedAt": "2026-08-18T00:01:43.489Z",
+  "updatedDate": "2026-08-18",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -1630,11 +1630,15 @@
         {
           "date": "2026-08-15",
           "rank": 55
+        },
+        {
+          "date": "2026-08-18",
+          "rank": 65
         }
       ],
-      "prevRank": 60,
-      "rank": 55,
-      "total": 7655
+      "prevRank": 55,
+      "rank": 65,
+      "total": 7652
     },
     "store_yongsan_prime|용산 로봇카페": {
       "storeId": "store_yongsan_prime",
@@ -1743,6 +1747,10 @@
         },
         {
           "date": "2026-08-16",
+          "rank": null
+        },
+        {
+          "date": "2026-08-18",
           "rank": null
         }
       ],
@@ -1988,10 +1996,14 @@
         {
           "date": "2026-08-14",
           "rank": 7
+        },
+        {
+          "date": "2026-08-18",
+          "rank": 5
         }
       ],
-      "prevRank": 10,
-      "rank": 7,
+      "prevRank": 7,
+      "rank": 5,
       "total": 356
     },
     "store_garak_it|가락시장 카페": {
@@ -2239,6 +2251,10 @@
         },
         {
           "date": "2026-08-15",
+          "rank": null
+        },
+        {
+          "date": "2026-08-18",
           "rank": null
         }
       ],
@@ -3020,6 +3036,10 @@
         {
           "date": "2026-08-17",
           "rank": null
+        },
+        {
+          "date": "2026-08-18",
+          "rank": null
         }
       ],
       "prevRank": null,
@@ -3042,11 +3062,15 @@
         {
           "date": "2026-08-11",
           "rank": 2
+        },
+        {
+          "date": "2026-08-18",
+          "rank": 2
         }
       ],
       "prevRank": 2,
       "rank": 2,
-      "total": 29
+      "total": 30
     },
     "store_mapo_frontone|공덕 카페": {
       "storeId": "store_mapo_frontone",
@@ -3080,10 +3104,14 @@
         {
           "date": "2026-08-17",
           "rank": 4
+        },
+        {
+          "date": "2026-08-18",
+          "rank": 11
         }
       ],
       "prevRank": 4,
-      "rank": 4,
+      "rank": 11,
       "total": 2149
     },
     "store_mapo_frontone|마포 카페": {

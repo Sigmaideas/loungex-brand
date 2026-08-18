@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T11:58:08.328Z",
+  "lastUpdated": "2026-08-17T23:56:50.964Z",
   "totalStores": 10,
   "totalReviews": 725,
   "avgReviewsPerStore": 72.5,
@@ -92,7 +92,7 @@
       "neutralRatio": 0.061946902654867256,
       "monthlyActivity": 15,
       "latestReviewDate": "2026-08-17",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -635,7 +635,7 @@
         "text": "두번째 방문인데 커피도 맛있고 매장 분위기 음악이 좋아요~ 커피 번도 맛있고 세트 메뉴 구성도 좋은 것 같아요! ㅎㅎㅎ 굳굳👍🏻👍🏻👍🏻입니다 ㅎㅎ",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n두 번째 방문해주시고 소중한 후기까지 남겨주셔서 진심으로 감사합니다.\n커피와 번, 그리고 매장 분위기와 음악까지 모두 만족해주셨다니 정말 기쁩니다 :) 특히 세트 메뉴 구성을 좋게 봐주셔서 큰 힘이 됩니다.\n\n앞으로도 맛있는 커피와 디저트, 편안한 분위기로 언제 방문하셔도 기분 좋은 시간을 보내실 수 있도록 노력하겠습니다.\n자주 찾아주실 수 있기를 바랍니다. 감사합니다!"
       },
       {
