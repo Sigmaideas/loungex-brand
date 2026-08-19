@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-18T12:03:42.214Z",
+  "lastScrapedAt": "2026-08-19T00:01:16.261Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,9 +15,9 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 195,
+  "totalArticles": 196,
   "brandArticles": 48,
-  "operatorArticles": 145,
+  "operatorArticles": 146,
   "overseasArticles": 2,
   "articles": [
     {
@@ -436,6 +436,17 @@
       "source": "google",
       "region": "kr",
       "firstSeenAt": "2026-08-18T00:01:53.268Z",
+      "scope": "operator"
+    },
+    {
+      "title": "엑스와이지 '바리스브루', 로봇 자동화로 ESG 실현…플라스틱 연간 5.1톤 저감",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9XejZ3TjNMTWdES1BiM0k0d3ZDdUV6dk9lMXIxOWlaZlpkZE1CQk1OOXMtNV9id2g1LWljSWxMbWtqVlZJcjdyMTB5VQ?oc=5",
+      "press": "티스토리",
+      "date": "2026-07-15",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-19T00:01:16.261Z",
       "scope": "operator"
     },
     {
