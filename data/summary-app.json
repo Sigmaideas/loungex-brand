@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-18T23:56:55.711Z",
+  "lastUpdated": "2026-08-19T11:59:37.543Z",
   "totalStores": 2,
-  "totalReviews": 39,
-  "avgReviewsPerStore": 19.5,
+  "totalReviews": 40,
+  "avgReviewsPerStore": 20,
   "monthlyActivity": 5,
   "stores": [
     {
@@ -12,7 +12,7 @@
       "positiveRatio": 0.6896551724137931,
       "negativeRatio": 0.20689655172413793,
       "neutralRatio": 0.10344827586206896,
-      "monthlyActivity": 5,
+      "monthlyActivity": 4,
       "latestReviewDate": "2026-08-14",
       "newReviewCount": 0,
       "rating": 4.133333,
@@ -21,15 +21,15 @@
     {
       "id": "app_apple",
       "name": "애플 앱스토어",
-      "reviewCount": 10,
+      "reviewCount": 11,
       "positiveRatio": 1,
       "negativeRatio": 0,
       "neutralRatio": 0,
-      "monthlyActivity": 0,
-      "latestReviewDate": "2026-05-11",
-      "newReviewCount": 0,
-      "rating": 4.63415,
-      "ratingCount": 41
+      "monthlyActivity": 1,
+      "latestReviewDate": "2026-08-18",
+      "newReviewCount": 1,
+      "rating": 4.64286,
+      "ratingCount": 42
     }
   ],
   "recentReviewsByStore": {
@@ -117,6 +117,14 @@
     ],
     "app_apple": [
       {
+        "date": "2026-08-18",
+        "text": "편리하고 좋아요\n앱에서 바로 주문하고 결제, 매장 방문 전에 미리 주문 하고 바호 픽업할 수 있어서 편리합니다! 자주 이용하게 될 거 같아요!",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 자주 이용해 주시고 소중한 리뷰 남겨주셔서 감사합니다!\n\n앱 사전주문으로 편리하게 이용하셨다니 정말 기쁘네요. 바리스의 정교한 커피와 빠른 픽업 서비스가 고객님의 일상에 든든한 파트너가 되어줄 수 있어 저희도 무척 보람차요.\n\n앞으로도 언제든 편하게 들러 맛있는 커피를 즐기시길 바라며, 더욱 좋은 서비스로 찾아뵙겠습니다!"
+      },
+      {
         "date": "2026-05-11",
         "text": "편하네요\n건물 도착전 시켜놓는데 다른 카페 앱들보다 단순해서 주문하기 편해요 매일 같은 메뉴 먹는데 최근주문바로가기가 있어서 좋습니다",
         "rating": 5,
@@ -187,14 +195,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 감사합니다!\n\n앱 주문 시스템이 고객님의 일상을 더 편하고 효율적으로 만들어드린 것 같아 정말 기쁘네요. 바쁜 회사 일정 속에서도 신속하게 맛있는 커피를 즐기실 수 있다니 저희도 뿌듯합니다.\n\n앞으로도 편리한 서비스와 정성스러운 커피로 고객님의 일상에 작은 즐거움이 되어드리겠습니다. 다음에도 언제든 편하게 들러주세요 :)"
-      },
-      {
-        "date": "2025-06-29",
-        "text": "제로아샷추 좀 추가해주삼\n제발 제로음료를 더 추가해주삼",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스에 방문해 주시고 소중한 의견 남겨주셔서 감사합니다!\n\n제로 음료에 대한 고객님의 요청 충분히 이해합니다. 현재 메뉴 구성을 검토하면서 제로아샷추와 제로 음료 라인업 확대에 대해 적극 검토하겠습니다.\n\n고객님의 의견이 저희를 더 나은 매장으로 만들어주고 있습니다. 다음에 방문하실 때 더욱 다양한 선택지로 인사드릴 수 있기를 바랍니다!"
       }
     ]
   },
@@ -436,7 +436,7 @@
         "neutral": 2
       },
       {
-        "positive": 3,
+        "positive": 4,
         "negative": 0,
         "neutral": 0
       },

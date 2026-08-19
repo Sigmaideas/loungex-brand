@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-19T00:01:16.261Z",
+  "lastScrapedAt": "2026-08-19T12:04:24.115Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,9 +15,9 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 196,
+  "totalArticles": 197,
   "brandArticles": 48,
-  "operatorArticles": 146,
+  "operatorArticles": 147,
   "overseasArticles": 2,
   "articles": [
     {
@@ -1911,6 +1911,17 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "operator",
       "region": "kr"
+    },
+    {
+      "title": "엑스와이지, 오픈형 무인 로봇 카페 성수동서 첫선",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1hMTRfLUxwRUQ4UWZFNjdybVFqbGpQS3pfZWxvc0YwRXZxME9QVWVJS0x2aWNLYzRzb1FHMmU0UEgwM0pZV1pocA?oc=5",
+      "press": "플래텀(Platum)",
+      "date": "2022-10-24",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-19T12:04:24.115Z",
+      "scope": "operator"
     },
     {
       "title": "엑스와이지, 로봇 커피트럭 ‘MLB 홈런더비 X’에서 선봬",

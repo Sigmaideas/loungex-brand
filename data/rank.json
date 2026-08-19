@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-19T00:01:07.653Z",
+  "lastScrapedAt": "2026-08-19T12:04:15.163Z",
   "updatedDate": "2026-08-19",
   "records": {
     "store_seongsu|성수 카페": {
@@ -1032,6 +1032,10 @@
         {
           "date": "2026-08-18",
           "rank": null
+        },
+        {
+          "date": "2026-08-19",
+          "rank": null
         }
       ],
       "prevRank": null,
@@ -1409,6 +1413,10 @@
         },
         {
           "date": "2026-08-12",
+          "rank": null
+        },
+        {
+          "date": "2026-08-19",
           "rank": null
         }
       ],
@@ -1897,6 +1905,10 @@
         },
         {
           "date": "2026-08-15",
+          "rank": 8
+        },
+        {
+          "date": "2026-08-19",
           "rank": 8
         }
       ],
@@ -2938,6 +2950,10 @@
         {
           "date": "2026-08-17",
           "rank": null
+        },
+        {
+          "date": "2026-08-19",
+          "rank": null
         }
       ],
       "prevRank": null,
@@ -3144,10 +3160,14 @@
         {
           "date": "2026-08-18",
           "rank": 11
+        },
+        {
+          "date": "2026-08-19",
+          "rank": 19
         }
       ],
-      "prevRank": 4,
-      "rank": 11,
+      "prevRank": 11,
+      "rank": 19,
       "total": 2149
     },
     "store_mapo_frontone|마포 카페": {
@@ -3208,11 +3228,15 @@
         {
           "date": "2026-08-17",
           "rank": 12
+        },
+        {
+          "date": "2026-08-19",
+          "rank": 10
         }
       ],
-      "prevRank": 13,
-      "rank": 12,
-      "total": 4980
+      "prevRank": 12,
+      "rank": 10,
+      "total": 4989
     },
     "store_ifc|여의도역 카페": {
       "storeId": "store_ifc",

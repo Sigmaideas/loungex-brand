@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-18T23:56:53.111Z",
+  "lastUpdated": "2026-08-19T11:59:32.210Z",
   "totalStores": 10,
-  "totalReviews": 16,
-  "avgReviewsPerStore": 1.6,
-  "monthlyActivity": 3,
+  "totalReviews": 17,
+  "avgReviewsPerStore": 1.7,
+  "monthlyActivity": 4,
   "stores": [
     {
       "id": "store_seongsu",
@@ -34,15 +34,15 @@
     {
       "id": "store_gangnam",
       "name": "라운지엑스24h 강남역점",
-      "reviewCount": 2,
-      "positiveRatio": 0,
-      "negativeRatio": 0.5,
-      "neutralRatio": 0.5,
-      "monthlyActivity": 0,
-      "latestReviewDate": "2026-06-20",
-      "newReviewCount": 0,
-      "rating": 2.5,
-      "ratingCount": 2
+      "reviewCount": 3,
+      "positiveRatio": 0.3333333333333333,
+      "negativeRatio": 0.3333333333333333,
+      "neutralRatio": 0.3333333333333333,
+      "monthlyActivity": 1,
+      "latestReviewDate": "2026-08-19",
+      "newReviewCount": 1,
+      "rating": 3.3,
+      "ratingCount": 3
     },
     {
       "id": "store_euljiro",
@@ -182,6 +182,14 @@
       }
     ],
     "store_gangnam": [
+      {
+        "date": "2026-08-19",
+        "text": "여기 기대 이상입니다. 매일 출근길데 들리는데 솔직히 근처 커피숍중에 가장 맛있거요. 오래오래 있어주세요",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 매일 찾아주시고 이렇게 따뜻한 리뷰를 남겨주셔서 정말 감사합니다!\n\n매일 아침 출근길에 들러주실 정도로 신뢰해 주신다니 저희도 정말 기쁘고 영광스럽습니다. 고객님 같은 분들이 있어서 저희가 더욱 정성을 다해 맛있는 커피를 준비할 수 있게 됩니다.\n\n앞으로도 변함없이 최고의 커피와 편안한 공간으로 고객님의 하루를 시작할 수 있도록 노력하겠습니다. 내일도 기분 좋은 커피 한 잔이 되길 바랍니다 :)"
+      },
       {
         "date": "2026-06-20",
         "text": "정말희한...오랜 시간 작업하기에 눈치가 보일락 말락 함 자리를 펴고 앉기도 뭐하고 그렇다고 기왕 왔는데 다른 무인카페보다 엄청 싼 것도 아니라 다른 곳 가기도 아까움",
@@ -323,7 +331,15 @@
       "negative": []
     },
     "store_gangnam": {
-      "positive": [],
+      "positive": [
+        {
+          "date": "2026-08-19",
+          "text": "여기 기대 이상입니다. 매일 출근길데 들리는데 솔직히 근처 커피숍중에 가장 맛있거요. 오래오래 있어주세요",
+          "rating": 5,
+          "sentiment": "positive",
+          "autoReply": "안녕하세요 :) 저희 라운지엑스를 매일 찾아주시고 이렇게 따뜻한 리뷰를 남겨주셔서 정말 감사합니다!\n\n매일 아침 출근길에 들러주실 정도로 신뢰해 주신다니 저희도 정말 기쁘고 영광스럽습니다. 고객님 같은 분들이 있어서 저희가 더욱 정성을 다해 맛있는 커피를 준비할 수 있게 됩니다.\n\n앞으로도 변함없이 최고의 커피와 편안한 공간으로 고객님의 하루를 시작할 수 있도록 노력하겠습니다. 내일도 기분 좋은 커피 한 잔이 되길 바랍니다 :)"
+        }
+      ],
       "negative": [
         {
           "date": "2026-06-09",
@@ -593,7 +609,7 @@
         "neutral": 1
       },
       {
-        "positive": 2,
+        "positive": 3,
         "negative": 0,
         "neutral": 0
       },
@@ -628,12 +644,12 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 10
+      "count": 11
     },
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 5
+      "count": 6
     },
     {
       "word": "디저트·베이커리",
