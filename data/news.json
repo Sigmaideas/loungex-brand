@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-19T12:04:24.115Z",
+  "lastScrapedAt": "2026-08-20T00:01:55.852Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,8 +15,8 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 197,
-  "brandArticles": 48,
+  "totalArticles": 198,
+  "brandArticles": 49,
   "operatorArticles": 147,
   "overseasArticles": 2,
   "articles": [
@@ -2009,6 +2009,17 @@
       "source": "google",
       "region": "kr",
       "firstSeenAt": "2026-08-15T12:00:22.588Z",
+      "scope": "brand"
+    },
+    {
+      "title": "'로봇 바리스타가 탄 커피 트럭이 떴다?' 라운지엑스, 의료진 커피 나눔 진행",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5LbWhSUVVab2hnUWdCakNXVDJUX2dEOVdwNjVHTUhSTnROQnc1RTdRUUNzUXMyYk9kb0xLU3JHSGNTOVplbEtEQlkteWdKSWJRbHZFQ1VaYmtpX0RnY256VGRLYXTSAWhBVV95cUxQSFFUTk1EVnlOTTBuS25nXzNtdXJCb0M4Z242eTdmTnlrQXhmZmJ2d3hLN24zS2VRUnRBTW5xbnIteW1XVFoyZ0FfeEZpcGstMzlwNkJOVFdNQWZ1aXMxMlpzOFRMSzFmMA?oc=5",
+      "press": "테크M",
+      "date": "2021-06-08",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-20T00:01:55.852Z",
       "scope": "brand"
     },
     {

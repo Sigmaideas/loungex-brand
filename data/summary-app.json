@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T11:59:37.543Z",
+  "lastUpdated": "2026-08-19T23:57:19.223Z",
   "totalStores": 2,
   "totalReviews": 40,
   "avgReviewsPerStore": 20,
@@ -27,7 +27,7 @@
       "neutralRatio": 0,
       "monthlyActivity": 1,
       "latestReviewDate": "2026-08-18",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": 4.64286,
       "ratingCount": 42
     }
@@ -121,7 +121,7 @@
         "text": "편리하고 좋아요\n앱에서 바로 주문하고 결제, 매장 방문 전에 미리 주문 하고 바호 픽업할 수 있어서 편리합니다! 자주 이용하게 될 거 같아요!",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 자주 이용해 주시고 소중한 리뷰 남겨주셔서 감사합니다!\n\n앱 사전주문으로 편리하게 이용하셨다니 정말 기쁘네요. 바리스의 정교한 커피와 빠른 픽업 서비스가 고객님의 일상에 든든한 파트너가 되어줄 수 있어 저희도 무척 보람차요.\n\n앞으로도 언제든 편하게 들러 맛있는 커피를 즐기시길 바라며, 더욱 좋은 서비스로 찾아뵙겠습니다!"
       },
       {
