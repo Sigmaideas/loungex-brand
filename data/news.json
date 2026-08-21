@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-20T12:05:41.181Z",
+  "lastScrapedAt": "2026-08-21T00:03:30.567Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,9 +15,9 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 198,
+  "totalArticles": 199,
   "brandArticles": 49,
-  "operatorArticles": 147,
+  "operatorArticles": 148,
   "overseasArticles": 2,
   "articles": [
     {
@@ -964,6 +964,17 @@
       "source": "google",
       "region": "kr",
       "firstSeenAt": "2026-08-11T00:12:37.029Z",
+      "scope": "operator"
+    },
+    {
+      "title": "\"사람과 집·사무실서 공존\"…엑스와이지, 양팔형 로봇 '듀스' 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4yVG9hRXluU3c2XzdrTDN0eW1aREQ3VU5nRkdZc2s0VTJieDR6TTNnQ201R3I3cURFX1oySVVrbVRIX281WFlqSFcxR3pwTUttWFhTbE44QnQwYWxNZHpHeGJrajlibnk1Y3BNdA?oc=5",
+      "press": "유니콘팩토리",
+      "date": "2026-04-27",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-21T00:03:30.567Z",
       "scope": "operator"
     },
     {
