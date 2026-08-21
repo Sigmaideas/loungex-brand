@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-08-20T23:58:06.230Z",
+  "lastUpdated": "2026-08-21T11:59:55.151Z",
   "totalStores": 10,
-  "totalReviews": 730,
-  "avgReviewsPerStore": 73,
-  "monthlyActivity": 80,
+  "totalReviews": 731,
+  "avgReviewsPerStore": 73.1,
+  "monthlyActivity": 73,
   "stores": [
     {
       "id": "store_seongsu",
       "name": "라운지엑스24h 성수본점",
-      "reviewCount": 62,
-      "positiveRatio": 0.7903225806451613,
-      "negativeRatio": 0.016129032258064516,
-      "neutralRatio": 0.1935483870967742,
-      "monthlyActivity": 3,
+      "reviewCount": 63,
+      "positiveRatio": 0.7936507936507936,
+      "negativeRatio": 0.015873015873015872,
+      "neutralRatio": 0.19047619047619047,
+      "monthlyActivity": 4,
       "latestReviewDate": "2026-08-20",
       "newReviewCount": 1,
       "rating": null,
@@ -38,7 +38,7 @@
       "positiveRatio": 0.9690721649484536,
       "negativeRatio": 0,
       "neutralRatio": 0.030927835051546393,
-      "monthlyActivity": 6,
+      "monthlyActivity": 4,
       "latestReviewDate": "2026-08-15",
       "newReviewCount": 0,
       "rating": null,
@@ -51,7 +51,7 @@
       "positiveRatio": 0.9222222222222223,
       "negativeRatio": 0.011111111111111112,
       "neutralRatio": 0.06666666666666667,
-      "monthlyActivity": 17,
+      "monthlyActivity": 15,
       "latestReviewDate": "2026-08-13",
       "newReviewCount": 0,
       "rating": null,
@@ -90,7 +90,7 @@
       "positiveRatio": 0.9304347826086956,
       "negativeRatio": 0,
       "neutralRatio": 0.06956521739130435,
-      "monthlyActivity": 10,
+      "monthlyActivity": 8,
       "latestReviewDate": "2026-08-20",
       "newReviewCount": 0,
       "rating": null,
@@ -116,7 +116,7 @@
       "positiveRatio": 0.9487179487179487,
       "negativeRatio": 0,
       "neutralRatio": 0.05128205128205128,
-      "monthlyActivity": 20,
+      "monthlyActivity": 18,
       "latestReviewDate": "2026-08-06",
       "newReviewCount": 0,
       "rating": null,
@@ -143,8 +143,16 @@
         "text": "성수역에서 도보로 7분 정도에 있긴한데 시설이 엄청 깔끔하고 무인인데 하나도 불편함 없이 이용하기 좋았어요\n디저트 퀄리티 하나하나 다 맛있어요☺️",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스에 방문해 주시고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n깔끔한 시설과 편리한 무인 시스템이 고객님께 좋은 경험을 드렸다니 기쁘고, 무엇보다 저희 디저트까지 맛있게 즐겨주셨다니 정말 뿌듯하네요. 앞으로도 언제든 성수에서 맛있는 커피와 디저트가 생각나실 때 편하게 들러주세요. 다음 방문을 기다리겠습니다! ♥"
+      },
+      {
+        "date": "8.20.목",
+        "text": "성수역에서 도보로 7분 정도에 있긴한데 시설이 엄청 깔끔하고 무인인데 하나도 불편함 없이 이용하기 좋았어요\n바리스타로봇이 뭔가 ㅋㅋ 외로워보이긴 했지만 라떼 퀄리티 아주 숙성라떼 처럼 괜찮았고 디저트 퀄리티 하나하나 다 맛있어요☺️(샌드, 소금빵, 번 추천)",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스 성수본점을 방문해 주시고 이렇게 자세한 리뷰 남겨주셔서 정말 감사합니다!\n\n깔끔한 시설과 무인 시스템이 편하셨다니 기쁘고, 바리스타 로봇 '바리스'가 만든 라떼와 샌드, 소금빵, 번 등 디저트까지 모두 만족하셨다니 정말 뿌듯하네요. 고객님의 따뜻한 응원 덕분에 저희도 더 열심히 준비하겠습니다.\n\n다음에 성수역 주변에서 맛있는 커피와 디저트가 생각나실 때 언제든지 편하게 들러주세요. 항상 정성스럽게 준비하고 있겠습니다 :)"
       },
       {
         "date": "8.14.금",
@@ -209,14 +217,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n깔끔한 매장 환경과 합리적인 가격대에 맛있는 커피까지 즐기셨다니 저희도 무척 기쁘네요. 고객님의 믿음과 사랑이 저희를 더욱 노력하게 만듭니다.\n\n앞으로도 언제든 편하게 들러주셔서 맛있는 커피와 편안한 시간 함께하시기를 바랄게요. 자주 뵐 수 있기를 기대하겠습니다 :)"
-      },
-      {
-        "date": "6.24.수",
-        "text": "기계가 내려주는 신기한 카페!\n근데 커피맛도 진하고 가성비 있고\n맛있습니다 :)",
-        "rating": null,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스에 방문해 주시고 따뜻한 리뷰 남겨주셔서 감사합니다!\n\n로봇 바리스타 '바리스'의 신기한 모습뿐만 아니라 커피의 진한 맛과 가성비까지 모두 느껴주셨다니 정말 기쁘네요. 앞으로도 변함없이 맛있는 커피로 찾아뵙겠습니다 :)\n\n언제든 신기한 경험과 좋은 커피가 생각나시면 들러주세요. 다음 방문을 기다리겠습니다!"
       }
     ],
     "store_seoulforest_ak": [
@@ -1344,7 +1344,7 @@
         "neutral": 3
       },
       {
-        "positive": 27,
+        "positive": 28,
         "negative": 0,
         "neutral": 4
       },
@@ -1378,22 +1378,22 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 467
+      "count": 468
     },
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 320
+      "count": 321
     },
     {
       "word": "로봇",
       "sentiment": "neutral",
-      "count": 151
+      "count": 152
     },
     {
       "word": "깨끗·깔끔",
       "sentiment": "positive",
-      "count": 144
+      "count": 145
     },
     {
       "word": "분위기",
@@ -1428,12 +1428,12 @@
     {
       "word": "디저트·베이커리",
       "sentiment": "neutral",
-      "count": 57
+      "count": 58
     },
     {
       "word": "추천",
       "sentiment": "positive",
-      "count": 53
+      "count": 54
     }
   ]
 }

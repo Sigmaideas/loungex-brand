@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-21T00:03:30.567Z",
+  "lastScrapedAt": "2026-08-21T12:04:47.319Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,8 +15,8 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 199,
-  "brandArticles": 49,
+  "totalArticles": 200,
+  "brandArticles": 50,
   "operatorArticles": 148,
   "overseasArticles": 2,
   "articles": [
@@ -1834,6 +1834,17 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "brand",
       "region": "kr"
+    },
+    {
+      "title": "엑스와이지 로봇카페 '라운지엑스' AMD와 맞손...한정판 상품 내놓는다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1UjZ0MlNpLXYzWEQ4NEtrWC1lcXhnckstUzVXUzVHR1NjbHp4dUozdzJRSGxiNFlHdFJ3dko3ZDh4QzBaVUdmQURaODY5ajhWLWNOeGt3Y0pQbTBfTnplSVVKNVlVQdIBakFVX3lxTE5RZ3lpdHdPMXN4N2tQLURUdXMwV0ZtcXp1ZGJLWTRHU2h0SzBxYjdLZkV0VTlzM2Mtdzc4aDdJcXQ5bmRjeFlkUjZZRU5ZSVp3STRuMEFwNlR6WVJMYXpmS2UzSndyb1czT3c?oc=5",
+      "press": "테크M",
+      "date": "2023-10-16",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-21T12:04:47.319Z",
+      "scope": "brand"
     },
     {
       "title": "엑스와이지, 식음료 자회사 라운지엑스에 김동진 대표 선임",
