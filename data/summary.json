@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-22T23:55:53.076Z",
+  "lastUpdated": "2026-08-23T11:56:21.464Z",
   "totalStores": 10,
-  "totalReviews": 738,
-  "avgReviewsPerStore": 73.8,
-  "monthlyActivity": 71,
+  "totalReviews": 739,
+  "avgReviewsPerStore": 73.9,
+  "monthlyActivity": 66,
   "stores": [
     {
       "id": "store_seongsu",
@@ -40,7 +40,7 @@
       "neutralRatio": 0.04040404040404041,
       "monthlyActivity": 4,
       "latestReviewDate": "2026-08-22",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -51,7 +51,7 @@
       "positiveRatio": 0.9222222222222223,
       "negativeRatio": 0.011111111111111112,
       "neutralRatio": 0.06666666666666667,
-      "monthlyActivity": 13,
+      "monthlyActivity": 11,
       "latestReviewDate": "2026-08-13",
       "newReviewCount": 0,
       "rating": null,
@@ -64,9 +64,9 @@
       "positiveRatio": 0.9099099099099099,
       "negativeRatio": 0.018018018018018018,
       "neutralRatio": 0.07207207207207207,
-      "monthlyActivity": 19,
+      "monthlyActivity": 17,
       "latestReviewDate": "2026-08-22",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -99,13 +99,13 @@
     {
       "id": "store_one_grove",
       "name": "라운지엑스24h 원그로브점",
-      "reviewCount": 68,
-      "positiveRatio": 0.9117647058823529,
+      "reviewCount": 69,
+      "positiveRatio": 0.9130434782608695,
       "negativeRatio": 0,
-      "neutralRatio": 0.08823529411764706,
-      "monthlyActivity": 8,
-      "latestReviewDate": "2026-08-22",
-      "newReviewCount": 0,
+      "neutralRatio": 0.08695652173913043,
+      "monthlyActivity": 9,
+      "latestReviewDate": "2026-08-23",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -116,7 +116,7 @@
       "positiveRatio": 0.9487179487179487,
       "negativeRatio": 0,
       "neutralRatio": 0.05128205128205128,
-      "monthlyActivity": 16,
+      "monthlyActivity": 14,
       "latestReviewDate": "2026-08-06",
       "newReviewCount": 0,
       "rating": null,
@@ -315,7 +315,7 @@
         "text": "여기 와이파이 비번은 대체 어디서 찾는거에요??????",
         "rating": 3,
         "sentiment": "neutral",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 리뷰 남겨주셔서 감사합니다!\n\n와이파이 비밀번호를 찾기 어려우셨다니 정말 죄송합니다. 저희 매장 곳곳에 와이파이 정보를 더 눈에 띄게 안내할 수 있도록 개선하겠습니다. 다음 방문 시에는 편하게 직원에게 말씀해 주셔도 좋으니 편안히 이용해 주세요. 앞으로 더 나은 서비스로 찾아뵙겠습니다 ♥"
       },
       {
@@ -479,7 +479,7 @@
         "text": "리뷰보고 많이 기대하고 갔는데 맛은 있지만\n여자 직원분 알바인지 너무 불친절했습니다😮‍💨\n번 데워줄 수 있냐고 물어보니\n아니요;라고 해서 적잖이 당황했고,\n손님이 들어오든 나가든 응대가 전혀 없는 걸 보고 원래 이런 곳이구나 했습니다\n많이 아쉽네요😓",
         "rating": 1,
         "sentiment": "negative",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다.\n\n불편한 경험을 하셨다니 정말 죄송합니다. 고객님께 불친절한 응대를 드렸다는 점에 대해 깊이 반성하고 있으며, 이러한 일이 다시 발생하지 않도록 직원 교육을 더욱 철저히 하겠습니다. 따뜻한 마음으로 고객님을 맞이할 수 있도록 최선을 다하겠습니다. 다음번에 방문하실 때는 더 나은 모습으로 뵙기를 진심으로 바랍니다."
       },
       {
@@ -713,6 +713,14 @@
     ],
     "store_one_grove": [
       {
+        "date": "8.23.일",
+        "text": "로봇이 만들어준다니 너무 신기하고 귀여웠습니다ㅎㅎ!\n특히 원두가 맛있어요",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n로봇 바리스타 바리스가 신기하고 귀여우셨다니 기쁩니다 🤖 저희가 엄선한 원두의 풍미를 맛있게 즐겨주셔서 감사합니다 ☕ 앞으로도 자주 들러주세요! 😄"
+      },
+      {
         "date": "8.22.토",
         "text": "무인카페 편해요",
         "rating": 5,
@@ -783,14 +791,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n로봇 바리스타 바리스의 귀여운 모습과 편의로운 픽업 방식까지 좋게 봐주셨군요 😊 주말의 번화함 속에서도 저희 공간에서 음악과 함께 여유로운 시간을 느껴주셨다니 기쁩니다. 접근성도 좋으니 앞으로도 편하게 들러주세요! 😄"
-      },
-      {
-        "date": "7.11.토",
-        "text": "그라탱이 정말 맛있었어요",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n저희 그라탱을 맛있게 즐겨주셨다니 기쁩니다 😊 앞으로도 정성 가득한 음식으로 좋은 경험 드릴 수 있도록 노력하겠습니다. 자주 찾아주세요! ☕"
       }
     ],
     "store_mapo_frontone": [
@@ -1359,7 +1359,7 @@
         "neutral": 3
       },
       {
-        "positive": 32,
+        "positive": 33,
         "negative": 2,
         "neutral": 5
       },
@@ -1398,12 +1398,12 @@
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 322
+      "count": 323
     },
     {
       "word": "로봇",
       "sentiment": "neutral",
-      "count": 154
+      "count": 155
     },
     {
       "word": "깨끗·깔끔",

@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-23T00:00:40.984Z",
+  "lastScrapedAt": "2026-08-23T12:01:32.077Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,9 +15,9 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 200,
-  "brandArticles": 50,
-  "operatorArticles": 148,
+  "totalArticles": 204,
+  "brandArticles": 53,
+  "operatorArticles": 149,
   "overseasArticles": 2,
   "articles": [
     {
@@ -395,6 +395,17 @@
       "region": "kr"
     },
     {
+      "title": "펫비즈코리아, 라운지엑스와 맞손∙∙∙AI 로봇카페 기반 미래형 펫 창업 생태계 구축",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBhRFYwNGl6QzkxdG5HVWljQk80ZUVkekRHcTI0TFZ5UHN0bndCazlUenM5QTEyUE9MSlhteUY4Z1U3QXUxcU5PbWs5ZzVnVzBaTW15Zjd0Yzcwd3JHaUc5ZWVmeDNmYWE3dGc?oc=5",
+      "press": "한국M&A경제신문",
+      "date": "2026-07-24",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-23T12:01:32.077Z",
+      "scope": "brand"
+    },
+    {
       "title": "펫비즈코리아-라운지엑스, AI 로봇카페 기반 펫 창업 MOU 체결",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4wVDhPRk9rOVNqU0tGZ1Y5aVRJaWlhOEY2N0RQNTJqMW1aUGdpR2xLeHFjaHA3engxbnR2cGh2WkdmRmdaVVFIMkw4ZFlSUmVvRVZwcmZkTGxsUnRqSjFubWFpMnlaSE9DUU83ZXdn?oc=5",
@@ -602,6 +613,17 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "operator",
       "region": "kr"
+    },
+    {
+      "title": "광운대 로빛, 로보컵 2026 휴머노이드 축구리그 참가…엑스와이지 기술 지원",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1LUm94NnMtbUg0TGxQMUJiSllrcHZqVmpiOWpVTVd2UlJfYml4VHViY1lFOEZhQVN6eGx2ZmRaTWJXUDdHYUNaTUc4RQ?oc=5",
+      "press": "티스토리",
+      "date": "2026-07-03",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-23T12:01:32.077Z",
+      "scope": "operator"
     },
     {
       "title": "매일 찾는 로봇 카페를 만들다 - 라운지엑스 김동진 대표",
@@ -2045,6 +2067,17 @@
       "scope": "brand"
     },
     {
+      "title": "'로봇 협동 카페' 라운지엑스, 매장 내 일회용품 친환경 소재로 교체",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE51M0hSMXZPVVA4RVoyS01uYUt4aTB0Mm1nZ3BTOWFoeDJFRDdRWE1mS2JrbEoyTXQySDdrQzJkRXZtcmJmQmxmMjRuVkZkcnFfbDlnUHhB?oc=5",
+      "press": "지디넷코리아",
+      "date": "2021-06-01",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-23T12:01:32.077Z",
+      "scope": "brand"
+    },
+    {
       "title": "​현대차 아이오닉 5 체험 공간에 자리한 라운지엑스 바리스타 로봇 바리스",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tbFlqNUs5OHcwVnk0VkNxUGkybjl3U19QWlhaOFNnRXBOMW1LcGx2WjlWVFR2ZFhRNjBSZ1BRc3R5azFUcWZOZFRjN0NFSHoxMlVRUFlCVWdpQdIBWEFVX3lxTE1tTmdQbnJIWklQMXJoeHdJZWpmWlFuUkNnd0JfSktQdFIwTnJaZDVMTUkyZVk2WmxLOHc4VGFlRmpVaVV0aDFFbllrWE45UElUdjdOSjdNazU?oc=5",
@@ -2164,6 +2197,17 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "scope": "brand",
       "region": "kr"
+    },
+    {
+      "title": "로봇커피 라운지엑스, 콜드브루 신제품 내놨다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MVnd0NExkbWRiaEZkUHQ0Yld0VXZQQnp2VmdxQlJNczU5Y1hiamVlVGVGNWV1SkRfSFBSc3ZqRTM3ajV3aTJZNUQzUGpiRE44VGJQTkdpTTVaX3BsemdQZklQWlrSAWhBVV95cUxNOGRkYW94SkFwOGphZUExZFlzZmp6cllucTQ0SmgzVWgtV3JhRmNhN09iallDWkM5dzhKay0wQ3otZDRVeDdfRmY5Qk5UWkdFOTZ5VFpnSjVHWWZYTWhMVjItSjV5R3dsbg?oc=5",
+      "press": "테크M",
+      "date": "2020-09-01",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-23T12:01:32.077Z",
+      "scope": "brand"
     },
     {
       "title": "라운지X, 로봇 바리스타가 만들어주는 캔커피",
