@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-24T00:00:26.565Z",
+  "lastScrapedAt": "2026-08-24T12:05:45.793Z",
   "updatedDate": "2026-08-24",
   "records": {
     "store_seongsu|성수 카페": {
@@ -122,11 +122,15 @@
         {
           "date": "2026-08-22",
           "rank": 45
+        },
+        {
+          "date": "2026-08-24",
+          "rank": 54
         }
       ],
-      "prevRank": 56,
-      "rank": 45,
-      "total": 3220
+      "prevRank": 45,
+      "rank": 54,
+      "total": 3225
     },
     "store_seongsu|성수 로봇카페": {
       "storeId": "store_seongsu",
@@ -961,12 +965,12 @@
         },
         {
           "date": "2026-08-24",
-          "rank": 63
+          "rank": 77
         }
       ],
-      "prevRank": null,
-      "rank": 63,
-      "total": 13120
+      "prevRank": 63,
+      "rank": 77,
+      "total": 13125
     },
     "store_gangnam|강남 로봇카페": {
       "storeId": "store_gangnam",
@@ -1498,6 +1502,10 @@
         {
           "date": "2026-08-23",
           "rank": null
+        },
+        {
+          "date": "2026-08-24",
+          "rank": null
         }
       ],
       "prevRank": null,
@@ -1631,6 +1639,10 @@
         },
         {
           "date": "2026-08-23",
+          "rank": 3
+        },
+        {
+          "date": "2026-08-24",
           "rank": 3
         }
       ],
@@ -2420,6 +2432,10 @@
         {
           "date": "2026-08-19",
           "rank": null
+        },
+        {
+          "date": "2026-08-24",
+          "rank": null
         }
       ],
       "prevRank": null,
@@ -3114,6 +3130,10 @@
         {
           "date": "2026-08-23",
           "rank": null
+        },
+        {
+          "date": "2026-08-24",
+          "rank": null
         }
       ],
       "prevRank": null,
@@ -3428,11 +3448,15 @@
         {
           "date": "2026-08-21",
           "rank": 18
+        },
+        {
+          "date": "2026-08-24",
+          "rank": 22
         }
       ],
-      "prevRank": 10,
-      "rank": 18,
-      "total": 4992
+      "prevRank": 18,
+      "rank": 22,
+      "total": 4987
     },
     "store_ifc|여의도역 카페": {
       "storeId": "store_ifc",

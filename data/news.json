@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-24T00:00:35.604Z",
+  "lastScrapedAt": "2026-08-24T12:05:54.114Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,11 +15,77 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 204,
+  "totalArticles": 210,
   "brandArticles": 53,
-  "operatorArticles": 149,
+  "operatorArticles": 155,
   "overseasArticles": 2,
   "articles": [
+    {
+      "title": "엑스와이지, 갤럭시아와 협력해 한국 로봇 시장 공략",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAwQUd4aS0tUE9lMFphdGIwZW5ycWFPMUthS0E1aUt2eDBjTmZCWEJzQzd6alhBZnNBTU9Oam90NVhYUHBuUXdyRnNRODdqUQ?oc=5",
+      "press": "전자신문",
+      "date": "2026-08-24",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-24T12:05:54.114Z",
+      "scope": "operator"
+    },
+    {
+      "title": "엑스와이지, 中 갤럭시아 로봇에 ‘브레인엑스’ 탑재한다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBFV1VBSDl1MnFBdnVlblIzNzhNZnh2Nko1UGRqRmY2M0YyS3E3Ym9pYkxCcDNQQzRQOExMS1lLMUVXNTFtQlpHNWhYcw?oc=5",
+      "press": "티스토리",
+      "date": "2026-08-24",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-24T12:05:54.114Z",
+      "scope": "operator"
+    },
+    {
+      "title": "엑스와이지·갤럭시아, MOU 체결…‘브레인엑스’ 기반 실환경 로봇 앱 개발",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBMWVhNdlJMemJ1SGFyOW5Fd3h4V3hSVHc4QUowNnVwTHFzZDFUUTdUV1BsYXFraXFIWU13MlprTU9kMEhQVGc?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-08-24",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-24T12:05:54.114Z",
+      "scope": "operator"
+    },
+    {
+      "title": "엑스와이지, 갤럭시아와 맞손…로봇 지능 ‘BrainX’로 국내 로봇 시장 공략",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zbENsNFZqRzdmLVpFcVotM2JYeC1Wa1ZfSVl6b19lc2ZhVVI0UkdNVS1ETjVWS3o1dVVFQ1hTZ0FVdXh0WFd3ZzY3ZUZ6WUk2am45ck9hRFdTSTcxZ2hBejA4dTh2R0lJ0gFsQVVfeXFMTWxNbjZIM3JuX244cFJmYnpKeG84X3NSUVY0UmRReXBZOG5xcHhtZnJRcGNyaEZEeUpncExtM3E1aDZGelRjeWx1T0g2aWcwdVJ2REhDaF84WG9OaURhMlIweXZza1FWUXZROWQ1?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-08-24",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-24T12:05:54.114Z",
+      "scope": "operator"
+    },
+    {
+      "title": "엑스와이지, 中갤럭시아와 MOU…실환경 로봇 애플리케이션 개발",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4zQV9zNmZ1a1g4ZmlDZG1MNG5GeTdaRHNlYTNzWTlWNFpGVlZPMjVXbUpHd3RDaFRIYXFjYnJ2bjlzYVZMd2lncVh3Snd2YmM?oc=5",
+      "press": "v.daum.net",
+      "date": "2026-08-24",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-24T12:05:54.114Z",
+      "scope": "operator"
+    },
+    {
+      "title": "[UP! START] 엑스와이지, 로봇 지능 'BrainX' 갤럭시아 로봇 이식",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA4WWhTMFJydU84STd3cWFKNjZ2blllY1ZJa3NPSTZnenRQX2ZWN2lwaDhUSFRMZzBmaDR0TmwxbVZlUWJRdGMwSXpkVFlVWE1RaFk0eTN3YWF2MC1sTTdIX2k3UFcwMmVQZG5B?oc=5",
+      "press": "내외경제TV",
+      "date": "2026-08-24",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-24T12:05:54.114Z",
+      "scope": "operator"
+    },
     {
       "title": "로봇 지능용 GPU 확충한 엑스와이지, 피지컬 AI 상용화 표준 구축 ‘속도’",
       "description": "",

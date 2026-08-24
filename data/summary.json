@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-08-23T23:55:44.797Z",
+  "lastUpdated": "2026-08-24T12:01:03.499Z",
   "totalStores": 10,
-  "totalReviews": 741,
-  "avgReviewsPerStore": 74.1,
+  "totalReviews": 743,
+  "avgReviewsPerStore": 74.3,
   "monthlyActivity": 68,
   "stores": [
     {
@@ -40,7 +40,7 @@
       "neutralRatio": 0.05,
       "monthlyActivity": 5,
       "latestReviewDate": "2026-08-23",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -99,13 +99,13 @@
     {
       "id": "store_one_grove",
       "name": "라운지엑스24h 원그로브점",
-      "reviewCount": 70,
-      "positiveRatio": 0.9142857142857143,
+      "reviewCount": 72,
+      "positiveRatio": 0.9166666666666666,
       "negativeRatio": 0,
-      "neutralRatio": 0.08571428571428572,
-      "monthlyActivity": 10,
+      "neutralRatio": 0.08333333333333333,
+      "monthlyActivity": 12,
       "latestReviewDate": "2026-08-24",
-      "newReviewCount": 1,
+      "newReviewCount": 2,
       "rating": null,
       "ratingCount": null
     },
@@ -116,7 +116,7 @@
       "positiveRatio": 0.9487179487179487,
       "negativeRatio": 0,
       "neutralRatio": 0.05128205128205128,
-      "monthlyActivity": 14,
+      "monthlyActivity": 12,
       "latestReviewDate": "2026-08-06",
       "newReviewCount": 0,
       "rating": null,
@@ -307,7 +307,7 @@
         "text": "음악좋고, 아늑합니다.",
         "rating": 3,
         "sentiment": "neutral",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n편안한 음악과 아늑한 분위기가 마음에 드셨다니 정말 기뻐요. 앞으로도 휴식이 필요하실 때 언제든 편하게 들러주세요 :)"
       },
       {
@@ -717,8 +717,24 @@
         "text": "토마토스프랑 파스타 대체적으로 매운편이라 \n맵찔이들은 꼭 확인하고 드시길 추천 드릴게요!! \n포테이토 감자 엄청 색다르고 맛있답니다\n정말 이곳은 뷰 맛집이예요!!✨",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n토마토스프랑 파스타의 매운맛과 포테이토 감자의 독특한 맛까지 꼼꼼히 느껴주셨군요 😊 저희 음식들의 특징을 다른 고객분들과도 나눠주신 점 정말 감사합니다 ☕ 앞으로도 멋진 뷰와 함께 맛있는 시간을 드릴 수 있도록 하겠습니다. 자주 찾아주세요! 😄"
+      },
+      {
+        "date": "8.24.월",
+        "text": "로봇카페 신기하고 편리해요 ㅎㅎ",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n로봇 바리스타의 신기함과 편리함을 느껴주셨군요 😊 저희 바리스가 빠르고 정확하게 음료를 만들어드리는 모습이 재미있으셨기를 바랍니다. 앞으로도 편하고 즐거운 경험을 드릴 수 있도록 노력하겠습니다. 자주 들러주세요! 😄"
+      },
+      {
+        "date": "8.24.월",
+        "text": "라운지 엑스 커피 맛있어요\n가격할인까지 좋네요",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n맛있는 커피와 합리적인 가격까지 만족스러우셨다니 기쁩니다 ☕ 앞으로도 변함없는 품질의 커피로 기분 좋은 시간을 드릴 수 있도록 하겠습니다. 자주 들러주세요! 😄"
       },
       {
         "date": "8.23.일",
@@ -775,22 +791,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n편리하게 이용해 주신다니 기쁩니다 😊 앞으로도 언제든 편하게 들러주실 수 있도록 최선을 다하겠습니다. 자주 찾아주세요! 😄"
-      },
-      {
-        "date": "8.2.일",
-        "text": "매장 분위기가 너무 좋고 역이랑 연결해서 오기좋아요!",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n매장의 분위기와 접근성 모두 만족스러우셨다니 기쁩니다 😊 편리한 위치에서 편안한 시간을 보내실 수 있도록 앞으로도 최선을 다하겠습니다. 자주 들러주세요! 😄"
-      },
-      {
-        "date": "7.30.목",
-        "text": "로봇이 손이 빠르구만유",
-        "rating": 3,
-        "sentiment": "neutral",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n저희 로봇 바리스타 '바리스'의 빠르고 정확한 손놀림을 눈여겨봐주셨군요 😊 언제나 신속하고 품질 좋은 음료로 즐거운 경험을 드릴 수 있도록 하겠습니다. 다음에도 자주 찾아주세요! ☕"
       }
     ],
     "store_mapo_frontone": [
@@ -1359,7 +1359,7 @@
         "neutral": 3
       },
       {
-        "positive": 34,
+        "positive": 36,
         "negative": 2,
         "neutral": 6
       },
@@ -1393,17 +1393,17 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 469
+      "count": 470
     },
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 324
+      "count": 325
     },
     {
       "word": "로봇",
       "sentiment": "neutral",
-      "count": 155
+      "count": 156
     },
     {
       "word": "깨끗·깔끔",
@@ -1433,7 +1433,7 @@
     {
       "word": "가성비·가격",
       "sentiment": "neutral",
-      "count": 95
+      "count": 96
     },
     {
       "word": "공부·작업",
