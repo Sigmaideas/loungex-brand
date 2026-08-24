@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-23T11:56:21.464Z",
+  "lastUpdated": "2026-08-23T23:55:44.797Z",
   "totalStores": 10,
-  "totalReviews": 739,
-  "avgReviewsPerStore": 73.9,
-  "monthlyActivity": 66,
+  "totalReviews": 741,
+  "avgReviewsPerStore": 74.1,
+  "monthlyActivity": 68,
   "stores": [
     {
       "id": "store_seongsu",
@@ -34,13 +34,13 @@
     {
       "id": "store_gangnam",
       "name": "라운지엑스24h 강남역점",
-      "reviewCount": 99,
-      "positiveRatio": 0.9595959595959596,
+      "reviewCount": 100,
+      "positiveRatio": 0.95,
       "negativeRatio": 0,
-      "neutralRatio": 0.04040404040404041,
-      "monthlyActivity": 4,
-      "latestReviewDate": "2026-08-22",
-      "newReviewCount": 0,
+      "neutralRatio": 0.05,
+      "monthlyActivity": 5,
+      "latestReviewDate": "2026-08-23",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -99,12 +99,12 @@
     {
       "id": "store_one_grove",
       "name": "라운지엑스24h 원그로브점",
-      "reviewCount": 69,
-      "positiveRatio": 0.9130434782608695,
+      "reviewCount": 70,
+      "positiveRatio": 0.9142857142857143,
       "negativeRatio": 0,
-      "neutralRatio": 0.08695652173913043,
-      "monthlyActivity": 9,
-      "latestReviewDate": "2026-08-23",
+      "neutralRatio": 0.08571428571428572,
+      "monthlyActivity": 10,
+      "latestReviewDate": "2026-08-24",
       "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
@@ -303,6 +303,14 @@
     ],
     "store_gangnam": [
       {
+        "date": "8.23.일",
+        "text": "음악좋고, 아늑합니다.",
+        "rating": 3,
+        "sentiment": "neutral",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n편안한 음악과 아늑한 분위기가 마음에 드셨다니 정말 기뻐요. 앞으로도 휴식이 필요하실 때 언제든 편하게 들러주세요 :)"
+      },
+      {
         "date": "8.22.토",
         "text": "친구랑 공부하러 왔는데 분위기 잔잔해서 집중 잘되네요! 화이트 아메리카노 시켜봤는데 로봇이 만들어줘 신기하기도, 재밌기도 하였습니더ㅋㅋㅋㅋ \n노래 소리도 적당하고 테이블도 편해서\n 종종 카공하러 올 듯합니다!",
         "rating": 5,
@@ -373,14 +381,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 강남역점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n은은하게 퍼지는 홍차 향이 마음에 드셨다니 정말 기뻐요. 저희 밀크티는 신선한 홍차와 크리미한 밀크의 조화를 최고의 비율로 완성하고 있습니다 :) 강남대로변의 번잡함 속에서도 깔끔하고 편안한 공간을 느껴주셨다니 다행입니다. 그 특별한 맛과 휴식이 또 그리워질 때 언제든 편하게 들러주세요. 조만간 또 뵙기를 바랄게요 ♥"
-      },
-      {
-        "date": "7.21.화",
-        "text": "바닐라밀크 한 모금 마셨는데 바닐라 향이 코끝에 은은하게 퍼지면서 달달하면서도 묵직한 풍미가 있어서 취향 저격이었어요. 강남역 대로변에 이런 아늑한 공간이 있다는 게 소소한 발견 같아서 뿌듯하더라고요.",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스 강남역점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n바닐라밀크의 은은한 향과 묵직한 풍미가 마음에 드셨다니 정말 기쁘네요. 로봇 바리스타 '바리스'가 항상 정교하게 추출하는 커피와 신선한 우유의 조화를 잘 느껴주셨군요 :) 바쁜 강남역 거리에서 소소한 휴식처가 되어드릴 수 있어서 저희도 뿌듯합니다. 앞으로도 언제든 편하게 들러주세요. 조만간 또 뵙기를 바랄게요 ♥"
       }
     ],
     "store_euljiro": [
@@ -713,11 +713,19 @@
     ],
     "store_one_grove": [
       {
+        "date": "8.24.월",
+        "text": "토마토스프랑 파스타 대체적으로 매운편이라 \n맵찔이들은 꼭 확인하고 드시길 추천 드릴게요!! \n포테이토 감자 엄청 색다르고 맛있답니다\n정말 이곳은 뷰 맛집이예요!!✨",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n토마토스프랑 파스타의 매운맛과 포테이토 감자의 독특한 맛까지 꼼꼼히 느껴주셨군요 😊 저희 음식들의 특징을 다른 고객분들과도 나눠주신 점 정말 감사합니다 ☕ 앞으로도 멋진 뷰와 함께 맛있는 시간을 드릴 수 있도록 하겠습니다. 자주 찾아주세요! 😄"
+      },
+      {
         "date": "8.23.일",
         "text": "로봇이 만들어준다니 너무 신기하고 귀여웠습니다ㅎㅎ!\n특히 원두가 맛있어요",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n로봇 바리스타 바리스가 신기하고 귀여우셨다니 기쁩니다 🤖 저희가 엄선한 원두의 풍미를 맛있게 즐겨주셔서 감사합니다 ☕ 앞으로도 자주 들러주세요! 😄"
       },
       {
@@ -783,14 +791,6 @@
         "sentiment": "neutral",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n저희 로봇 바리스타 '바리스'의 빠르고 정확한 손놀림을 눈여겨봐주셨군요 😊 언제나 신속하고 품질 좋은 음료로 즐거운 경험을 드릴 수 있도록 하겠습니다. 다음에도 자주 찾아주세요! ☕"
-      },
-      {
-        "date": "7.11.토",
-        "text": "바리스가 내 픽업번호 위에 음료를 올려줘요\n너무 귀엽고 기특?하네요ㅎㅎ\n주말의 원그로브 카페들 풀이죠\n거기에 소음은 어쩔 수 없고요\n여기만큼은 매장의 음악도 들을 수 있고\n여유를 느낄 수 있어요\nD동에 주차하고 엘베 내리면 바로입니다~",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n로봇 바리스타 바리스의 귀여운 모습과 편의로운 픽업 방식까지 좋게 봐주셨군요 😊 주말의 번화함 속에서도 저희 공간에서 음악과 함께 여유로운 시간을 느껴주셨다니 기쁩니다. 접근성도 좋으니 앞으로도 편하게 들러주세요! 😄"
       }
     ],
     "store_mapo_frontone": [
@@ -1359,9 +1359,9 @@
         "neutral": 3
       },
       {
-        "positive": 33,
+        "positive": 34,
         "negative": 2,
-        "neutral": 5
+        "neutral": 6
       },
       {
         "positive": 0,
@@ -1398,7 +1398,7 @@
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 323
+      "count": 324
     },
     {
       "word": "로봇",
@@ -1418,7 +1418,7 @@
     {
       "word": "아늑·편안",
       "sentiment": "positive",
-      "count": 133
+      "count": 134
     },
     {
       "word": "조용",
@@ -1448,7 +1448,7 @@
     {
       "word": "추천",
       "sentiment": "positive",
-      "count": 54
+      "count": 55
     }
   ]
 }
