@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-24T12:05:54.114Z",
+  "lastScrapedAt": "2026-08-25T00:00:51.077Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,11 +15,22 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 210,
+  "totalArticles": 212,
   "brandArticles": 53,
-  "operatorArticles": 155,
+  "operatorArticles": 157,
   "overseasArticles": 2,
   "articles": [
+    {
+      "title": "엑스와이지, 中 갤럭시아 로봇에 AI 심는다 [로보 인사이트]",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBVcmphQ2RiWUY0SHJiVk9iOXlqOWFZcE1aSkFNTVFFVWlTcnFkLVhCaGtlc2VySFNVN29TRUd3YnVvaEwyQUx5Y0UtT1p1VEtkUnZR?oc=5",
+      "press": "네이트",
+      "date": "2026-08-25",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-25T00:00:51.077Z",
+      "scope": "operator"
+    },
     {
       "title": "엑스와이지, 갤럭시아와 협력해 한국 로봇 시장 공략",
       "description": "",
@@ -84,6 +95,17 @@
       "source": "google",
       "region": "kr",
       "firstSeenAt": "2026-08-24T12:05:54.114Z",
+      "scope": "operator"
+    },
+    {
+      "title": "엑스와이지, 中갤럭시아와 피지컬 AI 협력",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaTVHcFl6Z2xhZWg0ZG5ZdE1LQ0xNbHY3bXdCTXhRVkpVdjVlakRLRnY3UWc2eDlEQ2Z0QzREeDNBUVNXZGF6WEZoQ09yWFBUeUVocC00UmFKaGpoWk9OTkRKcW1yblpOaWFSd3hqMVRxdFBsYmFPOXJ4LTh3OVhhRQ?oc=5",
+      "press": "edaily.co.kr",
+      "date": "2026-08-24",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-25T00:00:51.077Z",
       "scope": "operator"
     },
     {
