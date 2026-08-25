@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-24T23:56:20.934Z",
+  "lastUpdated": "2026-08-25T12:01:54.302Z",
   "totalStores": 10,
-  "totalReviews": 743,
-  "avgReviewsPerStore": 74.3,
-  "monthlyActivity": 68,
+  "totalReviews": 744,
+  "avgReviewsPerStore": 74.4,
+  "monthlyActivity": 69,
   "stores": [
     {
       "id": "store_seongsu",
@@ -60,13 +60,13 @@
     {
       "id": "store_yongsan_prime",
       "name": "라운지엑스24h 용산더프라임점",
-      "reviewCount": 111,
-      "positiveRatio": 0.9099099099099099,
-      "negativeRatio": 0.018018018018018018,
-      "neutralRatio": 0.07207207207207207,
-      "monthlyActivity": 17,
-      "latestReviewDate": "2026-08-22",
-      "newReviewCount": 0,
+      "reviewCount": 112,
+      "positiveRatio": 0.9107142857142857,
+      "negativeRatio": 0.017857142857142856,
+      "neutralRatio": 0.07142857142857142,
+      "monthlyActivity": 18,
+      "latestReviewDate": "2026-08-25",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -467,6 +467,14 @@
     ],
     "store_yongsan_prime": [
       {
+        "date": "8.25.화",
+        "text": "무인카페라 한적하고 조용하네요. 맛도 쏘쏘~ 혼공하기좋기도함",
+        "rating": 4,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n한적하고 조용한 분위기 속에서 혼공하기 좋다니 정말 기쁩니다 😊 앞으로도 맛있는 커피와 함께 집중이 필요하실 때 언제든 편하게 찾아와 주세요. 항상 쾌적한 공간으로 준비해두고 기다리겠습니다!"
+      },
+      {
         "date": "8.22.토",
         "text": "리뷰보고 많이 기대하고 갔는데 맛은 있지만\n여자 직원분 알바인지 너무 불친절했습니다😮‍💨\n번 데워줄 수 있냐고 물어보니\n아니요;라고 해서 적잖이 당황했고,\n손님이 들어오든 나가든 응대가 전혀 없는 걸 보고 원래 이런 곳이구나 했습니다\n비공식 스카 같아서 대화하기도 살짝 눈치보였습니다 많이 아쉽네요😓",
         "rating": 1,
@@ -537,14 +545,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n빠른 서빙과 합리적인 가격이 마음에 드셨다니 정말 기쁩니다 😊 앞으로도 언제든 편하게 들러 맛있는 커피 한 잔 즐겨주세요. 항상 정성껏 준비하고 기다리겠습니다!"
-      },
-      {
-        "date": "8.6.목",
-        "text": "오늘도 점심시간에  아이스 아메리카노  한잔\n오늘도 맛있는 커피로 오후를 지내볼 예정입니다.",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n매일 점심시간마다 찾아주셔서 정말 고맙습니다. 저희 아이스 아메리카노가 오후를 활기차게 지나가는 데 도움이 될 수 있다면 저희도 정말 기쁘겠습니다 😊 앞으로도 맛있는 커피 한 잔으로 여유로운 시간 보내러 자주 찾아와 주세요!"
       }
     ],
     "store_garak_it": [
@@ -1359,7 +1359,7 @@
         "neutral": 3
       },
       {
-        "positive": 36,
+        "positive": 37,
         "negative": 2,
         "neutral": 6
       },
@@ -1423,7 +1423,7 @@
     {
       "word": "조용",
       "sentiment": "positive",
-      "count": 122
+      "count": 123
     },
     {
       "word": "넓은 공간",

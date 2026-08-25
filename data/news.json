@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-25T00:00:51.077Z",
+  "lastScrapedAt": "2026-08-25T12:07:07.377Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,9 +15,9 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 212,
+  "totalArticles": 216,
   "brandArticles": 53,
-  "operatorArticles": 157,
+  "operatorArticles": 161,
   "overseasArticles": 2,
   "articles": [
     {
@@ -29,6 +29,50 @@
       "source": "google",
       "region": "kr",
       "firstSeenAt": "2026-08-25T00:00:51.077Z",
+      "scope": "operator"
+    },
+    {
+      "title": "\"사람 손 닮는게 목표 아냐\"…엑스와이지, 로봇핸드 구조 공개 - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9vRkVWZzN6MHBVTFVMWVVGdzc4X0Fadzl3OU9uWk5mcC1OcVh5TlhvWmNoeDZvUEtiVmRjTWdyYm5GdHFMXzZkTHNhNlNhbEtHVXVTSG4wQTM0MkZFY1lPMmlodlpaaGJRU2fSAW9BVV95cUxPNVJOUjN6QmtjQmxGZEY2aUplbHRnRnRSVV9NUE1adDA0aEhfV0h2blN5WEpPM3kwNU9TNDB6dDF5Vi0yZ2NDRnhPTWVMcDV4RFphdDVEVlM0SUIzWFcya0RjRHFXSk5BWlZDb29FS3c?oc=5",
+      "press": "머니투데이",
+      "date": "2026-08-25",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-25T12:07:07.377Z",
+      "scope": "operator"
+    },
+    {
+      "title": "엑스와이지, 휴머노이드 ‘듀스’ 3지 로봇핸드 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hNFJja0xhUy1lM2xITGR2ZlhRQ3RuZW92ZjdNUVdEMFdRcllXSzZHOEZYUllaTUNST3VDZGpvbEk4UWQ4aDJHdWFDeHFCNjJkVlUzVm8yekhEanNpMjdwQWNlVHRTQXBYZnc?oc=5",
+      "press": "AI타임스",
+      "date": "2026-08-25",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-25T12:07:07.377Z",
+      "scope": "operator"
+    },
+    {
+      "title": "엑스와이지, 일상 작업 최적화한 ‘듀스’ 3지 로봇핸드 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wZUtrUVkwbWR4czhReFN2WUxtZDgycHg1a0VqVkxGSDhIME9YX2p3VlJ1OUwzdUNid0F1ZDlBYVFBZE1yWVZ2aWJtd182eHhpZ2c3WVhhX3pDRFZKa01zd3VGSWZSLXd20gFsQVVfeXFMTTlVa01NRTF1QnFfOG1ObTFkV0tmTTFpTFpsV0U1ZVNOTEVRbkY5emtNVjRqQVFOa0xLX0JOeU9VZlpkX3JCdDNNZjZoaXRuLVVTX0ltUFU4S2pab29QWDFfU2hXc3hIYWx4RFVU?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-08-25",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-25T12:07:07.377Z",
+      "scope": "operator"
+    },
+    {
+      "title": "엑스와이지, 일상형 로봇 ‘듀스’ 3지 로봇핸드 공개…Physical AI 데이터 플라이휠 구축",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1qc1pNa2p5WVJrM2NtcWJOU205anBLbWJaUlZFWEVKSXRfdzY1ZG9aUG0tN1IyYkVoSHRsNGZtdXc3eEZCOWc?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-08-25",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-25T12:07:07.377Z",
       "scope": "operator"
     },
     {
