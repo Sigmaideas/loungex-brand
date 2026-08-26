@@ -699,10 +699,27 @@ function renderNewsList() {
 
 const MENTION_RECENT_LIMIT = 120;
 
+// 화면 상단 탭. 소스마다 나누는 기준이 다르다 —
+// 유튜브는 국내/해외(콘텐츠 언어), 블로그는 네이버라 사실상 전부 국내여서 외부/공식으로 나눈다.
+// label 은 탭 이름, sub 는 KPI 카드 아래 설명, hint 는 탭 줄 오른쪽 문구
+const SCOPE_SETS = {
+  region: [
+    { key: 'all', name: '전체', filter: () => true, sub: '국내 + 해외 전체', hint: '국내·해외 영상을 합친 전체' },
+    { key: 'kr', name: '국내', filter: (x) => x.region !== 'overseas', sub: '국내 영상', hint: '제목·설명에 한국어가 쓰인 영상' },
+    { key: 'overseas', name: '해외', filter: (x) => x.region === 'overseas', sub: '해외 영상', hint: '외국어로 라운지엑스를 소개한 영상' },
+  ],
+  official: [
+    { key: 'all', name: '전체', filter: () => true, sub: '공식 + 외부 전체', hint: '공식 채널과 외부 언급을 합친 전체' },
+    { key: 'external', name: '외부', filter: (x) => !x.official, sub: '외부 작성분', hint: '자사 채널을 뺀 순수 외부 언급 — 실제 입소문 지표' },
+    { key: 'official', name: '공식', filter: (x) => x.official, sub: '공식 채널 작성분', hint: '자사 공식 채널이 직접 올린 콘텐츠' },
+  ],
+};
+
 const MENTION_SOURCES = {
   youtube: {
     file: 'data/youtube.json',
     itemsKey: 'videos',
+    scopes: SCOPE_SETS.region,
     prefix: 'yt',
     unit: '영상',
     authorLabel: '채널',
@@ -723,6 +740,7 @@ const MENTION_SOURCES = {
   blog: {
     file: 'data/blog.json',
     itemsKey: 'posts',
+    scopes: SCOPE_SETS.official,
     prefix: 'blog',
     unit: '포스트',
     authorLabel: '블로거',
@@ -766,13 +784,15 @@ async function loadMentions(key) {
   renderMentions(key);
 }
 
+function mentionScope(key) {
+  const cfg = MENTION_SOURCES[key];
+  return cfg.scopes.find((s) => s.key === mentionState[key].scope) || cfg.scopes[0];
+}
+
 function mentionItems(key) {
   const cfg = MENTION_SOURCES[key];
   const all = mentionState[key].data[cfg.itemsKey] || [];
-  const scope = mentionState[key].scope;
-  if (scope === 'official') return all.filter((x) => x.official);
-  if (scope === 'external') return all.filter((x) => !x.official);
-  return all;
+  return all.filter(mentionScope(key).filter);
 }
 
 // 집계는 선택된 scope 기준으로 그때그때 계산한다 (수백 건이라 비용이 없다)
@@ -795,7 +815,7 @@ function aggregateMentions(key, items) {
 
   const cutoff = new Date(Date.now() - 30 * 24 * 3600 * 1000).toISOString().slice(0, 10);
   const sorted = [...dated].sort((a, b) => b.date.localeCompare(a.date));
-  const scopeSub = { all: '공식 + 외부 전체', external: '외부 작성분', official: '공식 채널 작성분' }[mentionState[key].scope];
+  const scopeSub = mentionScope(key).sub;
 
   return {
     total: items.length,
@@ -814,19 +834,13 @@ function renderMentionScopeTabs(key) {
   const cfg = MENTION_SOURCES[key];
   const st = mentionState[key];
   const all = st.data[cfg.itemsKey] || [];
-  const official = all.filter((x) => x.official).length;
-  $(`#${cfg.prefix}ScopeTabs`).innerHTML = [
-    { key: 'all', label: `전체 ${all.length}건` },
-    { key: 'external', label: `외부 ${all.length - official}건` },
-    { key: 'official', label: `공식 ${official}건` },
-  ]
-    .map((t) => `<button class="scope-tab${st.scope === t.key ? ' active' : ''}" data-scope="${t.key}">${t.label}</button>`)
+  $(`#${cfg.prefix}ScopeTabs`).innerHTML = cfg.scopes
+    .map((t) => {
+      const count = all.filter(t.filter).length;
+      return `<button class="scope-tab${st.scope === t.key ? ' active' : ''}" data-scope="${t.key}">${t.name} ${count}건</button>`;
+    })
     .join('');
-  $(`#${cfg.prefix}ScopeHint`).textContent = {
-    all: '공식 채널과 외부 언급을 합친 전체',
-    external: `자사 채널을 뺀 순수 외부 언급 — 실제 입소문 지표`,
-    official: '자사 공식 채널이 직접 올린 콘텐츠',
-  }[st.scope];
+  $(`#${cfg.prefix}ScopeHint`).textContent = mentionScope(key).hint;
   $(`#${cfg.prefix}ScopeTabs`).querySelectorAll('.scope-tab').forEach((btn) => {
     btn.onclick = () => {
       if (st.scope === btn.dataset.scope) return;

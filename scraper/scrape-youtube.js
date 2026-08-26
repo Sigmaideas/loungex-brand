@@ -33,6 +33,16 @@ const QUERIES = [
   'loungex robot cafe',
 ];
 
+// 해외 영상은 한국어 검색어로는 거의 안 걸린다. 뉴스 수집과 같은 방식으로
+// 외국어 검색어를 따로 돌려 표본을 넓힌다 (검색 자체는 hl=en&gl=US 로 요청)
+const INTL_QUERIES = [
+  "LOUNGE'X robot cafe",
+  'LOUNGEX Korea robot cafe',
+  'robot barista cafe Seoul LOUNGE X',
+  'ラウンジエックス ロボットカフェ',
+  'LOUNGEX 韩国 机器人咖啡',
+];
+
 // 공식 채널은 따로 구분한다 — 자사 홍보 영상과 외부 언급을 섞으면 지표가 왜곡된다
 const OFFICIAL_CHANNEL_IDS = ['UCFQFu4sQC1dRfZVzS8HBljw']; // 카페 라운지엑스24
 
@@ -58,6 +68,23 @@ function isRelevant(v) {
   return ANCHORS.some((x) => t.includes(x));
 }
 
+// 국내/해외 판정. 유튜브는 채널 국가를 알려주지 않으므로 '어느 나라 시청자를 향한
+// 영상인가' 를 콘텐츠 언어로 대신 본다 — 제목·설명의 글자 중 한글 비중이 기준.
+// 한글이 하나라도 있으면 국내로 치는 방식은 못 쓴다. 해외 채널도 제목에 '로봇 바리스타'
+// 같은 한국어 태그를 섞고, 한국 채널이 일본어·영어로 올린 영상은 해외를 향한 것이다.
+// 채널명은 세지 않는다 ('King Food 킹푸드' 처럼 이름만 이중언어인 경우가 많다).
+const KR_RATIO_MIN = 0.3;
+const LETTERS = { hangul: /[가-힣ㄱ-ㅎㅏ-ㅣ]/g, kana: /[ぁ-んァ-ヶ]/g, han: /[一-鿿]/g, latin: /[A-Za-z]/g };
+function regionOf(v) {
+  if (OFFICIAL_CHANNEL_IDS.includes(v.channelId)) return 'kr';
+  const text = `${v.title} ${v.description || ''}`;
+  const count = (re) => (text.match(re) || []).length;
+  const hangul = count(LETTERS.hangul);
+  const total = hangul + count(LETTERS.kana) + count(LETTERS.han) + count(LETTERS.latin);
+  if (!total) return 'kr'; // 글자가 없으면(숫자·이모지뿐) 국내로 둔다 — 대부분 국내 영상이다
+  return hangul / total >= KR_RATIO_MIN ? 'kr' : 'overseas';
+}
+
 const log = (...a) => console.log(`[youtube ${new Date().toISOString().slice(11, 19)}]`, ...a);
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -77,9 +104,9 @@ function parseRelativeDate(raw) {
   return shiftDays(Number(m[1]) * per);
 }
 
-async function fetchText(url) {
+async function fetchText(url, lang = 'ko-KR,ko;q=0.9') {
   const res = await fetch(url, {
-    headers: { 'User-Agent': UA, 'Accept-Language': 'ko-KR,ko;q=0.9' },
+    headers: { 'User-Agent': UA, 'Accept-Language': lang },
     signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
   });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -98,8 +125,11 @@ function collectRenderers(node, out) {
 
 const runsText = (o) => (o?.runs || []).map((r) => r.text).join('') || o?.simpleText || '';
 
-async function search(query) {
-  const html = await fetchText(`${SEARCH_URL}?search_query=${encodeURIComponent(query)}`);
+// intl=true 면 영어권 기준으로 검색한다. 한국어 UI 로 요청하면 같은 영어 검색어라도
+// 국내 영상이 위로 올라와 해외 표본이 잘 안 늘어난다
+async function search(query, intl = false) {
+  const url = `${SEARCH_URL}?search_query=${encodeURIComponent(query)}${intl ? '&hl=en&gl=US' : ''}`;
+  const html = await fetchText(url, intl ? 'en-US,en;q=0.9' : undefined);
   const m = html.match(/var ytInitialData = (\{[\s\S]*?\});<\/script>/);
   if (!m) throw new Error('ytInitialData 파싱 실패');
   const renderers = collectRenderers(JSON.parse(m[1]), []);
@@ -118,7 +148,7 @@ async function search(query) {
       date: parseRelativeDate(v.publishedTimeText?.simpleText),
     });
   }
-  log(`'${query}' → ${out.length}건`);
+  log(`'${query}'${intl ? ' (해외)' : ''} → ${out.length}건`);
   return out;
 }
 
@@ -186,9 +216,9 @@ function dedupe(prev, fresh, runIso) {
 
 async function main() {
   const fresh = [];
-  for (const q of QUERIES) {
+  for (const [q, intl] of [...QUERIES.map((q) => [q, false]), ...INTL_QUERIES.map((q) => [q, true])]) {
     try {
-      fresh.push(...(await search(q)));
+      fresh.push(...(await search(q, intl)));
     } catch (e) {
       log(`'${q}' 실패: ${e.message}`);
     }
@@ -210,26 +240,31 @@ async function main() {
   // 관련성 판정은 매번 다시 돌린다 — 규칙을 고치면 기존 누적분도 함께 정리된다
   const videos = merged
     .filter(isRelevant)
-    .map((v) => ({ ...v, official: OFFICIAL_CHANNEL_IDS.includes(v.channelId) }))
+    // 판정 규칙을 고치면 기존 누적분에도 그대로 반영되도록 매번 다시 매긴다
+    .map((v) => ({ ...v, official: OFFICIAL_CHANNEL_IDS.includes(v.channelId), region: regionOf(v) }))
     .sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
 
   await attachDetails(videos, runIso);
   videos.sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
 
   const officialCount = videos.filter((v) => v.official).length;
+  const krCount = videos.filter((v) => v.region === 'kr').length;
   const out = {
     lastScrapedAt: runIso,
     queries: QUERIES,
+    intlQueries: INTL_QUERIES,
     totalVideos: videos.length,
     officialVideos: officialCount,
     externalVideos: videos.length - officialCount,
+    krVideos: krCount,
+    overseasVideos: videos.length - krCount,
     channelCount: new Set(videos.map((v) => v.channelId)).size,
     totalViews: videos.reduce((s, v) => s + (v.views || 0), 0),
     videos,
   };
   await fs.mkdir(path.dirname(OUT_PATH), { recursive: true });
   await fs.writeFile(OUT_PATH, JSON.stringify(out, null, 2), 'utf8');
-  log(`저장 완료: 누적 ${videos.length}건 (신규 +${added}건 · 공식 ${officialCount} / 외부 ${videos.length - officialCount}) → ${OUT_PATH}`);
+  log(`저장 완료: 누적 ${videos.length}건 (신규 +${added}건 · 국내 ${krCount} / 해외 ${videos.length - krCount} · 공식 ${officialCount}) → ${OUT_PATH}`);
 }
 
 main().catch((err) => {

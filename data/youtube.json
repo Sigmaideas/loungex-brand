@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-26T09:03:38.367Z",
+  "lastScrapedAt": "2026-08-26T14:51:56.596Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -7,11 +7,20 @@
     "로봇카페 라운지엑스",
     "loungex robot cafe"
   ],
-  "totalVideos": 24,
+  "intlQueries": [
+    "LOUNGE'X robot cafe",
+    "LOUNGEX Korea robot cafe",
+    "robot barista cafe Seoul LOUNGE X",
+    "ラウンジエックス ロボットカフェ",
+    "LOUNGEX 韩国 机器人咖啡"
+  ],
+  "totalVideos": 26,
   "officialVideos": 1,
-  "externalVideos": 23,
-  "channelCount": 24,
-  "totalViews": 58790,
+  "externalVideos": 25,
+  "krVideos": 20,
+  "overseasVideos": 6,
+  "channelCount": 26,
+  "totalViews": 59787,
   "videos": [
     {
       "videoId": "hEE6D7BJQiY",
@@ -23,8 +32,9 @@
       "date": "2026-07-10",
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
-      "views": 31661,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "views": 31662,
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
     },
     {
       "videoId": "5MuLVukkXck",
@@ -36,8 +46,9 @@
       "date": "2026-06-04",
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
-      "views": 165,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "views": 167,
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
     },
     {
       "videoId": "OiK7iaPWH_U",
@@ -49,8 +60,9 @@
       "date": "2026-04-24",
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
-      "views": 1315,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "views": 1316,
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
     },
     {
       "videoId": "VI-3oSsy3Wc",
@@ -63,7 +75,8 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 1605,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
     },
     {
       "videoId": "9Q0Kv-1m2nQ",
@@ -75,8 +88,9 @@
       "date": "2025-12-30",
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": true,
-      "views": 1063,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "views": 1065,
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
     },
     {
       "videoId": "xfq9tauZol0",
@@ -89,7 +103,8 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 123,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "overseas"
     },
     {
       "videoId": "YETv_KNbAYY",
@@ -102,7 +117,8 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 583,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
     },
     {
       "videoId": "aoAR-l9BxOc",
@@ -115,7 +131,8 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 300,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
     },
     {
       "videoId": "b5-R8UMhyUw",
@@ -128,7 +145,8 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 72,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "overseas"
     },
     {
       "videoId": "Mxo0OeVe5uE",
@@ -141,7 +159,8 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 354,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
     },
     {
       "videoId": "UWiT53SWqPw",
@@ -154,7 +173,8 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 98,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
     },
     {
       "videoId": "DoXLOUZFz9U",
@@ -167,7 +187,8 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 5543,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
     },
     {
       "videoId": "fZG--w7LSXU",
@@ -180,7 +201,8 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 334,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
     },
     {
       "videoId": "7vJRTeOaUKE",
@@ -193,7 +215,8 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 97,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
     },
     {
       "videoId": "9Nej8wFyED8",
@@ -206,7 +229,8 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 107,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "overseas"
     },
     {
       "videoId": "BcnW7oWwHsw",
@@ -219,7 +243,8 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 200,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "overseas"
     },
     {
       "videoId": "KxmsK642m1I",
@@ -232,7 +257,36 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 87,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
+    },
+    {
+      "videoId": "1BJ3jXoEO2w",
+      "title": "How to Make Coffee with Robot Arm",
+      "description": "LOUNGE'X SOJE\nThe robot arm made coffee!\n\nMusic: No.1 A Minor Waltz - Esther Abrami\n(From Youtube Studio)",
+      "channel": "명원 (Myeongwon)",
+      "channelId": "UCsQlbp9OJYMRruV-11kC5ow",
+      "duration": "0:38",
+      "date": "2020-09-28",
+      "firstSeenAt": "2026-08-26T14:49:55.938Z",
+      "official": false,
+      "region": "overseas",
+      "views": 312,
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z"
+    },
+    {
+      "videoId": "jHlYKkAGfjY",
+      "title": "로봇 바리스타 / 대전 소제동 Robot Barista 카페 라운지엑스",
+      "description": "로봇 바리스타 / 대전 소제동 Robot Barista 카페 라운지엑스.",
+      "channel": "대전男의 차식주 車食住",
+      "channelId": "UCYYOCOJZVf2qZbCe2hFeiFw",
+      "duration": "1:38",
+      "date": "2020-06-05",
+      "firstSeenAt": "2026-08-26T14:49:55.938Z",
+      "official": false,
+      "region": "kr",
+      "views": 679,
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z"
     },
     {
       "videoId": "RzJvnNAHRYY",
@@ -245,7 +299,8 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 480,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
     },
     {
       "videoId": "NFqBANMZlok",
@@ -258,7 +313,8 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 66,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
     },
     {
       "videoId": "SedgS8qmua0",
@@ -271,7 +327,8 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 99,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
     },
     {
       "videoId": "x-jnJXmV40w",
@@ -284,11 +341,12 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 3553,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
     },
     {
       "videoId": "zIAg-B33ixg",
-      "title": "Robot hand drip coffee / Lounge X / Korean Street Food",
+      "title": "ロボットドリップコーヒー / Lounge X（江南）",
       "description": "Drip coffee KRW 5000 (USD 4.17) The robot's algorithm is based on the boss's skill, which achieved good results in various ...",
       "channel": "King Food 킹푸드",
       "channelId": "UCNmcTEOEOW89YtxIPQG9qFg",
@@ -297,7 +355,8 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 7046,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "overseas"
     },
     {
       "videoId": "E4M1k1PLaDA",
@@ -310,7 +369,8 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 864,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
     },
     {
       "videoId": "yu0ZWSMTPgc",
@@ -323,7 +383,8 @@
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
       "views": 2975,
-      "detailCheckedAt": "2026-08-26T09:03:38.367Z"
+      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
     }
   ]
 }
