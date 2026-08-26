@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-08-25T12:06:59.006Z",
-  "updatedDate": "2026-08-25",
+  "lastScrapedAt": "2026-08-26T00:02:22.498Z",
+  "updatedDate": "2026-08-26",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -832,11 +832,15 @@
         {
           "date": "2026-08-23",
           "rank": 4
+        },
+        {
+          "date": "2026-08-26",
+          "rank": 4
         }
       ],
       "prevRank": 4,
       "rank": 4,
-      "total": 33
+      "total": 34
     },
     "store_gangnam|강남 카페": {
       "storeId": "store_gangnam",
@@ -1246,10 +1250,14 @@
         {
           "date": "2026-08-21",
           "rank": 16
+        },
+        {
+          "date": "2026-08-26",
+          "rank": 12
         }
       ],
       "prevRank": 16,
-      "rank": 16,
+      "rank": 12,
       "total": 137
     },
     "store_euljiro|을지로 카페": {
@@ -1526,6 +1534,10 @@
         {
           "date": "2026-08-25",
           "rank": null
+        },
+        {
+          "date": "2026-08-26",
+          "rank": null
         }
       ],
       "prevRank": null,
@@ -1664,6 +1676,10 @@
         {
           "date": "2026-08-24",
           "rank": 3
+        },
+        {
+          "date": "2026-08-26",
+          "rank": 3
         }
       ],
       "prevRank": 3,
@@ -1794,11 +1810,15 @@
         {
           "date": "2026-08-23",
           "rank": null
+        },
+        {
+          "date": "2026-08-26",
+          "rank": null
         }
       ],
       "prevRank": null,
       "rank": null,
-      "total": 7665
+      "total": 7663
     },
     "store_yongsan_prime|용산 로봇카페": {
       "storeId": "store_yongsan_prime",
@@ -2598,6 +2618,10 @@
         {
           "date": "2026-08-25",
           "rank": 5
+        },
+        {
+          "date": "2026-08-26",
+          "rank": 5
         }
       ],
       "prevRank": 5,
@@ -3324,6 +3348,10 @@
         {
           "date": "2026-08-25",
           "rank": null
+        },
+        {
+          "date": "2026-08-26",
+          "rank": null
         }
       ],
       "prevRank": null,
@@ -3496,10 +3524,14 @@
         {
           "date": "2026-08-24",
           "rank": 22
+        },
+        {
+          "date": "2026-08-26",
+          "rank": 21
         }
       ],
-      "prevRank": 18,
-      "rank": 22,
+      "prevRank": 22,
+      "rank": 21,
       "total": 4987
     },
     "store_ifc|여의도역 카페": {
@@ -3538,11 +3570,15 @@
         {
           "date": "2026-08-22",
           "rank": 24
+        },
+        {
+          "date": "2026-08-26",
+          "rank": 36
         }
       ],
-      "prevRank": 17,
-      "rank": 24,
-      "total": 1039
+      "prevRank": 24,
+      "rank": 36,
+      "total": 1038
     },
     "store_ifc|여의도 카페": {
       "storeId": "store_ifc",

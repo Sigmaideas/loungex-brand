@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-25T12:07:07.377Z",
+  "lastScrapedAt": "2026-08-26T00:02:31.715Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -15,8 +15,8 @@
     "ラウンジエックス ロボットカフェ",
     "韩国 机器人咖啡 Lounge"
   ],
-  "totalArticles": 216,
-  "brandArticles": 53,
+  "totalArticles": 217,
+  "brandArticles": 54,
   "operatorArticles": 161,
   "overseasArticles": 2,
   "articles": [
@@ -535,6 +535,17 @@
       "source": "google",
       "region": "kr",
       "firstSeenAt": "2026-08-23T12:01:32.077Z",
+      "scope": "brand"
+    },
+    {
+      "title": "AI 로봇카페, 펫 산업 만났다… 라운지엑스·펫비즈코리아 '미래 창업' 협력",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tRy1uR1V1V01hWW4xbkN1eExoS3lyR1YwVXR5TFRtWEwzR0Z6azNiNExaZnFjYVUtaVJzZ2xTQ0JPQTFZWVRfMkg2ZFdEc1ZhY2wzRmZYdEQ5OXY1WW5fR2xtWE1ZQklq0gFsQVVfeXFMTzhjSVR1TmpYc21UbW9BNGZUSUJEeDd6OW5ucmprX19QSFVvVWFjcG5ZeGFnWmxOcmN5WW5aSjItWUhFc0NORXRtWmdsV1l0RVZtQm51Qno0alc4c2wzdXNkMlJid2pIR1o5SGpH?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-07-24",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-26T00:02:31.715Z",
       "scope": "brand"
     },
     {

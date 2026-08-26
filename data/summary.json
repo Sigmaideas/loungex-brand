@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-25T12:01:54.302Z",
+  "lastUpdated": "2026-08-25T23:57:43.064Z",
   "totalStores": 10,
-  "totalReviews": 744,
-  "avgReviewsPerStore": 74.4,
-  "monthlyActivity": 69,
+  "totalReviews": 745,
+  "avgReviewsPerStore": 74.5,
+  "monthlyActivity": 70,
   "stores": [
     {
       "id": "store_seongsu",
@@ -66,7 +66,7 @@
       "neutralRatio": 0.07142857142857142,
       "monthlyActivity": 18,
       "latestReviewDate": "2026-08-25",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -99,13 +99,13 @@
     {
       "id": "store_one_grove",
       "name": "라운지엑스24h 원그로브점",
-      "reviewCount": 72,
-      "positiveRatio": 0.9166666666666666,
+      "reviewCount": 73,
+      "positiveRatio": 0.9178082191780822,
       "negativeRatio": 0,
-      "neutralRatio": 0.08333333333333333,
-      "monthlyActivity": 12,
-      "latestReviewDate": "2026-08-24",
-      "newReviewCount": 0,
+      "neutralRatio": 0.0821917808219178,
+      "monthlyActivity": 13,
+      "latestReviewDate": "2026-08-25",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -471,7 +471,7 @@
         "text": "무인카페라 한적하고 조용하네요. 맛도 쏘쏘~ 혼공하기좋기도함",
         "rating": 4,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n한적하고 조용한 분위기 속에서 혼공하기 좋다니 정말 기쁩니다 😊 앞으로도 맛있는 커피와 함께 집중이 필요하실 때 언제든 편하게 찾아와 주세요. 항상 쾌적한 공간으로 준비해두고 기다리겠습니다!"
       },
       {
@@ -713,6 +713,14 @@
     ],
     "store_one_grove": [
       {
+        "date": "8.25.화",
+        "text": "강남에서 늦은 밤 커피 수혈 필요할 때 찾는 24시 \n아지트 🤖☕️ \n📍라운지엑스24h 강남역점\n모두 잠든 새벽 시간에 들러도 로봇 바리스타가 깔끔하게 내려주는 커피 한 잔 ✨\n심야 작업이나 급한 충전 필요할 때 강력 추천 💻\n#라운지엑스24h #라운지엑스강남역점 #강남역24시카페 #강남카페 #오늘클립챌린지",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스 강남역점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n24시간 운영하는 저희 매장이 밤샘 작업의 든든한 아지트가 되어드릴 수 있어서 기쁩니다 😊 새벽 시간에도 저희 로봇 바리스타가 언제나 일관되게 맛있는 커피를 준비하고 있으니, 앞으로도 피곤할 때 편하게 찾아주세요! ☕"
+      },
+      {
         "date": "8.24.월",
         "text": "토마토스프랑 파스타 대체적으로 매운편이라 \n맵찔이들은 꼭 확인하고 드시길 추천 드릴게요!! \n포테이토 감자 엄청 색다르고 맛있답니다\n정말 이곳은 뷰 맛집이예요!!✨",
         "rating": 5,
@@ -783,14 +791,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n프루츠카페인 중에서도 오렌지와 커피의 조화를 좋아해 주셨군요 😊 2층의 조용한 분위기에서 편하게 즐겨주셨다니 기쁩니다. 앞으로도 저희 로봇 바리스타가 만들어드리는 맛있는 음료와 함께 편안한 시간을 보내시길 바랍니다. 자주 들러주세요! ☕"
-      },
-      {
-        "date": "8.4.화",
-        "text": "편리하게 이용중이에요 좋아요!!",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n편리하게 이용해 주신다니 기쁩니다 😊 앞으로도 언제든 편하게 들러주실 수 있도록 최선을 다하겠습니다. 자주 찾아주세요! 😄"
       }
     ],
     "store_mapo_frontone": [
@@ -1359,7 +1359,7 @@
         "neutral": 3
       },
       {
-        "positive": 37,
+        "positive": 38,
         "negative": 2,
         "neutral": 6
       },
@@ -1393,7 +1393,7 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 470
+      "count": 471
     },
     {
       "word": "맛있다",
@@ -1403,12 +1403,12 @@
     {
       "word": "로봇",
       "sentiment": "neutral",
-      "count": 156
+      "count": 157
     },
     {
       "word": "깨끗·깔끔",
       "sentiment": "positive",
-      "count": 145
+      "count": 146
     },
     {
       "word": "분위기",
@@ -1438,7 +1438,7 @@
     {
       "word": "공부·작업",
       "sentiment": "neutral",
-      "count": 67
+      "count": 68
     },
     {
       "word": "디저트·베이커리",
@@ -1448,7 +1448,7 @@
     {
       "word": "추천",
       "sentiment": "positive",
-      "count": 55
+      "count": 56
     }
   ]
 }
