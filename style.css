@@ -72,7 +72,7 @@ body {
 }
 /* 앞 그룹의 마지막 메뉴와 붙어 보여서 구분선 역할을 하는 여백을 준다
    (첫 섹션은 사이드바 상단 여백이 이미 있어 제외) */
-.nav-item + .nav-section { margin-top: 18px; }
+.nav-item + .nav-section { margin-top: 28px; }
 .nav-item {
   display: flex;
   align-items: center;
