@@ -92,7 +92,7 @@ crontab -e
 매일 오전 7시에 실행:
 
 ```cron
-0 7 * * * cd /Users/사용자/Documents/loungex-brand-dashboard && /usr/local/bin/npm run update >> /tmp/loungex-scrape.log 2>&1
+0 7 * * * cd /Users/사용자/Documents/loungex-brand && /usr/local/bin/npm run update >> /tmp/loungex-scrape.log 2>&1
 ```
 
 ### 옵션 B: launchd (macOS 권장)
@@ -109,7 +109,7 @@ crontab -e
   <array>
     <string>/bin/zsh</string>
     <string>-lc</string>
-    <string>cd /Users/사용자/Documents/loungex-brand-dashboard && /usr/local/bin/npm run update</string>
+    <string>cd /Users/사용자/Documents/loungex-brand && /usr/local/bin/npm run update</string>
   </array>
   <key>StartCalendarInterval</key>
   <dict><key>Hour</key><integer>7</integer><key>Minute</key><integer>0</integer></dict>
@@ -132,7 +132,7 @@ launchctl load ~/Library/LaunchAgents/com.loungex.scrape.plist
 ## 5. 폴더 구조
 
 ```
-loungex-brand-dashboard/
+loungex-brand/
 ├── scraper/
 │   ├── stores.json        # 모니터링 대상 매장 리스트 (네이버)
 │   ├── stores-google.json # 매장 → 구글 place_id 매핑
