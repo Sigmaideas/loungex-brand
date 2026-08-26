@@ -111,7 +111,26 @@ jobs:
           git add data/reply-cache.json data/reply-cache-google.json data/reply-cache-app.json data/reply-cache-kakao.json data/rank.json data/trend.json data/news.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "변경사항 없음 — 커밋 생략"
-          else
-            git commit -m "데이터 자동 갱신 ($(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M KST'))"
-            git push
+            exit 0
           fi
+          git commit -m "데이터 자동 갱신 ($(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M KST'))"
+
+          # 실행 중(3~4분)에 누군가 main 에 푸시하면 이 푸시가 non-fast-forward 로 거절되고
+          # 그 회차 수집 결과가 통째로 버려진다(실제로 발생). 원격 위에 다시 얹고 재시도한다.
+          # -X theirs = 리베이스로 다시 적용되는 쪽(이번 회차 데이터) 우선.
+          # 데이터 파일은 이 워크플로우만 생성하므로 방금 만든 최신본을 택하는 게 맞다.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "푸시 완료 (시도 $attempt)"
+              exit 0
+            fi
+            echo "푸시 거절됨 — 원격 변경 반영 후 재시도 ($attempt/3)"
+            git fetch origin main
+            if ! git rebase -X theirs origin/main; then
+              git rebase --abort || true
+              echo "리베이스 실패 — 중단"
+              exit 1
+            fi
+          done
+          echo "3회 재시도 후에도 푸시 실패"
+          exit 1
