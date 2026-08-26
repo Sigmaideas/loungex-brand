@@ -27,7 +27,7 @@ const SOURCE_PAGE_TITLE = {
   app: '라운지엑스앱 리뷰 모니터링',
   rank: '네이버 플레이스 검색 순위',
   news: '라운지엑스 뉴스 모니터링',
-  youtube: '유튜브 언급 모니터링',
+  youtube: '라운지엑스 유튜브 모니터링',
   blog: '네이버 블로그 언급 모니터링',
 };
 
