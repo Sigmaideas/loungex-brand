@@ -70,6 +70,9 @@ body {
   text-transform: uppercase;
   padding: 4px 12px 8px;
 }
+/* 앞 그룹의 마지막 메뉴와 붙어 보여서 구분선 역할을 하는 여백을 준다
+   (첫 섹션은 사이드바 상단 여백이 이미 있어 제외) */
+.nav-item + .nav-section { margin-top: 18px; }
 .nav-item {
   display: flex;
   align-items: center;
@@ -181,12 +184,11 @@ main {
   gap: 24px;
 }
 
-/* 카드는 main 이 아니라 뷰 래퍼(#summaryView/#rankView) 안에 있어서
+/* 카드는 main 이 아니라 뷰 래퍼(#summaryView, #newsView ...) 안에 있어서
    main 의 gap 이 카드 사이에는 적용되지 않는다. 여기서 따로 지정.
+   뷰를 새로 추가할 때 빠뜨리지 않도록 ID 대신 main 의 직계 래퍼로 잡는다.
    :not([hidden]) — app.js 가 hidden 속성으로 뷰를 전환하므로 필수 */
-#summaryView:not([hidden]),
-#rankView:not([hidden]),
-#newsView:not([hidden]) {
+main > div:not([hidden]) {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -666,9 +668,7 @@ tbody tr:hover { background: var(--surface-2); }
   .topbar { padding: 20px; }
   .topbar h1 { font-size: 18px; }
   main { padding: 0 20px 32px; gap: 16px; }
-  #summaryView:not([hidden]),
-  #rankView:not([hidden]),
-  #newsView:not([hidden]) { gap: 16px; }
+  main > div:not([hidden]) { gap: 16px; }
   .news-item { flex-wrap: wrap; gap: 12px; }
   .news-thumb { width: 76px; height: 56px; }
   .news-item-main { flex: 1 1 60%; }
