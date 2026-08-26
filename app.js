@@ -24,7 +24,7 @@ const SOURCE_PAGE_TITLE = {
   naver: '네이버 플레이스 리뷰 모니터링',
   google: '구글 리뷰 모니터링',
   kakao: '카카오맵 리뷰 모니터링',
-  app: '라운지엑스앱 모니터링',
+  app: '라운지엑스앱 리뷰 모니터링',
   rank: '네이버 플레이스 검색 순위',
   news: '라운지엑스 뉴스 모니터링',
   youtube: '유튜브 언급 모니터링',
@@ -90,7 +90,7 @@ function showEmptyState() {
   }
   if (currentSource === 'app') {
     banner.innerHTML = `
-      <strong>라운지엑스앱 모니터링은 준비 중입니다.</strong>
+      <strong>라운지엑스앱 리뷰 모니터링은 준비 중입니다.</strong>
       <p>앱 리뷰·이용 데이터 수집 연동이 완료되면 이곳에 표시됩니다.</p>
     `;
   } else if (currentSource === 'google') {
