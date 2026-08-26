@@ -25,6 +25,8 @@
     "rank": "node scraper/scrape-rank.js",
     "trend": "node scraper/scrape-trend.js",
     "news": "node scraper/scrape-news.js",
+    "youtube": "node scraper/scrape-youtube.js",
+    "blog": "node scraper/scrape-blog.js",
     "dashboard": "node server.js"
   },
   "dependencies": {

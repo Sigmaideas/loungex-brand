@@ -24,7 +24,10 @@
       "date": "2026-08-08",
       "source": "google",
       "region": "overseas",
-      "firstSeenAt": "2026-08-09T00:06:54.295Z"
+      "firstSeenAt": "2026-08-09T00:06:54.295Z",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://www.venturesquare.net/wp-content/uploads/2026/08/20260807.png",
+      "sourceUrl": "https://www.venturesquare.net/en/1104708/"
     },
     {
       "title": "로봇카페 라운지엑스24h, 커피값 고공행진에도 할인 운영 확대",
@@ -34,7 +37,10 @@
       "date": "2026-08-07",
       "source": "google",
       "region": "kr",
-      "firstSeenAt": "2026-08-07T01:58:43.927Z"
+      "firstSeenAt": "2026-08-07T01:58:43.927Z",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202608/47801_102464_3930.png",
+      "sourceUrl": "https://www.irobotnews.com/news/articleView.html?idxno=47801"
     },
     {
       "title": "커피값 오르는데 할인은 늘렸다… 라운지엑스24h, AI 운영 효율로 가격 경쟁력 강화",
@@ -44,7 +50,8 @@
       "date": "2026-08-07",
       "source": "google",
       "region": "kr",
-      "firstSeenAt": "2026-08-07T12:33:58.158Z"
+      "firstSeenAt": "2026-08-07T12:33:58.158Z",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z"
     },
     {
       "title": "“AI 로봇 카페와 반려동물 산업 결합” 라운지엑스·펫비즈코리아, 생태계 확장 ‘정조준’",
@@ -54,7 +61,10 @@
       "date": "2026-07-26",
       "source": "google",
       "region": "kr",
-      "firstSeenAt": "2026-08-16T12:00:36.324Z"
+      "firstSeenAt": "2026-08-16T12:00:36.324Z",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://www.hellot.net/data/photos/20260730/art_17850534890611_71e944.jpg",
+      "sourceUrl": "https://www.hellot.net/news/article.html?no=113991"
     },
     {
       "title": "[UP! START] 라운지엑스, 로봇과 펫이 만났다",
@@ -64,7 +74,10 @@
       "date": "2026-07-25",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://cdn.nbntv.co.kr/news/photo/202607/4023343_297051_4332.jpg",
+      "sourceUrl": "https://www.nbntv.co.kr/news/articleView.html?idxno=4023343"
     },
     {
       "title": "AI 로봇카페와 펫산업이 만나다… 펫비즈코리아·라운지엑스 맞손",
@@ -74,7 +87,10 @@
       "date": "2026-07-24",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://cdn.newspet.co.kr/news/thumbnail/202607/11531_34592_1536_v150.jpg",
+      "sourceUrl": "https://www.newspet.co.kr/news/articleView.html?idxno=11531"
     },
     {
       "title": "펫비즈코리아, 라운지엑스와 맞손∙∙∙AI 로봇카페 기반 미래형 펫 창업 생태계 구축",
@@ -84,7 +100,10 @@
       "date": "2026-07-24",
       "source": "google",
       "region": "kr",
-      "firstSeenAt": "2026-08-23T12:01:32.077Z"
+      "firstSeenAt": "2026-08-23T12:01:32.077Z",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://www.kmnanews.com/news/thumbnail/202607/10658_12122_1448_v150.jpg",
+      "sourceUrl": "https://www.kmnanews.com/news/articleView.html?idxno=10658"
     },
     {
       "title": "AI 로봇카페, 펫 산업 만났다… 라운지엑스·펫비즈코리아 '미래 창업' 협력",
@@ -94,7 +113,10 @@
       "date": "2026-07-24",
       "source": "google",
       "region": "kr",
-      "firstSeenAt": "2026-08-26T00:02:31.715Z"
+      "firstSeenAt": "2026-08-26T00:02:31.715Z",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://cdn.startupn.kr/news/thumbnail/202607/59040_60866_1415_v150.jpg",
+      "sourceUrl": "https://www.startupn.kr/news/articleView.html?idxno=59040"
     },
     {
       "title": "라운지엑스, 펫비즈코리아와 MOU 체결∙∙∙AI 로봇 기술 융합한 펫 창업 모델 선보인다",
@@ -104,7 +126,10 @@
       "date": "2026-07-24",
       "source": "google",
       "region": "kr",
-      "firstSeenAt": "2026-08-26T12:08:02.877Z"
+      "firstSeenAt": "2026-08-26T08:21:11.542Z",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://cdn.startuptoday.kr/news/thumbnail/202607/52749_40721_2355_v150.jpg",
+      "sourceUrl": "https://www.startuptoday.kr/news/articleView.html?idxno=52749"
     },
     {
       "title": "펫비즈코리아-라운지엑스, AI 로봇카페 기반 펫 창업 MOU 체결",
@@ -114,7 +139,10 @@
       "date": "2026-07-23",
       "source": "google",
       "region": "kr",
-      "firstSeenAt": "2026-08-17T00:00:25.990Z"
+      "firstSeenAt": "2026-08-17T00:00:25.990Z",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://cdn.gukjenews.com/news/thumbnail/202607/3644554_3809680_1848_v150.jpg",
+      "sourceUrl": "https://www.gukjenews.com/news/articleView.html?idxno=3644554"
     },
     {
       "title": "[인터뷰]매일 찾는 로봇 카페를 만들다, 라운지엑스가 그리는 미래 - 라운지엑스 김동진 대표",
@@ -124,7 +152,10 @@
       "date": "2026-07-13",
       "source": "google",
       "region": "kr",
-      "firstSeenAt": "2026-08-18T00:01:53.268Z"
+      "firstSeenAt": "2026-08-18T00:01:53.268Z",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://cdn.coenworks.com/Files/27/News/202607/1866_20260713084234770_cw.jpg",
+      "sourceUrl": "https://kangso.co.kr/View.aspx?No=4146219"
     },
     {
       "title": "매일 찾는 로봇 카페를 만들다 - 라운지엑스 김동진 대표",
@@ -134,7 +165,10 @@
       "date": "2026-06-30",
       "source": "google",
       "region": "kr",
-      "firstSeenAt": "2026-08-17T12:03:10.541Z"
+      "firstSeenAt": "2026-08-17T12:03:10.541Z",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://cdn.handmk.com/news/photo/202606/40855_101214_531.jpg",
+      "sourceUrl": "https://www.handmk.com/news/articleView.html?idxno=40855"
     },
     {
       "title": "라운지엑스 손창영 이사 \"무인화 경쟁에서 운영 경쟁으로 전환되는 시기\"",
@@ -144,7 +178,10 @@
       "date": "2026-06-18",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://cdn.nextdaily.co.kr/news/photo/202606/250518_350673_3928.jpg",
+      "sourceUrl": "https://www.nextdaily.co.kr/news/articleView.html?idxno=250518"
     },
     {
       "title": "'로봇은 거들 뿐, 경영은 AI가' 라운지엑스, 자율 운영 매장 시대 앞당긴다",
@@ -154,7 +191,10 @@
       "date": "2026-03-11",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://cdn.startupn.kr/news/thumbnail/202603/56730_58488_211_v150.jpg",
+      "sourceUrl": "https://www.startupn.kr/news/articleView.html?idxno=56730"
     },
     {
       "title": "라운지엑스, 'AI 기반 리테일' 전략 실증",
@@ -164,7 +204,10 @@
       "date": "2026-03-11",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://image.zdnet.co.kr/2026/03/11/ffdf44bf01dfac7bc9aabe91ed3f7a74.png",
+      "sourceUrl": "https://zdnet.co.kr/view/?no=20260311111116"
     },
     {
       "title": "라운지엑스, AI 에이전트 기반 ‘AI Driven Retail’ 전략 실증",
@@ -174,7 +217,10 @@
       "date": "2026-03-11",
       "source": "google",
       "region": "kr",
-      "firstSeenAt": "2026-08-11T12:34:48.460Z"
+      "firstSeenAt": "2026-08-11T12:34:48.460Z",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202603/45301_98332_4555.png",
+      "sourceUrl": "https://www.irobotnews.com/news/articleView.html?idxno=45301"
     },
     {
       "title": "라운지엑스, 무인카페 용산더프라임점 오픈 “검증된 직영 데이터&로봇 기술 접목”",
@@ -184,7 +230,10 @@
       "date": "2025-12-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://cdn.nextdaily.co.kr/news/photo/202512/245880_346583_157.jpg",
+      "sourceUrl": "https://www.nextdaily.co.kr/news/articleView.html?idxno=245880"
     },
     {
       "title": "라운지엑스 (LoungeX)",
@@ -194,7 +243,10 @@
       "date": "2025-12-04",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://storage.heypop.kr/assets/2021/11/30172533/seo-1.png",
+      "sourceUrl": "https://heypop.kr/place/131287/"
     },
     {
       "title": "무인운영·로봇카페 ‘라운지엑스’, 홈페이지 개편",
@@ -204,7 +256,10 @@
       "date": "2025-11-20",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://www.sentv.co.kr/data/sentv/image/2025/11/20/sentv20251120000076.png",
+      "sourceUrl": "https://www.sentv.co.kr/article/view/sentv202511200073"
     },
     {
       "title": "라운지엑스, 홈페이지 전면 개편… 기술 기반 무인·로봇 카페 직영 투자 모델 본격 공개",
@@ -214,7 +269,10 @@
       "date": "2025-11-20",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://cliimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=20251120174446003709aeda6993417521136223.jpg&nmt=7",
+      "sourceUrl": "https://www.thepowernews.co.kr/view.php?ud=2025112017434668199aeda69934_7"
     },
     {
       "title": "엑스와이지, 라운지엑스와 로봇카페 상용화 MOU…무인 매장 확산 본격화",
@@ -224,7 +282,10 @@
       "date": "2025-10-29",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202510/43081_94550_481.jpg",
+      "sourceUrl": "https://www.irobotnews.com/news/articleView.html?idxno=43081"
     },
     {
       "title": "라운지엑스, 로봇카페 최초 교보문고 큐레이션 도서 판매 개시 - 머니투데이",
@@ -234,7 +295,10 @@
       "date": "2025-09-16",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=797,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2025/09/2025091615512012541_1.jpg",
+      "sourceUrl": "https://www.mt.co.kr/industry/2025/09/16/2025091615512012541"
     },
     {
       "title": "무인운영과 프리미엄 커피 경험을 결합, 라운지엑스 24H 원그로브점’ 정식 오픈",
@@ -244,7 +308,10 @@
       "date": "2025-06-16",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://www.foodnews.news/data/photos/20250624/art_17497881611431_50cdc3.png",
+      "sourceUrl": "https://www.foodnews.news/news/article.html?no=1355655"
     },
     {
       "title": "브라우니, 라운지엑스와 무인 로봇매장 운영 MOU",
@@ -254,7 +321,10 @@
       "date": "2025-06-04",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://image.zdnet.co.kr/2025/06/04/88baf17bfced0fdd8525072f42077cfd.jpg",
+      "sourceUrl": "https://zdnet.co.kr/view/?no=20250604081905"
     },
     {
       "title": "무인 매장 관리 스타트업 ‘브라우니’, 로봇 카페 브랜드 ‘라운지엑스’와 전략적 MOU 체결",
@@ -264,7 +334,10 @@
       "date": "2025-06-04",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://cdn.startuptoday.kr/news/thumbnail/202506/50742_38996_1734_v150.jpg",
+      "sourceUrl": "https://www.startuptoday.kr/news/articleView.html?idxno=50742"
     },
     {
       "title": "AMD와 로봇카페 ‘라운지엑스’의 만남, 콜라보 행사 주목",
@@ -274,7 +347,10 @@
       "date": "2023-10-18",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://www.foodnews.news/data/photos/20231042/art_16974458448278_5b72ff.jpg",
+      "sourceUrl": "https://www.foodnews.news/mobile/article.html?no=882360"
     },
     {
       "title": "엑스와이지 로봇카페 '라운지엑스', AMD와 협업 행사 진행",
@@ -284,7 +360,10 @@
       "date": "2023-10-16",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://image.zdnet.co.kr/2023/10/16/cdc20e049b569246be1d8cfbb723d5fa.jpg",
+      "sourceUrl": "https://zdnet.co.kr/view/?no=20231016153510"
     },
     {
       "title": "엑스와이지 로봇카페 '라운지엑스' AMD와 맞손...한정판 상품 내놓는다",
@@ -294,7 +373,10 @@
       "date": "2023-10-16",
       "source": "google",
       "region": "kr",
-      "firstSeenAt": "2026-08-21T12:04:47.319Z"
+      "firstSeenAt": "2026-08-21T12:04:47.319Z",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://www.techm.kr/news/thumbnail/202310/115541_144630_4938_v150.jpg",
+      "sourceUrl": "https://www.techm.kr/news/articleView.html?idxno=115541"
     },
     {
       "title": "엑스와이지, 식음료 자회사 라운지엑스에 김동진 대표 선임",
@@ -304,7 +386,10 @@
       "date": "2023-09-05",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202309/32619_69874_032.jpg",
+      "sourceUrl": "https://www.irobotnews.com/news/articleView.html?idxno=32619"
     },
     {
       "title": "15년 경력 바리스타 김동진, 로봇카페 '라운지엑스' 대표 선임",
@@ -314,7 +399,10 @@
       "date": "2023-09-05",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://thumb.mt.co.kr/21/2023/09/2023090514595169466_1.jpg?1786563492",
+      "sourceUrl": "https://www.unicornfactory.co.kr/article/2023090514595169466"
     },
     {
       "title": "15년 경력 바리스타 김동진, 로봇카페 '라운지엑스' 대표 선임 - 머니투데이",
@@ -324,7 +412,10 @@
       "date": "2023-09-05",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=800,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2023/09/2023090514595169466_1.jpg",
+      "sourceUrl": "https://www.mt.co.kr/future/2023/09/05/2023090514595169466"
     },
     {
       "title": "라운지엑스알, 무인 로봇카페 최초로 위생등급제 취득",
@@ -334,7 +425,10 @@
       "date": "2023-03-21",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202303/31112_67126_1337.jpg",
+      "sourceUrl": "https://www.irobotnews.com/news/articleView.html?idxno=31112"
     },
     {
       "title": "테마파크에 로봇 카페, ‘라운지엑스 에버랜드점’ 오픈한다",
@@ -344,7 +438,10 @@
       "date": "2022-03-07",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202203/27881_60583_3013.jpg",
+      "sourceUrl": "https://www.irobotnews.com/news/articleView.html?idxno=27881"
     },
     {
       "title": "​로봇 카페 라운지엑스, 에버랜드점 오픈",
@@ -354,7 +451,10 @@
       "date": "2022-03-07",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://image.ajunews.com/content/image/2022/03/07/20220307111457802596.jpg",
+      "sourceUrl": "https://www.ajunews.com/view/20220307111331187"
     },
     {
       "title": "에버랜드에선 로봇이 커피·아이스크림 만든다…'라운지엑스' 오픈 - 머니투데이",
@@ -364,7 +464,10 @@
       "date": "2022-03-07",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=800,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2022/03/2022030712414898058_1.jpg",
+      "sourceUrl": "https://www.mt.co.kr/future/2022/03/07/2022030712414898058"
     },
     {
       "title": "에버랜드, 로봇 카페 '라운지엑스' 오픈",
@@ -374,7 +477,10 @@
       "date": "2022-03-07",
       "source": "google",
       "region": "kr",
-      "firstSeenAt": "2026-08-11T12:34:48.460Z"
+      "firstSeenAt": "2026-08-11T12:34:48.460Z",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://cdn.incheonilbo.com/news/thumbnail/202203/1134274_414284_5743_v150.jpg",
+      "sourceUrl": "https://www.incheonilbo.com/news/articleView.html?idxno=1134274"
     },
     {
       "title": "에버랜드에 문 연 로봇카페 '라운지엑스'",
@@ -384,7 +490,10 @@
       "date": "2022-03-07",
       "source": "google",
       "region": "kr",
-      "firstSeenAt": "2026-08-15T12:00:22.588Z"
+      "firstSeenAt": "2026-08-15T12:00:22.588Z",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://thumbnews.nateimg.co.kr/view610///news.nateimg.co.kr/orgImg/na/2022/03/07/5257214_article.jpg",
+      "sourceUrl": "https://news.nate.com/view/20220307n18159"
     },
     {
       "title": "'로봇 바리스타가 탄 커피 트럭이 떴다?' 라운지엑스, 의료진 커피 나눔 진행",
@@ -394,7 +503,10 @@
       "date": "2021-06-08",
       "source": "google",
       "region": "kr",
-      "firstSeenAt": "2026-08-20T00:01:55.852Z"
+      "firstSeenAt": "2026-08-20T00:01:55.852Z",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://www.techm.kr/news/thumbnail/202106/84550_86100_1210_v150.jpg",
+      "sourceUrl": "https://www.techm.kr/news/articleView.html?idxno=84550"
     },
     {
       "title": "'로봇 협동 카페' 라운지엑스, 매장 내 일회용품 친환경 소재로 교체",
@@ -404,7 +516,10 @@
       "date": "2021-06-01",
       "source": "google",
       "region": "kr",
-      "firstSeenAt": "2026-08-23T12:01:32.077Z"
+      "firstSeenAt": "2026-08-23T12:01:32.077Z",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://image.zdnet.co.kr/2021/06/01/a6736de659ca7bd08ad19f636e50baa3.jpg",
+      "sourceUrl": "https://zdnet.co.kr/view/?no=20210601154742"
     },
     {
       "title": "​현대차 아이오닉 5 체험 공간에 자리한 라운지엑스 바리스타 로봇 바리스",
@@ -414,7 +529,10 @@
       "date": "2021-03-24",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://image.ajunews.com/content/image/2021/03/24/20210324090646919476.jpg",
+      "sourceUrl": "https://www.ajunews.com/view/20210324085256141"
     },
     {
       "title": "라운지엑스 바리스타 로봇, 현대차 아이오닉 5 체험 공간에 합류",
@@ -424,7 +542,10 @@
       "date": "2021-03-21",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:22:30.665Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202103/24268_53489_1327.jpg",
+      "sourceUrl": "https://www.irobotnews.com/news/articleView.html?idxno=24268"
     },
     {
       "title": "라운지엑스, 레일 시스템 적용한 새로운 커피 로봇 공개",
@@ -434,7 +555,10 @@
       "date": "2021-01-18",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:22:30.665Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202101/23640_52372_437.jpg",
+      "sourceUrl": "https://www.irobotnews.com/news/articleView.html?idxno=23640"
     },
     {
       "title": "로봇 협업 카페 ‘라운지엑스’, 두산 신사옥 7호점 오픈",
@@ -444,7 +568,10 @@
       "date": "2021-01-18",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:22:30.665Z",
+      "image": "https://image.zdnet.co.kr/2021/01/18/d4677495b9dd487bea1385ece9b517a7.jpg",
+      "sourceUrl": "https://zdnet.co.kr/view/?no=20210118151623"
     },
     {
       "title": "[인스타산책] 라운지엑스 - 로봇 바리스타의 드립커피, '손맛'은 어떨까",
@@ -454,7 +581,10 @@
       "date": "2021-01-14",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:22:30.665Z",
+      "image": "https://cphoto.asiae.co.kr/listimglink/1/2021011414594926628_1610603989.jpg",
+      "sourceUrl": "https://www.asiae.co.kr/article/2021011415051425995"
     },
     {
       "title": "라운지엑스, 포르쉐와 구성한 브랜드 하우스 성공적으로 종료",
@@ -464,7 +594,10 @@
       "date": "2020-12-03",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:22:30.665Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202012/23169_51534_3536.jpg",
+      "sourceUrl": "https://www.irobotnews.com/news/articleView.html?idxno=23169"
     },
     {
       "title": "라운지엑스, 포르쉐와 구성한 브랜드 하우스 성황리에 종료",
@@ -474,7 +607,10 @@
       "date": "2020-12-03",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:22:30.665Z",
+      "image": "https://www.newsworker.co.kr/image/logo/snslogotrans_20260526052410.png",
+      "sourceUrl": "http://www.newsworker.co.kr/news/articleView.html?idxno=94226"
     },
     {
       "title": "라운지엑스, 포르쉐코리아의 이벤트공간 내 브랜드 하우스 개최",
@@ -484,7 +620,10 @@
       "date": "2020-11-27",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:22:30.665Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202011/23106_51438_629.jpg",
+      "sourceUrl": "https://www.irobotnews.com/news/articleView.html?idxno=23106"
     },
     {
       "title": "카페 라운지엑스, '올데이 캔 콜드브루' 캔커피 출시",
@@ -494,7 +633,10 @@
       "date": "2020-09-03",
       "source": "google",
       "region": "kr",
-      "firstSeenAt": "2026-08-06T09:24:47.987Z"
+      "firstSeenAt": "2026-08-06T09:24:47.987Z",
+      "imageCheckedAt": "2026-08-26T08:22:30.665Z",
+      "image": "https://img8.yna.co.kr/etc/inner/KR/2020/09/03/AKR20200903131500848_01_i_P4.jpg",
+      "sourceUrl": "https://www.yna.co.kr/view/AKR20200903131500848"
     },
     {
       "title": "카페 라운지엑스, 프로집콕러 위한 캔 콜드브루 커피 출시",
@@ -504,7 +646,10 @@
       "date": "2020-09-03",
       "source": "google",
       "region": "kr",
-      "firstSeenAt": "2026-08-16T00:00:41.262Z"
+      "firstSeenAt": "2026-08-16T00:00:41.262Z",
+      "imageCheckedAt": "2026-08-26T08:22:30.665Z",
+      "image": "https://www.sisa-news.com/data/photos/20200936/art_159912213716_956f16.jpg",
+      "sourceUrl": "https://www.sisa-news.com/mobile/article.html?no=133763"
     },
     {
       "title": "[외식BIZ 단신] 카페 라운지엑스, '프로집콕러'를 위한 콜드브루 캔커피 출시",
@@ -514,7 +659,10 @@
       "date": "2020-09-01",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:22:30.665Z",
+      "image": "https://www.foodnews.news/data/photos/20200936/art_15989286124913_9a77cb.jpg",
+      "sourceUrl": "https://foodnews.news/mobile/article.html?no=143323"
     },
     {
       "title": "로봇커피 라운지엑스, 콜드브루 신제품 내놨다",
@@ -524,7 +672,10 @@
       "date": "2020-09-01",
       "source": "google",
       "region": "kr",
-      "firstSeenAt": "2026-08-23T12:01:32.077Z"
+      "firstSeenAt": "2026-08-23T12:01:32.077Z",
+      "imageCheckedAt": "2026-08-26T08:22:30.665Z",
+      "image": "https://www.techm.kr/news/thumbnail/202009/74930_68164_2625_v150.jpg",
+      "sourceUrl": "https://www.techm.kr/news/articleView.html?idxno=74930"
     },
     {
       "title": "라운지X, 로봇 바리스타가 만들어주는 캔커피",
@@ -534,7 +685,10 @@
       "date": "2020-07-30",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:22:30.665Z",
+      "image": "https://kpinews.kr/data/upi/image/2020/07/30/upi202007300101.680.0.jpg",
+      "sourceUrl": "https://kpinews.kr/newsView/179546458647102"
     },
     {
       "title": "[푸드테크]라운지엑스카페, 핸드드립 바(Bar)에 이어 '도로 위의 카페' 드라이브스루 매장 나온다",
@@ -544,7 +698,10 @@
       "date": "2020-07-15",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:22:30.665Z",
+      "image": "https://www.foodnews.news/data/photos/20200729/art_15946897903258_5ef261.jpg",
+      "sourceUrl": "https://www.foodnews.news/news/article.html?no=123357"
     },
     {
       "title": "\"제주서 로봇이 내리는 커피 맛봐요\"…로봇카페 라운지X, 제주에 3호점",
@@ -554,7 +711,10 @@
       "date": "2020-06-02",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:22:30.665Z",
+      "image": "https://img.newspim.com/news/2020/06/02/2006021210072641_tc.jpg",
+      "sourceUrl": "https://www.newspim.com/news/view/20200602000598"
     },
     {
       "title": "로봇 카페 ‘라운지엑스’, 제주 애월에 3호점 오픈",
@@ -564,7 +724,10 @@
       "date": "2020-06-01",
       "source": "google",
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
-      "region": "kr"
+      "region": "kr",
+      "imageCheckedAt": "2026-08-26T08:22:30.665Z",
+      "image": "https://cdn.platum.kr/wp-content/uploads/2020/06/image.jpeg",
+      "sourceUrl": "https://platum.kr/archives/142329"
     },
     {
       "title": "도심 속 ‘FUN& 樂’ 갖춘 이색 공간 3라운지엑스•고잉메리•쓰레기마트",
@@ -574,7 +737,10 @@
       "date": "2019-09-08",
       "source": "google",
       "region": "kr",
-      "firstSeenAt": "2026-08-13T00:49:10.661Z"
+      "firstSeenAt": "2026-08-13T00:49:10.661Z",
+      "imageCheckedAt": "2026-08-26T08:22:30.665Z",
+      "image": "https://www.fashionbiz.co.kr/images/BR/%EC%9D%B4%EB%AF%B8%EC%A7%804_600.JPG",
+      "sourceUrl": "https://fashionbiz.co.kr/article/174159"
     }
   ]
 }

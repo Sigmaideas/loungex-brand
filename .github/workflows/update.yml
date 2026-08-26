@@ -103,12 +103,20 @@ jobs:
         run: npm run news
         continue-on-error: true  # 뉴스 수집 실패해도 나머지 결과는 살림
 
+      - name: 유튜브 언급 수집
+        run: npm run youtube
+        continue-on-error: true  # 유튜브 수집 실패해도 나머지 결과는 살림
+
+      - name: 네이버 블로그 언급 수집
+        run: npm run blog
+        continue-on-error: true  # 블로그 수집 실패해도 나머지 결과는 살림
+
       - name: summary/답글/순위/트렌드 변경 시 커밋 + 푸시
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/summary.json data/summary-google.json data/summary-kakao.json data/summary-app.json
-          git add data/reply-cache.json data/reply-cache-google.json data/reply-cache-app.json data/reply-cache-kakao.json data/rank.json data/trend.json data/news.json 2>/dev/null || true
+          git add data/reply-cache.json data/reply-cache-google.json data/reply-cache-app.json data/reply-cache-kakao.json data/rank.json data/trend.json data/news.json data/youtube.json data/blog.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "변경사항 없음 — 커밋 생략"
             exit 0

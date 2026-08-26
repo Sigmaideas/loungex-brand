@@ -27,6 +27,8 @@ const SOURCE_PAGE_TITLE = {
   app: '라운지엑스앱 모니터링',
   rank: '네이버 플레이스 검색 순위',
   news: '라운지엑스 뉴스 모니터링',
+  youtube: '유튜브 언급 모니터링',
+  blog: '네이버 블로그 언급 모니터링',
 };
 
 const $ = (s) => document.querySelector(s);
@@ -55,11 +57,14 @@ function toggleView(view) {
   $('#summaryView').hidden = view !== 'summary';
   $('#rankView').hidden = view !== 'rank';
   $('#newsView').hidden = view !== 'news';
+  $('#youtubeView').hidden = view !== 'youtube';
+  $('#blogView').hidden = view !== 'blog';
 }
 
 async function load() {
   if (currentSource === 'rank') return loadRank();
   if (currentSource === 'news') return loadNews();
+  if (MENTION_SOURCES[currentSource]) return loadMentions(currentSource);
   toggleView('summary');
   const file = SOURCE_SUMMARY_FILE[currentSource];
   const res = await fetch(`data/${file}`, { cache: 'no-store' });
@@ -664,8 +669,15 @@ function renderNewsList() {
       const [y, m] = month.split('-');
       html += `<div class="news-month">${y}년 ${Number(m)}월</div>`;
     }
+    // 썸네일은 언론사 서버에서 바로 불러온다. 사진이 없거나 로딩에 실패해도
+    // 자리(틀)는 그대로 둔다 — 섞이면 제목 시작선이 들쭉날쭉해진다
+    const thumb = a.image
+      ? `<img src="${escapeHtml(a.image)}" alt="" loading="lazy"
+             referrerpolicy="no-referrer" onerror="this.style.display='none'">`
+      : '<i data-lucide="newspaper"></i>';
     html += `
       <a class="news-item" href="${escapeHtml(a.link)}" target="_blank" rel="noopener noreferrer">
+        <span class="news-thumb">${thumb}</span>
         <div class="news-item-main">
           <span class="news-title">${escapeHtml(a.title)}</span>
           <span class="news-desc">${escapeHtml(a.description || '')}</span>
@@ -677,6 +689,400 @@ function renderNewsList() {
       </a>`;
   }
   $('#newsList').innerHTML = html;
+  if (window.lucide) window.lucide.createIcons();
+}
+
+
+/* ===== 소셜 언급 (유튜브 · 네이버 블로그) =====
+   두 소스는 '브랜드를 언급한 외부 콘텐츠'라는 점에서 화면 구조가 같다.
+   데이터 접근 방법만 설정으로 분리하고 렌더러는 하나만 둔다. */
+
+const MENTION_AUTHOR_TOP_N = 9; // 나머지는 '기타' 로 묶음 — 조각이 많아지면 도넛이 안 읽힌다
+const MENTION_RECENT_LIMIT = 120;
+
+// 어느 매장이 얼마나 회자되는지. 지점명 표기가 제각각이라 지역명으로 묶는다
+const MENTION_STORE_GROUPS = [
+  { label: '성수·서울숲', terms: ['성수', '서울숲'] },
+  { label: '강남', terms: ['강남'] },
+  { label: '공덕·마포', terms: ['공덕', '마포'] },
+  { label: '을지로', terms: ['을지로'] },
+  { label: '상암DMC', terms: ['상암', 'dmc', '디지털미디어'] },
+  { label: '가락·송파', terms: ['가락', '송파'] },
+  { label: '여의도·IFC', terms: ['여의도', 'ifc'] },
+  { label: '용산', terms: ['용산'] },
+  { label: '마곡', terms: ['마곡'] },
+];
+
+const MENTION_SOURCES = {
+  youtube: {
+    file: 'data/youtube.json',
+    itemsKey: 'videos',
+    prefix: 'yt',
+    unit: '영상',
+    authorLabel: '채널',
+    emptyMsg: '유튜브 데이터가 아직 없습니다. 데이터 갱신 후 표시됩니다.',
+    author: (v) => v.channel || '(채널 미상)',
+    link: (v) => `https://www.youtube.com/watch?v=${v.videoId}`,
+    // 썸네일은 videoId 로 항상 만들 수 있다 (저장해 둔 URL 은 만료되는 경우가 있다)
+    thumb: (v) => `https://i.ytimg.com/vi/${v.videoId}/mqdefault.jpg`,
+    // 조회수는 영상 목록에서 가장 중요한 부가정보라 제목 옆에 붙인다
+    badge: (v) => (v.views != null ? `조회수 ${v.views.toLocaleString()}` : ''),
+    kpis: (agg, raw) => [
+      { icon: 'youtube', label: '총 영상 수', value: agg.total.toLocaleString(), sub: agg.scopeSub },
+      { icon: 'eye', label: '총 조회수', value: (agg.totalViews || 0).toLocaleString(), sub: '누적 조회수 합계' },
+      { icon: 'users', label: '채널 수', value: agg.authorCount.toLocaleString(), sub: '곳' },
+      { icon: 'activity', label: '월간 언급량', value: agg.monthlyActivity.toLocaleString(), sub: '최근 30일 영상', accent: true },
+    ],
+  },
+  blog: {
+    file: 'data/blog.json',
+    itemsKey: 'posts',
+    prefix: 'blog',
+    unit: '포스트',
+    authorLabel: '블로거',
+    emptyMsg: '블로그 데이터가 아직 없습니다. 데이터 갱신 후 표시됩니다.',
+    author: (p) => p.blogger || p.bloggerId,
+    link: (p) => p.link,
+    thumb: (p) => p.image || null,
+    badge: () => '',
+    kpis: (agg) => [
+      { icon: 'pen-line', label: '총 포스트 수', value: agg.total.toLocaleString(), sub: agg.scopeSub },
+      { icon: 'users', label: '블로거 수', value: agg.authorCount.toLocaleString(), sub: '명' },
+      { icon: 'calendar', label: '최신 포스트', value: agg.latestDate || '-', sub: '가장 최근 작성일', valueClass: 'kpi-date' },
+      { icon: 'activity', label: '월간 언급량', value: agg.monthlyActivity.toLocaleString(), sub: '최근 30일 포스트', accent: true },
+    ],
+  },
+};
+
+// 소스별 화면 상태. 탭을 오갈 때 선택이 유지된다
+const mentionState = {
+  youtube: { data: null, scope: 'all', year: null, charts: {} },
+  blog: { data: null, scope: 'all', year: null, charts: {} },
+};
+
+async function loadMentions(key) {
+  const cfg = MENTION_SOURCES[key];
+  const st = mentionState[key];
+  toggleView(key);
+  $('#pageTitle').textContent = SOURCE_PAGE_TITLE[key];
+  const res = await fetch(cfg.file, { cache: 'no-store' });
+  if (!res.ok) {
+    st.data = null;
+    $('#lastUpdated').textContent = '-';
+    $(`#${cfg.prefix}KpiRow`).innerHTML = '';
+    $(`#${cfg.prefix}ScopeTabs`).innerHTML = '';
+    $(`#${cfg.prefix}List`).innerHTML = `<p class="empty-msg">${cfg.emptyMsg}</p>`;
+    return;
+  }
+  st.data = await res.json();
+  $('#lastUpdated').textContent = fmtDateTime(st.data.lastScrapedAt);
+  renderMentionScopeTabs(key);
+  renderMentions(key);
+}
+
+function mentionItems(key) {
+  const cfg = MENTION_SOURCES[key];
+  const all = mentionState[key].data[cfg.itemsKey] || [];
+  const scope = mentionState[key].scope;
+  if (scope === 'official') return all.filter((x) => x.official);
+  if (scope === 'external') return all.filter((x) => !x.official);
+  return all;
+}
+
+// 집계는 선택된 scope 기준으로 그때그때 계산한다 (수백 건이라 비용이 없다)
+function aggregateMentions(key, items) {
+  const cfg = MENTION_SOURCES[key];
+  const dated = items.filter((x) => x.date);
+
+  const monthlyByYear = {};
+  for (const x of dated) {
+    const [y, m] = x.date.split('-');
+    if (!monthlyByYear[y]) monthlyByYear[y] = Array.from({ length: 12 }, () => 0);
+    monthlyByYear[y][Number(m) - 1]++;
+  }
+
+  const authorCount = new Map();
+  for (const x of items) {
+    const a = cfg.author(x);
+    authorCount.set(a, (authorCount.get(a) || 0) + 1);
+  }
+
+  const stores = MENTION_STORE_GROUPS.map((g) => ({ word: g.label, count: 0 }));
+  for (const x of items) {
+    const text = `${x.title} ${x.description || ''}`.toLowerCase();
+    MENTION_STORE_GROUPS.forEach((g, i) => {
+      if (g.terms.some((t) => text.includes(t))) stores[i].count++;
+    });
+  }
+
+  const cutoff = new Date(Date.now() - 30 * 24 * 3600 * 1000).toISOString().slice(0, 10);
+  const sorted = [...dated].sort((a, b) => b.date.localeCompare(a.date));
+  const scopeSub = { all: '공식 + 외부 전체', external: '외부 작성분', official: '공식 채널 작성분' }[mentionState[key].scope];
+
+  return {
+    total: items.length,
+    totalViews: items.reduce((s, x) => s + (x.views || 0), 0),
+    monthlyActivity: dated.filter((x) => x.date >= cutoff).length,
+    authorCount: authorCount.size,
+    latestDate: sorted[0]?.date || null,
+    scopeSub,
+    monthlyByYear,
+    availableYears: Object.keys(monthlyByYear).map(Number).sort((a, b) => b - a),
+    authorBreakdown: [...authorCount.entries()]
+      .map(([author, count]) => ({ author, count }))
+      .sort((a, b) => b.count - a.count),
+    storeFrequency: stores.filter((s) => s.count > 0).sort((a, b) => b.count - a.count),
+    recent: sorted.slice(0, MENTION_RECENT_LIMIT),
+  };
+}
+
+function renderMentionScopeTabs(key) {
+  const cfg = MENTION_SOURCES[key];
+  const st = mentionState[key];
+  const all = st.data[cfg.itemsKey] || [];
+  const official = all.filter((x) => x.official).length;
+  $(`#${cfg.prefix}ScopeTabs`).innerHTML = [
+    { key: 'all', label: `전체 ${all.length}건` },
+    { key: 'external', label: `외부 ${all.length - official}건` },
+    { key: 'official', label: `공식 ${official}건` },
+  ]
+    .map((t) => `<button class="scope-tab${st.scope === t.key ? ' active' : ''}" data-scope="${t.key}">${t.label}</button>`)
+    .join('');
+  $(`#${cfg.prefix}ScopeHint`).textContent = {
+    all: '공식 채널과 외부 언급을 합친 전체',
+    external: `자사 채널을 뺀 순수 외부 언급 — 실제 입소문 지표`,
+    official: '자사 공식 채널이 직접 올린 콘텐츠',
+  }[st.scope];
+  $(`#${cfg.prefix}ScopeTabs`).querySelectorAll('.scope-tab').forEach((btn) => {
+    btn.onclick = () => {
+      if (st.scope === btn.dataset.scope) return;
+      st.scope = btn.dataset.scope;
+      st.year = null; // scope 마다 글이 있는 연도가 다르다
+      renderMentionScopeTabs(key);
+      renderMentions(key);
+    };
+  });
+}
+
+function renderMentions(key) {
+  const st = mentionState[key];
+  st.agg = aggregateMentions(key, mentionItems(key));
+  buildMentionKpis(key);
+  setupMentionYearSelector(key);
+  drawMentionMonthly(key);
+  drawMentionAuthors(key);
+  drawMentionStores(key);
+  renderMentionList(key);
+}
+
+function buildMentionKpis(key) {
+  const cfg = MENTION_SOURCES[key];
+  $(`#${cfg.prefix}KpiRow`).innerHTML = cfg.kpis(mentionState[key].agg).map(kpiCard).join('');
+  if (window.lucide) window.lucide.createIcons();
+}
+
+function setupMentionYearSelector(key) {
+  const cfg = MENTION_SOURCES[key];
+  const st = mentionState[key];
+  const select = $(`#${cfg.prefix}YearSelect`);
+  const years = st.agg.availableYears.length ? st.agg.availableYears : [new Date().getFullYear()];
+  if (!st.year || !years.includes(st.year)) st.year = years[0];
+  select.innerHTML = years.map((y) => `<option value="${y}" ${y === st.year ? 'selected' : ''}>${y}년</option>`).join('');
+  select.onchange = () => {
+    st.year = Number(select.value);
+    drawMentionMonthly(key);
+  };
+}
+
+function drawMentionMonthly(key) {
+  const cfg = MENTION_SOURCES[key];
+  const st = mentionState[key];
+  const ctx = $(`#${cfg.prefix}Monthly`);
+  st.charts.monthly?.destroy();
+  const months = st.agg.monthlyByYear[st.year] || Array.from({ length: 12 }, () => 0);
+  st.charts.monthly = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: Array.from({ length: 12 }, (_, i) => `${i + 1}월`),
+      datasets: [{ label: cfg.unit, data: months, backgroundColor: '#4263eb', borderRadius: 6, borderSkipped: false, maxBarThickness: 40 }],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#1f2329',
+          padding: 10,
+          titleFont: { family: 'Pretendard, sans-serif', size: 12, weight: '600' },
+          bodyFont: { family: 'Pretendard, sans-serif', size: 12 },
+          callbacks: { label: (c) => `${c.parsed.y.toLocaleString()}건` },
+        },
+      },
+      scales: {
+        x: { grid: { display: false }, ticks: { color: '#9a9fa8', font: { family: 'Pretendard, sans-serif', size: 11 } }, border: { color: '#ececf1' } },
+        y: {
+          beginAtZero: true,
+          ticks: { color: '#9a9fa8', font: { family: 'Pretendard, sans-serif', size: 11 }, precision: 0 },
+          grid: { color: '#f0f0f4' },
+          border: { display: false },
+        },
+      },
+    },
+  });
+}
+
+function drawMentionAuthors(key) {
+  const cfg = MENTION_SOURCES[key];
+  const st = mentionState[key];
+  const ctx = $(`#${cfg.prefix}Authors`);
+  st.charts.authors?.destroy();
+  const all = st.agg.authorBreakdown;
+  const top = all.slice(0, MENTION_AUTHOR_TOP_N);
+  const restCount = all.slice(MENTION_AUTHOR_TOP_N).reduce((sum, a) => sum + a.count, 0);
+  const hasRest = restCount > 0;
+  const items = hasRest ? [...top, { author: `기타 ${all.length - MENTION_AUTHOR_TOP_N}곳`, count: restCount }] : top;
+  // '기타'는 팔레트를 이어 쓰면 앞쪽 색과 겹쳐 보인다 → 회색 고정
+  const colors = items.map((_, i) => (hasRest && i === items.length - 1 ? '#c1c5cd' : PALETTE[i % PALETTE.length]));
+  $(`#${cfg.prefix}AuthorsHint`).textContent =
+    all.length > MENTION_AUTHOR_TOP_N ? `전체 누적 기준 · 상위 ${MENTION_AUTHOR_TOP_N}곳` : '전체 누적 기준';
+  if (!items.length) {
+    st.charts.authors = null;
+    ctx.getContext('2d').clearRect(0, 0, ctx.width, ctx.height);
+    return;
+  }
+  const total = items.reduce((sum, a) => sum + a.count, 0);
+  st.charts.authors = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+      labels: items.map((a) => a.author),
+      datasets: [{ data: items.map((a) => a.count), backgroundColor: colors, borderWidth: 0, hoverOffset: 6 }],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      cutout: '62%',
+      plugins: {
+        legend: {
+          position: 'right',
+          labels: {
+            color: '#495057',
+            boxWidth: 10,
+            boxHeight: 10,
+            padding: 12,
+            usePointStyle: true,
+            pointStyle: 'circle',
+            font: { family: 'Pretendard, sans-serif', size: 12, weight: '500' },
+          },
+        },
+        tooltip: {
+          backgroundColor: '#1f2329',
+          padding: 10,
+          titleFont: { family: 'Pretendard, sans-serif', size: 12, weight: '600' },
+          bodyFont: { family: 'Pretendard, sans-serif', size: 12 },
+          callbacks: { label: (c) => `${c.label}: ${c.parsed.toLocaleString()}건 (${((c.parsed / total) * 100).toFixed(1)}%)` },
+        },
+      },
+    },
+  });
+}
+
+function drawMentionStores(key) {
+  const cfg = MENTION_SOURCES[key];
+  const st = mentionState[key];
+  const ctx = $(`#${cfg.prefix}Stores`);
+  st.charts.stores?.destroy();
+  const items = st.agg.storeFrequency;
+  // 언급된 매장이 한두 곳뿐일 때 고정 높이를 그대로 쓰면 막대 하나에 빈 공간만 남는다
+  // → 막대 수에 맞춰 높이를 줄인다 (유튜브는 제목에 지점명이 잘 안 들어간다)
+  ctx.parentElement.style.height = `${Math.min(420, Math.max(150, items.length * 34 + 56))}px`;
+  if (!items.length) {
+    st.charts.stores = null;
+    ctx.getContext('2d').clearRect(0, 0, ctx.width, ctx.height);
+    return;
+  }
+  st.charts.stores = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: items.map((s) => s.word),
+      datasets: [{
+        data: items.map((s) => s.count),
+        backgroundColor: '#4263eb',
+        borderRadius: 6,
+        borderSkipped: false,
+        barThickness: 'flex',
+        maxBarThickness: 22,
+      }],
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#1f2329',
+          padding: 10,
+          titleFont: { family: 'Pretendard, sans-serif', size: 12, weight: '600' },
+          bodyFont: { family: 'Pretendard, sans-serif', size: 12 },
+          callbacks: { label: (c) => `${c.parsed.x.toLocaleString()}건에서 언급` },
+        },
+      },
+      scales: {
+        x: {
+          beginAtZero: true,
+          ticks: { color: '#9a9fa8', font: { family: 'Pretendard, sans-serif', size: 11 }, precision: 0 },
+          grid: { color: '#f0f0f4' },
+          border: { display: false },
+        },
+        y: {
+          ticks: { color: '#495057', font: { family: 'Pretendard, sans-serif', size: 12, weight: '500' } },
+          grid: { display: false },
+          border: { color: '#ececf1' },
+        },
+      },
+    },
+  });
+}
+
+function renderMentionList(key) {
+  const cfg = MENTION_SOURCES[key];
+  const items = mentionState[key].agg.recent;
+  if (!items.length) {
+    $(`#${cfg.prefix}List`).innerHTML = '<p class="empty-msg">수집된 콘텐츠가 없습니다.</p>';
+    return;
+  }
+  // 뉴스 목록과 같은 마크업을 쓴다 — 스타일이 한 벌로 유지된다
+  let html = '';
+  let lastMonth = null;
+  for (const x of items) {
+    const month = (x.date || '').slice(0, 7);
+    if (month && month !== lastMonth) {
+      lastMonth = month;
+      const [y, m] = month.split('-');
+      html += `<div class="news-month">${y}년 ${Number(m)}월</div>`;
+    }
+    const src = cfg.thumb(x);
+    const thumb = src
+      ? `<img src="${escapeHtml(src)}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'">`
+      : `<i data-lucide="${key === 'youtube' ? 'play' : 'pen-line'}"></i>`;
+    const badge = cfg.badge(x);
+    html += `
+      <a class="news-item" href="${escapeHtml(cfg.link(x))}" target="_blank" rel="noopener noreferrer">
+        <span class="news-thumb">${thumb}</span>
+        <div class="news-item-main">
+          <span class="news-title">${x.official ? '<span class="mention-badge">공식</span>' : ''}${escapeHtml(x.title)}</span>
+          <span class="news-desc">${escapeHtml(x.description || '')}</span>
+        </div>
+        <div class="news-item-meta">
+          <span class="news-press">${escapeHtml(cfg.author(x))}</span>
+          <span class="news-date">${escapeHtml(x.date || '-')}</span>
+          ${badge ? `<span class="news-date">${escapeHtml(badge)}</span>` : ''}
+        </div>
+      </a>`;
+  }
+  $(`#${cfg.prefix}List`).innerHTML = html;
+  if (window.lucide) window.lucide.createIcons();
 }
 
 const KEYWORD_COLOR = { positive: '#2f9e44', negative: '#e03131', neutral: '#4263eb' };

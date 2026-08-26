@@ -571,7 +571,20 @@ tbody tr:hover { background: var(--surface-2); }
 }
 .news-item:hover { background: var(--surface-2); }
 .news-item:last-child { border-bottom: 0; }
-.news-item-main { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+/* 사진 없는 기사도 같은 크기의 틀을 둬서 제목 시작선을 맞춘다 */
+.news-thumb {
+  flex-shrink: 0;
+  width: 104px; height: 70px;
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden;
+  border-radius: 8px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+}
+.news-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+/* lucide 가 <i> 를 <svg> 로 갈아끼우므로 svg 를 잡아야 한다 */
+.news-thumb svg { width: 20px; height: 20px; stroke-width: 1.5; color: var(--text-dim); opacity: 0.7; }
+.news-item-main { flex: 1; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
 .news-title {
   font-size: 14px; font-weight: 600; color: var(--text); line-height: 1.45;
 }
@@ -587,6 +600,13 @@ tbody tr:hover { background: var(--surface-2); }
   flex-shrink: 0; text-align: right;
 }
 .news-press { font-size: 12px; font-weight: 600; color: var(--text-sub); white-space: nowrap; }
+/* 공식 채널 글 표시 — 외부 입소문과 자사 홍보를 목록에서 바로 구분하기 위함 */
+.mention-badge {
+  display: inline-block; vertical-align: 1px; margin-right: 6px;
+  padding: 1px 6px; border-radius: 4px;
+  font-size: 10px; font-weight: 700; letter-spacing: 0.02em;
+  color: var(--accent); background: var(--accent-soft);
+}
 .news-date { font-size: 11px; color: var(--text-dim); font-variant-numeric: tabular-nums; }
 
 /* ===== Empty / setup banner ===== */
@@ -649,6 +669,12 @@ tbody tr:hover { background: var(--surface-2); }
   #summaryView:not([hidden]),
   #rankView:not([hidden]),
   #newsView:not([hidden]) { gap: 16px; }
-  .news-item { flex-direction: column; gap: 8px; }
-  .news-item-meta { flex-direction: row; align-items: center; gap: 10px; }
+  .news-item { flex-wrap: wrap; gap: 12px; }
+  .news-thumb { width: 76px; height: 56px; }
+  .news-item-main { flex: 1 1 60%; }
+  .news-item-meta {
+    flex: 1 1 100%;
+    flex-direction: row; align-items: center; justify-content: flex-start; gap: 10px;
+    text-align: left;
+  }
 }

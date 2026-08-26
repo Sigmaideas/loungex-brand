@@ -67,6 +67,8 @@ npm run update:app     # 앱 리뷰 (구글플레이 + 앱스토어)
 npm run rank           # 네이버 플레이스 검색 순위
 npm run trend          # 브랜드 검색 관심도 (NAVER_CLIENT_ID/SECRET 필요)
 npm run news           # 브랜드 뉴스 (구글 뉴스 RSS — 키 불필요)
+npm run youtube        # 유튜브 언급 영상 (키 불필요)
+npm run blog           # 네이버 블로그 언급 포스트 (키 불필요)
 
 # 2) 대시보드 보기
 npm run dashboard
@@ -145,13 +147,17 @@ loungex-brand/
 │   ├── scrape-rank.js     # 네이버 플레이스 검색 순위 수집
 │   ├── scrape-trend.js    # 네이버 데이터랩 검색 트렌드
 │   ├── scrape-news.js     # 브랜드 뉴스 수집 (구글 뉴스 RSS + 네이버 뉴스 API)
+│   ├── scrape-youtube.js  # 유튜브 언급 영상 수집 (검색 결과 ytInitialData)
+│   ├── scrape-blog.js     # 네이버 블로그 언급 포스트 수집 (통합검색 블로그탭)
 │   └── analyze.js         # 감성분석 + 요약 생성
 ├── data/               # 자동 생성 (원시 리뷰는 git 무시)
 │   ├── reviews.json    # 원시 리뷰 + 감성 라벨
 │   ├── summary.json    # 대시보드 입력 데이터
 │   ├── rank.json       # 검색 순위 + 일자별 추이
 │   ├── trend.json      # 브랜드 검색 관심도
-│   └── news.json       # 브랜드 기사 누적 + 집계 (커밋됨)
+│   ├── news.json       # 브랜드 기사 누적 + 집계 (커밋됨)
+│   ├── youtube.json    # 유튜브 언급 영상 누적 (커밋됨)
+│   └── blog.json       # 네이버 블로그 언급 포스트 누적 (커밋됨)
 ├── index.html          # 대시보드 (GitHub Pages 루트)
 ├── style.css
 ├── app.js
@@ -195,6 +201,32 @@ const SELECTORS = {
 ### `summary.json`이 없어 대시보드가 비어 있다
 
 `npm run update`를 한 번도 실행하지 않은 상태입니다. 먼저 `stores.json`에 실제 URL을 채우고 `npm run update`를 실행하세요.
+
+### 뉴스 목록의 기사 사진이 안 나온다
+
+썸네일은 원문 기사의 `og:image`입니다. 구글 뉴스 RSS 링크는 원문 주소를 감춘 리다이렉트라, `scraper/scrape-news.js`의 `resolveGoogleNewsUrl()`이 기사 페이지의 서명(`data-n-a-sg` / `data-n-a-ts`)을 뽑아 구글 내부 `batchexecute`로 원문 URL을 먼저 풀어냅니다. 구글이 이 구조를 바꾸면 "서명 파싱 실패" 로그와 함께 새 기사부터 사진이 비게 됩니다.
+
+- 기사당 **한 번만** 조회하고 결과를 `imageCheckedAt`에 남깁니다. 실패한 기사를 다시 시도하려면 `data/news.json`에서 해당 기사의 `imageCheckedAt`(및 `image`)을 지우고 재실행하세요.
+- 한 실행에서 최대 `IMAGE_LOOKUPS_PER_RUN`(기본 40)건만 훑습니다. 처음 도입 시에는 몇 번 나눠 실행해야 전부 채워집니다.
+- 대시보드가 https로 서빙되므로 http 이미지는 저장하지 않습니다. 실제로 이미지가 내려오는지 확인된 URL만 기록되고, 사진이 없는 기사는 회색 자리 표시가 대신 들어갑니다.
+
+### 유튜브 / 블로그 언급이 안 쌓인다
+
+둘 다 API 키 없이 검색 결과 페이지를 직접 파싱하므로, 검색 화면이 개편되면 파싱이 먼저 깨집니다.
+
+- **유튜브**: 검색 결과 HTML 안의 `var ytInitialData = {...}` 를 JSON 으로 읽고 `videoRenderer` 노드를 훑습니다. "ytInitialData 파싱 실패" 로그가 뜨면 이 변수명이 바뀐 것입니다. 정확한 업로드일·조회수는 영상 페이지의 `"uploadDate"` / `"viewCount"` 에서 따로 읽어옵니다(한 실행 최대 `DETAIL_PER_RUN`건).
+- **블로그**: 통합검색 블로그탭을 `fetch` 로 받아 `data-template-id="ugcItem"` 기준으로 잘라 파싱합니다. 클래스명은 난독화돼 수시로 바뀌므로 절대 기준으로 쓰지 마세요. 썸네일은 항목 안 이미지 중 `blogfiles.naver.net` 이 들어간 첫 장을 씁니다(첫 이미지는 블로거 프로필 사진이라 건너뜁니다).
+
+수집은 되는데 건수가 적다면 관련성 필터를 보세요. 각 스크립트 상단의 `BRAND_TOKENS`(브랜드 표기) · `ANCHORS`(카페·로봇 맥락) · `EXCLUDE`(동명 제외어)를 모두 통과해야 저장됩니다. 로그의 `관련 N건 / 검색 결과 M건` 이 판단 기준입니다.
+
+블로그는 **최신순 4페이지(쿼리당 120건)** 까지만 훑으므로 과거 글은 한 번에 다 들어오지 않습니다. 실행이 쌓이면서 누적됩니다.
+
+### 공식 채널 글이 외부 언급으로 잡힌다
+
+자사 홍보글과 외부 입소문을 섞으면 지표가 왜곡되므로 따로 셉니다(대시보드의 전체/외부/공식 탭). 채널을 새로 만들었다면 목록에 추가하세요.
+
+- 블로그: `scraper/scrape-blog.js` 의 `OFFICIAL_BLOG_IDS` (현재 `loungex_official`, `lounge_lab`, `xyz_inc`)
+- 유튜브: `scraper/scrape-youtube.js` 의 `OFFICIAL_CHANNEL_IDS` (채널 ID는 `UC...` 형식)
 
 ### Anthropic API 오류
 

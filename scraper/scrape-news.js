@@ -13,6 +13,10 @@
  * 기사마다 region('kr' = 국내 / 'overseas' = 해외)을 붙여두고,
  * 월별·언론사별·주제어 집계는 대시보드가 선택된 region 으로 직접 계산한다
  * (토글 즉시 반응 + 집계 기준이 한 군데에만 존재).
+ *
+ * 목록 썸네일(image)은 원문 페이지의 og:image 를 쓴다. 구글 뉴스 링크는 리다이렉트
+ * 주소라 원문 URL 을 먼저 풀어야 해서 비용이 크므로, 기사당 한 번만 시도하고
+ * 결과(성공/실패 모두)를 imageCheckedAt 으로 남겨 다음 실행에서 건너뛴다.
  */
 require('dotenv').config();
 const fs = require('fs').promises;
@@ -24,6 +28,10 @@ const NAVER_API = 'https://openapi.naver.com/v1/search/news.json';
 const NAVER_DISPLAY = 100;
 const NAVER_MAX_START = 1000; // API 상한 (start + display <= 1000)
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
+
+const GOOGLE_RESOLVE_API = 'https://news.google.com/_/DotsSplashUi/data/batchexecute';
+const IMAGE_LOOKUPS_PER_RUN = 40; // 한 실행에서 새로 훑을 기사 수 상한 (기사당 요청 3회)
+const FETCH_TIMEOUT_MS = 12000;
 
 // 브랜드 표기 흔들림을 커버. 결과는 제목 기준으로 합쳐진다.
 // 구 사명 '라운지랩', 운영사명 '엑스와이지' 는 제외 — 매장 브랜드 기사만 본다
@@ -193,6 +201,120 @@ async function collectNaver(query, id, secret) {
   return out;
 }
 
+// ── 기사 썸네일 (og:image) ───────────────────────────────────
+// 구글 뉴스 RSS 링크는 원문 주소를 감춘 리다이렉트다. 예전처럼 id 를 base64 로 풀면
+// URL 이 나오는 형식이 아니라서, 기사 페이지에 박힌 서명(data-n-a-sg/ts)을 들고
+// 구글 내부 batchexecute 로 물어봐야 원문 URL 이 나온다.
+async function resolveGoogleNewsUrl(link) {
+  const page = await fetchText(link);
+  const pick = (name) => (page.match(new RegExp(`${name}="([^"]+)"`)) || [])[1];
+  const id = pick('data-n-a-id');
+  const sg = pick('data-n-a-sg');
+  const ts = pick('data-n-a-ts');
+  if (!id || !sg || !ts) throw new Error('서명 파싱 실패');
+
+  const inner = JSON.stringify(['garturlreq',
+    [['X', 'X', ['X', 'X'], null, null, 1, 1, 'US:en', null, 1, null, null, null, null, null, 0, 1],
+      'X', 'X', 1, [1, 1, 1], 1, 1, null, 0, 0, null, 0],
+    id, Number(ts), sg]);
+  const body = `f.req=${encodeURIComponent(JSON.stringify([[['Fbv4je', inner, null, 'generic']]]))}`;
+  const res = await fetch(GOOGLE_RESOLVE_API, {
+    method: 'POST',
+    headers: { 'User-Agent': UA, 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' },
+    body,
+    signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+  });
+  if (!res.ok) throw new Error(`batchexecute ${res.status}`);
+  const text = await res.text();
+  // 응답은 )]}' 로 시작하는 XSSI 방어 프리픽스가 붙어 있다
+  const rows = JSON.parse(text.slice(text.indexOf('[[')));
+  const row = rows.find((r) => Array.isArray(r) && r[1] === 'Fbv4je');
+  const url = row && JSON.parse(row[2])[1];
+  if (!url) throw new Error('원문 URL 없음');
+  return url;
+}
+
+async function fetchText(url) {
+  const res = await fetch(url, {
+    headers: { 'User-Agent': UA },
+    signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  // 국내 언론사에는 EUC-KR 페이지가 남아 있지만 og:image 값은 어차피 ASCII 라
+  // 본문이 깨져도 URL 추출에는 지장이 없다
+  return res.text();
+}
+
+function pickOgImage(html, pageUrl) {
+  const metas = html.match(/<meta[^>]+>/gi) || [];
+  const attr = (tag, name) => (tag.match(new RegExp(`${name}\\s*=\\s*["']([^"']*)["']`, 'i')) || [])[1];
+  for (const key of ['og:image:secure_url', 'og:image', 'twitter:image', 'twitter:image:src']) {
+    for (const tag of metas) {
+      const which = (attr(tag, 'property') || attr(tag, 'name') || '').toLowerCase();
+      if (which !== key) continue;
+      const raw = decodeEntities(attr(tag, 'content') || '');
+      if (!raw) continue;
+      try { return new URL(raw, pageUrl).href; } catch { /* 상대경로 해석 실패는 무시 */ }
+    }
+  }
+  return null;
+}
+
+// 대시보드는 https 로 서빙되므로 http 이미지는 브라우저가 막는다 → https 로 올려보고,
+// 실제로 이미지가 내려오는지까지 확인한 것만 저장한다 (og:image 가 404 인 기사도 흔하다)
+async function verifyImage(url) {
+  const candidates = url.startsWith('http://')
+    ? [`https://${url.slice(7)}`, url]
+    : [url];
+  for (const candidate of candidates) {
+    if (!candidate.startsWith('https://')) continue;
+    try {
+      const res = await fetch(candidate, {
+        headers: { 'User-Agent': UA, Referer: candidate },
+        signal: AbortSignal.timeout(FETCH_TIMEOUT_MS),
+      });
+      if (res.ok && (res.headers.get('content-type') || '').startsWith('image/')) return candidate;
+    } catch { /* 다음 후보로 */ }
+  }
+  return null;
+}
+
+async function findImage(article) {
+  const target = article.source === 'google'
+    ? await resolveGoogleNewsUrl(article.link)
+    : article.link;
+  const raw = pickOgImage(await fetchText(target), target);
+  if (!raw) throw new Error('og:image 없음');
+  const image = await verifyImage(raw);
+  if (!image) throw new Error(`이미지 응답 없음 (${raw.slice(0, 60)})`);
+  return { image, sourceUrl: target };
+}
+
+// 기사당 딱 한 번만 시도한다. 실패해도 imageCheckedAt 을 찍어 매 실행마다 같은
+// 기사를 다시 두드리지 않게 한다 (기사 하나에 요청 3회라 누적되면 부담이 크다)
+async function attachImages(articles, runIso) {
+  const todo = articles.filter((a) => !a.image && !a.imageCheckedAt && a.link);
+  if (todo.length === 0) return;
+  const batch = todo.slice(0, IMAGE_LOOKUPS_PER_RUN);
+  if (todo.length > batch.length) {
+    log(`썸네일 조회 ${batch.length}건만 진행 — 남은 ${todo.length - batch.length}건은 다음 실행에서`);
+  }
+  let ok = 0;
+  for (const a of batch) {
+    a.imageCheckedAt = runIso;
+    try {
+      const { image, sourceUrl } = await findImage(a);
+      a.image = image;
+      a.sourceUrl = sourceUrl;
+      ok++;
+    } catch (e) {
+      log(`썸네일 실패: ${a.title.slice(0, 30)} — ${e.message}`);
+    }
+    await sleep(400);
+  }
+  log(`썸네일 ${ok}/${batch.length}건 확보`);
+}
+
 async function loadExisting() {
   try { return JSON.parse(await fs.readFile(OUT_PATH, 'utf8')); }
   catch (e) { if (e.code === 'ENOENT') return { articles: [] }; throw e; }
@@ -283,6 +405,8 @@ async function main() {
     })
     .filter(Boolean)
     .sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
+
+  await attachImages(articles, runIso);
 
   const krCount = articles.filter((a) => a.region === 'kr').length;
   const overseasCount = articles.length - krCount;
