@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-26T05:02:52.149Z",
+  "lastScrapedAt": "2026-08-26T12:08:02.877Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -12,8 +12,8 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalArticles": 55,
-  "krArticles": 54,
+  "totalArticles": 56,
+  "krArticles": 55,
   "overseasArticles": 1,
   "articles": [
     {
@@ -95,6 +95,16 @@
       "source": "google",
       "region": "kr",
       "firstSeenAt": "2026-08-26T00:02:31.715Z"
+    },
+    {
+      "title": "라운지엑스, 펫비즈코리아와 MOU 체결∙∙∙AI 로봇 기술 융합한 펫 창업 모델 선보인다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBJdTIyYzRyb2s5bGJrMzNON2pVdmZqX05nV3VyZ3JNMjBTMWE3X3VMcmw5WGdFcmxwTkJIUUdLN2k2UHdoVS1oeWRRV3pkcHIySWd1SGFfUnFhR0hGQU1VU3M1S3B1QUdoTkVmVnRn?oc=5",
+      "press": "스타트업투데이",
+      "date": "2026-07-24",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-26T12:08:02.877Z"
     },
     {
       "title": "펫비즈코리아-라운지엑스, AI 로봇카페 기반 펫 창업 MOU 체결",
