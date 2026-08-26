@@ -6,7 +6,7 @@
  *
  * - 환경 변수 GITHUB_TOKEN: fine-grained PAT (Actions: Read & Write 권한, 이 저장소 한정)
  * - 환경 변수 ALLOWED_ORIGIN: 호출 허용할 출처 (예: https://sigmaideas.github.io)
- * - 환경 변수 REPO: "owner/name" (예: Sigmaideas/loungex-brand-dashboard)
+ * - 환경 변수 REPO: "owner/name" (예: Sigmaideas/loungex-brand)
  * - 환경 변수 WORKFLOW: 워크플로우 파일명 (예: update.yml)
  */
 
