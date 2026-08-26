@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
   <!-- ?v= 는 캐시 버스팅. GitHub Pages 가 max-age=600 으로 내려줘서 파라미터를 안 바꾸면
        코드를 고쳐도 브라우저가 10분간 옛 파일을 계속 쓴다. app.js/style.css 수정 시 함께 올릴 것 -->
-  <link rel="stylesheet" href="style.css?v=7" />
+  <link rel="stylesheet" href="style.css?v=8" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
 </head>
@@ -208,22 +208,6 @@
         <div class="chart-wrap"><canvas id="ytMonthly"></canvas></div>
       </section>
 
-      <section class="card chart-card">
-        <div class="card-head">
-          <h2><i data-lucide="pie-chart" class="head-icon"></i>채널별 언급 비중</h2>
-          <span class="hint" id="ytAuthorsHint">전체 누적 기준</span>
-        </div>
-        <div class="chart-wrap"><canvas id="ytAuthors"></canvas></div>
-      </section>
-
-      <section class="card chart-card">
-        <div class="card-head">
-          <h2><i data-lucide="map-pin" class="head-icon"></i>매장별 언급량</h2>
-          <span class="hint">제목·본문에 지역·지점명이 언급된 횟수</span>
-        </div>
-        <div class="chart-wrap chart-wrap-tall"><canvas id="ytStores"></canvas></div>
-      </section>
-
       <section class="card">
         <div class="card-head">
           <h2><i data-lucide="list" class="head-icon"></i>최근 영상</h2>
@@ -251,22 +235,6 @@
         <div class="chart-wrap"><canvas id="blogMonthly"></canvas></div>
       </section>
 
-      <section class="card chart-card">
-        <div class="card-head">
-          <h2><i data-lucide="pie-chart" class="head-icon"></i>블로거별 작성 비중</h2>
-          <span class="hint" id="blogAuthorsHint">전체 누적 기준</span>
-        </div>
-        <div class="chart-wrap"><canvas id="blogAuthors"></canvas></div>
-      </section>
-
-      <section class="card chart-card">
-        <div class="card-head">
-          <h2><i data-lucide="map-pin" class="head-icon"></i>매장별 언급량</h2>
-          <span class="hint">제목·본문에 지역·지점명이 언급된 횟수</span>
-        </div>
-        <div class="chart-wrap chart-wrap-tall"><canvas id="blogStores"></canvas></div>
-      </section>
-
       <section class="card">
         <div class="card-head">
           <h2><i data-lucide="list" class="head-icon"></i>최근 포스트</h2>
@@ -287,6 +255,6 @@
     </div>
   </div>
 
-  <script src="app.js?v=7"></script>
+  <script src="app.js?v=8"></script>
 </body>
 </html>

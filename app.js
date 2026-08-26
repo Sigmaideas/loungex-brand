@@ -697,21 +697,7 @@ function renderNewsList() {
    두 소스는 '브랜드를 언급한 외부 콘텐츠'라는 점에서 화면 구조가 같다.
    데이터 접근 방법만 설정으로 분리하고 렌더러는 하나만 둔다. */
 
-const MENTION_AUTHOR_TOP_N = 9; // 나머지는 '기타' 로 묶음 — 조각이 많아지면 도넛이 안 읽힌다
 const MENTION_RECENT_LIMIT = 120;
-
-// 어느 매장이 얼마나 회자되는지. 지점명 표기가 제각각이라 지역명으로 묶는다
-const MENTION_STORE_GROUPS = [
-  { label: '성수·서울숲', terms: ['성수', '서울숲'] },
-  { label: '강남', terms: ['강남'] },
-  { label: '공덕·마포', terms: ['공덕', '마포'] },
-  { label: '을지로', terms: ['을지로'] },
-  { label: '상암DMC', terms: ['상암', 'dmc', '디지털미디어'] },
-  { label: '가락·송파', terms: ['가락', '송파'] },
-  { label: '여의도·IFC', terms: ['여의도', 'ifc'] },
-  { label: '용산', terms: ['용산'] },
-  { label: '마곡', terms: ['마곡'] },
-];
 
 const MENTION_SOURCES = {
   youtube: {
@@ -807,14 +793,6 @@ function aggregateMentions(key, items) {
     authorCount.set(a, (authorCount.get(a) || 0) + 1);
   }
 
-  const stores = MENTION_STORE_GROUPS.map((g) => ({ word: g.label, count: 0 }));
-  for (const x of items) {
-    const text = `${x.title} ${x.description || ''}`.toLowerCase();
-    MENTION_STORE_GROUPS.forEach((g, i) => {
-      if (g.terms.some((t) => text.includes(t))) stores[i].count++;
-    });
-  }
-
   const cutoff = new Date(Date.now() - 30 * 24 * 3600 * 1000).toISOString().slice(0, 10);
   const sorted = [...dated].sort((a, b) => b.date.localeCompare(a.date));
   const scopeSub = { all: '공식 + 외부 전체', external: '외부 작성분', official: '공식 채널 작성분' }[mentionState[key].scope];
@@ -828,10 +806,6 @@ function aggregateMentions(key, items) {
     scopeSub,
     monthlyByYear,
     availableYears: Object.keys(monthlyByYear).map(Number).sort((a, b) => b - a),
-    authorBreakdown: [...authorCount.entries()]
-      .map(([author, count]) => ({ author, count }))
-      .sort((a, b) => b.count - a.count),
-    storeFrequency: stores.filter((s) => s.count > 0).sort((a, b) => b.count - a.count),
     recent: sorted.slice(0, MENTION_RECENT_LIMIT),
   };
 }
@@ -870,8 +844,6 @@ function renderMentions(key) {
   buildMentionKpis(key);
   setupMentionYearSelector(key);
   drawMentionMonthly(key);
-  drawMentionAuthors(key);
-  drawMentionStores(key);
   renderMentionList(key);
 }
 
@@ -926,119 +898,6 @@ function drawMentionMonthly(key) {
           ticks: { color: '#9a9fa8', font: { family: 'Pretendard, sans-serif', size: 11 }, precision: 0 },
           grid: { color: '#f0f0f4' },
           border: { display: false },
-        },
-      },
-    },
-  });
-}
-
-function drawMentionAuthors(key) {
-  const cfg = MENTION_SOURCES[key];
-  const st = mentionState[key];
-  const ctx = $(`#${cfg.prefix}Authors`);
-  st.charts.authors?.destroy();
-  const all = st.agg.authorBreakdown;
-  const top = all.slice(0, MENTION_AUTHOR_TOP_N);
-  const restCount = all.slice(MENTION_AUTHOR_TOP_N).reduce((sum, a) => sum + a.count, 0);
-  const hasRest = restCount > 0;
-  const items = hasRest ? [...top, { author: `기타 ${all.length - MENTION_AUTHOR_TOP_N}곳`, count: restCount }] : top;
-  // '기타'는 팔레트를 이어 쓰면 앞쪽 색과 겹쳐 보인다 → 회색 고정
-  const colors = items.map((_, i) => (hasRest && i === items.length - 1 ? '#c1c5cd' : PALETTE[i % PALETTE.length]));
-  $(`#${cfg.prefix}AuthorsHint`).textContent =
-    all.length > MENTION_AUTHOR_TOP_N ? `전체 누적 기준 · 상위 ${MENTION_AUTHOR_TOP_N}곳` : '전체 누적 기준';
-  if (!items.length) {
-    st.charts.authors = null;
-    ctx.getContext('2d').clearRect(0, 0, ctx.width, ctx.height);
-    return;
-  }
-  const total = items.reduce((sum, a) => sum + a.count, 0);
-  st.charts.authors = new Chart(ctx, {
-    type: 'doughnut',
-    data: {
-      labels: items.map((a) => a.author),
-      datasets: [{ data: items.map((a) => a.count), backgroundColor: colors, borderWidth: 0, hoverOffset: 6 }],
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      cutout: '62%',
-      plugins: {
-        legend: {
-          position: 'right',
-          labels: {
-            color: '#495057',
-            boxWidth: 10,
-            boxHeight: 10,
-            padding: 12,
-            usePointStyle: true,
-            pointStyle: 'circle',
-            font: { family: 'Pretendard, sans-serif', size: 12, weight: '500' },
-          },
-        },
-        tooltip: {
-          backgroundColor: '#1f2329',
-          padding: 10,
-          titleFont: { family: 'Pretendard, sans-serif', size: 12, weight: '600' },
-          bodyFont: { family: 'Pretendard, sans-serif', size: 12 },
-          callbacks: { label: (c) => `${c.label}: ${c.parsed.toLocaleString()}건 (${((c.parsed / total) * 100).toFixed(1)}%)` },
-        },
-      },
-    },
-  });
-}
-
-function drawMentionStores(key) {
-  const cfg = MENTION_SOURCES[key];
-  const st = mentionState[key];
-  const ctx = $(`#${cfg.prefix}Stores`);
-  st.charts.stores?.destroy();
-  const items = st.agg.storeFrequency;
-  // 언급된 매장이 한두 곳뿐일 때 고정 높이를 그대로 쓰면 막대 하나에 빈 공간만 남는다
-  // → 막대 수에 맞춰 높이를 줄인다 (유튜브는 제목에 지점명이 잘 안 들어간다)
-  ctx.parentElement.style.height = `${Math.min(420, Math.max(150, items.length * 34 + 56))}px`;
-  if (!items.length) {
-    st.charts.stores = null;
-    ctx.getContext('2d').clearRect(0, 0, ctx.width, ctx.height);
-    return;
-  }
-  st.charts.stores = new Chart(ctx, {
-    type: 'bar',
-    data: {
-      labels: items.map((s) => s.word),
-      datasets: [{
-        data: items.map((s) => s.count),
-        backgroundColor: '#4263eb',
-        borderRadius: 6,
-        borderSkipped: false,
-        barThickness: 'flex',
-        maxBarThickness: 22,
-      }],
-    },
-    options: {
-      indexAxis: 'y',
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          backgroundColor: '#1f2329',
-          padding: 10,
-          titleFont: { family: 'Pretendard, sans-serif', size: 12, weight: '600' },
-          bodyFont: { family: 'Pretendard, sans-serif', size: 12 },
-          callbacks: { label: (c) => `${c.parsed.x.toLocaleString()}건에서 언급` },
-        },
-      },
-      scales: {
-        x: {
-          beginAtZero: true,
-          ticks: { color: '#9a9fa8', font: { family: 'Pretendard, sans-serif', size: 11 }, precision: 0 },
-          grid: { color: '#f0f0f4' },
-          border: { display: false },
-        },
-        y: {
-          ticks: { color: '#495057', font: { family: 'Pretendard, sans-serif', size: 12, weight: '500' } },
-          grid: { display: false },
-          border: { color: '#ececf1' },
         },
       },
     },
