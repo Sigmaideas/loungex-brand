@@ -9,8 +9,9 @@
  * 기사는 시간이 지나면 검색 결과에서 밀려나므로 제목 기준 dedup 으로 누적한다.
  * 공개 정보라 캐시 대신 data/news.json 을 커밋해 그 파일 자체를 누적 저장소로 쓴다.
  *
- * 기사마다 scope('brand' = 라운지엑스 직접 언급 / 'operator' = 운영사 기사)를 붙여두고,
- * 월별·언론사별·주제어 집계는 대시보드가 선택된 scope 로 직접 계산한다
+ * 대상은 매장 브랜드 '라운지엑스' 뿐이다 — 운영사(엑스와이지) 기사는 수집하지 않는다.
+ * 기사마다 region('kr' = 국내 / 'overseas' = 해외)을 붙여두고,
+ * 월별·언론사별·주제어 집계는 대시보드가 선택된 region 으로 직접 계산한다
  * (토글 즉시 반응 + 집계 기준이 한 군데에만 존재).
  */
 require('dotenv').config();
@@ -25,56 +26,43 @@ const NAVER_MAX_START = 1000; // API 상한 (start + display <= 1000)
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
 
 // 브랜드 표기 흔들림을 커버. 결과는 제목 기준으로 합쳐진다.
-// 엑스와이지 = 현 운영사 사명 — 매장 브랜드 기사가 이 이름으로도 나온다.
-// 구 사명 '라운지랩' 은 제외 — 걸리는 기사가 전부 2019~2022년이라 현재 브랜드 상황과 무관하다
-const QUERIES = ['라운지엑스', '라운지엑스24h', '라운지X 로봇카페', '엑스와이지 로봇', 'loungex 카페'];
+// 구 사명 '라운지랩', 운영사명 '엑스와이지' 는 제외 — 매장 브랜드 기사만 본다
+const QUERIES = ['라운지엑스', '라운지엑스24h', '라운지X 로봇카페', 'loungex 카페'];
 
 // 해외 보도는 국문 검색에 거의 안 걸린다.
 // 로케일을 바꿔 따로 훑는다 (구글 뉴스는 hl/gl/ceid 로 언어권이 갈린다)
 const INTL_QUERIES = [
   { q: "LOUNGE'X robot cafe", hl: 'en-US', gl: 'US', ceid: 'US:en' },
   { q: 'LOUNGEX Korea robot cafe', hl: 'en-US', gl: 'US', ceid: 'US:en' },
-  { q: 'Barisbrew robot cafe', hl: 'en-US', gl: 'US', ceid: 'US:en' },
-  { q: 'XYZ robot barista Korea', hl: 'en-US', gl: 'US', ceid: 'US:en' },
   { q: 'ラウンジエックス ロボットカフェ', hl: 'ja', gl: 'JP', ceid: 'JP:ja' },
-  { q: '韩国 机器人咖啡 Lounge', hl: 'zh-CN', gl: 'CN', ceid: 'CN:zh-Hans' },
+  { q: 'LOUNGEX 韩国 机器人咖啡', hl: 'zh-CN', gl: 'CN', ceid: 'CN:zh-Hans' },
 ];
 
 // 검색 결과에는 '라운지'+'엑스'가 따로 걸린 무관 기사(롯데면세점 스타라운지, 펀디엑스 등)가 섞인다.
-// 제목·요약에 아래 표기가 실제로 등장하는 기사만 남긴다.
-//  brand    = 매장 브랜드 '라운지엑스' 를 직접 언급한 기사
-//  operator = 운영사(엑스와이지) 기사. 브랜드 기사가 이 이름으로 나오기도 해서
-//             버리진 않지만, 대시보드에서 기본으로는 브랜드 기사만 보여준다
-const BRAND_TOKENS = ['라운지엑스', '라운지x', 'loungex'];
-const OPERATOR_TOKENS = ['엑스와이지'];
+// 제목·요약에 브랜드 표기가 실제로 등장하는 기사만 남긴다.
+const BRAND_TOKENS = ['라운지엑스', '라운지x', 'loungex', 'ラウンジエックス'];
 const normalize = (a) => `${a.title} ${a.description || ''}`.toLowerCase().replace(/[\s'’·]+/g, '');
-const scopeOf = (a) => {
+const isBrand = (a) => {
   const t = normalize(a);
-  if (BRAND_TOKENS.some((tok) => t.includes(tok))) return 'brand';
-  if (OPERATOR_TOKENS.some((tok) => t.includes(tok))) return 'operator';
-  return null; // 무관 기사
+  return BRAND_TOKENS.some((tok) => t.includes(tok));
 };
 
 // 해외 판정은 국내보다 빡빡하게. 라틴 문자권에서 'LOUNGE X' 는 동명이인이 많아
 // (아디다스 LOUNGE X 팝업 등) 브랜드 표기만으로는 못 거른다.
 // → 브랜드 표기 + 로봇/카페 맥락이 같이 있어야 하고, 알려진 동명 케이스는 명시적으로 뺀다
-const INTL_BRAND_TOKENS = [...BRAND_TOKENS, ...OPERATOR_TOKENS, 'barisbrew', '바리스브루'];
 const INTL_ANCHORS = ['robot', 'cafe', 'café', 'coffee', 'barista', 'icecream', 'kiosk', 'foodtech',
   'ロボット', 'カフェ', 'コーヒー', '机器人', '咖啡'];
 const INTL_EXCLUDE = ['ultraboost', 'adidas', '表参道', 'plaza', 'streetplaza', 'chandigarh'];
 const isOverseasRelevant = (a) => {
   const t = normalize(a);
   if (INTL_EXCLUDE.some((x) => t.includes(x))) return false;
-  return INTL_BRAND_TOKENS.some((x) => t.includes(x)) && INTL_ANCHORS.some((x) => t.includes(x));
+  return isBrand(a) && INTL_ANCHORS.some((x) => t.includes(x));
 };
 
-// region('kr' | 'overseas') + scope 를 함께 판정. 관련 없으면 null → 저장에서 제외
+// region('kr' | 'overseas') 판정. 브랜드와 무관하면 null → 저장에서 제외
 function classify(a) {
-  if (a.region === 'overseas') {
-    return isOverseasRelevant(a) ? { region: 'overseas', scope: scopeOf(a) || 'operator' } : null;
-  }
-  const scope = scopeOf(a);
-  return scope ? { region: 'kr', scope } : null;
+  if (a.region === 'overseas') return isOverseasRelevant(a) ? { region: 'overseas' } : null;
+  return isBrand(a) ? { region: 'kr' } : null;
 }
 
 // 네이버 API 는 언론사명을 주지 않아 originallink 도메인으로 판별한다
@@ -284,32 +272,32 @@ async function main() {
   const runIso = new Date().toISOString();
   const { merged, added } = dedupe(existing.articles || [], relevant, runIso);
 
-  // region/scope 는 제목·요약에서 매번 다시 계산한다 — 판정 규칙을 고쳐도 기존 누적분이 알아서 갱신됨
+  // region 은 제목·요약에서 매번 다시 계산한다 — 판정 규칙을 고쳐도 기존 누적분이 알아서 갱신됨
+  // (지난 규칙으로 저장된 운영사 기사도 이 단계에서 함께 걸러진다)
   const articles = merged
     .map((a) => {
       const c = classify(a);
-      return c ? { ...a, ...c } : null;
+      if (!c) return null;
+      const { scope, ...rest } = a; // 더 이상 쓰지 않는 필드 제거
+      return { ...rest, ...c };
     })
     .filter(Boolean)
     .sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
 
-  const count = (fn) => articles.filter(fn).length;
-  const brandCount = count((a) => a.region === 'kr' && a.scope === 'brand');
-  const operatorCount = count((a) => a.region === 'kr' && a.scope === 'operator');
-  const overseasCount = count((a) => a.region === 'overseas');
+  const krCount = articles.filter((a) => a.region === 'kr').length;
+  const overseasCount = articles.length - krCount;
   const out = {
     lastScrapedAt: runIso,
     queries: QUERIES,
     intlQueries: INTL_QUERIES.map((x) => x.q),
     totalArticles: articles.length,
-    brandArticles: brandCount,
-    operatorArticles: operatorCount,
+    krArticles: krCount,
     overseasArticles: overseasCount,
     articles,
   };
   await fs.mkdir(path.dirname(OUT_PATH), { recursive: true });
   await fs.writeFile(OUT_PATH, JSON.stringify(out, null, 2), 'utf8');
-  log(`저장 완료: 누적 ${articles.length}건 (신규 +${added}건 · 브랜드 ${brandCount} / 운영사 ${operatorCount} / 해외 ${overseasCount}) → ${OUT_PATH}`);
+  log(`저장 완료: 누적 ${articles.length}건 (신규 +${added}건 · 국내 ${krCount} / 해외 ${overseasCount}) → ${OUT_PATH}`);
 }
 
 main().catch((err) => {

@@ -344,11 +344,10 @@ const NEWS_TOPIC_GROUPS = [
   { label: '푸드테크·외식', terms: ['푸드테크', '외식', '식음료', 'f&b'] },
 ];
 
-// 탭 세 개는 서로 겹치지 않는다 — 각각 따로 본다.
-//  brand    = 국내 · 매장 브랜드 '라운지엑스' 기사
-//  operator = 국내 · 운영사 '엑스와이지' 기사
+// 탭 두 개는 서로 겹치지 않는다 — 각각 따로 본다.
+//  kr       = 국내 매체의 '라운지엑스' 보도
 //  overseas = 해외 매체 보도 (언어권 무관)
-let newsScope = 'brand';
+let newsScope = 'kr';
 let newsAgg = null;
 
 async function loadNews() {
@@ -373,9 +372,8 @@ async function loadNews() {
 function newsArticles() {
   const all = newsData.articles || [];
   // region 이 없던 시절 데이터는 전부 국내 수집분이다
-  const isKr = (a) => (a.region || 'kr') === 'kr';
   if (newsScope === 'overseas') return all.filter((a) => a.region === 'overseas');
-  return all.filter((a) => isKr(a) && a.scope === newsScope);
+  return all.filter((a) => (a.region || 'kr') === 'kr');
 }
 
 // 집계는 선택된 scope 기준으로 그때그때 계산한다 (기사 수가 수백 건이라 비용이 없다)
@@ -419,12 +417,10 @@ function aggregateNews(articles) {
 }
 
 function renderNewsScopeTabs() {
-  const brand = newsData.brandArticles ?? 0;
-  const operator = newsData.operatorArticles ?? 0;
+  const kr = newsData.krArticles ?? 0;
   const overseas = newsData.overseasArticles ?? 0;
   $('#newsScopeTabs').innerHTML = [
-    { key: 'brand', label: `라운지엑스 ${brand}건` },
-    { key: 'operator', label: `엑스와이지 ${operator}건` },
+    { key: 'kr', label: `국내 ${kr}건` },
     { key: 'overseas', label: `해외 ${overseas}건` },
   ]
     .map(
@@ -433,8 +429,7 @@ function renderNewsScopeTabs() {
     )
     .join('');
   $('#newsScopeHint').textContent = {
-    brand: "'라운지엑스'를 직접 언급한 국내 기사",
-    operator: '엑스와이지 = 라운지엑스 운영사',
+    kr: "'라운지엑스'를 직접 언급한 국내 기사",
     overseas: '해외 매체 보도 — 절대량이 적습니다',
   }[newsScope];
   $('#newsScopeTabs').querySelectorAll('.scope-tab').forEach((btn) => {
@@ -460,8 +455,7 @@ function renderNews() {
 
 function buildNewsKpis() {
   const d = newsAgg;
-  const scopeSub =
-    { brand: '매장 브랜드 기사', operator: '운영사 기사', overseas: '해외 매체 보도' }[newsScope];
+  const scopeSub = { kr: '국내 매체 보도', overseas: '해외 매체 보도' }[newsScope];
   const cards = [
     kpiCard({ icon: 'newspaper', label: '총 기사 수', value: d.totalArticles.toLocaleString(), sub: scopeSub }),
     kpiCard({ icon: 'building-2', label: '보도 언론사', value: d.pressCount.toLocaleString(), sub: '곳' }),
