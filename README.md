@@ -152,10 +152,10 @@ loungex-brand-dashboard/
 │   ├── rank.json       # 검색 순위 + 일자별 추이
 │   ├── trend.json      # 브랜드 검색 관심도
 │   └── news.json       # 브랜드 기사 누적 + 집계 (커밋됨)
-├── dashboard/
-│   ├── index.html
-│   ├── style.css
-│   └── app.js
+├── index.html          # 대시보드 (GitHub Pages 루트)
+├── style.css
+├── app.js
+├── logo.png
 ├── .env.example
 ├── .gitignore
 ├── package.json

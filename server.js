@@ -1,8 +1,8 @@
 /**
  * 통합 서버: 정적 대시보드 + 업데이트 API
  *
- *  GET  /                     → /dashboard/index.html 으로 리다이렉트
- *  GET  /dashboard/...        → 정적 파일
+ *  GET  /                     → index.html (대시보드)
+ *  GET  /app.js, /style.css   → 정적 파일
  *  GET  /data/summary.json    → 정적 파일
  *  POST /api/update           → 백그라운드로 scrape + analyze 실행 (202)
  *  GET  /api/update/status    → 현재 작업 상태 + 최근 로그
@@ -106,7 +106,7 @@ function sendJson(res, status, obj) {
 
 function serveStatic(req, res) {
   let urlPath = decodeURIComponent(req.url.split('?')[0]);
-  if (urlPath === '/') urlPath = '/dashboard/';
+  if (urlPath === '/') urlPath = '/index.html';
   if (urlPath.endsWith('/')) urlPath += 'index.html';
   const fullPath = path.normalize(path.join(ROOT, urlPath));
   if (!fullPath.startsWith(ROOT)) {
@@ -152,5 +152,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, () => {
-  log(`Dashboard: http://localhost:${PORT}/dashboard/`);
+  log(`Dashboard: http://localhost:${PORT}/`);
 });

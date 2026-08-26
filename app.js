@@ -62,7 +62,7 @@ async function load() {
   if (currentSource === 'news') return loadNews();
   toggleView('summary');
   const file = SOURCE_SUMMARY_FILE[currentSource];
-  const res = await fetch(`../data/${file}`, { cache: 'no-store' });
+  const res = await fetch(`data/${file}`, { cache: 'no-store' });
   if (res.status === 404) {
     summary = emptySummary();
     render();
@@ -181,7 +181,7 @@ function applySourceLayout() {
 async function loadRank() {
   toggleView('rank');
   $('#pageTitle').textContent = SOURCE_PAGE_TITLE.rank;
-  const res = await fetch('../data/rank.json', { cache: 'no-store' });
+  const res = await fetch('data/rank.json', { cache: 'no-store' });
   if (!res.ok) {
     $('#rankBody').innerHTML = '<p class="empty-msg">검색 순위 데이터가 아직 없습니다. 데이터 갱신 후 표시됩니다.</p>';
     $('#lastUpdated').textContent = '-';
@@ -195,7 +195,7 @@ async function loadRank() {
 
 async function loadTrend() {
   try {
-    const res = await fetch('../data/trend.json', { cache: 'no-store' });
+    const res = await fetch('data/trend.json', { cache: 'no-store' });
     if (!res.ok) {
       $('#trendCard').hidden = true;
       return;
@@ -354,7 +354,7 @@ let newsAgg = null;
 async function loadNews() {
   toggleView('news');
   $('#pageTitle').textContent = SOURCE_PAGE_TITLE.news;
-  const res = await fetch('../data/news.json', { cache: 'no-store' });
+  const res = await fetch('data/news.json', { cache: 'no-store' });
   if (!res.ok) {
     newsData = null;
     $('#lastUpdated').textContent = '-';
