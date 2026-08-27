@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T05:02:24.567Z",
+  "lastUpdated": "2026-08-27T21:11:10.249Z",
   "totalStores": 10,
   "totalReviews": 748,
   "avgReviewsPerStore": 74.8,
@@ -14,7 +14,7 @@
       "neutralRatio": 0.1875,
       "monthlyActivity": 5,
       "latestReviewDate": "2026-08-27",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -92,7 +92,7 @@
       "neutralRatio": 0.06837606837606838,
       "monthlyActivity": 7,
       "latestReviewDate": "2026-08-27",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -143,7 +143,7 @@
         "text": "성수24시간 무인카페 좋아요!",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 성수본점을 이용해 주시고 따뜻한 리뷰 남겨주셔서 감사합니다!\n\n24시간 언제든 편하게 방문하실 수 있는 저희 매장이 고객님께 좋은 공간이 되어 정말 기쁩니다. 앞으로도 신선하고 맛있는 커피와 함께 편안한 시간을 선물해 드릴 수 있도록 노력하겠습니다.\n\n다음에도 커피가 생각나실 때 언제든 들러주세요. 항상 고객님을 기다리고 있겠습니다 :)"
       },
       {
@@ -635,7 +635,7 @@
         "text": "아침 출근시간은 아메리카노 할인해서\n가성비 좋음",
         "rating": 4,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n아침 출근 시간에 아메리카노 할인 혜택으로 가성비 좋게 이용해주셨다니 정말 기쁩니다 :)\n\n앞으로도 바쁜 출근 시간에 저렴하고 맛있는 커피로 하루를 시작하실 수 있도록 다양한 혜택과 품질 있는 한 잔을 제공하겠습니다.\n내일도 라운지엑스에서 만나요. 감사합니다!"
       },
       {

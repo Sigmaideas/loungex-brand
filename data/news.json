@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-27T05:07:21.958Z",
+  "lastScrapedAt": "2026-08-27T21:15:51.468Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -12,10 +12,23 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalArticles": 59,
-  "krArticles": 58,
+  "totalArticles": 63,
+  "krArticles": 62,
   "overseasArticles": 1,
   "articles": [
+    {
+      "title": "24시 로봇카페 라운지엑스, 9월 본격 가맹사업 진출… 인건비 70% 절감 모델 제시",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5oWXBGTmdldlFkS0E2a1FBbENQRl9pbHZxSGFSUXFGUmhMenRabGdDSjRWdWtKb1lKLXd0VDVYMkQ2cnRNV0RITl9NRThwRms?oc=5",
+      "press": "CCBS뉴스",
+      "date": "2026-08-28",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-27T21:15:51.468Z",
+      "imageCheckedAt": "2026-08-27T21:15:51.468Z",
+      "image": "https://www.ehom.kr/news/2026/08/28/f3fa82cf86c7689d7e4ccfec3ecb48c2051802.jpg",
+      "sourceUrl": "https://www.toptvkorea.com/news/517085"
+    },
     {
       "title": "유인카페에서 로봇카페로 바꾸니 순수익 3배… 라운지엑스, 9월 가맹사업 본격화",
       "description": "",
@@ -54,6 +67,32 @@
       "imageCheckedAt": "2026-08-27T05:07:21.958Z",
       "image": "https://i0.wp.com/startuprecipe.co.kr/wp-content/uploads/2026/08/260827_xyzcorp.ai_50205025_slimpic.webp?fit=1000%2C750&ssl=1",
       "sourceUrl": "https://startuprecipe.co.kr/archives/5831436"
+    },
+    {
+      "title": "라운지엑스, 9월 로봇카페 가맹사업 본격화... 24시간 무인 운영 확대",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9DVkpmZ1gzNERXRUNtY04xR2l3Q2g0TkY0XzdRSDdmYzRUM2VhRXo5Rmt1cGlVZHY3cmp1dDNNMm8xdU9Eb0VWUFQxMDJtYTlkdWZQZ3p2M3VwVV82c0NmOFRnYkc1VWpPWGxRMHl30gFyQVVfeXFMTWVSNVAzRVJ6TGNiVlRuUXhlVVF2bzdZcXN3TU9oMkxFejdWemJQck9CbHp0WElVYmhLb2FvMDI4MFZ3LXRZOTVQS2R1T0lQUElBRlVQUWZhelhCNFFES09LclhKdjRzYWZMU29pOGo0R0xR?oc=5",
+      "press": "테크데일리",
+      "date": "2026-08-27",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-27T21:15:51.468Z",
+      "imageCheckedAt": "2026-08-27T21:15:51.468Z",
+      "image": "https://cdn.techdaily.co.kr/news/thumbnail/202608/29415_31732_3946_v150.jpg",
+      "sourceUrl": "https://www.techdaily.co.kr/news/articleView.html?idxno=29415"
+    },
+    {
+      "title": "라운지엑스 로봇카페 순수익 3배…9월 가맹시장 연다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5QOFRuNnU5dnREbWgzQ1hkOUJqV1VKR0NOLTlHbFlIR1c1cG5aajNyUXlJdWNKNXd1aWJkUHk4aGE1d3NHYUV5U1VndmxUMk9lcFNIYmVOSExma2N2M3J3RlZHcTIzNG16?oc=5",
+      "press": "newsphere.kr",
+      "date": "2026-08-27",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-27T21:15:51.468Z",
+      "imageCheckedAt": "2026-08-27T21:15:51.468Z",
+      "image": "https://cdn.newsphere.kr/news/photo/202608/2050_2820_51.png",
+      "sourceUrl": "https://www.newsphere.kr/news/articleView.html?idxno=2050"
     },
     {
       "title": "Lounge X 24h Increases Discounts as Coffee Prices Rise… Price Competitiveness Created by AI Robots",
@@ -377,6 +416,19 @@
       "imageCheckedAt": "2026-08-26T08:21:11.542Z",
       "image": "https://cdn.startuptoday.kr/news/thumbnail/202506/50742_38996_1734_v150.jpg",
       "sourceUrl": "https://www.startuptoday.kr/news/articleView.html?idxno=50742"
+    },
+    {
+      "title": "라운지엑스-브라우니, 무인 로봇매장 운영 위한 전략적 MOU 체결",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92Y0ZoUWxIUVROcVpEVGoyempGQjVzUnNiaW5mNWFhZTdsOW1lZEplc09hVjZ2UzNNTjk0Rk9HcUpHS3pKYkNQQi05Y0FaZXBNOGtKczh0Z2dtT0NOZ2dkTXpoRHhHVV9DQzg0WQ?oc=5",
+      "press": "로봇신문",
+      "date": "2025-06-04",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-27T21:15:51.468Z",
+      "imageCheckedAt": "2026-08-27T21:15:51.468Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202506/40364_90370_3230.png",
+      "sourceUrl": "https://www.irobotnews.com/news/articleView.html?idxno=40364"
     },
     {
       "title": "AMD와 로봇카페 ‘라운지엑스’의 만남, 콜라보 행사 주목",

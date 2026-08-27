@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-27T05:07:55.516Z",
+  "lastScrapedAt": "2026-08-27T21:16:25.457Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -14,17 +14,17 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalVideos": 26,
+  "totalVideos": 27,
   "officialVideos": 1,
-  "externalVideos": 25,
-  "krVideos": 20,
+  "externalVideos": 26,
+  "krVideos": 21,
   "overseasVideos": 6,
-  "channelCount": 26,
+  "channelCount": 27,
   "totalViews": 59787,
   "videos": [
     {
       "videoId": "hEE6D7BJQiY",
-      "title": "Making 30 Million Won a Month with a Robot Cafe Instead of a Salary",
+      "title": "월급 대신 로봇 카페로 번다 | 월 3,000만원 매출",
       "description": "... 인력 0) #라운지엑스 #로봇카페 #무인카페 #XYZ로봇 #카페창업 #프랜차이즈 #로봇프랜차이즈 #무인운영 #자동화 #창업아이템 ...",
       "channel": "부자탐사대",
       "channelId": "UCNmUys7fRyauklv6A5yipyA",
@@ -202,6 +202,18 @@
       "official": false,
       "views": 334,
       "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
+    },
+    {
+      "videoId": "u2hwj6HRd6Q",
+      "title": "푸드테크, 라운지엑스가 설명해준다",
+      "description": "라운지엑스 강남점, 핸드드립 로봇.",
+      "channel": "MachinePro",
+      "channelId": "UCpGrpSILUQzpQqTNPllzR5A",
+      "duration": "5:09",
+      "date": "2021-08-29",
+      "firstSeenAt": "2026-08-27T21:16:25.457Z",
+      "official": false,
       "region": "kr"
     },
     {
