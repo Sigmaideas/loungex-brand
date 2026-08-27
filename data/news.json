@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-26T12:08:02.877Z",
+  "lastScrapedAt": "2026-08-27T05:07:21.958Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -12,10 +12,49 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalArticles": 56,
-  "krArticles": 55,
+  "totalArticles": 59,
+  "krArticles": 58,
   "overseasArticles": 1,
   "articles": [
+    {
+      "title": "유인카페에서 로봇카페로 바꾸니 순수익 3배… 라운지엑스, 9월 가맹사업 본격화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1lTVdZT1VwaEg3UWNaQUhsUE00ck9BNTN6N01hTXB2aHd3ZGlGWkJ1S1Jqdlg1X05uS1hwRGlOX3ZIY18zaHdXMVg5My1CTjBxTFBGZTIxcmV3MnpEQ280?oc=5",
+      "press": "뉴스와이어",
+      "date": "2026-08-27",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-27T05:07:21.958Z",
+      "imageCheckedAt": "2026-08-27T05:07:21.958Z",
+      "image": "https://file.newswire.co.kr/data/datafile2/thumb_480/2026/08/1028147215_20260826171929_5469057707.png",
+      "sourceUrl": "https://www.newswire.co.kr/newsRead.php?no=1041194"
+    },
+    {
+      "title": "라운지엑스, 로봇카페 전환 매장 순수익 3배…9월 가맹사업 본격화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8xSENjdkFRSlU0S081SzF6bE1zMzdOd3JGdEotMk1mMWVTX1NVMmlPLWNGRlhPTnMxNWxTZ3hGcTVfbWthQjQ3a3FrUGRncWJjNjVNNXIxeEJQV09mb3IxZU9ST3JPaUthT3RSRVdQQndDQWc?oc=5",
+      "press": "스페셜타임스",
+      "date": "2026-08-27",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-27T05:07:21.958Z",
+      "imageCheckedAt": "2026-08-27T05:07:21.958Z",
+      "image": "https://cdn.specialtimes.co.kr/news/thumbnail/202608/454764_453963_5030_v150.jpg",
+      "sourceUrl": "https://www.specialtimes.co.kr/news/articleView.html?idxno=454764"
+    },
+    {
+      "title": "[AI서머리] 카카오쇼핑 더하는가치 진행‧라운지엑스, 9월 가맹사업 본격화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1HSWNWYTJEaE4zTk5EV3ByMUJmZkNzOExXTlR1NVh2ZGZmeHRjWlJ6Z0tGZngtSkFPZEozeFdod2hqd0RiRGZlU2NsdUZNWkE4bDVyRlFIdw?oc=5",
+      "press": "스타트업레시피",
+      "date": "2026-08-27",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-27T05:07:21.958Z",
+      "imageCheckedAt": "2026-08-27T05:07:21.958Z",
+      "image": "https://i0.wp.com/startuprecipe.co.kr/wp-content/uploads/2026/08/260827_xyzcorp.ai_50205025_slimpic.webp?fit=1000%2C750&ssl=1",
+      "sourceUrl": "https://startuprecipe.co.kr/archives/5831436"
+    },
     {
       "title": "Lounge X 24h Increases Discounts as Coffee Prices Rise… Price Competitiveness Created by AI Robots",
       "description": "",
