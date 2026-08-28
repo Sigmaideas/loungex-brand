@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-28T07:10:12.603Z",
+  "lastScrapedAt": "2026-08-28T21:39:01.978Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -20,11 +20,11 @@
   "krVideos": 22,
   "overseasVideos": 6,
   "channelCount": 28,
-  "totalViews": 59787,
+  "totalViews": 59791,
   "videos": [
     {
       "videoId": "hEE6D7BJQiY",
-      "title": "Making 30 Million Won a Month with a Robot Cafe Instead of a Salary",
+      "title": "월급 대신 로봇 카페로 번다 | 월 3,000만원 매출",
       "description": "... 인력 0) #라운지엑스 #로봇카페 #무인카페 #XYZ로봇 #카페창업 #프랜차이즈 #로봇프랜차이즈 #무인운영 #자동화 #창업아이템 ...",
       "channel": "부자탐사대",
       "channelId": "UCNmUys7fRyauklv6A5yipyA",
@@ -116,8 +116,8 @@
       "date": "2023-04-22",
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
-      "views": 583,
-      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "views": 584,
+      "detailCheckedAt": "2026-08-28T21:39:01.978Z",
       "region": "kr"
     },
     {
@@ -322,8 +322,8 @@
       "date": "2020-04-26",
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
-      "views": 480,
-      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "views": 483,
+      "detailCheckedAt": "2026-08-28T21:39:01.978Z",
       "region": "kr"
     },
     {

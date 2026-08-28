@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T07:06:57.457Z",
+  "lastUpdated": "2026-08-28T21:33:37.156Z",
   "totalStores": 10,
   "totalReviews": 750,
   "avgReviewsPerStore": 75,
@@ -14,7 +14,7 @@
       "neutralRatio": 0.18461538461538463,
       "monthlyActivity": 6,
       "latestReviewDate": "2026-08-28",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -92,7 +92,7 @@
       "neutralRatio": 0.06779661016949153,
       "monthlyActivity": 8,
       "latestReviewDate": "2026-08-28",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -143,7 +143,7 @@
         "text": "조용하고 커피도맛있고 디저트도 좋아요",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 감사합니다!\n\n조용한 분위기에서 맛있는 커피와 디저트를 즐겨주셨다니 정말 기쁘네요. 앞으로도 고객님께 편안한 휴식 공간이 될 수 있도록 정성껏 준비하겠습니다. 언제든 편하게 들러주세요 :)"
       },
       {
@@ -635,7 +635,7 @@
         "text": "잠시 더위 피하기도 좋고 일하기도 좋아요 무엇보다 카피가 맛있어요",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n더위를 피할 수 있는 쾌적한 공간에서 일하기 좋으셨고, 커피 맛까지 만족해주셨다니 정말 기쁩니다 :)\n\n앞으로도 언제 방문하시더라도 편안한 환경과 맛있는 커피로 즐거운 시간을 보내실 수 있도록 매장 관리에 더욱 신경 쓰겠습니다.\n다음 방문 때도 기분 좋은 한 잔으로 맞이하겠습니다. 감사합니다!"
       },
       {
