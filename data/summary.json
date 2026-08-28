@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-08-27T21:11:10.249Z",
+  "lastUpdated": "2026-08-28T07:06:57.457Z",
   "totalStores": 10,
-  "totalReviews": 748,
-  "avgReviewsPerStore": 74.8,
-  "monthlyActivity": 61,
+  "totalReviews": 750,
+  "avgReviewsPerStore": 75,
+  "monthlyActivity": 59,
   "stores": [
     {
       "id": "store_seongsu",
       "name": "라운지엑스24h 성수본점",
-      "reviewCount": 64,
-      "positiveRatio": 0.796875,
-      "negativeRatio": 0.015625,
-      "neutralRatio": 0.1875,
-      "monthlyActivity": 5,
-      "latestReviewDate": "2026-08-27",
-      "newReviewCount": 0,
+      "reviewCount": 65,
+      "positiveRatio": 0.8,
+      "negativeRatio": 0.015384615384615385,
+      "neutralRatio": 0.18461538461538463,
+      "monthlyActivity": 6,
+      "latestReviewDate": "2026-08-28",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -51,7 +51,7 @@
       "positiveRatio": 0.9222222222222223,
       "negativeRatio": 0.011111111111111112,
       "neutralRatio": 0.06666666666666667,
-      "monthlyActivity": 7,
+      "monthlyActivity": 5,
       "latestReviewDate": "2026-08-13",
       "newReviewCount": 0,
       "rating": null,
@@ -86,13 +86,13 @@
     {
       "id": "store_sangam_dmc",
       "name": "라운지엑스24h 상암DMC역점",
-      "reviewCount": 117,
-      "positiveRatio": 0.9316239316239316,
+      "reviewCount": 118,
+      "positiveRatio": 0.9322033898305084,
       "negativeRatio": 0,
-      "neutralRatio": 0.06837606837606838,
-      "monthlyActivity": 7,
-      "latestReviewDate": "2026-08-27",
-      "newReviewCount": 0,
+      "neutralRatio": 0.06779661016949153,
+      "monthlyActivity": 8,
+      "latestReviewDate": "2026-08-28",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -116,7 +116,7 @@
       "positiveRatio": 0.9487179487179487,
       "negativeRatio": 0,
       "neutralRatio": 0.05128205128205128,
-      "monthlyActivity": 5,
+      "monthlyActivity": 3,
       "latestReviewDate": "2026-08-06",
       "newReviewCount": 0,
       "rating": null,
@@ -138,6 +138,14 @@
   ],
   "recentReviewsByStore": {
     "store_seongsu": [
+      {
+        "date": "8.28.금",
+        "text": "조용하고 커피도맛있고 디저트도 좋아요",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 감사합니다!\n\n조용한 분위기에서 맛있는 커피와 디저트를 즐겨주셨다니 정말 기쁘네요. 앞으로도 고객님께 편안한 휴식 공간이 될 수 있도록 정성껏 준비하겠습니다. 언제든 편하게 들러주세요 :)"
+      },
       {
         "date": "8.27.목",
         "text": "성수24시간 무인카페 좋아요!",
@@ -209,14 +217,6 @@
         "sentiment": "neutral",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 성수본점을 방문해 주시고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n나른한 주말 오후를 책과 커피로 채워주신 저희 매장이 보물 같은 공간이 되어드렸다니 정말 기쁘고 보람차네요. 앞으로도 고객님께 편안한 휴식의 시간을 선물해 드릴 수 있도록 정성껏 준비하고 있을게요.\n\n언제든 조용한 오후의 나른함이 그리워지실 때, 편하게 들러주세요. 다음 방문을 기다리겠습니다 :)"
-      },
-      {
-        "date": "6.25.목",
-        "text": "쾌적한 분위기에 로봇이 커피를 타주는 무인 카페라 편하고 좋아요~\n특히 창가석 의자가 보기보다 앉기 편하고 충전 포트도 책상에 박혀있는 구조라 이용하기 편했어요!\n\n다만 몇 가지 아쉬운 점도 있었는데\n\n키오스크 메뉴에서 아이스음료를 주문할 때 메뉴에서 보이는 가격이랑 해당 음료를 터치해서 보이는 상세 페이지에서 가격 표기가 달라서 당황스러웠어요.\n모든 음료에 아이스 옵션이 추가될 경우 200원인가 추가 되는 것 같던데\n애초에 아이스로만 제공되는 음료일 경우 처음부터 가격표기를 200원이 포함된 가격으로 표기됐다면 덜 혼란스러웠을 거 같아요!\n\n그리고 인테리어는 깔끔해서 좋은데 날이 더워서 그런가 바닥이나 창틀에 날벌레 시체들이 많이 보여서 조금 불쾌했어요 ㅠ\n\n그래도 의자가 편해서 자주 이용할 듯 해요~",
-        "rating": null,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 상세한 리뷰 남겨주셔서 정말 감사합니다!\n\n쾌적한 분위기와 편안한 창가석, 그리고 편리한 충전 시설이 마음에 드셨다니 기쁩니다. 다만 키오스크 가격 표기의 혼동과 위생 부분에서 불편을 드린 점 진심으로 사과드립니다. 말씀 주신 아이스음료 가격 표기 방식은 즉시 점검하여 개선하겠으며, 매장 청소 루틴을 더욱 철저히 하여 쾌적한 환경을 유지하겠습니다.\n\n앞으로도 고객님께 편안하고 깨끗한 공간으로 더 좋은 경험을 드릴 수 있도록 노력하겠습니다. 따뜻한 지적 정말 감사드리며, 다음 방문도 기다리겠습니다 :)"
       }
     ],
     "store_seoulforest_ak": [
@@ -631,6 +631,14 @@
     ],
     "store_sangam_dmc": [
       {
+        "date": "8.28.금",
+        "text": "잠시 더위 피하기도 좋고 일하기도 좋아요 무엇보다 카피가 맛있어요",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n더위를 피할 수 있는 쾌적한 공간에서 일하기 좋으셨고, 커피 맛까지 만족해주셨다니 정말 기쁩니다 :)\n\n앞으로도 언제 방문하시더라도 편안한 환경과 맛있는 커피로 즐거운 시간을 보내실 수 있도록 매장 관리에 더욱 신경 쓰겠습니다.\n다음 방문 때도 기분 좋은 한 잔으로 맞이하겠습니다. 감사합니다!"
+      },
+      {
         "date": "8.27.목",
         "text": "아침 출근시간은 아메리카노 할인해서\n가성비 좋음",
         "rating": 4,
@@ -701,14 +709,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n자주 찾아주시고 조용한 분위기에서 노트북 작업을 편하게 하셨다니, 그리고 맛있는 커피까지 즐겨주셨다니 정말 기쁩니다 :)\n\n앞으로도 편안한 공간과 품질 좋은 커피로 여유로운 시간을 보내실 수 있도록 최선을 다하겠습니다.\n다음 방문 때도 편한 마음으로 들러주시길 기대하겠습니다. 감사합니다!"
-      },
-      {
-        "date": "7.23.목",
-        "text": "밀크티라떼가 크리미하면서도 차 향이 은은하게 살아있어서 한 모금 마시는 순간 기분이 좋아지더라고요. 아메리카노는 잡맛 없이 깔끔해서 같이 마셔도 부담이 없었어요. 상암DMC에서 빠른 응대에 모던한 공간까지 갖춘 카페, 앞으로도 자주 올 것 같아요.",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n밀크티라떼의 크리미함과 차 향, 아메리카노의 깔끔한 맛까지 세심하게 느껴주시고 좋게 평가해주셨다니 정말 기쁩니다 :)\n빠른 응대와 모던한 공간까지 마음에 들어주셨다는 말씀이 큰 힘이 됩니다.\n\n앞으로도 매 잔 정성 있게 준비하고 편안한 환경을 유지하여, 자주 방문하실 때마다 만족스러운 시간을 선사해드리겠습니다. 감사합니다!"
       }
     ],
     "store_one_grove": [
@@ -1359,7 +1359,7 @@
         "neutral": 3
       },
       {
-        "positive": 41,
+        "positive": 43,
         "negative": 2,
         "neutral": 6
       },
@@ -1393,12 +1393,12 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 473
+      "count": 474
     },
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 326
+      "count": 328
     },
     {
       "word": "로봇",
@@ -1423,7 +1423,7 @@
     {
       "word": "조용",
       "sentiment": "positive",
-      "count": 123
+      "count": 124
     },
     {
       "word": "넓은 공간",
@@ -1443,7 +1443,7 @@
     {
       "word": "디저트·베이커리",
       "sentiment": "neutral",
-      "count": 58
+      "count": 59
     },
     {
       "word": "추천",
