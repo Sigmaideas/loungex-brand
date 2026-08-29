@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-29T04:21:14.274Z",
+  "lastUpdated": "2026-08-29T15:47:42.560Z",
   "totalStores": 10,
-  "totalReviews": 752,
-  "avgReviewsPerStore": 75.2,
-  "monthlyActivity": 56,
+  "totalReviews": 754,
+  "avgReviewsPerStore": 75.4,
+  "monthlyActivity": 58,
   "stores": [
     {
       "id": "store_seongsu",
@@ -47,11 +47,11 @@
     {
       "id": "store_euljiro",
       "name": "라운지엑스24h 을지돌담길점",
-      "reviewCount": 91,
-      "positiveRatio": 0.9230769230769231,
-      "negativeRatio": 0.01098901098901099,
-      "neutralRatio": 0.06593406593406594,
-      "monthlyActivity": 4,
+      "reviewCount": 92,
+      "positiveRatio": 0.9239130434782609,
+      "negativeRatio": 0.010869565217391304,
+      "neutralRatio": 0.06521739130434782,
+      "monthlyActivity": 5,
       "latestReviewDate": "2026-08-29",
       "newReviewCount": 1,
       "rating": null,
@@ -92,20 +92,20 @@
       "neutralRatio": 0.06722689075630252,
       "monthlyActivity": 9,
       "latestReviewDate": "2026-08-29",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
     {
       "id": "store_one_grove",
       "name": "라운지엑스24h 원그로브점",
-      "reviewCount": 73,
-      "positiveRatio": 0.9178082191780822,
+      "reviewCount": 74,
+      "positiveRatio": 0.918918918918919,
       "negativeRatio": 0,
-      "neutralRatio": 0.0821917808219178,
-      "monthlyActivity": 12,
-      "latestReviewDate": "2026-08-25",
-      "newReviewCount": 0,
+      "neutralRatio": 0.08108108108108109,
+      "monthlyActivity": 13,
+      "latestReviewDate": "2026-08-29",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -389,8 +389,16 @@
         "text": "공부하러 방문했는데, 쾌적하고 배고플 때 간식도 사먹을 수 있어서 너무 편해요! 종종 작업할 때나 공부할 때 다시 방문 할 의사 완전 있습니다!!",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 라운지엑스를 공부 공간으로 찾아주셔서 정말 감사합니다!\n\n쾌적한 환경에서 집중하시면서 필요할 때 간식도 편하게 즐길 수 있다니 정말 다행입니다. 앞으로도 공부와 작업에 필요한 최적의 공간이 될 수 있도록 더욱 신경 쓰겠습니다.\n\n다음에 또 오셨을 때도 편안하고 맛있는 경험 준비해두고 기다리겠습니다. 조만간 또 봬요 ♥"
+      },
+      {
+        "date": "8.29.토",
+        "text": "기계가 내려주는 커피도 맛있고\n무인매장인데도 늘 청결하고 혼자 작업하기에 \n분위기가 좋아서 자주 방문합니다!\n베이커리도 전부 다 맛있어요😇",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 라운지엑스를 자주 찾아주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n로봇 바리스타 '바리스'가 정성껏 내려드린 커피와 베이커리가 모두 마음에 드셨다니 너무 뿌듯합니다. 작업하시기에 좋은 환경을 제공할 수 있어서 저희도 기쁜 마음입니다. 앞으로도 청결하고 편안한 공간을 유지하며 맛있는 커피와 베이커리로 인사드리겠습니다. 조만간 또 봬요 ♥"
       },
       {
         "date": "8.13.목",
@@ -455,14 +463,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 라운지엑스 을지돌담길점을 찾아주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n혼자만의 여유로운 시간을 편안하게 보내셨다니 저희도 정말 기쁩니다. 앞으로도 조용하고 쾌적한 공간에서 휴식하고 싶으실 때 언제든 편하게 들러주세요. 맛있는 커피와 함께 준비해 기다리겠습니다. 조만간 또 봬요 ♥"
-      },
-      {
-        "date": "7.28.화",
-        "text": "테이크아웃보다 여기 앉아서 마시는 게 훨씬 낫겠다 싶어서 자리 잡았는데, 분위기가 생각보다 훨씬 차분하고 좋았어요. 을지로 직장인들이 잠깐 숨 돌리기에도 딱 맞는 공간이고, 가성비도 충분히 납득이 됐어요.",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 라운지엑스 을지돌담길점을 찾아주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n직장인분께서 바쁜 일과 중 잠깐 쉬어가실 수 있는 공간으로 저희 매장이 도움이 되었다니 너무 뿌듯합니다. 앞으로도 언제든 편하게 들러 차분한 분위기에서 맛있는 커피 즐기실 수 있도록 정성껏 준비하겠습니다. 조만간 또 봬요 ♥"
       }
     ],
     "store_yongsan_prime": [
@@ -635,7 +635,7 @@
         "text": "24시간이라 좋게 맛나구. 에어컨 빵빵^^ 굿굿",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n24시간 운영과 쾌적한 실내 환경에서 맛있는 커피를 즐겨주셨다니 정말 기쁩니다 :)\n\n언제 방문하시더라도 편안한 공간에서 만족스러운 한 잔을 즐기실 수 있도록 매장 관리에 꾸준히 신경 쓰겠습니다.\n다음 방문 때도 좋은 시간 보내실 수 있도록 준비하겠습니다. 감사합니다!"
       },
       {
@@ -713,6 +713,14 @@
     ],
     "store_one_grove": [
       {
+        "date": "8.29.토",
+        "text": "아이들이 로봇을 좋아하네요",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n아이들이 저희 로봇 바리스타 바리스를 즐거워해 주셨군요 😊 가족과 함께 재미있는 시간을 보내실 수 있는 공간이 되도록 노력하겠습니다. 앞으로도 자주 들러주세요! 😄"
+      },
+      {
         "date": "8.25.화",
         "text": "강남에서 늦은 밤 커피 수혈 필요할 때 찾는 24시 \n아지트 🤖☕️ \n📍라운지엑스24h 강남역점\n모두 잠든 새벽 시간에 들러도 로봇 바리스타가 깔끔하게 내려주는 커피 한 잔 ✨\n심야 작업이나 급한 충전 필요할 때 강력 추천 💻\n#라운지엑스24h #라운지엑스강남역점 #강남역24시카페 #강남카페 #오늘클립챌린지",
         "rating": 5,
@@ -783,14 +791,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n맛있다는 평가를 받으니 저희도 매우 기쁩니다 😊 앞으로도 같은 마음으로 맛있는 음료를 준비해 드리겠습니다. 자주 들러주세요! 😄"
-      },
-      {
-        "date": "8.14.금",
-        "text": "로봇이 만들어주는 커피라니\n후르츠카페인 역시 맛있어요!\n오렌지와 커피는 늘 성공\n2층에 있어서 좀 더 조용하기도하고 좋네요",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n프루츠카페인 중에서도 오렌지와 커피의 조화를 좋아해 주셨군요 😊 2층의 조용한 분위기에서 편하게 즐겨주셨다니 기쁩니다. 앞으로도 저희 로봇 바리스타가 만들어드리는 맛있는 음료와 함께 편안한 시간을 보내시길 바랍니다. 자주 들러주세요! ☕"
       }
     ],
     "store_mapo_frontone": [
@@ -1359,7 +1359,7 @@
         "neutral": 3
       },
       {
-        "positive": 45,
+        "positive": 47,
         "negative": 2,
         "neutral": 6
       },
@@ -1393,32 +1393,32 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 474
+      "count": 475
     },
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 329
+      "count": 330
     },
     {
       "word": "로봇",
       "sentiment": "neutral",
-      "count": 158
+      "count": 159
     },
     {
       "word": "깨끗·깔끔",
       "sentiment": "positive",
-      "count": 147
+      "count": 148
+    },
+    {
+      "word": "분위기",
+      "sentiment": "neutral",
+      "count": 135
     },
     {
       "word": "아늑·편안",
       "sentiment": "positive",
       "count": 135
-    },
-    {
-      "word": "분위기",
-      "sentiment": "neutral",
-      "count": 134
     },
     {
       "word": "조용",
@@ -1438,12 +1438,12 @@
     {
       "word": "공부·작업",
       "sentiment": "neutral",
-      "count": 69
+      "count": 70
     },
     {
       "word": "디저트·베이커리",
       "sentiment": "neutral",
-      "count": 60
+      "count": 61
     },
     {
       "word": "추천",

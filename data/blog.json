@@ -1,15 +1,15 @@
 {
-  "lastScrapedAt": "2026-08-29T04:24:56.518Z",
+  "lastScrapedAt": "2026-08-29T15:54:07.361Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
     "라운지엑스 로봇카페",
     "라운지엑스 후기"
   ],
-  "totalPosts": 264,
+  "totalPosts": 266,
   "officialPosts": 11,
-  "externalPosts": 253,
-  "bloggerCount": 246,
+  "externalPosts": 255,
+  "bloggerCount": 248,
   "posts": [
     {
       "title": "나트랑 토킹바,노래방- 엑스 바 라운지 X Bar Lounge",
@@ -21,6 +21,28 @@
       "date": "2026-08-29",
       "official": false,
       "firstSeenAt": "2026-08-28T21:39:59.469Z"
+    },
+    {
+      "title": "강남역카페 성수샌드 명란소금빵 라운지엑스 24h",
+      "description": "강남역카페 라운지엑스 24h, 성수샌드 명란소금빵까지 먹어본 후기 강남역에서 볼일을 보고 나왔는데 시간이 어중간하게 남았습니다. 집에 바로 가자니 아쉽고, 그렇다고 어디 멀리 움직이기는 귀찮은 그런 날 있잖아요. 저도 휴대폰을 꺼내 강남역카페를 한참 들여다봤습니다. 그런데 늦은 시간까지 편하게 있을 곳을 찾으려니 생각보다 선택지가 애매하.더라고요....",
+      "link": "https://blog.naver.com/solmi_illustrator/224394470717",
+      "blogger": "비타민쏠미",
+      "bloggerId": "solmi_illustrator",
+      "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNjA4MjlfNTgg%2FMDAxNzg4MDA3OTYzMTEw.51P0coVVGxZWr1Cz7iUOWXAanfHbuRmlY3GSQIcGzfcg.DUJELgNsSx5ODhKelFQhy205R9WX4d4j_YAALVqkt0Ag.GIF%2F6.gif%23640x640&type=f250_208",
+      "date": "2026-08-29",
+      "official": false,
+      "firstSeenAt": "2026-08-29T15:54:07.361Z"
+    },
+    {
+      "title": "성수 24시 카페 라운지엑스 24h 성수본점 늦게까지 쉬기 좋은곳 추천",
+      "description": "성수 24시 카페 라운지엑스 24h 성수본점 늦게까지 쉬기 좋은곳 추천 이용후기를 담아 공유 드립니다. 서울 성동구 성수동2가 284-124 ⌚️영업시간 24시간 차량 이용 시 건물 지하 주차장 이용 ▪︎내방일 : 26.08.27(목) 01:18~02:00 라운지엑스 24h 성수본점 차량 이용 시 건물 지하 주차장 이용 저희는 근처 잠수교집 성수점에서 식사하고 새벽 1시쯤 방문했는데요....",
+      "link": "https://blog.naver.com/miru_sg/224394313655",
+      "blogger": "맛행",
+      "bloggerId": "miru_sg",
+      "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNjA4MjlfMjUz%2FMDAxNzg3OTc3MDI2MTMx.PIDaGVW0yuGh8oMc3liDUwuphtjlNsyrD-1vOBqpJdkg.JU74jCi_E1J0Xz0rOEISivcMczsISxltRODhpFGFOyIg.JPEG%2F900_Screenshot_20260829_131551_Naver_Blog.jpg%23900x713&type=f250_208",
+      "date": "2026-08-29",
+      "official": false,
+      "firstSeenAt": "2026-08-29T15:54:07.361Z"
     },
     {
       "title": "여의도 라운지엑스 IFC몰점 로봇 바리스타 구경 시그니처 라떼와 디카페인 커피 솔직 리뷰",
