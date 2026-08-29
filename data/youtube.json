@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-28T21:39:01.978Z",
+  "lastScrapedAt": "2026-08-29T04:23:59.525Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -20,7 +20,7 @@
   "krVideos": 22,
   "overseasVideos": 6,
   "channelCount": 28,
-  "totalViews": 59791,
+  "totalViews": 59792,
   "videos": [
     {
       "videoId": "hEE6D7BJQiY",
@@ -336,8 +336,8 @@
       "date": "2020-04-12",
       "firstSeenAt": "2026-08-26T09:03:38.367Z",
       "official": false,
-      "views": 66,
-      "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "views": 67,
+      "detailCheckedAt": "2026-08-29T04:23:59.525Z",
       "region": "kr"
     },
     {

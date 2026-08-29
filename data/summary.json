@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-28T21:33:37.156Z",
+  "lastUpdated": "2026-08-29T04:21:14.274Z",
   "totalStores": 10,
-  "totalReviews": 750,
-  "avgReviewsPerStore": 75,
-  "monthlyActivity": 59,
+  "totalReviews": 752,
+  "avgReviewsPerStore": 75.2,
+  "monthlyActivity": 56,
   "stores": [
     {
       "id": "store_seongsu",
@@ -47,13 +47,13 @@
     {
       "id": "store_euljiro",
       "name": "라운지엑스24h 을지돌담길점",
-      "reviewCount": 90,
-      "positiveRatio": 0.9222222222222223,
-      "negativeRatio": 0.011111111111111112,
-      "neutralRatio": 0.06666666666666667,
-      "monthlyActivity": 5,
-      "latestReviewDate": "2026-08-13",
-      "newReviewCount": 0,
+      "reviewCount": 91,
+      "positiveRatio": 0.9230769230769231,
+      "negativeRatio": 0.01098901098901099,
+      "neutralRatio": 0.06593406593406594,
+      "monthlyActivity": 4,
+      "latestReviewDate": "2026-08-29",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -64,7 +64,7 @@
       "positiveRatio": 0.9107142857142857,
       "negativeRatio": 0.017857142857142856,
       "neutralRatio": 0.07142857142857142,
-      "monthlyActivity": 17,
+      "monthlyActivity": 16,
       "latestReviewDate": "2026-08-25",
       "newReviewCount": 0,
       "rating": null,
@@ -86,13 +86,13 @@
     {
       "id": "store_sangam_dmc",
       "name": "라운지엑스24h 상암DMC역점",
-      "reviewCount": 118,
-      "positiveRatio": 0.9322033898305084,
+      "reviewCount": 119,
+      "positiveRatio": 0.9327731092436975,
       "negativeRatio": 0,
-      "neutralRatio": 0.06779661016949153,
-      "monthlyActivity": 8,
-      "latestReviewDate": "2026-08-28",
-      "newReviewCount": 0,
+      "neutralRatio": 0.06722689075630252,
+      "monthlyActivity": 9,
+      "latestReviewDate": "2026-08-29",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -103,7 +103,7 @@
       "positiveRatio": 0.9178082191780822,
       "negativeRatio": 0,
       "neutralRatio": 0.0821917808219178,
-      "monthlyActivity": 13,
+      "monthlyActivity": 12,
       "latestReviewDate": "2026-08-25",
       "newReviewCount": 0,
       "rating": null,
@@ -116,7 +116,7 @@
       "positiveRatio": 0.9487179487179487,
       "negativeRatio": 0,
       "neutralRatio": 0.05128205128205128,
-      "monthlyActivity": 3,
+      "monthlyActivity": 2,
       "latestReviewDate": "2026-08-06",
       "newReviewCount": 0,
       "rating": null,
@@ -385,6 +385,14 @@
     ],
     "store_euljiro": [
       {
+        "date": "8.29.토",
+        "text": "공부하러 방문했는데, 쾌적하고 배고플 때 간식도 사먹을 수 있어서 너무 편해요! 종종 작업할 때나 공부할 때 다시 방문 할 의사 완전 있습니다!!",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 라운지엑스를 공부 공간으로 찾아주셔서 정말 감사합니다!\n\n쾌적한 환경에서 집중하시면서 필요할 때 간식도 편하게 즐길 수 있다니 정말 다행입니다. 앞으로도 공부와 작업에 필요한 최적의 공간이 될 수 있도록 더욱 신경 쓰겠습니다.\n\n다음에 또 오셨을 때도 편안하고 맛있는 경험 준비해두고 기다리겠습니다. 조만간 또 봬요 ♥"
+      },
+      {
         "date": "8.13.목",
         "text": "원래 아침에 갓나온 빵만 사러 왔었는데요.\n모닝커피 할인 시작하고\n커피원두가 저가 커피집보다 풍미가 있어서 커피도 애용하기 시작했습니다.\n근처직장인인데 아침마다 들리는중입니다. 근데 빵이 포장되어 나오기?시작부터\n아침에오면 빵이 없는경우가 많아요.ㅠㅜ\n여기직장인들은 출근이 7~9시경입니다. 9넘으면 아슬한데요.거의 넘어서 나오는것같습니다.\n아침에 커피+빵먹기 딱좋은데 빵이너무 늦게 나오다보니 애용할수없게 되었어요.\n9시전에 새빵나올수  있나요.?\n한번은 전날구운빵을 파시던데, 먹어보니 눅룩하고 바삭함이 전혀없는데 그대로 다음날 파시는건 좀  고려해보셔야할듯합니다.\n더불어 로봇제조라 그런가? 커피 물의 양이 조금씩 차이가 나네요. 생수를 배치해주시면 물을 조금 타서 먹을수 있게해주시면 좋겠습니다.",
         "rating": 2.5,
@@ -455,14 +463,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 라운지엑스 을지돌담길점을 찾아주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n직장인분께서 바쁜 일과 중 잠깐 쉬어가실 수 있는 공간으로 저희 매장이 도움이 되었다니 너무 뿌듯합니다. 앞으로도 언제든 편하게 들러 차분한 분위기에서 맛있는 커피 즐기실 수 있도록 정성껏 준비하겠습니다. 조만간 또 봬요 ♥"
-      },
-      {
-        "date": "7.27.월",
-        "text": "친구랑 잠깐 쉬어가려고 들어왔는데 안쪽 좌석이 생각보다 넓고 포근해서 오히려 더 오래 있게 됐어요. 을지돌담길 근처에 이런 분위기 카페가 있다는 게 새삼 좋았어요.",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 라운지엑스 을지돌담길점을 찾아주셔서 정말 감사합니다!\n\n편안한 공간에서 친구분과 함께 시간을 보내셨다니 저희도 너무 기쁩니다. 앞으로도 을지돌담길을 지나실 때 편하게 들러 쉬어가실 수 있는 포근한 카페로 남을 수 있도록 정성껏 준비하겠습니다. 조만간 또 봬요 ♥"
       }
     ],
     "store_yongsan_prime": [
@@ -631,6 +631,14 @@
     ],
     "store_sangam_dmc": [
       {
+        "date": "8.29.토",
+        "text": "24시간이라 좋게 맛나구. 에어컨 빵빵^^ 굿굿",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n24시간 운영과 쾌적한 실내 환경에서 맛있는 커피를 즐겨주셨다니 정말 기쁩니다 :)\n\n언제 방문하시더라도 편안한 공간에서 만족스러운 한 잔을 즐기실 수 있도록 매장 관리에 꾸준히 신경 쓰겠습니다.\n다음 방문 때도 좋은 시간 보내실 수 있도록 준비하겠습니다. 감사합니다!"
+      },
+      {
         "date": "8.28.금",
         "text": "잠시 더위 피하기도 좋고 일하기도 좋아요 무엇보다 카피가 맛있어요",
         "rating": 5,
@@ -701,14 +709,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n아메리카노의 깔끔한 맛과 복숭아 아이스티의 자연스러운 과일 향, 그리고 제주 유기농 말차라떼까지 모두 만족해주셨다니 정말 기쁩니다 :)\n\n친구분과 함께 즐기실 수 있는 모던한 공간에서 좋은 경험을 하셨다는 말씀이 큰 힘이 됩니다. 앞으로도 각 메뉴의 진정한 맛과 품질을 지켜내며, 편안하고 세련된 분위기 속에서 만족스러운 한 잔을 제공할 수 있도록 노력하겠습니다.\n다음 방문 때도 기분 좋은 시간 보내실 수 있도록 준비하겠습니다. 감사합니다!"
-      },
-      {
-        "date": "7.23.목",
-        "text": "또 왔어요💚💚💚 분위기도 조용하니 노트북 작업하기 너무 좋아서 자주 방문하고 있어요! 지금 이벤트로 2시까지 커피 1,800원이라 너무 좋아요!!!😋😋😋 커피도 너무 맛있쟈나,,!!!!",
-        "rating": 4.5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n자주 찾아주시고 조용한 분위기에서 노트북 작업을 편하게 하셨다니, 그리고 맛있는 커피까지 즐겨주셨다니 정말 기쁩니다 :)\n\n앞으로도 편안한 공간과 품질 좋은 커피로 여유로운 시간을 보내실 수 있도록 최선을 다하겠습니다.\n다음 방문 때도 편한 마음으로 들러주시길 기대하겠습니다. 감사합니다!"
       }
     ],
     "store_one_grove": [
@@ -1359,7 +1359,7 @@
         "neutral": 3
       },
       {
-        "positive": 43,
+        "positive": 45,
         "negative": 2,
         "neutral": 6
       },
@@ -1398,7 +1398,7 @@
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 328
+      "count": 329
     },
     {
       "word": "로봇",
@@ -1411,13 +1411,13 @@
       "count": 147
     },
     {
-      "word": "분위기",
-      "sentiment": "neutral",
-      "count": 134
-    },
-    {
       "word": "아늑·편안",
       "sentiment": "positive",
+      "count": 135
+    },
+    {
+      "word": "분위기",
+      "sentiment": "neutral",
       "count": 134
     },
     {
@@ -1438,12 +1438,12 @@
     {
       "word": "공부·작업",
       "sentiment": "neutral",
-      "count": 68
+      "count": 69
     },
     {
       "word": "디저트·베이커리",
       "sentiment": "neutral",
-      "count": 59
+      "count": 60
     },
     {
       "word": "추천",
