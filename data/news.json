@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-29T15:52:58.690Z",
+  "lastScrapedAt": "2026-08-30T01:44:24.133Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -12,8 +12,8 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalArticles": 64,
-  "krArticles": 63,
+  "totalArticles": 65,
+  "krArticles": 64,
   "overseasArticles": 1,
   "articles": [
     {
@@ -845,6 +845,19 @@
       "imageCheckedAt": "2026-08-26T08:22:30.665Z",
       "image": "https://www.fashionbiz.co.kr/images/BR/%EC%9D%B4%EB%AF%B8%EC%A7%804_600.JPG",
       "sourceUrl": "https://fashionbiz.co.kr/article/174159"
+    },
+    {
+      "title": "로봇 카페 라운지엑스, 펀디엑스 엑스포스 통해 암호화폐 결제 지원",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5nTVdVNllKWTAwb1lZMHNseEc0MXEwT1U0WVEyS2g3ZkMyY0hfLTJiYUhyd3RKLXJDRnZSTkJFQ2hEMWkwaGZIOGZLakhsWXVtc0lDTXNfYXd0MUxwWmIweUIzYWg2Vk0?oc=5",
+      "press": "테크월드",
+      "date": "2019-07-09",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-30T01:44:24.133Z",
+      "imageCheckedAt": "2026-08-30T01:44:24.133Z",
+      "image": "https://cdn.epnc.co.kr/news/photo/201907/91129_81410_758.jpg",
+      "sourceUrl": "https://www.epnc.co.kr/news/articleView.html?idxno=91129"
     }
   ]
 }
