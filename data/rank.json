@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-08-30T01:44:16.813Z",
-  "updatedDate": "2026-08-30",
+  "lastScrapedAt": "2026-08-30T15:35:44.262Z",
+  "updatedDate": "2026-08-31",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -3287,6 +3287,10 @@
         },
         {
           "date": "2026-08-29",
+          "rank": null
+        },
+        {
+          "date": "2026-08-31",
           "rank": null
         }
       ],

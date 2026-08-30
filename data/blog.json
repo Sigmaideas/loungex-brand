@@ -1,15 +1,15 @@
 {
-  "lastScrapedAt": "2026-08-30T01:45:42.944Z",
+  "lastScrapedAt": "2026-08-30T15:38:02.870Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
     "라운지엑스 로봇카페",
     "라운지엑스 후기"
   ],
-  "totalPosts": 267,
+  "totalPosts": 270,
   "officialPosts": 11,
-  "externalPosts": 256,
-  "bloggerCount": 249,
+  "externalPosts": 259,
+  "bloggerCount": 252,
   "posts": [
     {
       "title": "에버랜드 카페 라운지엑스 에버랜드점 로봇 카페 젤라또 아이스크림",
@@ -21,6 +21,39 @@
       "date": "2026-08-30",
       "official": false,
       "firstSeenAt": "2026-08-30T01:45:42.944Z"
+    },
+    {
+      "title": "성수동카페 | 24시간로봇 바리스타가 커피를 만드는 라운지엑스 24h & 성수샌드 방문 후기",
+      "description": "아니 글쎄, 성수동에 24시간로봇 바리스타가 만들어주는 커피가 있다는 라운지엑스 24h 성수점 소문이 자자해서 다녀왔어요. 제가 어제는 기계가 내려주는 필터커피를 마셨잖아요? 바리스타가 사람이 아닌 로봇이라고요? 로봇은 자동차와 같은 큰 제조업 공장이나 집안에서 이모님으로 뫼시는 청소기 정도로 생각했는데... 신기하고 재미있었던 라운지엑스 24h 성수점 찐...",
+      "link": "https://blog.naver.com/imchoonsikmom/224395258045",
+      "blogger": "<춘식맘의 슬기로운 리뷰생활>",
+      "bloggerId": "imchoonsikmom",
+      "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNjA4MzFfMjE4%2FMDAxNzg4MTAyOTExMTU5.CcM_WAdvDGEtoJF97RaHN_eV2PU2G9iSsRMcXdVb3HEg.AvZT-IeJ0eIOjEPeEfKcqD-B-OqYtHdzYyQisToplx0g.PNG%2FGemini_Generated_Image_gqsn99gqsn99gqsn.png%231024x1024&type=f250_208",
+      "date": "2026-08-30",
+      "official": false,
+      "firstSeenAt": "2026-08-30T15:38:02.870Z"
+    },
+    {
+      "title": "을지로 카페 라운지엑스 24h, 24시간 무인카페 후기",
+      "description": "을지로에서 카페를 찾다 보면 생각보다 늦은 시간까지 열어 있는 곳이 많지 않은데, 이번에 들른 라운지엑스 24h 을지돌담길점은 이름 그대로 24시간 이용할 수 있는 카페였어요. 일반 카페와 조금 다른 점은 직원이 커피를 내려주는 방식이 아니라 로봇 바리스타가 주문한 음료를 만들어줘요. 커피만 있는 무인카페 느낌일 줄 알았는데, 막상 가보니 소금빵이나 성수샌드...",
+      "link": "https://blog.naver.com/jnote99/224383386432",
+      "blogger": "제이노트의 일상",
+      "bloggerId": "jnote99",
+      "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNjA4MTlfMjA3%2FMDAxNzg3MTA3OTkyMTY0.6RSDaZrMO6soAX-qJ6QwtXZCITLAtdoYWtJ57K8y11cg.yyW4vJS49EcNt73C-rEPkLsMgXV34yh55eIiVRhgBIUg.JPEG%2FIMG%25A3%25DF3208.JPG%234284x5712&type=f250_208",
+      "date": "2026-08-30",
+      "official": false,
+      "firstSeenAt": "2026-08-30T15:38:02.870Z"
+    },
+    {
+      "title": "강남 24시 카페 카공하기좋은 라운지엑스 24h",
+      "description": "위치 : 서울시 강남구 강남대로 378 24시간 운영 신분당선 강남역 3번출구 바로 앞 라운지엑스 강남점 최근에 생긴 카페라 강남역을 지나다니시는 분들이라면 빨간 벽돌의 카페를 보신적 있으실텐데요. 저도 어떤 카페일지 궁금했는데 로봇카페라고해서 더 궁금해졌어요. 들어가자마자 보이는 로봇. 사람이 있어야하는 자리에 로봇이 대신하고 있더라구요. 주문을 하면...",
+      "link": "https://blog.naver.com/happyzoe_/224394975964",
+      "blogger": "해삐한 이불 밖 여행기록",
+      "bloggerId": "happyzoe_",
+      "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNjA4MzBfMjcy%2FMDAxNzg4MDY3OTE2Nzcx.Le3v70zDsoAfsU2tW3PUC04cINp32SD8AVDjBD9bcpwg.g10rrvCiZLc54MyhHKD0X_4r-V7Iq5WzIFk5eGIyTLEg.PNG%2F2.png%231080x1080&type=f250_208",
+      "date": "2026-08-30",
+      "official": false,
+      "firstSeenAt": "2026-08-30T15:38:02.870Z"
     },
     {
       "title": "나트랑 토킹바,노래방- 엑스 바 라운지 X Bar Lounge",

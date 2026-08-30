@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-30T01:39:59.481Z",
+  "lastUpdated": "2026-08-30T15:30:45.040Z",
   "totalStores": 10,
-  "totalReviews": 18,
-  "avgReviewsPerStore": 1.8,
-  "monthlyActivity": 4,
+  "totalReviews": 19,
+  "avgReviewsPerStore": 1.9,
+  "monthlyActivity": 5,
   "stores": [
     {
       "id": "store_seongsu",
@@ -34,15 +34,15 @@
     {
       "id": "store_gangnam",
       "name": "라운지엑스24h 강남역점",
-      "reviewCount": 4,
-      "positiveRatio": 0.5,
-      "negativeRatio": 0.25,
-      "neutralRatio": 0.25,
-      "monthlyActivity": 2,
-      "latestReviewDate": "2026-08-21",
-      "newReviewCount": 0,
-      "rating": 3.5,
-      "ratingCount": 4
+      "reviewCount": 5,
+      "positiveRatio": 0.6,
+      "negativeRatio": 0.2,
+      "neutralRatio": 0.2,
+      "monthlyActivity": 3,
+      "latestReviewDate": "2026-08-30",
+      "newReviewCount": 1,
+      "rating": 3.8,
+      "ratingCount": 5
     },
     {
       "id": "store_euljiro",
@@ -182,6 +182,14 @@
       }
     ],
     "store_gangnam": [
+      {
+        "date": "2026-08-30",
+        "text": "신기방기\n\n커피맛 인정\n\n때려박는 쓴맛 커피보다 백천배 맛있음\n\n#라운지엑스",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 솔직한 리뷰 남겨주셔서 감사합니다!\n\n로봇 바리스타 '바리스'의 정교한 추출 방식이 만들어내는 깔끔하고 균형 잡힌 커피 맛을 제대로 느껴주셨네요. 최적의 레시피로 조화로운 맛을 살리는 것이 저희의 가장 큰 자부심이니까요. :)\n\n앞으로도 신기한 경험과 함께 맛있는 커피를 즐기실 수 있도록 정성껏 준비하겠습니다. 언제든 다시 찾아주세요!"
+      },
       {
         "date": "2026-08-21",
         "text": "매일아침 참새 방앗간이에요 \n\n라떼 우유맛 풍성하게 느껴져서 넘 맛있고 , 실내 인테리어도 깔끔하고 너무 시원해서 좋아요 ❤️",
@@ -346,6 +354,13 @@
           "rating": 4,
           "sentiment": "positive",
           "autoReply": "안녕하세요 :) 저희 라운지엑스를 매일 찾아주시고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n라떼의 풍성한 우유 맛을 제대로 느껴주셨네요. 로봇 바리스타 '바리스'가 항상 일정한 최적의 레시피로 정성껏 추출하기 때문에 매번 변함없는 맛을 즐기실 수 있답니다. 깔끔하고 시원한 분위기도 마음에 들어주셔서 기쁩니다!\n\n앞으로도 매일 아침을 시작하는 든든한 아지트가 될 수 있도록 더욱 정성스럽게 준비하겠습니다. 항상 맛있는 커피로 뵙겠습니다 :)"
+        },
+        {
+          "date": "2026-08-30",
+          "text": "신기방기\n\n커피맛 인정\n\n때려박는 쓴맛 커피보다 백천배 맛있음\n\n#라운지엑스",
+          "rating": 5,
+          "sentiment": "positive",
+          "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 솔직한 리뷰 남겨주셔서 감사합니다!\n\n로봇 바리스타 '바리스'의 정교한 추출 방식이 만들어내는 깔끔하고 균형 잡힌 커피 맛을 제대로 느껴주셨네요. 최적의 레시피로 조화로운 맛을 살리는 것이 저희의 가장 큰 자부심이니까요. :)\n\n앞으로도 신기한 경험과 함께 맛있는 커피를 즐기실 수 있도록 정성껏 준비하겠습니다. 언제든 다시 찾아주세요!"
         },
         {
           "date": "2026-08-19",
@@ -624,7 +639,7 @@
         "neutral": 1
       },
       {
-        "positive": 4,
+        "positive": 5,
         "negative": 0,
         "neutral": 0
       },
@@ -659,12 +674,12 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 12
+      "count": 13
     },
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 7
+      "count": 8
     },
     {
       "word": "깨끗·깔끔",
