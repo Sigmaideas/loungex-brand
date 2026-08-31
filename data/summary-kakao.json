@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T15:30:45.040Z",
+  "lastUpdated": "2026-08-31T01:37:48.513Z",
   "totalStores": 10,
   "totalReviews": 19,
   "avgReviewsPerStore": 1.9,
@@ -40,9 +40,9 @@
       "neutralRatio": 0.2,
       "monthlyActivity": 3,
       "latestReviewDate": "2026-08-30",
-      "newReviewCount": 1,
-      "rating": 3.8,
-      "ratingCount": 5
+      "newReviewCount": 0,
+      "rating": 4,
+      "ratingCount": 6
     },
     {
       "id": "store_euljiro",
@@ -67,8 +67,8 @@
       "monthlyActivity": 0,
       "latestReviewDate": "2025-12-30",
       "newReviewCount": 0,
-      "rating": 4,
-      "ratingCount": 6
+      "rating": 4.1,
+      "ratingCount": 7
     },
     {
       "id": "store_garak_it",
@@ -187,7 +187,7 @@
         "text": "신기방기\n\n커피맛 인정\n\n때려박는 쓴맛 커피보다 백천배 맛있음\n\n#라운지엑스",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 솔직한 리뷰 남겨주셔서 감사합니다!\n\n로봇 바리스타 '바리스'의 정교한 추출 방식이 만들어내는 깔끔하고 균형 잡힌 커피 맛을 제대로 느껴주셨네요. 최적의 레시피로 조화로운 맛을 살리는 것이 저희의 가장 큰 자부심이니까요. :)\n\n앞으로도 신기한 경험과 함께 맛있는 커피를 즐기실 수 있도록 정성껏 준비하겠습니다. 언제든 다시 찾아주세요!"
       },
       {
