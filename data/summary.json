@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-09-01T02:04:28.418Z",
+  "lastUpdated": "2026-09-01T15:35:09.317Z",
   "totalStores": 10,
-  "totalReviews": 761,
-  "avgReviewsPerStore": 76.1,
-  "monthlyActivity": 57,
+  "totalReviews": 762,
+  "avgReviewsPerStore": 76.2,
+  "monthlyActivity": 58,
   "stores": [
     {
       "id": "store_seongsu",
@@ -99,13 +99,13 @@
     {
       "id": "store_one_grove",
       "name": "라운지엑스24h 원그로브점",
-      "reviewCount": 75,
-      "positiveRatio": 0.9066666666666666,
+      "reviewCount": 76,
+      "positiveRatio": 0.9078947368421053,
       "negativeRatio": 0,
-      "neutralRatio": 0.09333333333333334,
-      "monthlyActivity": 13,
-      "latestReviewDate": "2026-08-31",
-      "newReviewCount": 0,
+      "neutralRatio": 0.09210526315789473,
+      "monthlyActivity": 14,
+      "latestReviewDate": "2026-09-01",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -713,6 +713,14 @@
     ],
     "store_one_grove": [
       {
+        "date": "9.1.화",
+        "text": "가성비 좋아요\n로봇이 커피내려주고~~  매장깨끗해요",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n합리적인 가격과 깨끗한 매장 환경, 그리고 저희 로봇 바리스타 바리스가 내려주는 커피까지 모두 만족스러우셨다니 기쁩니다 ☕ 앞으로도 항상 쾌적한 공간과 맛있는 커피로 찾아주시길 바랍니다! 😊"
+      },
+      {
         "date": "8.31.월",
         "text": "커피 산미있고 ㄱㅊ아요",
         "rating": 3.5,
@@ -783,14 +791,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n저희 음료를 맛있게 즐겨주셨다니 정말 기쁩니다 ☕ 앞으로도 변함없는 맛으로 찾아뵐 수 있도록 하겠습니다. 자주 들러주세요! 😄"
-      },
-      {
-        "date": "8.22.토",
-        "text": "무인 로봇카페 신기해요",
-        "rating": 4,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n무인 로봇 카페의 새로운 경험이 신기하셨군요 😊 저희 로봇 바리스타 '바리스'가 만들어드리는 커피를 느끼며 즐거운 시간 되셨길 바랍니다. 앞으로도 색다른 경험을 찾으실 때 저희를 찾아주세요! 😄"
       }
     ],
     "store_mapo_frontone": [
@@ -1379,7 +1379,7 @@
         "neutral": 7
       },
       {
-        "positive": 0,
+        "positive": 1,
         "negative": 0,
         "neutral": 0
       },
@@ -1408,7 +1408,7 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 479
+      "count": 480
     },
     {
       "word": "맛있다",
@@ -1418,12 +1418,12 @@
     {
       "word": "로봇",
       "sentiment": "neutral",
-      "count": 160
+      "count": 161
     },
     {
       "word": "깨끗·깔끔",
       "sentiment": "positive",
-      "count": 148
+      "count": 149
     },
     {
       "word": "분위기",
@@ -1448,7 +1448,7 @@
     {
       "word": "가성비·가격",
       "sentiment": "neutral",
-      "count": 98
+      "count": 99
     },
     {
       "word": "공부·작업",
