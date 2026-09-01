@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-31T18:16:02.249Z",
+  "lastScrapedAt": "2026-09-01T02:07:45.569Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -12,8 +12,8 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalArticles": 65,
-  "krArticles": 64,
+  "totalArticles": 66,
+  "krArticles": 65,
   "overseasArticles": 1,
   "articles": [
     {
@@ -388,6 +388,19 @@
       "firstSeenAt": "2026-08-06T04:25:12.059Z",
       "region": "kr",
       "imageCheckedAt": "2026-08-26T08:21:11.542Z",
+      "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=797,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2025/09/2025091615512012541_1.jpg",
+      "sourceUrl": "https://www.mt.co.kr/industry/2025/09/16/2025091615512012541"
+    },
+    {
+      "title": "라운지엑스, 로봇카페 최초 교보문고 큐레이션 도서 판매 개시",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CTzd4X1haMU5NTlA4cVZrMFlzMzdiM3E3ZlhyVDAxMVhURnd4emJDY0ZkN19JVmZkSE1QTkxVM0xnaFNIQVJDSzlHTUp6cGhSOGRHdmNIVk1XT0JxaG4yRmEwZTRJUXJ2X051Xw?oc=5",
+      "press": "머니투데이",
+      "date": "2025-09-16",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-01T02:07:45.569Z",
+      "imageCheckedAt": "2026-09-01T02:07:45.569Z",
       "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=797,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2025/09/2025091615512012541_1.jpg",
       "sourceUrl": "https://www.mt.co.kr/industry/2025/09/16/2025091615512012541"
     },
