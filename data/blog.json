@@ -1,15 +1,15 @@
 {
-  "lastScrapedAt": "2026-09-01T15:41:09.047Z",
+  "lastScrapedAt": "2026-09-02T01:29:51.654Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
     "라운지엑스 로봇카페",
     "라운지엑스 후기"
   ],
-  "totalPosts": 286,
+  "totalPosts": 288,
   "officialPosts": 12,
-  "externalPosts": 274,
-  "bloggerCount": 267,
+  "externalPosts": 276,
+  "bloggerCount": 269,
   "posts": [
     {
       "title": "마곡 24시 카페 라운지엑스 원그로브점 노트북하기 좋은 카페",
@@ -21,6 +21,17 @@
       "date": "2026-09-02",
       "official": false,
       "firstSeenAt": "2026-09-01T15:41:09.047Z"
+    },
+    {
+      "title": "성수동 카페 추천 라운지엑스 성수본점 교보문고 콜라보 24시간 영업 카페 후기.",
+      "description": "성수 라운지엑스 카페 & 교보문고 콜라보 성수동 카페 추천 24시간 영업하는 곳 © 글, 사진, 영상 \"밍크의 여행일기\" 안녕하세요. 밍크의 여행일기입니다. 지인과 함께 1차로 성수 \"전자방\" 중식집에서 1차로 정통 중식 요리를 맛본 후에 2차로 입가심으로 들렀던 성수동 카페입니다. 로봇이 커피를 제조하는데 가격대도 괜찮고 좋은 원두를 사용하는 곳이라서 그런지...",
+      "link": "https://blog.naver.com/rivertour/224398046969",
+      "blogger": "밍크",
+      "bloggerId": "rivertour",
+      "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNjA4MThfMzYg%2FMDAxNzg3MDIwOTAwMDE1.dGq5n7Bno9vXTJrry0Jsf877_4mEEDR1oo_qWmFwHJwg.BuaswqcOwCNzAUCUHqE3AiTy8H0OKLlYif7BGIWm0ZMg.JPEG%2F900_20260708_141840.jpg%23900x1200&type=f250_208",
+      "date": "2026-09-02",
+      "official": false,
+      "firstSeenAt": "2026-09-02T01:29:51.654Z"
     },
     {
       "title": "강남 24시 카페 출근길 간식 추천! 강남역 카페 라운지엑스 에서 버터번·성수샌드 포장",
@@ -186,6 +197,17 @@
       "date": "2026-08-31",
       "official": false,
       "firstSeenAt": "2026-08-31T18:17:16.203Z"
+    },
+    {
+      "title": "[성수24시간카페] 라운지엑스 24h 로봇카페 성수샌드 후기",
+      "description": "바로 라운지엑스 24h라는 곳인데요. 이름처럼 24시간 이용할 수 있는 데다가 로봇카페로 운영되는 곳이라 처음부터 궁금했던 곳이에요. 사실 무인매장이라고 하면 조금 차갑고 딱딱한 분위기를 생각하기 쉬운데, 막상 들어가 보니 생각보다 훨씬 따뜻하고 아늑한 느낌이었어요. 성수동 특유의 감각적인 분위기도 느껴지고, 곳곳에 포스터와 원두 관련 콘텐츠도 있어서...",
+      "link": "https://blog.naver.com/moo_9/224396504242",
+      "blogger": "오늘도 즐겁게, 내일도 신나게!",
+      "bloggerId": "moo_9",
+      "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNjA5MDJfNTcg%2FMDAxNzg4MzA2MzczNTgw.ASMnLExTf0Q-XXpO_82zKeSCBrMIfbwtneiMaPYpeqcg.6EIrrFcr4mMOeBduzKxJFFPyXBldDIu52OhG_7AgT_4g.JPEG%2FIMG%25A3%25DF3063.jpg%23900x900&type=ff192_192",
+      "date": "2026-08-31",
+      "official": false,
+      "firstSeenAt": "2026-09-02T01:29:51.654Z"
     },
     {
       "title": "에버랜드 카페 라운지엑스 에버랜드점 로봇 카페 젤라또 아이스크림",

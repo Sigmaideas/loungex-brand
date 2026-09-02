@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-09-01T15:35:09.317Z",
+  "lastUpdated": "2026-09-02T01:23:51.569Z",
   "totalStores": 10,
   "totalReviews": 762,
   "avgReviewsPerStore": 76.2,
-  "monthlyActivity": 58,
+  "monthlyActivity": 57,
   "stores": [
     {
       "id": "store_seongsu",
@@ -38,7 +38,7 @@
       "positiveRatio": 0.95,
       "negativeRatio": 0,
       "neutralRatio": 0.05,
-      "monthlyActivity": 5,
+      "monthlyActivity": 4,
       "latestReviewDate": "2026-08-23",
       "newReviewCount": 0,
       "rating": null,
@@ -105,7 +105,7 @@
       "neutralRatio": 0.09210526315789473,
       "monthlyActivity": 14,
       "latestReviewDate": "2026-09-01",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -717,7 +717,7 @@
         "text": "가성비 좋아요\n로봇이 커피내려주고~~  매장깨끗해요",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n합리적인 가격과 깨끗한 매장 환경, 그리고 저희 로봇 바리스타 바리스가 내려주는 커피까지 모두 만족스러우셨다니 기쁩니다 ☕ 앞으로도 항상 쾌적한 공간과 맛있는 커피로 찾아주시길 바랍니다! 😊"
       },
       {

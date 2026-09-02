@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-01T15:40:12.837Z",
+  "lastScrapedAt": "2026-09-02T01:28:42.493Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -14,12 +14,12 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalVideos": 28,
+  "totalVideos": 32,
   "officialVideos": 1,
-  "externalVideos": 27,
-  "krVideos": 22,
-  "overseasVideos": 6,
-  "channelCount": 28,
+  "externalVideos": 31,
+  "krVideos": 25,
+  "overseasVideos": 7,
+  "channelCount": 32,
   "totalViews": 59794,
   "videos": [
     {
@@ -90,6 +90,18 @@
       "official": true,
       "views": 1065,
       "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "kr"
+    },
+    {
+      "videoId": "NHYsHxUNC8Y",
+      "title": "라운지엑스 IFC몰카페에 신기방기한 라운지엑스 로봇드립커피 맛있기까지! #협찬 #영등포카페 #여의도카페 #IFC몰카페 #IFC몰맛집 #라운지엑스 #로봇커피 #로봇드립커피 #드립커피",
+      "description": "",
+      "channel": "두드림",
+      "channelId": "UCwQRbPD0D_gH2Yjjtq3wSUg",
+      "duration": "0:44",
+      "date": "2025-09-02",
+      "firstSeenAt": "2026-09-02T01:28:42.493Z",
+      "official": false,
       "region": "kr"
     },
     {
@@ -205,6 +217,18 @@
       "region": "kr"
     },
     {
+      "videoId": "gamLbmlSip4",
+      "title": "라운지엑스 커피 로봇, 역삼동 서울",
+      "description": "라운지엑스는 국내 최초의 바리스타 로봇 협업 카페다. 원두의 특성을 고려한 핸드드립 알고리즘을 통해 스패셜티 커피를 언제나 오차 ...",
+      "channel": "김기만",
+      "channelId": "UCFKHTYkcyR6XTVm-NnGaJ_g",
+      "duration": "0:15",
+      "date": "2021-09-03",
+      "firstSeenAt": "2026-09-02T01:28:42.493Z",
+      "official": false,
+      "region": "kr"
+    },
+    {
       "videoId": "u2hwj6HRd6Q",
       "title": "푸드테크, 라운지엑스가 설명해준다",
       "description": "라운지엑스 강남점, 핸드드립 로봇.",
@@ -285,6 +309,18 @@
       "region": "overseas",
       "views": 312,
       "detailCheckedAt": "2026-08-26T14:51:56.596Z"
+    },
+    {
+      "videoId": "YuLICcEG_H0",
+      "title": "#라운지엑스 #로봇카페 #로봇커피 #팡셔틀",
+      "description": "",
+      "channel": "따뜻한식사",
+      "channelId": "UCy_cr0aimGMAFLxJh8RjjYQ",
+      "duration": "0:06",
+      "date": "2020-09-03",
+      "firstSeenAt": "2026-09-02T01:28:42.493Z",
+      "official": false,
+      "region": "kr"
     },
     {
       "videoId": "Jt2BmuuJDQM",
@@ -409,6 +445,18 @@
       "views": 2975,
       "detailCheckedAt": "2026-08-26T14:51:56.596Z",
       "region": "kr"
+    },
+    {
+      "videoId": "aljsLU8cWlY",
+      "title": "How to Order at Robot Barista Coffee shop - Lounge(x) in Gangnam Seoul Korea",
+      "description": "",
+      "channel": "Precision Coffee Lab",
+      "channelId": "UCmiPu7CBPYXxOvLvEmg_3mg",
+      "duration": "1:49",
+      "date": null,
+      "firstSeenAt": "2026-09-02T01:28:42.493Z",
+      "official": false,
+      "region": "overseas"
     }
   ]
 }
