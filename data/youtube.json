@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-02T01:28:42.493Z",
+  "lastScrapedAt": "2026-09-02T15:23:59.799Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -14,12 +14,12 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalVideos": 32,
+  "totalVideos": 33,
   "officialVideos": 1,
-  "externalVideos": 31,
-  "krVideos": 25,
+  "externalVideos": 32,
+  "krVideos": 26,
   "overseasVideos": 7,
-  "channelCount": 32,
+  "channelCount": 33,
   "totalViews": 59794,
   "videos": [
     {
@@ -309,6 +309,18 @@
       "region": "overseas",
       "views": 312,
       "detailCheckedAt": "2026-08-26T14:51:56.596Z"
+    },
+    {
+      "videoId": "cKDMRanM6L4",
+      "title": "대전 소제동 로봇바리스타카페 라운지엑스",
+      "description": "대전 소제동 로봇바리스타카페 라운지엑스(LOUNGE X SOJE)",
+      "channel": "Niceday",
+      "channelId": "UCgfsXaCYg4uu2-KdhcMOm2A",
+      "duration": "2:51",
+      "date": "2020-09-04",
+      "firstSeenAt": "2026-09-02T15:23:59.799Z",
+      "official": false,
+      "region": "kr"
     },
     {
       "videoId": "YuLICcEG_H0",
