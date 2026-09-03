@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-09-02T15:18:56.695Z",
+  "lastUpdated": "2026-09-03T01:27:46.952Z",
   "totalStores": 10,
   "totalReviews": 763,
   "avgReviewsPerStore": 76.3,
-  "monthlyActivity": 58,
+  "monthlyActivity": 57,
   "stores": [
     {
       "id": "store_seongsu",
@@ -103,9 +103,9 @@
       "positiveRatio": 0.9090909090909091,
       "negativeRatio": 0,
       "neutralRatio": 0.09090909090909091,
-      "monthlyActivity": 15,
+      "monthlyActivity": 14,
       "latestReviewDate": "2026-09-02",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -717,7 +717,7 @@
         "text": "라떼가 정말 고소하고 부드러워요! 우유와 샷의 조화가 훌륭해서 마지막 한 입까지 맛있게 마셨습니다. 매장 이용도 편리하고 픽업 주문도 원활해서 자주 찾게 될 것 같아요. 24시간 매장이라 언제든 맛있는 커피 마실 수 있는 것도 큰 장점입니다.",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n라떼의 고소함과 부드러운 맛까지 자세히 느껴주셨군요 😊 저희 로봇 바리스타 '바리스'가 정밀하게 만들어내는 우유와 샷의 완벽한 조화를 높이 평가해 주셔서 감사합니다. 24시간 언제든 편리하게 방문하실 수 있으니 앞으로도 자주 찾아주세요! ☕"
       },
       {

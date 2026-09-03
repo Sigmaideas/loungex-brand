@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-02T15:23:42.038Z",
+  "lastScrapedAt": "2026-09-03T01:32:06.877Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -12,10 +12,21 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalArticles": 66,
-  "krArticles": 65,
+  "totalArticles": 67,
+  "krArticles": 66,
   "overseasArticles": 1,
   "articles": [
+    {
+      "title": "카페 업종변경 창업, ‘인건비 절감’이 관건… 라운지엑스, 유인카페에서 로봇카페 전환하면 인건비 최대 70% 절감",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE13WG5RVUhtRkFrdlhqQVdpTkc5a1ozcTVKTGstUnE5S0ZQdDJ3OG1KNFQ3dnVUcVhjeEtRWmt2V0FScHJrVmVNTEhLaTNueUxuV1FWbkxFLUs1TzdBM3c?oc=5",
+      "press": "경기시사투데이",
+      "date": "2026-09-03",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-03T01:32:06.877Z",
+      "imageCheckedAt": "2026-09-03T01:32:06.877Z"
+    },
     {
       "title": "24시 로봇카페 라운지엑스, 9월 본격 가맹사업 진출… 인건비 70% 절감 모델 제시",
       "description": "",
