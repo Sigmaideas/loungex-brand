@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-03T01:32:06.877Z",
+  "lastScrapedAt": "2026-09-03T15:16:59.873Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -12,8 +12,8 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalArticles": 67,
-  "krArticles": 66,
+  "totalArticles": 68,
+  "krArticles": 67,
   "overseasArticles": 1,
   "articles": [
     {
@@ -26,6 +26,19 @@
       "region": "kr",
       "firstSeenAt": "2026-09-03T01:32:06.877Z",
       "imageCheckedAt": "2026-09-03T01:32:06.877Z"
+    },
+    {
+      "title": "라운지엑스, 유인카페→로봇카페 전환 사례 공개…“인건비 최대 70% 절감”",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQcHMzS3lfQllWemR2LTBnME9KTzhWTmpvcG01ZktJUUlwVkh4VEd2MDRuaXhERXZ2Q3liTnJNbHptWVcyZXRIX3VqV3VUSThRMHNfcGNWOXh2dF8tRXZjWWNuMWZXOHFl0gFsQVVfeXFMTWxFUFVZbWRwVkFBNzVUT1BLMTFmRVloa2pfcHZ0cmVmVzdnSTd6RURXZzRFZzFpTXItaGJISV9IaUVpQnl0aW9VUlU3UzlLRTk5N0NMeVl4OUIzbmFLVWVSSHNlMWttLUZ2MEJx?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-09-03",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-03T15:16:59.873Z",
+      "imageCheckedAt": "2026-09-03T15:16:59.873Z",
+      "image": "https://cdn.startupn.kr/news/thumbnail/202609/59693_61542_4650_v150.jpg",
+      "sourceUrl": "https://www.startupn.kr/news/articleView.html?idxno=59693"
     },
     {
       "title": "24시 로봇카페 라운지엑스, 9월 본격 가맹사업 진출… 인건비 70% 절감 모델 제시",

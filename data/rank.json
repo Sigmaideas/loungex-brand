@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-09-03T01:32:00.152Z",
-  "updatedDate": "2026-09-03",
+  "lastScrapedAt": "2026-09-03T15:16:53.691Z",
+  "updatedDate": "2026-09-04",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -1110,11 +1110,15 @@
         {
           "date": "2026-09-03",
           "rank": null
+        },
+        {
+          "date": "2026-09-04",
+          "rank": null
         }
       ],
       "prevRank": null,
       "rank": null,
-      "total": 13151
+      "total": 13156
     },
     "store_gangnam|강남 로봇카페": {
       "storeId": "store_gangnam",
@@ -1260,11 +1264,15 @@
         {
           "date": "2026-08-31",
           "rank": null
+        },
+        {
+          "date": "2026-09-04",
+          "rank": null
         }
       ],
       "prevRank": null,
       "rank": null,
-      "total": 9
+      "total": 8
     },
     "store_gangnam|강남 24시 카페": {
       "storeId": "store_gangnam",
@@ -3306,6 +3314,10 @@
         {
           "date": "2026-09-02",
           "rank": 1
+        },
+        {
+          "date": "2026-09-04",
+          "rank": 1
         }
       ],
       "prevRank": 1,
@@ -3460,11 +3472,15 @@
         {
           "date": "2026-09-01",
           "rank": null
+        },
+        {
+          "date": "2026-09-04",
+          "rank": null
         }
       ],
       "prevRank": null,
       "rank": null,
-      "total": 1672
+      "total": 1673
     },
     "store_one_grove|마곡 로봇카페": {
       "storeId": "store_one_grove",
@@ -3629,6 +3645,10 @@
         },
         {
           "date": "2026-09-02",
+          "rank": null
+        },
+        {
+          "date": "2026-09-04",
           "rank": null
         }
       ],
@@ -3808,6 +3828,10 @@
         {
           "date": "2026-09-03",
           "rank": null
+        },
+        {
+          "date": "2026-09-04",
+          "rank": null
         }
       ],
       "prevRank": null,
@@ -3857,6 +3881,10 @@
         },
         {
           "date": "2026-09-03",
+          "rank": 2
+        },
+        {
+          "date": "2026-09-04",
           "rank": 2
         }
       ],
@@ -3998,11 +4026,15 @@
         {
           "date": "2026-09-03",
           "rank": null
+        },
+        {
+          "date": "2026-09-04",
+          "rank": null
         }
       ],
       "prevRank": null,
       "rank": null,
-      "total": 11088
+      "total": 11089
     },
     "store_ifc|IFC몰 카페": {
       "storeId": "store_ifc",

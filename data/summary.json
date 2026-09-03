@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-09-03T01:27:46.952Z",
+  "lastUpdated": "2026-09-03T15:12:09.546Z",
   "totalStores": 10,
-  "totalReviews": 763,
-  "avgReviewsPerStore": 76.3,
-  "monthlyActivity": 57,
+  "totalReviews": 765,
+  "avgReviewsPerStore": 76.5,
+  "monthlyActivity": 59,
   "stores": [
     {
       "id": "store_seongsu",
@@ -86,13 +86,13 @@
     {
       "id": "store_sangam_dmc",
       "name": "라운지엑스24h 상암DMC역점",
-      "reviewCount": 121,
-      "positiveRatio": 0.9173553719008265,
-      "negativeRatio": 0.01652892561983471,
-      "neutralRatio": 0.06611570247933884,
-      "monthlyActivity": 11,
-      "latestReviewDate": "2026-08-29",
-      "newReviewCount": 0,
+      "reviewCount": 122,
+      "positiveRatio": 0.9180327868852459,
+      "negativeRatio": 0.01639344262295082,
+      "neutralRatio": 0.06557377049180328,
+      "monthlyActivity": 12,
+      "latestReviewDate": "2026-09-03",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -125,13 +125,13 @@
     {
       "id": "store_ifc",
       "name": "라운지엑스 IFC몰점",
-      "reviewCount": 46,
-      "positiveRatio": 0.7608695652173914,
-      "negativeRatio": 0.021739130434782608,
-      "neutralRatio": 0.21739130434782608,
-      "monthlyActivity": 1,
-      "latestReviewDate": "2026-08-13",
-      "newReviewCount": 0,
+      "reviewCount": 47,
+      "positiveRatio": 0.7659574468085106,
+      "negativeRatio": 0.02127659574468085,
+      "neutralRatio": 0.2127659574468085,
+      "monthlyActivity": 2,
+      "latestReviewDate": "2026-09-01",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     }
@@ -631,6 +631,14 @@
     ],
     "store_sangam_dmc": [
       {
+        "date": "9.3.목",
+        "text": "상암동 유일 24시 카페! 생겼는지도 몰랐는데 넘 좋습니다 자주 이용할듯",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n상암동의 24시간 카페를 찾아주셨다니 정말 기쁩니다 :)\n\n앞으로도 언제든 편하게 방문하실 수 있는 공간이 될 수 있도록 맛있는 커피와 쾌적한 환경을 갖춰 성심껏 준비하겠습니다.\n자주 찾아주신다는 따뜻한 말씀에 감사하며, 다음 방문 때도 만족스러운 경험으로 맞이하겠습니다. 감사합니다!"
+      },
+      {
         "date": "8.29.토",
         "text": "24시간이라 좋게 맛나구. 에어컨 빵빵^^ 굿굿",
         "rating": 5,
@@ -701,14 +709,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n두 번째 방문해주시고 소중한 후기까지 남겨주셔서 진심으로 감사합니다.\n커피와 번, 그리고 매장 분위기와 음악까지 모두 만족해주셨다니 정말 기쁩니다 :) 특히 세트 메뉴 구성을 좋게 봐주셔서 큰 힘이 됩니다.\n\n앞으로도 맛있는 커피와 디저트, 편안한 분위기로 언제 방문하셔도 기분 좋은 시간을 보내실 수 있도록 노력하겠습니다.\n자주 찾아주실 수 있기를 바랍니다. 감사합니다!"
-      },
-      {
-        "date": "8.16.일",
-        "text": "AI가 만들어요 너무 신기 맛도좋아요☺️☺️☺️☺️☺️☺️",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\nAI 로봇이 만드는 색다른 경험을 재미있게 느껴주시고, 맛까지 좋게 봐주셨다니 정말 기쁩니다 :)\n\n앞으로도 신기한 로봇 커피 경험과 함께 만족스러운 한 잔을 제공해드릴 수 있도록 꾸준히 신경 쓰겠습니다.\n다음 방문 때도 맛있는 커피로 기분 좋게 맞이하겠습니다. 감사합니다!"
       }
     ],
     "store_one_grove": [
@@ -877,6 +877,14 @@
     ],
     "store_ifc": [
       {
+        "date": "9.1.화",
+        "text": "고소 원두, 산미 원두 둘 다 맛있어요.\n정직한 맛이랄까..\n직장에서 거리가 좀 있지만 그래도 찾아가서 마십니다!",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 찾아주시고 따뜻한 리뷰 남겨주셔서 감사합니다!\n\n고소한 맛과 산미 있는 맛 모두 즐겨주셨다니 정말 기쁘네요. 정직한 맛이라는 표현이 저희의 철학을 잘 담아주신 것 같습니다. 거리가 있으셔도 찾아주신다니 정말 감사합니다. 앞으로도 더욱 정성껏 준비하겠으니 언제든 편하게 들러주세요 :)"
+      },
+      {
         "date": "8.13.목",
         "text": "좋아요",
         "rating": 5,
@@ -947,14 +955,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 과테말라 와이칸에 대해 이렇게 감동적인 리뷰를 남겨주셔서 감사합니다!\n\n저희 커피의 풍미와 아로마, 그리고 애프터테이스트까지 모두 느껴주시고 즐겨주셨다니 정말 기쁩니다. 각각의 커피가 가진 특성을 소중히 여기는 고객님의 감상이 저희에게는 큰 보람이 네요. 앞으로도 최고의 커피 경험을 선사할 수 있도록 더욱 정성을 기울이겠습니다.\n\n언제든지 다시 들러주세요 :)"
-      },
-      {
-        "date": "4.27.월",
-        "text": "로봇이 드립커피도 내려주고 음료도 이뻐요. ㅎㅎ \n모카번 진짜 존맛~~",
-        "rating": 4.5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 감사합니다!\n\n로봇 바리스타와 이쁜 음료 비주얼, 그리고 모카번까지 모두 마음에 들어주셨다니 정말 기쁘네요. 고객님께서 느껴주신 즐거운 경험들이 저희 팀 전체의 에너지가 됩니다. 앞으로도 특별한 경험과 맛있는 제품으로 찾아뵐 수 있도록 노력하겠습니다. 언제든 다시 들러주세요 :)"
       }
     ]
   },
@@ -1379,7 +1379,7 @@
         "neutral": 7
       },
       {
-        "positive": 2,
+        "positive": 4,
         "negative": 0,
         "neutral": 0
       },
@@ -1413,7 +1413,7 @@
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 334
+      "count": 335
     },
     {
       "word": "로봇",
