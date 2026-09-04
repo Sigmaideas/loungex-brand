@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-04T01:28:22.213Z",
+  "lastScrapedAt": "2026-09-04T15:13:30.289Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -12,8 +12,8 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalArticles": 71,
-  "krArticles": 70,
+  "totalArticles": 72,
+  "krArticles": 71,
   "overseasArticles": 1,
   "articles": [
     {
@@ -28,6 +28,19 @@
       "imageCheckedAt": "2026-09-04T01:28:22.213Z",
       "image": "https://www.vtimes.kr/news/thumbnail/202609/55859_32566_3240_v150.jpg",
       "sourceUrl": "https://www.vtimes.kr/news/articleView.html?idxno=55859"
+    },
+    {
+      "title": "“카페 운영, ‘인건비 절감’ 관건”…라운지엑스, 로봇카페 전환 성과사례 발표",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBCY3pCVjlaRXVXRkJEbEZZbHRkc29mbVRGYjZDWFR0S0F2NXRxQUdEYlJvdjhnUFByRlJrcDMxM3g0VW8tVXJmTGZPWQ?oc=5",
+      "press": "티스토리",
+      "date": "2026-09-04",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-04T15:13:30.289Z",
+      "imageCheckedAt": "2026-09-04T15:13:30.289Z",
+      "image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FovBIR%2FdJMcadwrpJB%2FAAAAAAAAAAAAAAAAAAAAAAik8FR0g14Sjk5o2d4yBL6-oty6Y7Q_4HaJu6bbGPuc%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1790780399%26allow_ip%3D%26allow_referer%3D%26signature%3D3kswoiUwX0TdTJW8vCj5ATeoJI4%253D",
+      "sourceUrl": "https://robotnews.tistory.com/19710"
     },
     {
       "title": "카페 업종변경 창업, ‘인건비 절감’이 관건… 라운지엑스, 유인카페에서 로봇카페 전환하면 인건비 최대 70% 절감",

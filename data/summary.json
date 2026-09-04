@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-09-04T01:23:09.793Z",
+  "lastUpdated": "2026-09-04T15:08:06.480Z",
   "totalStores": 10,
-  "totalReviews": 766,
-  "avgReviewsPerStore": 76.6,
-  "monthlyActivity": 58,
+  "totalReviews": 767,
+  "avgReviewsPerStore": 76.7,
+  "monthlyActivity": 59,
   "stores": [
     {
       "id": "store_seongsu",
@@ -99,13 +99,13 @@
     {
       "id": "store_one_grove",
       "name": "라운지엑스24h 원그로브점",
-      "reviewCount": 77,
-      "positiveRatio": 0.9090909090909091,
+      "reviewCount": 78,
+      "positiveRatio": 0.9102564102564102,
       "negativeRatio": 0,
-      "neutralRatio": 0.09090909090909091,
-      "monthlyActivity": 14,
-      "latestReviewDate": "2026-09-02",
-      "newReviewCount": 0,
+      "neutralRatio": 0.08974358974358974,
+      "monthlyActivity": 15,
+      "latestReviewDate": "2026-09-04",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -118,7 +118,7 @@
       "neutralRatio": 0.05,
       "monthlyActivity": 2,
       "latestReviewDate": "2026-09-04",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -713,6 +713,14 @@
     ],
     "store_one_grove": [
       {
+        "date": "9.4.금",
+        "text": "커피 원두맛이 달라요! 맛있습니다. 무인시스템이라 편해요^^",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n신선하고 품질 좋은 원두의 맛을 느껴주셨군요 😊 무인 시스템으로 편하게 이용하실 수 있다니 기쁩니다. 앞으로도 매번 같은 정성으로 최고의 커피를 준비하겠습니다. 자주 들러주세요! ☕"
+      },
+      {
         "date": "9.2.수",
         "text": "라떼가 정말 고소하고 부드러워요! 우유와 샷의 조화가 훌륭해서 마지막 한 입까지 맛있게 마셨습니다. 매장 이용도 편리하고 픽업 주문도 원활해서 자주 찾게 될 것 같아요. 24시간 매장이라 언제든 맛있는 커피 마실 수 있는 것도 큰 장점입니다.",
         "rating": 5,
@@ -783,14 +791,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n로봇 바리스타 바리스가 신기하고 귀여우셨다니 기쁩니다 🤖 저희가 엄선한 원두의 풍미를 맛있게 즐겨주셔서 감사합니다 ☕ 앞으로도 자주 들러주세요! 😄"
-      },
-      {
-        "date": "8.22.토",
-        "text": "무인카페 편해요",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n무인 시스템의 편의함을 경험해 주셨군요 😊 빠르고 간편하게 이용하실 수 있는 경험으로 찾아주셔서 감사합니다. 앞으로도 자주 들러주세요! 😄"
       }
     ],
     "store_mapo_frontone": [
@@ -799,7 +799,7 @@
         "text": "커피도 꼬숩고 각얼음이라 넘넘 좋아요🤍☕️",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n깊고 풍미 있는 커피의 맛과 시원한 각얼음의 조합이 마음에 드셨다니 저희도 정말 기쁩니다. 앞으로도 한 잔 한 잔 정성껏 준비하여 고객님께 맛있는 시간을 선물해 드리겠습니다. 언제든 편하게 들러주세요 :)"
       },
       {
@@ -1379,7 +1379,7 @@
         "neutral": 7
       },
       {
-        "positive": 5,
+        "positive": 6,
         "negative": 0,
         "neutral": 0
       },
@@ -1408,12 +1408,12 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 482
+      "count": 483
     },
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 335
+      "count": 336
     },
     {
       "word": "로봇",
