@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-05T01:29:46.724Z",
+  "lastScrapedAt": "2026-09-05T14:07:32.084Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -14,14 +14,26 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalVideos": 33,
+  "totalVideos": 34,
   "officialVideos": 1,
-  "externalVideos": 32,
-  "krVideos": 26,
+  "externalVideos": 33,
+  "krVideos": 27,
   "overseasVideos": 7,
-  "channelCount": 33,
+  "channelCount": 34,
   "totalViews": 59794,
   "videos": [
+    {
+      "videoId": "gctVYut8b7Y",
+      "title": "7년동안 돈한푼 못벌던 20년차 바리스타가 로봇카페로 대박난 이유.",
+      "description": "상시 운영 인력 없이 24시간 운영한다면 수익 구조는 어떻게 달라질까요? 라운지엑스 24h는 로봇 바리스타를 중심으로 음료 제조를 ...",
+      "channel": "자영업자스토리",
+      "channelId": "UCyUJvPTlR-pklwT0APpFIhA",
+      "duration": "17:39",
+      "date": "2026-09-05",
+      "firstSeenAt": "2026-09-05T14:07:32.084Z",
+      "official": false,
+      "region": "kr"
+    },
     {
       "videoId": "hEE6D7BJQiY",
       "title": "월급 대신 로봇 카페로 번다 | 월 3,000만원 매출",
