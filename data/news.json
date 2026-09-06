@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-05T14:07:15.170Z",
+  "lastScrapedAt": "2026-09-06T01:25:51.266Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -12,8 +12,8 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalArticles": 72,
-  "krArticles": 71,
+  "totalArticles": 73,
+  "krArticles": 72,
   "overseasArticles": 1,
   "articles": [
     {
@@ -607,6 +607,19 @@
       "imageCheckedAt": "2026-08-26T08:21:11.542Z",
       "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=800,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2023/09/2023090514595169466_1.jpg",
       "sourceUrl": "https://www.mt.co.kr/future/2023/09/05/2023090514595169466"
+    },
+    {
+      "title": "서비스 로봇 ‘엑스와이지’ 식음료 자회사 ‘라운지엑스’에 김동진 대표 선임",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxOMUFiYmd0MmR0Yk9SSlNqZXp5bkdQN2YyN2t5c3ljbGVBUGhISmU5Q1RuSXYtUTllam9rb3NkV0Y4U0pLRHFRdjVDRERNU3A0WS1pbzJ5UVZYRFpaNDlMamtfUEY5Ymt6SVVWaFd5anJVeXlYU3Y2YlZMTmJCX1B1Q29kc0l1NDJkU2NwSzgxUGhjOGUwUHpoZlRmcEctVDN1Q05LaTVlSlBpT0piemZXc3ZsVmJDMVZHTjFGekdyd09FZzFFWVVaYXRWamcyR3puTzI4RnFNZHdsOHA1MWtwQmlVMFpLdk14NDFtQklMeVl0OFI1ZjJ6WkNaNzROdk42aXF1cG9sTFdPeGRKS2M0WXQ2X01hNHVNS3lxWkY4bHFIT29HTXpwMXQtV3dVSTlJT1NFbHRQX1pZVE9MWFE?oc=5",
+      "press": "beSUCCESS",
+      "date": "2023-09-05",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-06T01:25:51.266Z",
+      "imageCheckedAt": "2026-09-06T01:25:51.266Z",
+      "image": "https://besuccess.com/wp-content/uploads/2023/09/%EB%9D%BC%EC%9A%B4%EC%A7%80%EC%97%91%EC%8A%A4_%EA%B9%80%EB%8F%99%EC%A7%84%EB%8C%80%ED%91%9C-1024x683.jpg",
+      "sourceUrl": "https://besuccess.com/%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%A1%9C%EB%B4%87-%EC%97%91%EC%8A%A4%EC%99%80%EC%9D%B4%EC%A7%80-%EC%8B%9D%EC%9D%8C%EB%A3%8C-%EC%9E%90%ED%9A%8C%EC%82%AC-%EB%9D%BC%EC%9A%B4%EC%A7%80%EC%97%91%EC%8A%A4/"
     },
     {
       "title": "라운지엑스알, 무인 로봇카페 최초로 위생등급제 취득",
