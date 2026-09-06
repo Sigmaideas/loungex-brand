@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-09-06T01:21:46.269Z",
+  "lastUpdated": "2026-09-06T14:25:46.077Z",
   "totalStores": 10,
-  "totalReviews": 19,
-  "avgReviewsPerStore": 1.9,
-  "monthlyActivity": 5,
+  "totalReviews": 20,
+  "avgReviewsPerStore": 2,
+  "monthlyActivity": 6,
   "stores": [
     {
       "id": "store_seongsu",
@@ -60,15 +60,15 @@
     {
       "id": "store_yongsan_prime",
       "name": "라운지엑스24h 용산더프라임점",
-      "reviewCount": 3,
+      "reviewCount": 4,
       "positiveRatio": 1,
       "negativeRatio": 0,
       "neutralRatio": 0,
-      "monthlyActivity": 0,
-      "latestReviewDate": "2025-12-30",
-      "newReviewCount": 0,
-      "rating": 4.1,
-      "ratingCount": 7
+      "monthlyActivity": 1,
+      "latestReviewDate": "2026-09-06",
+      "newReviewCount": 1,
+      "rating": 4.3,
+      "ratingCount": 8
     },
     {
       "id": "store_garak_it",
@@ -242,6 +242,14 @@
       }
     ],
     "store_yongsan_prime": [
+      {
+        "date": "2026-09-06",
+        "text": "로봇이 만들어줘서 되게 깔끔한 느낌이고 분위기도\n공부할 때 좋은 것 같아용",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 감사합니다!\n\n로봇 바리스타 '바리스'가 정교하게 커피를 만드는 깔끔한 모습과 편안한 분위기가 공부할 때 좋은 환경이 되었다니 정말 기쁘네요. 앞으로도 공부 중에 필요한 맛있는 커피와 집중할 수 있는 공간으로 곁에 있겠습니다. \n\n언제든 편하게 다시 찾아주세요 :)"
+      },
       {
         "date": "2025-12-30",
         "text": "신기하지만 생각보다 맛있네요.\n커피도 저렴하고요.\n오픈 이벤트로 번도 주네요.\n자주 오겠습니다.",
@@ -644,7 +652,7 @@
         "neutral": 0
       },
       {
-        "positive": 0,
+        "positive": 1,
         "negative": 0,
         "neutral": 0
       },
@@ -684,7 +692,12 @@
     {
       "word": "깨끗·깔끔",
       "sentiment": "positive",
-      "count": 3
+      "count": 4
+    },
+    {
+      "word": "공부·작업",
+      "sentiment": "neutral",
+      "count": 4
     },
     {
       "word": "디저트·베이커리",
@@ -692,7 +705,7 @@
       "count": 3
     },
     {
-      "word": "공부·작업",
+      "word": "로봇",
       "sentiment": "neutral",
       "count": 3
     },
@@ -712,23 +725,18 @@
       "count": 2
     },
     {
-      "word": "로봇",
-      "sentiment": "neutral",
-      "count": 2
-    },
-    {
       "word": "가성비·가격",
       "sentiment": "neutral",
       "count": 2
     },
     {
-      "word": "예쁘다",
-      "sentiment": "positive",
+      "word": "분위기",
+      "sentiment": "neutral",
       "count": 1
     },
     {
-      "word": "인테리어",
-      "sentiment": "neutral",
+      "word": "예쁘다",
+      "sentiment": "positive",
       "count": 1
     }
   ]

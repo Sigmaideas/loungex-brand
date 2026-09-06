@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-06T01:25:51.266Z",
+  "lastScrapedAt": "2026-09-06T14:30:48.345Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -12,8 +12,8 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalArticles": 73,
-  "krArticles": 72,
+  "totalArticles": 74,
+  "krArticles": 73,
   "overseasArticles": 1,
   "articles": [
     {
@@ -451,6 +451,19 @@
       "imageCheckedAt": "2026-08-26T08:21:11.542Z",
       "image": "https://cdn.irobotnews.com/news/photo/202510/43081_94550_481.jpg",
       "sourceUrl": "https://www.irobotnews.com/news/articleView.html?idxno=43081"
+    },
+    {
+      "title": "스터디카페 진화하는 라운지엑스, 교보문고와 24시간 북카페 운영",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NdE1UT2QyQjZHSW1uQm1OYjdqQzVzenNjdkVvaEVDb3E5VTRIZXA2Q0tJcDRQeG1DQzZWN0o0c0J1czJlVWxYNjVuNExVSUxrNlYxZlhaM2ZLb2F2T1dOY2k0Y3BOZ3djWDRva3RR0gFyQVVfeXFMUHBVVUZNdXMycmRfX2NEcUR3NDZTWWdxTHN1N0ItWk9RV2tDclU0NTVBMklpMXpkYUR4eDZ6Y1FTSW1TNGFSay1YUW02dWgwbXNaazN5V3A4dmNWcVZsZW9kNmNCaGtyZzJzUnBONGQtQklB?oc=5",
+      "press": "잡포스트",
+      "date": "2025-09-22",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-06T14:30:48.345Z",
+      "imageCheckedAt": "2026-09-06T14:30:48.345Z",
+      "image": "https://cdn.job-post.co.kr/news/photo/202509/179332_187927_1151.jpg",
+      "sourceUrl": "https://www.job-post.co.kr/news/articleView.html?idxno=179332"
     },
     {
       "title": "라운지엑스, 로봇카페 최초 교보문고 큐레이션 도서 판매 개시 - 머니투데이",

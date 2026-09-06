@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-09-06T01:21:19.171Z",
+  "lastUpdated": "2026-09-06T14:25:14.652Z",
   "totalStores": 10,
-  "totalReviews": 770,
-  "avgReviewsPerStore": 77,
-  "monthlyActivity": 58,
+  "totalReviews": 772,
+  "avgReviewsPerStore": 77.2,
+  "monthlyActivity": 60,
   "stores": [
     {
       "id": "store_seongsu",
@@ -86,13 +86,13 @@
     {
       "id": "store_sangam_dmc",
       "name": "라운지엑스24h 상암DMC역점",
-      "reviewCount": 123,
-      "positiveRatio": 0.9186991869918699,
-      "negativeRatio": 0.016260162601626018,
-      "neutralRatio": 0.06504065040650407,
-      "monthlyActivity": 12,
-      "latestReviewDate": "2026-09-05",
-      "newReviewCount": 0,
+      "reviewCount": 125,
+      "positiveRatio": 0.92,
+      "negativeRatio": 0.016,
+      "neutralRatio": 0.064,
+      "monthlyActivity": 14,
+      "latestReviewDate": "2026-09-06",
+      "newReviewCount": 2,
       "rating": null,
       "ratingCount": null
     },
@@ -631,6 +631,22 @@
     ],
     "store_sangam_dmc": [
       {
+        "date": "9.6.일",
+        "text": "커피가 맛있고 버터번도 맛있게 먹었어요 매장이 깨끗하고 좋아요",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n커피와 버터번을 맛있게 즐겨주시고, 매장도 깨끗하다고 평가해주셨다니 정말 기쁩니다 :)\n\n앞으로도 맛있는 커피와 디저트, 그리고 쾌적한 공간을 제공할 수 있도록 꾸준히 신경 쓰겠습니다.\n다음 방문 때도 만족스러운 시간 보내실 수 있도록 준비하겠습니다. 감사합니다!"
+      },
+      {
+        "date": "9.6.일",
+        "text": "커피가 진하고 좋아요.\n버터번도 맛있어요.",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n진하고 맛있는 커피와 버터번까지 만족해주셨다니 정말 기쁩니다 :)\n\n앞으로도 커피와 함께 즐기기 좋은 디저트로 언제 방문하시더라도 만족스러운 시간을 보내실 수 있도록 신경 쓰겠습니다.\n다음 방문 때도 맛있는 한 잔으로 뵙겠습니다. 감사합니다!"
+      },
+      {
         "date": "9.5.토",
         "text": "아이와 함께 방문했어요 로봇이 만들어주고 인사해주니 너무 좋아하네요~^^",
         "rating": 5,
@@ -693,22 +709,6 @@
         "sentiment": "negative",
         "isNew": false,
         "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 의견 남겨주셔서 감사합니다. 리뷰이벤트 피드백이 제대로 반영되지 않았다니 정말 죄송합니다. 고객님의 소중한 지적을 통해 개선할 수 있게 되어 감사합니다.\n\n앞으로 더욱 신경 써서 피드백을 적절히 반영하고 개선하겠습니다. 다음 방문 때는 더욱 나아진 모습으로 뵙겠습니다."
-      },
-      {
-        "date": "8.20.목",
-        "text": "무인카페 치고 커피는 맛있음",
-        "rating": 3,
-        "sentiment": "neutral",
-        "isNew": false,
-        "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n무인카페임에도 불구하고 커피 맛에 만족해주셨다니 정말 기쁩니다 :)\n\n앞으로도 로봇이 만드는 커피의 품질을 지속적으로 관리하여 언제 방문하시더라도 맛있는 한 잔으로 보답드리겠습니다.\n다음 방문 때도 기분 좋은 시간 보내시길 바랍니다. 감사합니다!"
-      },
-      {
-        "date": "8.20.목",
-        "text": "좋아요!!",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n좋게 봐주셨다니 정말 기쁩니다 :)\n\n앞으로도 언제 방문하시더라도 만족스러운 경험을 제공할 수 있도록 꾸준히 신경 쓰겠습니다.\n다음 방문 때도 편안한 시간 보내실 수 있도록 준비하겠습니다. 감사합니다!"
       }
     ],
     "store_one_grove": [
@@ -1379,7 +1379,7 @@
         "neutral": 7
       },
       {
-        "positive": 9,
+        "positive": 11,
         "negative": 0,
         "neutral": 0
       },
@@ -1408,12 +1408,12 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 484
+      "count": 486
     },
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 337
+      "count": 339
     },
     {
       "word": "로봇",
@@ -1423,7 +1423,7 @@
     {
       "word": "깨끗·깔끔",
       "sentiment": "positive",
-      "count": 149
+      "count": 150
     },
     {
       "word": "분위기",
