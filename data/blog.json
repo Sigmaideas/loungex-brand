@@ -1,15 +1,15 @@
 {
-  "lastScrapedAt": "2026-09-07T01:25:42.034Z",
+  "lastScrapedAt": "2026-09-07T16:48:02.748Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
     "라운지엑스 로봇카페",
     "라운지엑스 후기"
   ],
-  "totalPosts": 328,
+  "totalPosts": 330,
   "officialPosts": 13,
-  "externalPosts": 315,
-  "bloggerCount": 306,
+  "externalPosts": 317,
+  "bloggerCount": 308,
   "posts": [
     {
       "title": "카페 업종변경 창업, ‘인건비 절감’이 관건… 라운지엑스 , 유인카페에서 로봇카페 전환하면 인건비 최대 70% 절감",
@@ -32,6 +32,28 @@
       "date": "2026-09-07",
       "official": false,
       "firstSeenAt": "2026-09-07T01:25:42.034Z"
+    },
+    {
+      "title": "마곡동 카페 라운지엑스 24h 적막을 깨는 원두의 온기",
+      "description": "핵심 요약 마곡 원그로브 2층에 위치한 라운지엑스 24h는 로봇이 내려주는 고품질 스페셜티 커피와 시그니처 성수샌드를 즐길 수 있는 공간이다. 모바일 앱 주문 시스템으로 신속하고 위생적이며, 아늑하고 차분한 인테리어 덕분에 담소를 나누거나 개인 사색을 즐기기에 적합하다. 가게 정보 상호명: 라운지엑스 24h 원그로브점 위치: 서울 강서구 공항대로 165 D동 2층...",
+      "link": "https://blog.naver.com/spider55/224403772573",
+      "blogger": "Fruitful Bough",
+      "bloggerId": "spider55",
+      "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNjA5MDdfMTk5%2FMDAxNzg4NzY1NzczODI1.97o8SWYPes098VVkaAUb8m3jhjtOWsmHDpFaL0S_uc0g.vxoLZXwcaHvwKaBrs6dY7y_KFgUB8XcCn-KL73LZc3Ug.GIF%2F20260905_073500%25281%2529.gif%23368x654&type=f250_208",
+      "date": "2026-09-07",
+      "official": false,
+      "firstSeenAt": "2026-09-07T16:48:02.748Z"
+    },
+    {
+      "title": "공덕역 카페 퇴근 후에도 편하게 갈 수 있는 라운지엑스",
+      "description": "협찬 공덕역 카페 퇴근 후에도 편하게 갈 수 있는 라운지엑스 퇴근 후 발견한 넓은 라운지 평일에 일이 늦게 끝난 날, 집에 바로 들어가기는 아쉽고 노트북으로 정리할 것도 남아 있어서 공덕역 카페를 찾아봤어요. 늦은 시간에는 문을 닫은 곳이 많아 선택지가 별로 없었는데 라운지엑스 24h 마포프론트원점은 시간 걱정 없이 커피를 주문할 수 있더라고요. 마포 프론트원...",
+      "link": "https://blog.naver.com/cilina80/224403383834",
+      "blogger": "아이리AIRE",
+      "bloggerId": "cilina80",
+      "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNjA5MDdfNyAg%2FMDAxNzg4NzQ0OTM0OTgz.yNOEoc35pu2CBUHXimtgsGY5QfzstAgiJ8oMdDPQG-og.LCmNuNSDjpPzU8BfSJNkFMtn8n6F1pDPrkgKDLBvRNgg.JPEG%2F12_%25BD%25E6%25B3%25D7%25C0%25CF.jpg%231401x1067&type=f250_208",
+      "date": "2026-09-07",
+      "official": false,
+      "firstSeenAt": "2026-09-07T16:48:02.748Z"
     },
     {
       "title": "강남역 24시카페 추천｜ 라운지엑스 24h 강남역점, 성수샌드와 명란마요소금빵이 있는 노트북 하기 좋은 무인카페",
