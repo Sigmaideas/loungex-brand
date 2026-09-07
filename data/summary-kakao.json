@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T14:25:46.077Z",
+  "lastUpdated": "2026-09-07T01:20:38.862Z",
   "totalStores": 10,
   "totalReviews": 20,
   "avgReviewsPerStore": 2,
@@ -66,7 +66,7 @@
       "neutralRatio": 0,
       "monthlyActivity": 1,
       "latestReviewDate": "2026-09-06",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": 4.3,
       "ratingCount": 8
     },
@@ -247,7 +247,7 @@
         "text": "로봇이 만들어줘서 되게 깔끔한 느낌이고 분위기도\n공부할 때 좋은 것 같아용",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 감사합니다!\n\n로봇 바리스타 '바리스'가 정교하게 커피를 만드는 깔끔한 모습과 편안한 분위기가 공부할 때 좋은 환경이 되었다니 정말 기쁘네요. 앞으로도 공부 중에 필요한 맛있는 커피와 집중할 수 있는 공간으로 곁에 있겠습니다. \n\n언제든 편하게 다시 찾아주세요 :)"
       },
       {
