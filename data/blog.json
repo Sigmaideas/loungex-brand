@@ -1,16 +1,38 @@
 {
-  "lastScrapedAt": "2026-09-08T01:28:23.937Z",
+  "lastScrapedAt": "2026-09-08T15:27:37.221Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
     "라운지엑스 로봇카페",
     "라운지엑스 후기"
   ],
-  "totalPosts": 330,
+  "totalPosts": 332,
   "officialPosts": 13,
-  "externalPosts": 317,
-  "bloggerCount": 308,
+  "externalPosts": 319,
+  "bloggerCount": 310,
   "posts": [
+    {
+      "title": "[성수역_lounge(×)24성수 본점]로봇이 만들어주는 카페 방문후기",
+      "description": "위치 : 서울 성동구 성수일로 10길 12 장소 : 성수역 1번출구 방면 CF타워 방향 영업시간 : 연중무휴 24시간 운영 안녕하세요 오늘은 성수역 1번출구인근에 있는 로봇이 내려주는 카페 라운지 엑스 24 성수 본점에 다녀왔습니다!! CF건물 타워 1층에 위치해있었는데요 카페가 적벽돌로 되어있어서 더 돋보이고 이뻤어요 (이 날 날씨도 너무너무 좋았어요) 성수샌드 성수소금빵...",
+      "link": "https://blog.naver.com/gh03166/224405130554",
+      "blogger": "언니 난 인스타말고 블로그로",
+      "bloggerId": "gh03166",
+      "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNjA5MDdfNTgg%2FMDAxNzg4NzgwOTE5MDE2.NFKKMjanUQ2er-gJLYWWMEcqTcLY6DGzy1zqTdh9Lo4g.q2ee4X4RHXMn4Xri99Ip6Q04x2OgBDK-kvZ-bekNj8sg.JPEG%2F900_20260905_165146.jpg%23900x1200&type=f250_208",
+      "date": "2026-09-08",
+      "official": false,
+      "firstSeenAt": "2026-09-08T15:27:37.221Z"
+    },
+    {
+      "title": "여의도카페 라운지엑스 스페셜티 핸드드립 유명한 라운지엑스 IFC몰점 방문!",
+      "description": "여의도 ifc 로봇 바리스타를 만날 수 있는 카페 스페셜티 커피를 합리적인 가격으로 즐길 수 있는 라운지엑스 IFC몰점 방문했고요? 쇼핑몰 안에 있어서 실내 데이트 코스로도 추천하는 라운지엑스 IFC몰점! ✨️ 여의도카페 라운지엑스 주문은 셀프 키오스크 시스템! 커피가 맛있는 곳이라서 여의도 직장인들은 아마 다들 라운지엑스 IFC몰점 알고 계실듯..!...",
+      "link": "https://blog.naver.com/cl0ud_fl0wer/224404826268",
+      "blogger": "Is me",
+      "bloggerId": "cl0ud_fl0wer",
+      "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNjA5MDZfMjY5%2FMDAxNzg4Njk1NzIzMzc4.1I9kiEvI7LlJDrP88Tuub-OZ4d_WPCctVgvEcPSjKyIg.0-tcGucYLw9trZTmm_eFEMxBtVNTs22iXwI2HfIInHkg.JPEG%2F900_20260906_182955.jpg%23900x900&type=f250_208",
+      "date": "2026-09-08",
+      "official": false,
+      "firstSeenAt": "2026-09-08T15:27:37.221Z"
+    },
     {
       "title": "카페 업종변경 창업, ‘인건비 절감’이 관건… 라운지엑스 , 유인카페에서 로봇카페 전환하면 인건비 최대 70% 절감",
       "description": "출처 : 뉴스 와이어 아래 링크를 클릭하시면 기사 본문으로 이동합니다. #케이투마케팅 #뉴스와이어 #창업 #인건비 #무인카페 #로봇카페 #매출 #알바 #일자리",
