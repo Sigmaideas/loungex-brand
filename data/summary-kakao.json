@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T16:42:05.223Z",
+  "lastUpdated": "2026-09-08T01:25:14.874Z",
   "totalStores": 10,
   "totalReviews": 21,
   "avgReviewsPerStore": 2.1,
@@ -53,7 +53,7 @@
       "neutralRatio": 0,
       "monthlyActivity": 3,
       "latestReviewDate": "2026-09-07",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": 4.7,
       "ratingCount": 3
     },
@@ -229,7 +229,7 @@
         "text": "일단 가성비가 좋구 에어컨도 빵빵하게 잘 나와요. 추운 수준으로…\n노트북으로 작업하거나\n근처 약속 있을 때 시간 떼우기 좋은 장소입니다~\n커피는 무난하구 다른 음료는 얼음 양이 많아요 ㅎ…\n맛도리는 버터번~~",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 솔직하고 자세한 리뷰 남겨주셔서 감사합니다!\n\n편한 실내 환경과 합리적인 가격이 고객님께 좋은 작업 공간이 되어드렸다니 정말 기쁘네요. 말씀해 주신 음료의 얼음 양에 대해서는 즉시 확인하여 더욱 최적의 비율로 조절하도록 하겠습니다. 버터번도 맛있게 즐겨주셨다니 감사드리며, 다음에 방문하실 때도 편하고 맛있는 경험을 드릴 수 있도록 정성껏 준비하고 있겠습니다 :)"
       },
       {
