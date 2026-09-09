@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-09-08T15:21:19.807Z",
+  "lastUpdated": "2026-09-09T01:32:47.959Z",
   "totalStores": 10,
   "totalReviews": 21,
   "avgReviewsPerStore": 2.1,
-  "monthlyActivity": 7,
+  "monthlyActivity": 6,
   "stores": [
     {
       "id": "store_seongsu",
@@ -51,7 +51,7 @@
       "positiveRatio": 1,
       "negativeRatio": 0,
       "neutralRatio": 0,
-      "monthlyActivity": 3,
+      "monthlyActivity": 2,
       "latestReviewDate": "2026-09-07",
       "newReviewCount": 0,
       "rating": 4.7,
