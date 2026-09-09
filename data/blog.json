@@ -1,15 +1,15 @@
 {
-  "lastScrapedAt": "2026-09-09T01:38:08.241Z",
+  "lastScrapedAt": "2026-09-09T15:25:58.947Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
     "라운지엑스 로봇카페",
     "라운지엑스 후기"
   ],
-  "totalPosts": 333,
+  "totalPosts": 335,
   "officialPosts": 13,
-  "externalPosts": 320,
-  "bloggerCount": 311,
+  "externalPosts": 322,
+  "bloggerCount": 313,
   "posts": [
     {
       "title": "[ 라운지엑스 24h 강남역점] 강남역24시카페 (feat. 노트북 가능)",
@@ -21,6 +21,28 @@
       "date": "2026-09-09",
       "official": false,
       "firstSeenAt": "2026-09-09T01:38:08.241Z"
+    },
+    {
+      "title": "가락동 24시 카페 라운지엑스 24h 가락 IT벤처타워점 성수샌드 후기",
+      "description": "가락동카페 중에서 특별한 경험을 할 수 있는 곳을 찾다가 라운지엑스 24h 가락 IT벤처타워점을 방문하게 되었어요. 24시간 운영되는 점이 가장 먼저 눈에 들어왔고, 언제든 부담 없이 들를 수 있다는 점이 참 좋았어요. 커피와 디저트가 모두 맛있다고 들어서 더욱 기대가 컸던 곳이에요. 실제로 다양한 메뉴와 쾌적한 환경 덕분에 만족스러운 시간을 보낼 수 있었네요....",
+      "link": "https://blog.naver.com/dduk-dda-gi/224406470482",
+      "blogger": "뚝딱이네 집 - 결혼일기",
+      "bloggerId": "dduk-dda-gi",
+      "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNjA5MDlfMjk1%2FMDAxNzg4OTYwNzEyODc1.NBwJjaWY5GPZEJYJPTuNtjGkpx-A_tD6c9k8JCKXMKcg.Ok7IxWMJCSyFSLAhaAzhAqZbpyzpOtC4vDjJo9Uxp6kg.JPEG%2FKakaoTalk_20260909_215359644.jpg%234000x3000&type=f250_208",
+      "date": "2026-09-09",
+      "official": false,
+      "firstSeenAt": "2026-09-09T15:25:58.947Z"
+    },
+    {
+      "title": "상암동 24시 카페 라운지엑스 24h 상암DMC역점 노트북 작업 가능한 로봇카페",
+      "description": "이번에 시간도 남아서 궁금했던 상암동 24시 카페 라운지엑스 에 들어가 봤습니다. 상암에서 늦은 시간까지 있을 만한 카페를 찾을 때도 기억해둘 만한 곳이었어요. 라운지엑스 24h 상암DMC역점은 키오스크로 주문하고 로봇이 음료를 만들어주는 방식이었어요. 안쪽에는 혼자 앉을 수 있는 자리부터 여러 명이 이용할 수 있는 테이블까지 있었고, 베이커리와 샌드류도...",
+      "link": "https://blog.naver.com/mingu_u99/224405870467",
+      "blogger": "새벽에 생각나는 모든 것",
+      "bloggerId": "mingu_u99",
+      "image": "https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyNjA5MDVfMTE1%2FMDAxNzg4NTg2OTU3OTEz.6hkxby2e9mAKVW7YyY48FWsZlPLr8L3jhgzlYHJ7OtMg.abxnpZhC2adPTnDeDtE-KkQxdL8QFD1P57jB-j7oRBkg.JPEG%2F900_20260905_134801.jpg%23899x899&type=f250_208",
+      "date": "2026-09-09",
+      "official": false,
+      "firstSeenAt": "2026-09-09T15:25:58.947Z"
     },
     {
       "title": "[성수역_lounge(×)24성수 본점]로봇이 만들어주는 카페 방문후기",

@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-09-09T01:32:36.996Z",
+  "lastUpdated": "2026-09-09T15:19:34.336Z",
   "totalStores": 10,
-  "totalReviews": 88,
-  "avgReviewsPerStore": 8.8,
-  "monthlyActivity": 2,
+  "totalReviews": 90,
+  "avgReviewsPerStore": 9,
+  "monthlyActivity": 3,
   "stores": [
     {
       "id": "store_seongsu",
       "name": "라운지엑스24h 성수본점",
-      "reviewCount": 21,
+      "reviewCount": 23,
       "positiveRatio": 1,
       "negativeRatio": 0,
       "neutralRatio": 0,
-      "monthlyActivity": 1,
-      "latestReviewDate": "2026-08-16",
-      "newReviewCount": 0,
+      "monthlyActivity": 2,
+      "latestReviewDate": "2026-09-09",
+      "newReviewCount": 2,
       "rating": 5,
-      "ratingCount": 29
+      "ratingCount": 30
     },
     {
       "id": "store_seoulforest_ak",
@@ -139,6 +139,14 @@
   "recentReviewsByStore": {
     "store_seongsu": [
       {
+        "date": "2026-09-09",
+        "text": "Good vibes for drinking coffee ☕️ ~🤩👍👍",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n커피 한 잔과 함께 좋은 기운을 느끼셨다니 정말 기쁘네요. 앞으로도 고객님이 편안함과 즐거움을 경험하실 수 있도록 정성껏 준비하고 있을게요. 맛있는 커피가 생각나실 때 언제든 또 들러주세요 :)"
+      },
+      {
         "date": "2026-08-16",
         "text": "Amazing concept and open 24/7. The highlight is definitely the robot barista, which prepares your coffee using a robotic arm, really fun to watch and something different from a regular café. The drinks and food are very tasty as well, and I really like the modern concept. Definitely worth checking out!",
         "rating": 5,
@@ -168,6 +176,14 @@
         "rating": 4,
         "sentiment": "positive",
         "isNew": false,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스 성수본점을 방문해 주시고 이렇게 자세하고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n24시간 운영하는 저희 매장이 늦은 시간 공부와 업무, 휴식을 위한 편안한 공간이 되어드렸다니 정말 기쁘네요. 로봇 바리스타 '바리스'의 정교한 커피 제조 과정과 다양한 메뉴까지 세심하게 느껴주셨어요. :) 앞으로도 성수동에서 조용하고 쾌적한 분위기 속에 맛있는 음료를 즐기고 싶으실 때 언제든 편하게 들러주세요. 다음 방문도 기대하고 있겠습니다!"
+      },
+      {
+        "date": "2026-04-30",
+        "text": "This café is located in Seongsu-dong and is open 24 hours, making it a great spot for late-night visits. It’s especially ideal for studying, working on a laptop, or simply enjoying some quiet time with a book, thanks to its calm and peaceful atmosphere. One of the most unique features is that a robot prepares the coffee and drinks, which adds a fun and interesting touch to the experience. The menu is quite diverse, offering a variety of beverages including coffee and milk tea. I highly recommend this place if you’re looking for a quiet space to study or work, or if you want to relax at a café late at night in Seongsu.",
+        "rating": 4,
+        "sentiment": "positive",
+        "isNew": true,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 성수본점을 방문해 주시고 이렇게 자세하고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n24시간 운영하는 저희 매장이 늦은 시간 공부와 업무, 휴식을 위한 편안한 공간이 되어드렸다니 정말 기쁘네요. 로봇 바리스타 '바리스'의 정교한 커피 제조 과정과 다양한 메뉴까지 세심하게 느껴주셨어요. :) 앞으로도 성수동에서 조용하고 쾌적한 분위기 속에 맛있는 음료를 즐기고 싶으실 때 언제든 편하게 들러주세요. 다음 방문도 기대하고 있겠습니다!"
       },
       {
@@ -201,22 +217,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n24시간 언제든 이용 가능한 점이 편리하셨다니 기쁘고, 무엇보다 커피와 저희 오리지널 샌드위치를 그렇게 맛있게 즐겨주셨다니 정말 뿌듯하네요! 고객님의 믿음이 저희가 더욱 정성스럽게 준비할 수 있는 힘이 됩니다.\n\n앞으로도 맛있는 커피와 음식이 생각나실 때 편하게 들러주세요. 다음 방문을 기다리겠습니다 :)"
-      },
-      {
-        "date": "2025-11-28",
-        "text": "超愛這一間店！\n無人機械人，沖的咖啡也很好喝～而且他真的很可愛！這邊很寧靜，環境很舒服，，還可以到旁邊另一空間看看書，自修一下～不得不說聖水三文治，超好吃！！會吃到停不下來😍😍怎麼韓國的咖啡店可以這麼厲害！建議大家入去感受一下🩷相信你們都會超喜歡的～",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스 성수본점을 방문해 주시고 이렇게 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n로봇 바리스타 '바리스'의 귀여운 매력과 정교하게 추출한 커피 맛, 그리고 성수 샌드위치까지 모두 만족해 주셨다니 정말 기쁘네요. 편안한 분위기 속에서 책도 읽으며 특별한 시간을 보내셨다니 저희도 무척 뿌듯합니다.\n\n다음에 방문하실 때도 오늘처럼 편하고 즐거운 경험이 될 수 있도록 정성껏 준비하고 있을게요. 언제든 또 들러주세요 :)"
-      },
-      {
-        "date": "2025-11-28",
-        "text": "ソンスでお買い物中にお伺いさせて頂きました！ここのカフェラテがすごく美味しくてオススメです🌼落ち着いた静かな店内でゆっくり休憩ができました。24時間営業なので時間を気にせずに利用できて、旅行中にもオススメです✈️💛",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스 성수본점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사합니다!\n\n성수에서의 쇼핑 중 저희 매장에서 편안한 휴식 시간을 보내셨다니 정말 기쁘고, 저희 카페라테의 맛도 마음에 들어주셨다니 무척 뿌듯합니다. 24시간 운영되는 만큼 여행 중에도 언제든 편하게 들러주실 수 있어요.\n\n다음에 성수에 오실 때도 저희 라운지엑스에서 맛있는 커피와 함께 여유로운 시간 보내시길 바랍니다. 언제든 또 뵙겠습니다 ♥"
       }
     ],
     "store_seoulforest_ak": [
@@ -1133,7 +1133,7 @@
         "neutral": 0
       },
       {
-        "positive": 2,
+        "positive": 3,
         "negative": 1,
         "neutral": 0
       },
@@ -1158,7 +1158,7 @@
         "neutral": 0
       },
       {
-        "positive": 0,
+        "positive": 1,
         "negative": 0,
         "neutral": 0
       },

@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-09-09T01:36:37.961Z",
-  "updatedDate": "2026-09-09",
+  "lastScrapedAt": "2026-09-09T15:24:25.508Z",
+  "updatedDate": "2026-09-10",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -1189,6 +1189,10 @@
         },
         {
           "date": "2026-09-08",
+          "rank": null
+        },
+        {
+          "date": "2026-09-10",
           "rank": null
         }
       ],
@@ -3400,6 +3404,10 @@
         {
           "date": "2026-09-09",
           "rank": null
+        },
+        {
+          "date": "2026-09-10",
+          "rank": null
         }
       ],
       "prevRank": null,
@@ -4124,11 +4132,15 @@
         {
           "date": "2026-09-08",
           "rank": null
+        },
+        {
+          "date": "2026-09-10",
+          "rank": null
         }
       ],
       "prevRank": null,
       "rank": null,
-      "total": 24
+      "total": 25
     },
     "store_mapo_frontone|공덕 24시 카페": {
       "storeId": "store_mapo_frontone",
@@ -4510,10 +4522,14 @@
         {
           "date": "2026-09-08",
           "rank": 19
+        },
+        {
+          "date": "2026-09-10",
+          "rank": 24
         }
       ],
-      "prevRank": 18,
-      "rank": 19,
+      "prevRank": 19,
+      "rank": 24,
       "total": 1037
     },
     "store_ifc|여의도 카페": {

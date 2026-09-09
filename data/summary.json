@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-09-09T01:32:22.312Z",
+  "lastUpdated": "2026-09-09T15:19:18.247Z",
   "totalStores": 10,
-  "totalReviews": 776,
-  "avgReviewsPerStore": 77.6,
-  "monthlyActivity": 60,
+  "totalReviews": 777,
+  "avgReviewsPerStore": 77.7,
+  "monthlyActivity": 61,
   "stores": [
     {
       "id": "store_seongsu",
       "name": "라운지엑스24h 성수본점",
-      "reviewCount": 69,
-      "positiveRatio": 0.8115942028985508,
-      "negativeRatio": 0.014492753623188406,
-      "neutralRatio": 0.17391304347826086,
-      "monthlyActivity": 9,
-      "latestReviewDate": "2026-09-05",
-      "newReviewCount": 0,
+      "reviewCount": 70,
+      "positiveRatio": 0.8142857142857143,
+      "negativeRatio": 0.014285714285714285,
+      "neutralRatio": 0.17142857142857143,
+      "monthlyActivity": 10,
+      "latestReviewDate": "2026-09-09",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -139,6 +139,14 @@
   "recentReviewsByStore": {
     "store_seongsu": [
       {
+        "date": "9.9.수",
+        "text": "Good vibes for drinking coffee ☕️ ~🤩👍👍",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 기분 좋은 리뷰 남겨주셔서 감사합니다!\n\n커피를 마시며 느꼈던 긍정적인 에너지가 저희에게도 전해져 정말 기쁩니다. 로봇 바리스타와 함께하는 특별한 경험이 고객님께 즐거운 시간이 되었다니 보람차네요. :)\n\n앞으로도 언제든 편하게 들러 좋은 분위기 속에서 맛있는 커피를 즐겨주세요. 다음 방문을 기다리겠습니다!"
+      },
+      {
         "date": "9.5.토",
         "text": "공간 이용하러 자주옵니다.\n놋북 작업이나 대화하기 좋아요",
         "rating": 5,
@@ -209,14 +217,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 이렇게 기분 좋은 리뷰 남겨주셔서 정말 감사합니다!\n\n커피 맛과 로봇 바리스타 '바리스'의 신기한 모습, 그리고 샌드까지 모두 만족해 주셨다니 저희도 정말 기쁘네요. 고객님의 즐거운 경험이 저희의 가장 큰 보람입니다. :)\n\n앞으로도 맛있는 커피와 함께 편한한 시간 선물해 드릴 수 있도록 노력하겠습니다. 다음에도 언제든 편하게 들러주세요!"
-      },
-      {
-        "date": "8.1.토",
-        "text": "로봇이 말아주는 성수커피맛집 라운지엑스!!\n24시간이라 언제든 방문하기 편해요\n로봇이 뚝딱뚝땃 만들어줘서 신기한 경험이었습니당\n디저트랑 성수샌드도 넘 맛있게 먹었어요\n에어컨도 빵빵해서 쉬다가기좋아요",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n로봇 바리스타 '바리스'가 정교하게 커피를 만드는 모습이 신기하고 즐거운 경험이 되셨다니 정말 기쁘네요. 무엇보다 커피뿐만 아니라 디저트와 성수샌드까지 만족하셨다는 말씀이 저희를 더욱 보람차게 만듭니다!\n\n24시간 언제든지 편하게 들러 맛있는 커피와 함께 쾌적한 분위기에서 휴식하실 수 있도록 항상 최선을 다하겠습니다. 다음 방문도 기다리고 있을게요 :)"
       }
     ],
     "store_seoulforest_ak": [
@@ -1387,7 +1387,7 @@
         "neutral": 7
       },
       {
-        "positive": 14,
+        "positive": 15,
         "negative": 0,
         "neutral": 0
       },
