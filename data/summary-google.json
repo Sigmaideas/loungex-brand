@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T15:19:34.336Z",
+  "lastUpdated": "2026-09-10T01:28:09.426Z",
   "totalStores": 10,
   "totalReviews": 90,
   "avgReviewsPerStore": 9,
@@ -14,7 +14,7 @@
       "neutralRatio": 0,
       "monthlyActivity": 2,
       "latestReviewDate": "2026-09-09",
-      "newReviewCount": 2,
+      "newReviewCount": 0,
       "rating": 5,
       "ratingCount": 30
     },
@@ -143,7 +143,7 @@
         "text": "Good vibes for drinking coffee ☕️ ~🤩👍👍",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n커피 한 잔과 함께 좋은 기운을 느끼셨다니 정말 기쁘네요. 앞으로도 고객님이 편안함과 즐거움을 경험하실 수 있도록 정성껏 준비하고 있을게요. 맛있는 커피가 생각나실 때 언제든 또 들러주세요 :)"
       },
       {
@@ -183,7 +183,7 @@
         "text": "This café is located in Seongsu-dong and is open 24 hours, making it a great spot for late-night visits. It’s especially ideal for studying, working on a laptop, or simply enjoying some quiet time with a book, thanks to its calm and peaceful atmosphere. One of the most unique features is that a robot prepares the coffee and drinks, which adds a fun and interesting touch to the experience. The menu is quite diverse, offering a variety of beverages including coffee and milk tea. I highly recommend this place if you’re looking for a quiet space to study or work, or if you want to relax at a café late at night in Seongsu.",
         "rating": 4,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 성수본점을 방문해 주시고 이렇게 자세하고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n24시간 운영하는 저희 매장이 늦은 시간 공부와 업무, 휴식을 위한 편안한 공간이 되어드렸다니 정말 기쁘네요. 로봇 바리스타 '바리스'의 정교한 커피 제조 과정과 다양한 메뉴까지 세심하게 느껴주셨어요. :) 앞으로도 성수동에서 조용하고 쾌적한 분위기 속에 맛있는 음료를 즐기고 싶으실 때 언제든 편하게 들러주세요. 다음 방문도 기대하고 있겠습니다!"
       },
       {

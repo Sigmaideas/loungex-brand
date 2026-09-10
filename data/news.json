@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-09T15:24:32.094Z",
+  "lastScrapedAt": "2026-09-10T01:32:35.030Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -12,10 +12,36 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalArticles": 74,
-  "krArticles": 73,
+  "totalArticles": 76,
+  "krArticles": 75,
   "overseasArticles": 1,
   "articles": [
+    {
+      "title": "라운지엑스, 건물주 ‘공실 고민’ 겨냥…상권·공간별 세 가지 창업 유형 마련",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GYzdHZ05PMEItRHRhaHJ3THdaZTIyMXRyYlZ3ZTRpN0hTWFNBYUttUEZZQW5Rb0JJRTJWSkREc2Jkc0haa2wyX09DLUowcGVDcktjLTVOVWMxX1JPTnBPTmNVOWNsQTBVaDhJeA?oc=5",
+      "press": "로봇신문",
+      "date": "2026-09-10",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-10T01:32:35.030Z",
+      "imageCheckedAt": "2026-09-10T01:32:35.030Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202609/48402_103692_2259.jpg",
+      "sourceUrl": "https://www.irobotnews.com/news/articleView.html?idxno=48402"
+    },
+    {
+      "title": "라운지엑스, 을지로 24시간 로봇카페… 공실 건물주에 창업 3유형 제시",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE4zcjhTbnhfU1JQZ1V1VDhQclJOY2JDYWR3cWM0VWx1MWVFMXpKSG9Ka2tJa2ZhTlNZVDBaWGpmUGJTT0pPeW1iMEtGdEVZMk9oaDVTN0k2OHBELWU4LTZYYWFHQWFrcWhfZk1MSWZYRzdfUQ?oc=5",
+      "press": "스페셜타임스",
+      "date": "2026-09-10",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-10T01:32:35.030Z",
+      "imageCheckedAt": "2026-09-10T01:32:35.030Z",
+      "image": "https://cdn.specialtimes.co.kr/news/thumbnail/202609/460948_457548_4915_v150.jpg",
+      "sourceUrl": "http://www.specialtimes.co.kr/news/articleView.html?idxno=460948"
+    },
     {
       "title": "라운지엑스, 유인카페에서 로봇카페로의 전환 성과 사례 발표",
       "description": "",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T15:19:47.013Z",
+  "lastUpdated": "2026-09-10T01:28:21.149Z",
   "totalStores": 10,
   "totalReviews": 22,
   "avgReviewsPerStore": 2.2,
@@ -53,7 +53,7 @@
       "neutralRatio": 0,
       "monthlyActivity": 3,
       "latestReviewDate": "2026-09-09",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": 4.8,
       "ratingCount": 4
     },
@@ -229,7 +229,7 @@
         "text": "버터번! 별 기대 안했는데 엄청 맛잏ㅅ어요!!\n조금 짜긴하지만 😅\n매장도 청결하게 관리 잘 되는 것ㅁ같아요\n무인카페 중 최고인 것 같아요",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 감사합니다!\n\n버터번이 고객님의 기대를 넘어섰다니 정말 기쁘네요! 말씀해주신 짠맛에 대해서는 피드백으로 잘 받아두겠습니다. 매장 청결도 세심하게 느껴주셔서 감사드리며, 저희가 최고라는 평가를 받으니 더욱 책임감을 느낍니다.\n\n앞으로도 맛있는 디저트와 편안한 공간으로 자주 찾아주시길 바랍니다 :)"
       },
       {

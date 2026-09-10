@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T15:19:18.247Z",
+  "lastUpdated": "2026-09-10T01:27:54.220Z",
   "totalStores": 10,
   "totalReviews": 777,
   "avgReviewsPerStore": 77.7,
@@ -14,7 +14,7 @@
       "neutralRatio": 0.17142857142857143,
       "monthlyActivity": 10,
       "latestReviewDate": "2026-09-09",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -143,7 +143,7 @@
         "text": "Good vibes for drinking coffee ☕️ ~🤩👍👍",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 기분 좋은 리뷰 남겨주셔서 감사합니다!\n\n커피를 마시며 느꼈던 긍정적인 에너지가 저희에게도 전해져 정말 기쁩니다. 로봇 바리스타와 함께하는 특별한 경험이 고객님께 즐거운 시간이 되었다니 보람차네요. :)\n\n앞으로도 언제든 편하게 들러 좋은 분위기 속에서 맛있는 커피를 즐겨주세요. 다음 방문을 기다리겠습니다!"
       },
       {
