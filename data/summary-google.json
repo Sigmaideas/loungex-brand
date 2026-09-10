@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-09-10T01:28:09.426Z",
+  "lastUpdated": "2026-09-10T15:17:48.605Z",
   "totalStores": 10,
-  "totalReviews": 90,
-  "avgReviewsPerStore": 9,
-  "monthlyActivity": 3,
+  "totalReviews": 91,
+  "avgReviewsPerStore": 9.1,
+  "monthlyActivity": 4,
   "stores": [
     {
       "id": "store_seongsu",
@@ -99,15 +99,15 @@
     {
       "id": "store_one_grove",
       "name": "라운지엑스24h 원그로브점",
-      "reviewCount": 1,
+      "reviewCount": 2,
       "positiveRatio": 1,
       "negativeRatio": 0,
       "neutralRatio": 0,
-      "monthlyActivity": 1,
-      "latestReviewDate": "2026-08-14",
-      "newReviewCount": 0,
-      "rating": null,
-      "ratingCount": null
+      "monthlyActivity": 2,
+      "latestReviewDate": "2026-09-10",
+      "newReviewCount": 1,
+      "rating": 5,
+      "ratingCount": 1
     },
     {
       "id": "store_mapo_frontone",
@@ -641,6 +641,14 @@
     ],
     "store_one_grove": [
       {
+        "date": "2026-09-10",
+        "text": "사람의 손과 얼굴 없이, 오직 나 자신과 대화 상대, 그리고 커피에만 집중할 수 있는 24시간 로봇 카페예요☕🤖\n\n군더더기 없는 에티오피아 원두 커피를 단돈 2,300원에 맛볼 수 있다는 것도 큰 매력이에요~\n\n바로 옆 로비에는 넓찍한 공간에 호텔 같은 편안한 좌석까지 갖춰져 있고, 앉아서 내려다보는 바깥 경치도 정말 끝내줘요^^🌆\n\n라운지엑스 앱으로 기다리지 않고 원하는 커피 및 음료도 주문할 수 있어요~!\n\n바쁜 일상 중 나만의 또는 연인간, 가족과의 시간이 필요할 때 강추하는 공간입니다👍",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 이렇게 세심하고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n고객님께서 느끼신 것처럼, 저희는 오직 커피와 편안한 순간에만 집중할 수 있는 공간을 만들고자 합니다. 합리적인 가격에 양질의 원두 커피를 즐기실 수 있고, 넓은 로비에서 경치까지 감상하며 휴식하실 수 있다니 정말 뿌듯하네요.\n\n앞으로도 바쁜 일상 속에서 나만의 특별한 시간이 필요할 때 저희 라운지엑스가 함께할 수 있도록 정성껏 준비하고 있겠습니다. 언제든 또 들러주세요 ♥"
+      },
+      {
         "date": "2026-08-14",
         "text": "맛도리!!!!!!",
         "rating": 5,
@@ -936,6 +944,13 @@
     "store_one_grove": {
       "positive": [
         {
+          "date": "2026-09-10",
+          "text": "사람의 손과 얼굴 없이, 오직 나 자신과 대화 상대, 그리고 커피에만 집중할 수 있는 24시간 로봇 카페예요☕🤖\n\n군더더기 없는 에티오피아 원두 커피를 단돈 2,300원에 맛볼 수 있다는 것도 큰 매력이에요~\n\n바로 옆 로비에는 넓찍한 공간에 호텔 같은 편안한 좌석까지 갖춰져 있고, 앉아서 내려다보는 바깥 경치도 정말 끝내줘요^^🌆\n\n라운지엑스 앱으로 기다리지 않고 원하는 커피 및 음료도 주문할 수 있어요~!\n\n바쁜 일상 중 나만의 또는 연인간, 가족과의 시간이 필요할 때 강추하는 공간입니다👍",
+          "rating": 5,
+          "sentiment": "positive",
+          "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 이렇게 세심하고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n고객님께서 느끼신 것처럼, 저희는 오직 커피와 편안한 순간에만 집중할 수 있는 공간을 만들고자 합니다. 합리적인 가격에 양질의 원두 커피를 즐기실 수 있고, 넓은 로비에서 경치까지 감상하며 휴식하실 수 있다니 정말 뿌듯하네요.\n\n앞으로도 바쁜 일상 속에서 나만의 특별한 시간이 필요할 때 저희 라운지엑스가 함께할 수 있도록 정성껏 준비하고 있겠습니다. 언제든 또 들러주세요 ♥"
+        },
+        {
           "date": "2026-08-14",
           "text": "맛도리!!!!!!",
           "rating": 5,
@@ -1158,7 +1173,7 @@
         "neutral": 0
       },
       {
-        "positive": 1,
+        "positive": 2,
         "negative": 0,
         "neutral": 0
       },
@@ -1188,7 +1203,7 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 55
+      "count": 56
     },
     {
       "word": "맛있다",
@@ -1198,7 +1213,7 @@
     {
       "word": "로봇",
       "sentiment": "neutral",
-      "count": 36
+      "count": 37
     },
     {
       "word": "분위기",
@@ -1233,12 +1248,12 @@
     {
       "word": "아늑·편안",
       "sentiment": "positive",
-      "count": 9
+      "count": 10
     },
     {
       "word": "넓은 공간",
       "sentiment": "positive",
-      "count": 9
+      "count": 10
     },
     {
       "word": "가성비·가격",

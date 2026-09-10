@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-10T01:32:35.030Z",
+  "lastScrapedAt": "2026-09-10T15:23:02.894Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -12,8 +12,8 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalArticles": 76,
-  "krArticles": 75,
+  "totalArticles": 79,
+  "krArticles": 78,
   "overseasArticles": 1,
   "articles": [
     {
@@ -41,6 +41,43 @@
       "imageCheckedAt": "2026-09-10T01:32:35.030Z",
       "image": "https://cdn.specialtimes.co.kr/news/thumbnail/202609/460948_457548_4915_v150.jpg",
       "sourceUrl": "http://www.specialtimes.co.kr/news/articleView.html?idxno=460948"
+    },
+    {
+      "title": "라운지엑스, ‘맞춤형 로봇카페’로 건물 공실 해소 나선다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9Lc2g2eG41ZGwtQTNMU2wyX2E1c2tHNG10bkJTUk5fZ2FKcThUVzlHVnQ0T2tUZVh5b3BkYV9CMXBwQ1VUNWc?oc=5",
+      "press": "besuccess.com",
+      "date": "2026-09-10",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-10T15:23:02.894Z",
+      "imageCheckedAt": "2026-09-10T15:23:02.894Z",
+      "image": "https://besuccess.com/wp-content/uploads/2026/09/N.56040.jpg",
+      "sourceUrl": "https://besuccess.com/?p=186056"
+    },
+    {
+      "title": "라운지엑스, 공실 상가 대상 로봇카페 출점 확대",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjMGxpSzNnWC1jamRWU01aX2w0YVE0VHVIZU1faUlWY2JKUG5QSjctS19nSGlvNkMxalhfcGd5ekR2R1dacEFNTV9WVGlaR3NfNmFiOGs1aVRDWkVmaXA2cjljd1U2SjDSAWtBVV95cUxQSWlTODRJS085SWZZYks2OEZpY1VOUkRNRlZYbEhoazFyNDRpRWtwYndzV3M4N2dZMFJVMVdoZDdZRVBweWp0MlY1WDNZdFJvUlZ6RkdYd3Izd1o1SkpQSzdFeVhaNENXMlRpdw?oc=5",
+      "press": "K뉴스통신",
+      "date": "2026-09-10",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-10T15:23:02.894Z",
+      "imageCheckedAt": "2026-09-10T15:23:02.894Z",
+      "image": "https://cdn.knewstv.kr/news/thumbnail/202609/13934_17461_2752_v150.jpg",
+      "sourceUrl": "https://www.knewstv.kr/news/articleView.html?idxno=13934"
+    },
+    {
+      "title": "라운지엑스, 건물주 ‘공실 고민’ 겨냥… 상권·공간별 3가지 창업 유형 제안",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jOUlKZHlramVHUUNQSjZkUUJrbGRDWDZfMVNJbEt5VEsyNjhTbDhTeFBfRmpCRTYxczk4cU44cjJfbk9qOTR3S3dwUExNUFhKY3NqX3FrOXdwMHJjTkM4?oc=5",
+      "press": "press.theleader.kr",
+      "date": "2026-09-10",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-10T15:23:02.894Z",
+      "imageCheckedAt": "2026-09-10T15:23:02.894Z"
     },
     {
       "title": "라운지엑스, 유인카페에서 로봇카페로의 전환 성과 사례 발표",
