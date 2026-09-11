@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-10T15:23:02.894Z",
+  "lastScrapedAt": "2026-09-11T15:18:35.031Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -12,10 +12,36 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalArticles": 79,
-  "krArticles": 78,
+  "totalArticles": 81,
+  "krArticles": 80,
   "overseasArticles": 1,
   "articles": [
+    {
+      "title": "“바리스타 로봇으로 인력 부담 절감” 라운지엑스, 24시간 상업 공간 가치 올린다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE95ZEpjb0E1QmRtcC1KVGdEbW5xTXlkTGdsY28xRFA4NmtJQ2VDY3Q4cGNsTF9heWRXV1l3cUR2aEwyWk9UUmZWaElRaHhFcU80TGtYZkJzbUM2dlROQXo0?oc=5",
+      "press": "헬로티",
+      "date": "2026-09-11",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-11T15:18:35.031Z",
+      "imageCheckedAt": "2026-09-11T15:18:35.031Z",
+      "image": "https://www.hellot.net/data/photos/20260937/art_17891000973091_b3871e.jpg",
+      "sourceUrl": "https://www.hellot.net/news/article.html?no=114902"
+    },
+    {
+      "title": "24시간 카페에 갓 구운 빵까지…라운지엑스, 베이커리 매출 강화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE96cXJJVlYyS0F5LUNyeVBQN1JFektSQ2dhb0V4Z0xFU0hvbEJPaElwdV9OOGw4U2w5NG0xVXByeWhySURBU0xPaUpoWGZmbnBLY2U2cGdjX2ZGaDB4eXVEM21weElzMHp5?oc=5",
+      "press": "문화투데이",
+      "date": "2026-09-11",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-11T15:18:35.031Z",
+      "imageCheckedAt": "2026-09-11T15:18:35.031Z",
+      "image": "https://www.munhwatoday.co.kr/data/photos/20260937/art_17890955426438_240a05.jpg",
+      "sourceUrl": "https://www.munhwatoday.co.kr/news/article.html?no=175739"
+    },
     {
       "title": "라운지엑스, 건물주 ‘공실 고민’ 겨냥…상권·공간별 세 가지 창업 유형 마련",
       "description": "",
