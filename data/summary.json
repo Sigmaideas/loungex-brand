@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-09-12T14:23:45.623Z",
+  "lastUpdated": "2026-09-13T01:26:07.789Z",
   "totalStores": 10,
-  "totalReviews": 779,
-  "avgReviewsPerStore": 77.9,
-  "monthlyActivity": 60,
+  "totalReviews": 780,
+  "avgReviewsPerStore": 78,
+  "monthlyActivity": 55,
   "stores": [
     {
       "id": "store_seongsu",
@@ -12,7 +12,7 @@
       "positiveRatio": 0.8142857142857143,
       "negativeRatio": 0.014285714285714285,
       "neutralRatio": 0.17142857142857143,
-      "monthlyActivity": 10,
+      "monthlyActivity": 9,
       "latestReviewDate": "2026-09-09",
       "newReviewCount": 0,
       "rating": null,
@@ -53,20 +53,20 @@
       "neutralRatio": 0.06315789473684211,
       "monthlyActivity": 5,
       "latestReviewDate": "2026-09-12",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
     {
       "id": "store_yongsan_prime",
       "name": "라운지엑스24h 용산더프라임점",
-      "reviewCount": 112,
-      "positiveRatio": 0.9107142857142857,
-      "negativeRatio": 0.017857142857142856,
-      "neutralRatio": 0.07142857142857142,
-      "monthlyActivity": 5,
-      "latestReviewDate": "2026-08-25",
-      "newReviewCount": 0,
+      "reviewCount": 113,
+      "positiveRatio": 0.911504424778761,
+      "negativeRatio": 0.017699115044247787,
+      "neutralRatio": 0.07079646017699115,
+      "monthlyActivity": 4,
+      "latestReviewDate": "2026-09-13",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -77,7 +77,7 @@
       "positiveRatio": 0.9298245614035088,
       "negativeRatio": 0,
       "neutralRatio": 0.07017543859649122,
-      "monthlyActivity": 2,
+      "monthlyActivity": 1,
       "latestReviewDate": "2026-08-31",
       "newReviewCount": 0,
       "rating": null,
@@ -103,7 +103,7 @@
       "positiveRatio": 0.9102564102564102,
       "negativeRatio": 0,
       "neutralRatio": 0.08974358974358974,
-      "monthlyActivity": 15,
+      "monthlyActivity": 13,
       "latestReviewDate": "2026-09-04",
       "newReviewCount": 0,
       "rating": null,
@@ -389,7 +389,7 @@
         "text": "커피도 맛있고 매장이 조용한 편이라 공부하기 좋아요",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 라운지엑스를 찾아주시고 소중한 리뷰 남겨주셔서 정말 감사합니다!\n\n저희 커피가 맛있으셨고 조용한 분위기에서 편하게 공부하셨다니 너무 기쁩니다. 앞으로도 집중이 필요하신 시간에 언제든 편안하게 들러주세요. 다음 방문 때도 맛있는 커피와 쾌적한 공간으로 준비해두겠습니다. 조만간 또 봬요 ♥"
       },
       {
@@ -467,6 +467,14 @@
     ],
     "store_yongsan_prime": [
       {
+        "date": "9.13.일",
+        "text": "자주 오는 곳입니다\n커피도 맛있고 빵도 맛있습니다\n24시간 운영해서 밤샘작업하기도 좋습니다",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n커피와 빵이 맛있다는 칭찬을 들으니 정말 기쁩니다. 24시간 운영하는 저희 공간이 밤샘작업을 하실 때 편안한 쉼터가 되어드릴 수 있어서 저희도 감사합니다 😊 앞으로도 언제든 필요할 때 편하게 찾아와 주세요. 항상 정성 가득 담아 준비하겠습니다!"
+      },
+      {
         "date": "8.25.화",
         "text": "무인카페라 한적하고 조용하네요. 맛도 쏘쏘~ 혼공하기좋기도함",
         "rating": 4,
@@ -537,14 +545,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n저희 공간이 집 주변 최고의 카페라는 칭찬을 받으니 정말 기쁩니다 😊 조용한 분위기에서 편안하게 집중하실 수 있도록 앞으로도 정성 가득 관리하겠습니다. 앞으로도 자주 찾아와 주세요!"
-      },
-      {
-        "date": "8.6.목",
-        "text": "빨리나오고 저렴한 가경 좋아요",
-        "rating": 4.5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n빠른 서빙과 합리적인 가격이 마음에 드셨다니 정말 기쁩니다 😊 앞으로도 언제든 편하게 들러 맛있는 커피 한 잔 즐겨주세요. 항상 정성껏 준비하고 기다리겠습니다!"
       }
     ],
     "store_garak_it": [
@@ -1387,7 +1387,7 @@
         "neutral": 7
       },
       {
-        "positive": 17,
+        "positive": 18,
         "negative": 0,
         "neutral": 0
       },
@@ -1416,12 +1416,12 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 489
+      "count": 490
     },
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 340
+      "count": 341
     },
     {
       "word": "로봇",
@@ -1461,12 +1461,12 @@
     {
       "word": "공부·작업",
       "sentiment": "neutral",
-      "count": 72
+      "count": 73
     },
     {
       "word": "디저트·베이커리",
       "sentiment": "neutral",
-      "count": 64
+      "count": 65
     },
     {
       "word": "추천",

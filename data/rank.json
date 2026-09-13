@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-09-12T14:28:17.256Z",
-  "updatedDate": "2026-09-12",
+  "lastScrapedAt": "2026-09-13T01:30:59.379Z",
+  "updatedDate": "2026-09-13",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -336,6 +336,10 @@
         {
           "date": "2026-09-09",
           "rank": 1
+        },
+        {
+          "date": "2026-09-13",
+          "rank": 1
         }
       ],
       "prevRank": 1,
@@ -517,6 +521,10 @@
         },
         {
           "date": "2026-09-11",
+          "rank": 2
+        },
+        {
+          "date": "2026-09-13",
           "rank": 2
         }
       ],
@@ -2820,11 +2828,15 @@
         {
           "date": "2026-09-10",
           "rank": 6
+        },
+        {
+          "date": "2026-09-13",
+          "rank": 4
         }
       ],
       "prevRank": 6,
-      "rank": 6,
-      "total": 356
+      "rank": 4,
+      "total": 357
     },
     "store_garak_it|가락시장 카페": {
       "storeId": "store_garak_it",
@@ -3722,9 +3734,13 @@
         {
           "date": "2026-09-12",
           "rank": 2
+        },
+        {
+          "date": "2026-09-13",
+          "rank": 2
         }
       ],
-      "prevRank": 1,
+      "prevRank": 2,
       "rank": 2,
       "total": 30
     },
@@ -3891,6 +3907,10 @@
         },
         {
           "date": "2026-09-12",
+          "rank": null
+        },
+        {
+          "date": "2026-09-13",
           "rank": null
         }
       ],
@@ -4280,11 +4300,15 @@
         {
           "date": "2026-09-11",
           "rank": null
+        },
+        {
+          "date": "2026-09-13",
+          "rank": null
         }
       ],
       "prevRank": null,
       "rank": null,
-      "total": 25
+      "total": 26
     },
     "store_mapo_frontone|공덕 24시 카페": {
       "storeId": "store_mapo_frontone",
