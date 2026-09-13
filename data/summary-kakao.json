@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T01:26:36.008Z",
+  "lastUpdated": "2026-09-13T15:05:00.626Z",
   "totalStores": 10,
   "totalReviews": 22,
   "avgReviewsPerStore": 2.2,
@@ -41,8 +41,8 @@
       "monthlyActivity": 3,
       "latestReviewDate": "2026-08-30",
       "newReviewCount": 0,
-      "rating": 4,
-      "ratingCount": 6
+      "rating": 4.1,
+      "ratingCount": 7
     },
     {
       "id": "store_euljiro",
@@ -67,8 +67,8 @@
       "monthlyActivity": 1,
       "latestReviewDate": "2026-09-06",
       "newReviewCount": 0,
-      "rating": 4.3,
-      "ratingCount": 8
+      "rating": 4.2,
+      "ratingCount": 9
     },
     {
       "id": "store_garak_it",

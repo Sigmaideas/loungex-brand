@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T01:26:07.789Z",
+  "lastUpdated": "2026-09-13T15:04:35.216Z",
   "totalStores": 10,
   "totalReviews": 780,
   "avgReviewsPerStore": 78,
@@ -66,7 +66,7 @@
       "neutralRatio": 0.07079646017699115,
       "monthlyActivity": 4,
       "latestReviewDate": "2026-09-13",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -471,7 +471,7 @@
         "text": "자주 오는 곳입니다\n커피도 맛있고 빵도 맛있습니다\n24시간 운영해서 밤샘작업하기도 좋습니다",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n커피와 빵이 맛있다는 칭찬을 들으니 정말 기쁩니다. 24시간 운영하는 저희 공간이 밤샘작업을 하실 때 편안한 쉼터가 되어드릴 수 있어서 저희도 감사합니다 😊 앞으로도 언제든 필요할 때 편하게 찾아와 주세요. 항상 정성 가득 담아 준비하겠습니다!"
       },
       {

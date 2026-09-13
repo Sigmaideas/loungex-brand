@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-13T01:31:06.739Z",
+  "lastScrapedAt": "2026-09-13T15:09:41.628Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -12,8 +12,8 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalArticles": 81,
-  "krArticles": 80,
+  "totalArticles": 82,
+  "krArticles": 81,
   "overseasArticles": 1,
   "articles": [
     {
@@ -397,6 +397,19 @@
       "imageCheckedAt": "2026-08-26T08:21:11.542Z",
       "image": "https://cdn.gukjenews.com/news/thumbnail/202607/3644554_3809680_1848_v150.jpg",
       "sourceUrl": "https://www.gukjenews.com/news/articleView.html?idxno=3644554"
+    },
+    {
+      "title": "AI 로봇카페와 펫 산업의 만남… 펫비즈코리아·라운지엑스 맞손",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5VbnB1eDNpRHZhQWpPR2EzdFFncUlwWXNMNmJ3TUlPUmltZUdGV21YTGVJQ0xQQzNpQU5hcm9XSFJMcGNwZWlCeQ?oc=5",
+      "press": "얼리어답터뉴스",
+      "date": "2026-07-23",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-13T15:09:41.628Z",
+      "imageCheckedAt": "2026-09-13T15:09:41.628Z",
+      "image": "https://www.ehom.kr/news/2026/07/23/bac2ced2837741de1c503f6e0022dec5182418_thumb.jpg",
+      "sourceUrl": "https://www.eanews.kr/news/979514"
     },
     {
       "title": "[인터뷰]매일 찾는 로봇 카페를 만들다, 라운지엑스가 그리는 미래 - 라운지엑스 김동진 대표",
