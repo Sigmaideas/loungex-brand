@@ -1,16 +1,12 @@
 {
-  "lastScrapedAt": "2026-09-14T17:13:31.575Z",
-  "startDate": "2025-09-08",
+  "lastScrapedAt": "2026-09-15T01:59:14.007Z",
+  "startDate": "2025-09-15",
   "endDate": "2026-09-15",
   "timeUnit": "week",
   "groups": [
     {
       "title": "라운지엑스",
       "data": [
-        {
-          "period": "2025-09-08",
-          "ratio": 55.07246
-        },
         {
           "period": "2025-09-15",
           "ratio": 47.412
@@ -218,6 +214,10 @@
         {
           "period": "2026-09-07",
           "ratio": 85.3002
+        },
+        {
+          "period": "2026-09-14",
+          "ratio": 12.00828
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-14T17:13:53.501Z",
+  "lastScrapedAt": "2026-09-15T01:59:40.407Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -14,12 +14,12 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalVideos": 34,
+  "totalVideos": 38,
   "officialVideos": 1,
-  "externalVideos": 33,
-  "krVideos": 27,
-  "overseasVideos": 7,
-  "channelCount": 34,
+  "externalVideos": 37,
+  "krVideos": 29,
+  "overseasVideos": 9,
+  "channelCount": 38,
   "totalViews": 59794,
   "videos": [
     {
@@ -33,6 +33,18 @@
       "firstSeenAt": "2026-09-05T14:07:32.084Z",
       "official": false,
       "region": "kr"
+    },
+    {
+      "videoId": "bs1rexSe6KU",
+      "title": "futuristic 24/7 Robot Cafe 🤖 | 라운지엑스24h #cafe",
+      "description": "",
+      "channel": "파퓰러(popular)",
+      "channelId": "UCCX6e8c7x0CfRJZvsbx5Jlg",
+      "duration": "1:23",
+      "date": "2026-09-01",
+      "firstSeenAt": "2026-09-15T01:59:40.407Z",
+      "official": false,
+      "region": "overseas"
     },
     {
       "videoId": "hEE6D7BJQiY",
@@ -105,6 +117,30 @@
       "region": "kr"
     },
     {
+      "videoId": "DLY4kmb8XD4",
+      "title": "🇰🇷 EP377. LOUNGE'X  로봇커피 👍#라운지 X#카페프랜차이즈#로봇바리스타#바리스#무인카페#시럽까지척척#똑똑하다#korea#travel#카페",
+      "description": "",
+      "channel": "Kingo",
+      "channelId": "UCIYx__VCJyUMVYd9JSFN34Q",
+      "duration": "0:59",
+      "date": "2025-09-15",
+      "firstSeenAt": "2026-09-15T01:59:40.407Z",
+      "official": false,
+      "region": "kr"
+    },
+    {
+      "videoId": "m-NXFN-HSeM",
+      "title": "로봇이 커피를 내려주는 라운지 엑스 ifc 몰 #IFC몰카페 #여의도카페 #라운지엑스 #스페셜티 #핸드드립 #라운지엑스 #loungex #로봇커피 #로봇카페",
+      "description": "Xc 로봇이 커피를 내려줘요. 다양한 음료와 메카번이 있어요 그리고 메카번 커피 설명도 있어요 지나요 다양한.",
+      "channel": "momoafood",
+      "channelId": "UCnLOk-W1WJ8pdbl31Xx-kYA",
+      "duration": "0:23",
+      "date": "2025-09-15",
+      "firstSeenAt": "2026-09-15T01:59:40.407Z",
+      "official": false,
+      "region": "kr"
+    },
+    {
       "videoId": "NHYsHxUNC8Y",
       "title": "라운지엑스 IFC몰카페에 신기방기한 라운지엑스 로봇드립커피 맛있기까지! #협찬 #영등포카페 #여의도카페 #IFC몰카페 #IFC몰맛집 #라운지엑스 #로봇커피 #로봇드립커피 #드립커피",
       "description": "",
@@ -128,6 +164,18 @@
       "official": false,
       "views": 123,
       "detailCheckedAt": "2026-08-26T14:51:56.596Z",
+      "region": "overseas"
+    },
+    {
+      "videoId": "DEVZ35KCYtk",
+      "title": "로봇이 내리는 드립커피는 맛이 어떨까? #seoulcafe #seoul #cafeteria #ifcmall #lounge’x #shorts",
+      "description": "",
+      "channel": "달달",
+      "channelId": "UCLUmvEGKUOEVU1KiXS1Amxw",
+      "duration": "0:16",
+      "date": "2024-09-15",
+      "firstSeenAt": "2026-09-15T01:59:40.407Z",
+      "official": false,
       "region": "overseas"
     },
     {

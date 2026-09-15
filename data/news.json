@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-14T17:13:37.692Z",
+  "lastScrapedAt": "2026-09-15T01:59:19.368Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -12,8 +12,8 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalArticles": 82,
-  "krArticles": 81,
+  "totalArticles": 83,
+  "krArticles": 82,
   "overseasArticles": 1,
   "articles": [
     {
@@ -592,6 +592,19 @@
       "imageCheckedAt": "2026-09-01T02:07:45.569Z",
       "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=797,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2025/09/2025091615512012541_1.jpg",
       "sourceUrl": "https://www.mt.co.kr/industry/2025/09/16/2025091615512012541"
+    },
+    {
+      "title": "24시간 책 사고 커피 마시고…라운지엑스, 교보문고와 ‘북카페’ 협업",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcDRMTkR5VF9HUTZjcFhwa0xZZzEtb3UybDhFXzR5WjdTX1g4RE5GQUVmTVVLZHhSckFkNUU1LXozRG9SV1RkSjM4MjFfa1R6VE15Q2twVXh5Yk9zNjVpdjhzVHFHUXpYM1RhUmtQTkdVUUZOQW12SmdLSF83WF9NcQ?oc=5",
+      "press": "edaily.co.kr",
+      "date": "2025-09-16",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-15T01:59:19.368Z",
+      "imageCheckedAt": "2026-09-15T01:59:19.368Z",
+      "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2025/09/PS25091600620.jpg",
+      "sourceUrl": "https://www.edaily.co.kr/News/Read?newsId=03296406642300776&mediaCodeNo=257"
     },
     {
       "title": "무인운영과 프리미엄 커피 경험을 결합, 라운지엑스 24H 원그로브점’ 정식 오픈",
