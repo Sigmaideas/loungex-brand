@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-09-15T01:59:13.078Z",
-  "updatedDate": "2026-09-15",
+  "lastScrapedAt": "2026-09-15T15:48:01.651Z",
+  "updatedDate": "2026-09-16",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -162,11 +162,15 @@
         {
           "date": "2026-09-14",
           "rank": 13
+        },
+        {
+          "date": "2026-09-16",
+          "rank": 11
         }
       ],
-      "prevRank": 11,
-      "rank": 13,
-      "total": 3210
+      "prevRank": 13,
+      "rank": 11,
+      "total": 3209
     },
     "store_seongsu|성수 로봇카페": {
       "storeId": "store_seongsu",
@@ -2184,10 +2188,14 @@
         {
           "date": "2026-09-15",
           "rank": 3
+        },
+        {
+          "date": "2026-09-16",
+          "rank": 2
         }
       ],
       "prevRank": 3,
-      "rank": 3,
+      "rank": 2,
       "total": 8
     },
     "store_yongsan_prime|용산 카페": {
@@ -2528,6 +2536,10 @@
         {
           "date": "2026-09-14",
           "rank": null
+        },
+        {
+          "date": "2026-09-16",
+          "rank": null
         }
       ],
       "prevRank": null,
@@ -2714,11 +2726,15 @@
         {
           "date": "2026-09-15",
           "rank": 8
+        },
+        {
+          "date": "2026-09-16",
+          "rank": 8
         }
       ],
-      "prevRank": 9,
+      "prevRank": 8,
       "rank": 8,
-      "total": 71
+      "total": 72
     },
     "store_garak_it|가락 카페": {
       "storeId": "store_garak_it",
@@ -4718,11 +4734,15 @@
         {
           "date": "2026-09-15",
           "rank": null
+        },
+        {
+          "date": "2026-09-16",
+          "rank": null
         }
       ],
       "prevRank": null,
       "rank": null,
-      "total": 10978
+      "total": 10974
     },
     "store_ifc|IFC몰 카페": {
       "storeId": "store_ifc",
@@ -4902,10 +4922,14 @@
         {
           "date": "2026-09-14",
           "rank": 43
+        },
+        {
+          "date": "2026-09-16",
+          "rank": 45
         }
       ],
-      "prevRank": 38,
-      "rank": 43,
+      "prevRank": 43,
+      "rank": 45,
       "total": 1039
     },
     "store_ifc|여의도 카페": {
