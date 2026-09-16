@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-15T15:48:08.645Z",
+  "lastScrapedAt": "2026-09-16T01:43:51.548Z",
   "queries": [
     "라운지엑스",
     "라운지엑스24h",
@@ -12,10 +12,23 @@
     "ラウンジエックス ロボットカフェ",
     "LOUNGEX 韩国 机器人咖啡"
   ],
-  "totalArticles": 83,
-  "krArticles": 82,
+  "totalArticles": 84,
+  "krArticles": 83,
   "overseasArticles": 1,
   "articles": [
+    {
+      "title": "피크타임 알바 3~4명 대신 로봇 1대… 라운지엑스, 시간당 130잔 제조",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1jRWtBaXJYYnphSGdMRXZnRVVOcnYtYTB6T2ExRmlEYlRQXzBhZ2hqWnBfZXhvSVBJUzVpZE15eXZPLWhJbjJCbl8wYzVOaUNJM3pmMjJUTjJmRUxiQWlz?oc=5",
+      "press": "뉴스와이어",
+      "date": "2026-09-16",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-16T01:43:51.548Z",
+      "imageCheckedAt": "2026-09-16T01:43:51.548Z",
+      "image": "https://file.newswire.co.kr/data/datafile2/thumb_480/2026/09/3731725453_20260914174430_1623350812.png",
+      "sourceUrl": "https://www.newswire.co.kr/newsRead.php?no=1042550"
+    },
     {
       "title": "“바리스타 로봇으로 인력 부담 절감” 라운지엑스, 24시간 상업 공간 가치 올린다",
       "description": "",
